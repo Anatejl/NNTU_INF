@@ -1,5 +1,8 @@
 //Temperature.c
 //Temperature conversion from Celsius to Fahrenheit
+
+//Thermometer
+
 #include <stdio.h>	
 
 int main()
