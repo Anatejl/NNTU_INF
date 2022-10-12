@@ -1,0 +1,13 @@
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4167.35\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/ninja/win/ninja.exe -G Ninja -S E:\Git\NNTU_INF -B E:\Git\NNTU_INF\cmake-build-debug
+-- Configuring done
+CMake Error at CMakeLists.txt:8 (add_executable):
+  Cannot find source file:
+
+    1/1.3/3.c
+
+
+CMake Error at CMakeLists.txt:8 (add_executable):
+  No SOURCES given to target: 3
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
