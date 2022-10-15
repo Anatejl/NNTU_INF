@@ -148,11 +148,11 @@ build 3.exe: C_EXECUTABLE_LINKER__3_Debug CMakeFiles/3.dir/1/1.3/3.c.obj
 
 build cmake_object_order_depends_target_4: phony || CMakeFiles/4.dir
 
-build CMakeFiles/4.dir/1/1.3/3.c.obj: C_COMPILER__4_Debug E$:/Git/NNTU_INF/1/1.3/3.c || cmake_object_order_depends_target_4
-  DEP_FILE = CMakeFiles\4.dir\1\1.3\3.c.obj.d
+build CMakeFiles/4.dir/1/1.4/4.c.obj: C_COMPILER__4_Debug E$:/Git/NNTU_INF/1/1.4/4.c || cmake_object_order_depends_target_4
+  DEP_FILE = CMakeFiles\4.dir\1\1.4\4.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\4.dir
-  OBJECT_FILE_DIR = CMakeFiles\4.dir\1\1.3
+  OBJECT_FILE_DIR = CMakeFiles\4.dir\1\1.4
 
 
 # =============================================================================
@@ -162,7 +162,7 @@ build CMakeFiles/4.dir/1/1.3/3.c.obj: C_COMPILER__4_Debug E$:/Git/NNTU_INF/1/1.3
 #############################################
 # Link the executable 4.exe
 
-build 4.exe: C_EXECUTABLE_LINKER__4_Debug CMakeFiles/4.dir/1/1.3/3.c.obj
+build 4.exe: C_EXECUTABLE_LINKER__4_Debug CMakeFiles/4.dir/1/1.4/4.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\4.dir
@@ -171,6 +171,39 @@ build 4.exe: C_EXECUTABLE_LINKER__4_Debug CMakeFiles/4.dir/1/1.3/3.c.obj
   TARGET_FILE = 4.exe
   TARGET_IMPLIB = lib4.dll.a
   TARGET_PDB = 4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5
+
+
+#############################################
+# Order-only phony target for 5
+
+build cmake_object_order_depends_target_5: phony || CMakeFiles/5.dir
+
+build CMakeFiles/5.dir/1/1.5/5.c.obj: C_COMPILER__5_Debug E$:/Git/NNTU_INF/1/1.5/5.c || cmake_object_order_depends_target_5
+  DEP_FILE = CMakeFiles\5.dir\1\1.5\5.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\5.dir
+  OBJECT_FILE_DIR = CMakeFiles\5.dir\1\1.5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5
+
+
+#############################################
+# Link the executable 5.exe
+
+build 5.exe: C_EXECUTABLE_LINKER__5_Debug CMakeFiles/5.dir/1/1.5/5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5.exe
+  TARGET_IMPLIB = lib5.dll.a
+  TARGET_PDB = 5.exe.dbg
 
 
 #############################################
@@ -206,6 +239,8 @@ build 3: phony 3.exe
 
 build 4: phony 4.exe
 
+build 5: phony 5.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build 4: phony 4.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe
 
 # =============================================================================
 # Built-in targets
