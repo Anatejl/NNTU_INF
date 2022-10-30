@@ -205,6 +205,72 @@ build 5.exe: C_EXECUTABLE_LINKER__5_Debug CMakeFiles/5.dir/1/1.5/5.c.obj
   TARGET_IMPLIB = lib5.dll.a
   TARGET_PDB = 5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 6
+
+
+#############################################
+# Order-only phony target for 6
+
+build cmake_object_order_depends_target_6: phony || CMakeFiles/6.dir
+
+build CMakeFiles/6.dir/1/1.6/6.c.obj: C_COMPILER__6_Debug E$:/Git/NNTU_INF/1/1.6/6.c || cmake_object_order_depends_target_6
+  DEP_FILE = CMakeFiles\6.dir\1\1.6\6.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\6.dir
+  OBJECT_FILE_DIR = CMakeFiles\6.dir\1\1.6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6
+
+
+#############################################
+# Link the executable 6.exe
+
+build 6.exe: C_EXECUTABLE_LINKER__6_Debug CMakeFiles/6.dir/1/1.6/6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6.exe
+  TARGET_IMPLIB = lib6.dll.a
+  TARGET_PDB = 6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7
+
+
+#############################################
+# Order-only phony target for 7
+
+build cmake_object_order_depends_target_7: phony || CMakeFiles/7.dir
+
+build CMakeFiles/7.dir/1/1.7/7.c.obj: C_COMPILER__7_Debug E$:/Git/NNTU_INF/1/1.7/7.c || cmake_object_order_depends_target_7
+  DEP_FILE = CMakeFiles\7.dir\1\1.7\7.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\7.dir
+  OBJECT_FILE_DIR = CMakeFiles\7.dir\1\1.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7
+
+
+#############################################
+# Link the executable 7.exe
+
+build 7.exe: C_EXECUTABLE_LINKER__7_Debug CMakeFiles/7.dir/1/1.7/7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7.exe
+  TARGET_IMPLIB = lib7.dll.a
+  TARGET_PDB = 7.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -241,6 +307,10 @@ build 4: phony 4.exe
 
 build 5: phony 5.exe
 
+build 6: phony 6.exe
+
+build 7: phony 7.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +319,7 @@ build 5: phony 5.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe
 
 # =============================================================================
 # Built-in targets
