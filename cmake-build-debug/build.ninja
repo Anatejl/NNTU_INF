@@ -271,6 +271,39 @@ build 7.exe: C_EXECUTABLE_LINKER__7_Debug CMakeFiles/7.dir/1/1.7/7.c.obj
   TARGET_IMPLIB = lib7.dll.a
   TARGET_PDB = 7.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 8
+
+
+#############################################
+# Order-only phony target for 8
+
+build cmake_object_order_depends_target_8: phony || CMakeFiles/8.dir
+
+build CMakeFiles/8.dir/1/1.8/8.c.obj: C_COMPILER__8_Debug E$:/Git/NNTU_INF/1/1.8/8.c || cmake_object_order_depends_target_8
+  DEP_FILE = CMakeFiles\8.dir\1\1.8\8.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\8.dir
+  OBJECT_FILE_DIR = CMakeFiles\8.dir\1\1.8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8
+
+
+#############################################
+# Link the executable 8.exe
+
+build 8.exe: C_EXECUTABLE_LINKER__8_Debug CMakeFiles/8.dir/1/1.8/8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8.exe
+  TARGET_IMPLIB = lib8.dll.a
+  TARGET_PDB = 8.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -311,6 +344,8 @@ build 6: phony 6.exe
 
 build 7: phony 7.exe
 
+build 8: phony 8.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +354,7 @@ build 7: phony 7.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe
 
 # =============================================================================
 # Built-in targets

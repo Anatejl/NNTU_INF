@@ -4,13 +4,11 @@
 
 #include <stdio.h>
 #include <stdbool.h>
-#include <string.h>
 //#include <sys/wait.h>
 
 
 int main() {
 
-    bool needContinue = true;
     double leftOperand, rightOperand;
     char operation;
 

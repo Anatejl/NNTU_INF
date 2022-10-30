@@ -43,4 +43,5 @@ int main() {
         scanf_s("%s", &userAnswer);
         printf("\n");
     }
+    return 0;
 }
