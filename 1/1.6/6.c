@@ -1,6 +1,7 @@
 //
 // Created by Anatejl on 30.10.2022.
 //
+// Task 1 - Var 13
 
 #include <stdio.h>
 
