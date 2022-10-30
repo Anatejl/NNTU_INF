@@ -6,17 +6,26 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main() {
 
-    double x;
+    double x, a, b;
     char userAnswer = 'y';
 
-    while (userAnswer == 'y'){
+    while (userAnswer == 'y') {
 
-        printf("Input a number (x): ");
+        printf("Input three numbers (x, a, b): ");
         scanf_s("%lf", &x);
+        scanf_s("%lf", &a);
+        scanf_s("%lf", &b);
 
-        if
+        if (x < -1.2) {
+            double S;
+            S = a*x* sin(x) + b * log10(x + 10);
+            printf("%ln", S);
+        }
+        else if ( -1.2 <= x <= 0.3) {
+
+        }
 
 
         printf("\n");
