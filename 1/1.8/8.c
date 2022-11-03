@@ -8,25 +8,31 @@
 
 int main() {
 
-    double x, a, b;
+    double a, b, l;
     char userAnswer = 'y';
 
     while (userAnswer == 'y') {
 
-        printf("Input three numbers (x, a, b): ");
-        scanf_s("%lf", &x);
+        printf("Input three numbers (a, b, l): ");
         scanf_s("%lf", &a);
         scanf_s("%lf", &b);
+        scanf_s("%lf", &l);
 
-        if (x < -1.2) {
+        for (double x = -1.5; x <= 1.51; x += 0.1) {
+
             double S;
-            S = a*x* sin(x) + b * log10(x + 10);
-            printf("%ln", S);
-        }
-        else if ( -1.2 <= x <= 0.3) {
 
-        }
+            printf("%s", "\n");
 
+            if (x < -1.2) {
+                S = a * x * sin(x) + b * log(x + 10);
+            } else if (-1.2 <= x <= 0.3) {
+                S = -2 * (a + pow(l, -2 * x));
+            } else {
+                S = pow(x, -2) * sin(1.0 / x);
+            }
+            printf("%.1f: %lf", x, S);
+        }
 
         printf("\n");
         printf("Again? (y/n) :\n");
