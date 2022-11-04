@@ -9,7 +9,7 @@
 int main() {
 
     double k, final;
-    const char *s;
+    const char s;
 
     printf("Input a line, followed by a number:");
     scanf_s("%lf", &s);
@@ -26,10 +26,7 @@ int main() {
         s[i + k] = '\0';
     };
 
-    printf(shiftLeft)
+    printf("%s", s);
 
-}
-
-
-return 0;
+    return 0;
 }

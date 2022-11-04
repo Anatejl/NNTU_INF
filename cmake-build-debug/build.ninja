@@ -370,6 +370,39 @@ build 10.exe: C_EXECUTABLE_LINKER__10_Debug CMakeFiles/10.dir/1/1.10/10.c.obj
   TARGET_IMPLIB = lib10.dll.a
   TARGET_PDB = 10.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 11
+
+
+#############################################
+# Order-only phony target for 11
+
+build cmake_object_order_depends_target_11: phony || CMakeFiles/11.dir
+
+build CMakeFiles/11.dir/1/1.11/11.c.obj: C_COMPILER__11_Debug E$:/Git/NNTU_INF/1/1.11/11.c || cmake_object_order_depends_target_11
+  DEP_FILE = CMakeFiles\11.dir\1\1.11\11.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\11.dir
+  OBJECT_FILE_DIR = CMakeFiles\11.dir\1\1.11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11
+
+
+#############################################
+# Link the executable 11.exe
+
+build 11.exe: C_EXECUTABLE_LINKER__11_Debug CMakeFiles/11.dir/1/1.11/11.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11.exe
+  TARGET_IMPLIB = lib11.dll.a
+  TARGET_PDB = 11.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -400,6 +433,8 @@ build 1: phony 1.exe
 
 build 10: phony 10.exe
 
+build 11: phony 11.exe
+
 build 2: phony 2.exe
 
 build 3: phony 3.exe
@@ -424,7 +459,7 @@ build 9: phony 9.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe
 
 # =============================================================================
 # Built-in targets
