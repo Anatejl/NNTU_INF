@@ -304,6 +304,39 @@ build 8.exe: C_EXECUTABLE_LINKER__8_Debug CMakeFiles/8.dir/1/1.8/8.c.obj
   TARGET_IMPLIB = lib8.dll.a
   TARGET_PDB = 8.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 9
+
+
+#############################################
+# Order-only phony target for 9
+
+build cmake_object_order_depends_target_9: phony || CMakeFiles/9.dir
+
+build CMakeFiles/9.dir/1/1.9/9.c.obj: C_COMPILER__9_Debug E$:/Git/NNTU_INF/1/1.9/9.c || cmake_object_order_depends_target_9
+  DEP_FILE = CMakeFiles\9.dir\1\1.9\9.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\9.dir
+  OBJECT_FILE_DIR = CMakeFiles\9.dir\1\1.9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9
+
+
+#############################################
+# Link the executable 9.exe
+
+build 9.exe: C_EXECUTABLE_LINKER__9_Debug CMakeFiles/9.dir/1/1.9/9.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9.exe
+  TARGET_IMPLIB = lib9.dll.a
+  TARGET_PDB = 9.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -346,6 +379,8 @@ build 7: phony 7.exe
 
 build 8: phony 8.exe
 
+build 9: phony 9.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -354,7 +389,7 @@ build 8: phony 8.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe
 
 # =============================================================================
 # Built-in targets

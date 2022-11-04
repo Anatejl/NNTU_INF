@@ -39,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/Git/nntu2/out/build/x64-Debug"
+			"value" : "e:/Git/NNTU_INF/out/build/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -123,10 +123,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/VisualStudio/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe"
 		},
 		{
@@ -403,7 +403,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Git/nntu2"
+			"value" : "E:/Git/NNTU_INF"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -415,7 +415,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "E:/Git/nntu2/out/install/x64-Debug"
+			"value" : "E:/Git/NNTU_INF/out/install/x64-Debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -951,7 +951,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Git/nntu2/out/build/x64-Debug"
+			"value" : "E:/Git/NNTU_INF/out/build/x64-Debug"
 		},
 		{
 			"name" : "nntu2_IS_TOP_LEVEL",
@@ -975,7 +975,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Git/nntu2"
+			"value" : "E:/Git/NNTU_INF"
 		}
 	],
 	"kind" : "cache",

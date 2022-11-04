@@ -1,4 +1,11 @@
-E:/Git/nntu2/out/build/x64-Debug/CMakeFiles/main.dir
-E:/Git/nntu2/out/build/x64-Debug/CMakeFiles/2.dir
-E:/Git/nntu2/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-E:/Git/nntu2/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/1.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/3.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/4.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/5.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/6.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/7.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/8.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/9.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

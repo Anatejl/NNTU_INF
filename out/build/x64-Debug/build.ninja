@@ -39,42 +39,42 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = E$:\Git\nntu2\out\build\x64-Debug\
+cmake_ninja_workdir = E$:\Git\NNTU_INF\out\build\x64-Debug\
 # =============================================================================
-# Object build statements for EXECUTABLE target main
+# Object build statements for EXECUTABLE target 1
 
 
 #############################################
-# Order-only phony target for main
+# Order-only phony target for 1
 
-build cmake_object_order_depends_target_main: phony || CMakeFiles\main.dir
+build cmake_object_order_depends_target_1: phony || CMakeFiles\1.dir
 
-build CMakeFiles\main.dir\1.1\1.1.1\main.c.obj: C_COMPILER__main_Debug E$:\Git\nntu2\1.1\1.1.1\main.c || cmake_object_order_depends_target_main
+build CMakeFiles\1.dir\1\1.1\1.c.obj: C_COMPILER__1_Debug E$:\Git\NNTU_INF\1\1.1\1.c || cmake_object_order_depends_target_1
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\1.1\1.1.1
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_PDB = main.pdb
+  OBJECT_DIR = CMakeFiles\1.dir
+  OBJECT_FILE_DIR = CMakeFiles\1.dir\1\1.1
+  TARGET_COMPILE_PDB = CMakeFiles\1.dir\
+  TARGET_PDB = 1.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main
+# Link build statements for EXECUTABLE target 1
 
 
 #############################################
-# Link the executable main.exe
+# Link the executable 1.exe
 
-build main.exe: C_EXECUTABLE_LINKER__main_Debug CMakeFiles\main.dir\1.1\1.1.1\main.c.obj
+build 1.exe: C_EXECUTABLE_LINKER__1_Debug CMakeFiles\1.dir\1\1.1\1.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\main.dir\
-  TARGET_FILE = main.exe
-  TARGET_IMPLIB = main.lib
-  TARGET_PDB = main.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\1.dir\
+  TARGET_FILE = 1.exe
+  TARGET_IMPLIB = 1.lib
+  TARGET_PDB = 1.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2
@@ -85,10 +85,10 @@ build main.exe: C_EXECUTABLE_LINKER__main_Debug CMakeFiles\main.dir\1.1\1.1.1\ma
 
 build cmake_object_order_depends_target_2: phony || CMakeFiles\2.dir
 
-build CMakeFiles\2.dir\1.1\1.1.2\2.c.obj: C_COMPILER__2_Debug E$:\Git\nntu2\1.1\1.1.2\2.c || cmake_object_order_depends_target_2
+build CMakeFiles\2.dir\1\1.2\2.c.obj: C_COMPILER__2_Debug E$:\Git\NNTU_INF\1\1.2\2.c || cmake_object_order_depends_target_2
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
   OBJECT_DIR = CMakeFiles\2.dir
-  OBJECT_FILE_DIR = CMakeFiles\2.dir\1.1\1.1.2
+  OBJECT_FILE_DIR = CMakeFiles\2.dir\1\1.2
   TARGET_COMPILE_PDB = CMakeFiles\2.dir\
   TARGET_PDB = 2.pdb
 
@@ -100,7 +100,7 @@ build CMakeFiles\2.dir\1.1\1.1.2\2.c.obj: C_COMPILER__2_Debug E$:\Git\nntu2\1.1\
 #############################################
 # Link the executable 2.exe
 
-build 2.exe: C_EXECUTABLE_LINKER__2_Debug CMakeFiles\2.dir\1.1\1.1.2\2.c.obj
+build 2.exe: C_EXECUTABLE_LINKER__2_Debug CMakeFiles\2.dir\1\1.2\2.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -112,12 +112,264 @@ build 2.exe: C_EXECUTABLE_LINKER__2_Debug CMakeFiles\2.dir\1.1\1.1.2\2.c.obj
   TARGET_IMPLIB = 2.lib
   TARGET_PDB = 2.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3
+
+
+#############################################
+# Order-only phony target for 3
+
+build cmake_object_order_depends_target_3: phony || CMakeFiles\3.dir
+
+build CMakeFiles\3.dir\1\1.3\3.c.obj: C_COMPILER__3_Debug E$:\Git\NNTU_INF\1\1.3\3.c || cmake_object_order_depends_target_3
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\3.dir
+  OBJECT_FILE_DIR = CMakeFiles\3.dir\1\1.3
+  TARGET_COMPILE_PDB = CMakeFiles\3.dir\
+  TARGET_PDB = 3.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3
+
+
+#############################################
+# Link the executable 3.exe
+
+build 3.exe: C_EXECUTABLE_LINKER__3_Debug CMakeFiles\3.dir\1\1.3\3.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\3.dir\
+  TARGET_FILE = 3.exe
+  TARGET_IMPLIB = 3.lib
+  TARGET_PDB = 3.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4
+
+
+#############################################
+# Order-only phony target for 4
+
+build cmake_object_order_depends_target_4: phony || CMakeFiles\4.dir
+
+build CMakeFiles\4.dir\1\1.4\4.c.obj: C_COMPILER__4_Debug E$:\Git\NNTU_INF\1\1.4\4.c || cmake_object_order_depends_target_4
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\4.dir
+  OBJECT_FILE_DIR = CMakeFiles\4.dir\1\1.4
+  TARGET_COMPILE_PDB = CMakeFiles\4.dir\
+  TARGET_PDB = 4.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4
+
+
+#############################################
+# Link the executable 4.exe
+
+build 4.exe: C_EXECUTABLE_LINKER__4_Debug CMakeFiles\4.dir\1\1.4\4.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\4.dir\
+  TARGET_FILE = 4.exe
+  TARGET_IMPLIB = 4.lib
+  TARGET_PDB = 4.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5
+
+
+#############################################
+# Order-only phony target for 5
+
+build cmake_object_order_depends_target_5: phony || CMakeFiles\5.dir
+
+build CMakeFiles\5.dir\1\1.5\5.c.obj: C_COMPILER__5_Debug E$:\Git\NNTU_INF\1\1.5\5.c || cmake_object_order_depends_target_5
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\5.dir
+  OBJECT_FILE_DIR = CMakeFiles\5.dir\1\1.5
+  TARGET_COMPILE_PDB = CMakeFiles\5.dir\
+  TARGET_PDB = 5.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5
+
+
+#############################################
+# Link the executable 5.exe
+
+build 5.exe: C_EXECUTABLE_LINKER__5_Debug CMakeFiles\5.dir\1\1.5\5.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\5.dir\
+  TARGET_FILE = 5.exe
+  TARGET_IMPLIB = 5.lib
+  TARGET_PDB = 5.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 6
+
+
+#############################################
+# Order-only phony target for 6
+
+build cmake_object_order_depends_target_6: phony || CMakeFiles\6.dir
+
+build CMakeFiles\6.dir\1\1.6\6.c.obj: C_COMPILER__6_Debug E$:\Git\NNTU_INF\1\1.6\6.c || cmake_object_order_depends_target_6
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\6.dir
+  OBJECT_FILE_DIR = CMakeFiles\6.dir\1\1.6
+  TARGET_COMPILE_PDB = CMakeFiles\6.dir\
+  TARGET_PDB = 6.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6
+
+
+#############################################
+# Link the executable 6.exe
+
+build 6.exe: C_EXECUTABLE_LINKER__6_Debug CMakeFiles\6.dir\1\1.6\6.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\6.dir\
+  TARGET_FILE = 6.exe
+  TARGET_IMPLIB = 6.lib
+  TARGET_PDB = 6.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7
+
+
+#############################################
+# Order-only phony target for 7
+
+build cmake_object_order_depends_target_7: phony || CMakeFiles\7.dir
+
+build CMakeFiles\7.dir\1\1.7\7.c.obj: C_COMPILER__7_Debug E$:\Git\NNTU_INF\1\1.7\7.c || cmake_object_order_depends_target_7
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\7.dir
+  OBJECT_FILE_DIR = CMakeFiles\7.dir\1\1.7
+  TARGET_COMPILE_PDB = CMakeFiles\7.dir\
+  TARGET_PDB = 7.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7
+
+
+#############################################
+# Link the executable 7.exe
+
+build 7.exe: C_EXECUTABLE_LINKER__7_Debug CMakeFiles\7.dir\1\1.7\7.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\7.dir\
+  TARGET_FILE = 7.exe
+  TARGET_IMPLIB = 7.lib
+  TARGET_PDB = 7.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8
+
+
+#############################################
+# Order-only phony target for 8
+
+build cmake_object_order_depends_target_8: phony || CMakeFiles\8.dir
+
+build CMakeFiles\8.dir\1\1.8\8.c.obj: C_COMPILER__8_Debug E$:\Git\NNTU_INF\1\1.8\8.c || cmake_object_order_depends_target_8
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\8.dir
+  OBJECT_FILE_DIR = CMakeFiles\8.dir\1\1.8
+  TARGET_COMPILE_PDB = CMakeFiles\8.dir\
+  TARGET_PDB = 8.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8
+
+
+#############################################
+# Link the executable 8.exe
+
+build 8.exe: C_EXECUTABLE_LINKER__8_Debug CMakeFiles\8.dir\1\1.8\8.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\8.dir\
+  TARGET_FILE = 8.exe
+  TARGET_IMPLIB = 8.lib
+  TARGET_PDB = 8.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9
+
+
+#############################################
+# Order-only phony target for 9
+
+build cmake_object_order_depends_target_9: phony || CMakeFiles\9.dir
+
+build CMakeFiles\9.dir\1\1.9\9.c.obj: C_COMPILER__9_Debug E$:\Git\NNTU_INF\1\1.9\9.c || cmake_object_order_depends_target_9
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\9.dir
+  OBJECT_FILE_DIR = CMakeFiles\9.dir\1\1.9
+  TARGET_COMPILE_PDB = CMakeFiles\9.dir\
+  TARGET_PDB = 9.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9
+
+
+#############################################
+# Link the executable 9.exe
+
+build 9.exe: C_EXECUTABLE_LINKER__9_Debug CMakeFiles\9.dir\1\1.9\9.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\9.dir\
+  TARGET_FILE = 9.exe
+  TARGET_IMPLIB = 9.lib
+  TARGET_PDB = 9.pdb
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Git\nntu2\out\build\x64-Debug && C:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D E:\Git\NNTU_INF\out\build\x64-Debug && C:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -128,7 +380,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\Git\nntu2\out\build\x64-Debug && C:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SE:\Git\nntu2 -BE:\Git\nntu2\out\build\x64-Debug"
+  COMMAND = cmd.exe /C "cd /D E:\Git\NNTU_INF\out\build\x64-Debug && C:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe --regenerate-during-build -SE:\Git\NNTU_INF -BE:\Git\NNTU_INF\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -138,9 +390,23 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 1: phony 1.exe
+
 build 2: phony 2.exe
 
-build main: phony main.exe
+build 3: phony 3.exe
+
+build 4: phony 4.exe
+
+build 5: phony 5.exe
+
+build 6: phony 6.exe
+
+build 7: phony 7.exe
+
+build 8: phony 8.exe
+
+build 9: phony 9.exe
 
 # =============================================================================
 # Folder targets.
@@ -148,9 +414,9 @@ build main: phony main.exe
 # =============================================================================
 
 #############################################
-# Folder: E:/Git/nntu2/out/build/x64-Debug
+# Folder: E:/Git/NNTU_INF/out/build/x64-Debug
 
-build all: phony main.exe 2.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe
 
 # =============================================================================
 # Built-in targets
@@ -159,14 +425,14 @@ build all: phony main.exe 2.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.23.22060601-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.23.22060601-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.23.22060601-MSVC_2\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.23.22060601-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.23.22060601-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.23.22060601-MSVC_2\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\..\CMakeLists.txt C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCCompiler.cmake.in C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCompilerIdDetection.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCompileFeatures.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerABI.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineCompilerId.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineRCCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeDetermineSystem.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeFindBinUtils.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeParseImplicitLinkInfo.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeParseLibraryArchitecture.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeRCCompiler.cmake.in C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystem.cmake.in C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeTestCCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeTestCompilerCommon.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeTestRCCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\TI-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Internal\FeatureTesting.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.23.22060601-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.23.22060601-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.23.22060601-MSVC_2\CMakeSystem.cmake: phony
+build ..\..\..\CMakeLists.txt C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeCommonLanguageInclude.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeGenericSystem.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeInitializeConfigs.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeLanguageInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeRCInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInformation.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\CMakeSystemSpecificInitialize.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Compiler\MSVC-C.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC-C.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows-MSVC.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\Windows.cmake C$:\VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.23\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.23.22060601-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.23.22060601-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.23.22060601-MSVC_2\CMakeSystem.cmake: phony
 
 
 #############################################
