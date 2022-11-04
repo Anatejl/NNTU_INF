@@ -337,6 +337,39 @@ build 9.exe: C_EXECUTABLE_LINKER__9_Debug CMakeFiles/9.dir/1/1.9/9.c.obj
   TARGET_IMPLIB = lib9.dll.a
   TARGET_PDB = 9.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 10
+
+
+#############################################
+# Order-only phony target for 10
+
+build cmake_object_order_depends_target_10: phony || CMakeFiles/10.dir
+
+build CMakeFiles/10.dir/1/1.10/10.c.obj: C_COMPILER__10_Debug E$:/Git/NNTU_INF/1/1.10/10.c || cmake_object_order_depends_target_10
+  DEP_FILE = CMakeFiles\10.dir\1\1.10\10.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\10.dir
+  OBJECT_FILE_DIR = CMakeFiles\10.dir\1\1.10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10
+
+
+#############################################
+# Link the executable 10.exe
+
+build 10.exe: C_EXECUTABLE_LINKER__10_Debug CMakeFiles/10.dir/1/1.10/10.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10.exe
+  TARGET_IMPLIB = lib10.dll.a
+  TARGET_PDB = 10.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -365,6 +398,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 1: phony 1.exe
 
+build 10: phony 10.exe
+
 build 2: phony 2.exe
 
 build 3: phony 3.exe
@@ -389,7 +424,7 @@ build 9: phony 9.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe
 
 # =============================================================================
 # Built-in targets
