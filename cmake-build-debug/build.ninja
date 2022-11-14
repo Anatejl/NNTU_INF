@@ -403,6 +403,72 @@ build 11.exe: C_EXECUTABLE_LINKER__11_Debug CMakeFiles/11.dir/1/1.11/11.c.obj
   TARGET_IMPLIB = lib11.dll.a
   TARGET_PDB = 11.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Test
+
+
+#############################################
+# Order-only phony target for Test
+
+build cmake_object_order_depends_target_Test: phony || CMakeFiles/Test.dir
+
+build CMakeFiles/Test.dir/1/1.Test/Test.c.obj: C_COMPILER__Test_Debug E$:/Git/NNTU_INF/1/1.Test/Test.c || cmake_object_order_depends_target_Test
+  DEP_FILE = CMakeFiles\Test.dir\1\1.Test\Test.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Test.dir
+  OBJECT_FILE_DIR = CMakeFiles\Test.dir\1\1.Test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Test
+
+
+#############################################
+# Link the executable Test.exe
+
+build Test.exe: C_EXECUTABLE_LINKER__Test_Debug CMakeFiles/Test.dir/1/1.Test/Test.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Test.exe
+  TARGET_IMPLIB = libTest.dll.a
+  TARGET_PDB = Test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 12
+
+
+#############################################
+# Order-only phony target for 12
+
+build cmake_object_order_depends_target_12: phony || CMakeFiles/12.dir
+
+build CMakeFiles/12.dir/1/1.12/12.c.obj: C_COMPILER__12_Debug E$:/Git/NNTU_INF/1/1.12/12.c || cmake_object_order_depends_target_12
+  DEP_FILE = CMakeFiles\12.dir\1\1.12\12.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\12.dir
+  OBJECT_FILE_DIR = CMakeFiles\12.dir\1\1.12
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12
+
+
+#############################################
+# Link the executable 12.exe
+
+build 12.exe: C_EXECUTABLE_LINKER__12_Debug CMakeFiles/12.dir/1/1.12/12.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\12.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 12.exe
+  TARGET_IMPLIB = lib12.dll.a
+  TARGET_PDB = 12.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -435,6 +501,8 @@ build 10: phony 10.exe
 
 build 11: phony 11.exe
 
+build 12: phony 12.exe
+
 build 2: phony 2.exe
 
 build 3: phony 3.exe
@@ -451,6 +519,8 @@ build 8: phony 8.exe
 
 build 9: phony 9.exe
 
+build Test: phony Test.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -459,7 +529,7 @@ build 9: phony 9.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe Test.exe 12.exe
 
 # =============================================================================
 # Built-in targets
