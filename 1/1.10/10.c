@@ -14,7 +14,7 @@ int main() {
     unsigned splitNumber;
     scanf_s("%d", &splitNumber);
 
-    printf("Enter array length:");
+    printf("Enter array length: ");
     unsigned arrayLength;
     scanf_s("%d", &arrayLength);
 
@@ -25,16 +25,17 @@ int main() {
     };
 
     unsigned arrayMove = 0 + arrayLength;
-    for (unsigned i = 0; i < arrayMove; ++i){
+    for (unsigned i = 0; i < arrayMove; ++i) {
         unsigned arrayOld = array[i];
-        array[i] = array[arrayMove + 1] = arrayOld;
+        array[i] = array[arrayMove + i];
+        array[arrayMove + i] = arrayOld;
     };
 
 
     unsigned arrayFinal[MaxArrayLength];
 
 
-    printf("%d", array[1]);
+    printf("SOCI");
 
     //printf("%u", &string);
 
