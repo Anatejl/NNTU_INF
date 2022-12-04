@@ -4,7 +4,6 @@
 // Task 5 - Var 14
 
 #include <stdio.h>
-#include <stdbool.h>
 #include <string.h>
 
 #define NAME_MAX_SIZE 500
@@ -47,12 +46,12 @@ int main() {
         printf("Welcome to our IT library.\n What book you wish to access? (1 to 3)\n");
         scanf_s("%u", &input);
 
-        printf("\nValue 1 is:\n");
-        printf("Author: %s\n", AccessCode[input].author);
-        printf("Cypher: %u\n", AccessCode[input].cypher);
-        printf("UDK: %u\n", AccessCode[input].udk);
-        printf("Year: %u\n", AccessCode[input].year);
-        printf("In stock: %s\n", AccessCode[input].inplace);
+        printf("\nBook 1 is:\n");
+        printf(" Author: %s\n", AccessCode[input].author);
+        printf(" Cypher: %u\n", AccessCode[input].cypher);
+        printf(" UDK: %u\n", AccessCode[input].udk);
+        printf(" Year: %u\n", AccessCode[input].year);
+        printf(" In stock: %s\n", AccessCode[input].inplace);
 
         printf("\n");
         printf("Again? (y/n) :\n");
