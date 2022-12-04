@@ -6,27 +6,37 @@
 #include <stdio.h>
 #include <string.h>
 
+const unsigned MaxArrayLength = 64;
+
 int main() {
 
-    double k, final;
-    const char s;
+    printf("Enter split number: ");
+    unsigned splitNumber;
+    scanf_s("%d", &splitNumber);
 
-    printf("Input a line, followed by a number:");
-    scanf_s("%lf", &s);
-    scanf_s("%lf", &k);
+    printf("Enter array length:");
+    unsigned arrayLength;
+    scanf_s("%d", &arrayLength);
 
-    int i, size = strlen(s);
-    if (k >= size) {
-        memset(s, '\0', size);
-        return 0;
-    }
-
-    for (i = 0; i < size - k; i++) {
-        s[i] = s[i + k];
-        s[i + k] = '\0';
+    printf("Enter a line of numbers: ");
+    unsigned array[MaxArrayLength];
+    for (unsigned i = 0; i < arrayLength; ++i) {
+        scanf_s("%d", array[i]);
     };
 
-    printf("%s", s);
+    unsigned arrayMove = 0 + arrayLength;
+    for (unsigned i = 0; i < arrayMove; ++i){
+        unsigned arrayOld = array[i];
+        array[i] = array[arrayMove + 1] = arrayOld;
+    };
+
+
+    unsigned arrayFinal[MaxArrayLength];
+
+
+    printf("%d", array[1]);
+
+    //printf("%u", &string);
 
     return 0;
 }

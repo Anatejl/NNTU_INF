@@ -18,7 +18,7 @@ struct Library {
 
 int main() {
 
-    int input;\
+    int input;
     char userAnswer = 'y';
 
     const unsigned int N = 4;
