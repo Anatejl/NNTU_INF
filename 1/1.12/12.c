@@ -44,7 +44,7 @@ int main() {
     strcpy(AccessCode[3].inplace, "yes");
 
     while (userAnswer == 'y') {
-        printf("Welcome to our library.\n What book you wish to access? (1 to 3)\n");
+        printf("Welcome to our IT library.\n What book you wish to access? (1 to 3)\n");
         scanf_s("%u", &input);
 
         printf("\nValue 1 is:\n");
