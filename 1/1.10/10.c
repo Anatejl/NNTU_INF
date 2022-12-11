@@ -4,40 +4,32 @@
 //Task 4 - Var 14
 
 #include <stdio.h>
-#include <string.h>
-
-const unsigned MaxArrayLength = 64;
 
 int main() {
 
-    printf("Enter split number: ");
-    unsigned splitNumber;
+    printf("Enter split number: \n");
+    int splitNumber;
     scanf_s("%d", &splitNumber);
 
-    printf("Enter array length: ");
-    unsigned arrayLength;
+    printf("Enter array length: \n");
+    int arrayLength;
     scanf_s("%d", &arrayLength);
 
-    printf("Enter a line of numbers: ");
-    unsigned array[MaxArrayLength];
-    for (unsigned i = 0; i < arrayLength; ++i) {
-        scanf_s("%d", array[i]);
-    };
+    printf("Enter a line of numbers: \n");
+    char array[arrayLength];
+    scanf("%s", array);
 
-    unsigned arrayMove = 0 + arrayLength;
-    for (unsigned i = 0; i < arrayMove; ++i) {
-        unsigned arrayOld = array[i];
-        array[i] = array[arrayMove + i];
-        array[arrayMove + i] = arrayOld;
-    };
+    char arrayFinal[arrayLength];
 
+    for (int i = 0; i < arrayLength; ++i) {
+       int j=(i+splitNumber) %arrayLength;
+       arrayFinal[j] = array[i];
+    }
 
-    unsigned arrayFinal[MaxArrayLength];
-
-
-    printf("SOCI");
-
-    //printf("%u", &string);
+    printf("Final array is: \n");
+    for(int i = 0; i < arrayLength; ++i){
+        printf("%c", arrayFinal[i]);
+    }
 
     return 0;
 }
