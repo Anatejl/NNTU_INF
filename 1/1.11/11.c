@@ -1,27 +1,35 @@
-#include <stdio.h>
-#include <string.h>
+//
+// Created by Anatejl on 05.11.2022.
+//
+//Task 4 - Var 14 - pointers
 
-struct Point {
-    double x;
-    double y;
-};
+#include <stdio.h>
 
 int main() {
 
-    struct Point A = { 1.1, 2.2 };
-    printf("Point A =  %f %f\n", A.x, A.y );
+    printf("Enter split number: \n");
+    int splitNumber;
+    scanf_s("%d", &splitNumber);
 
-    struct Point B;
-    B.x = -5.5;
-    B.y = -8.1;
-    printf("Point B = %f %f\n", B.x, B.y );
-    struct Point * ptrPoint;
-    ptrPoint = &A;
-    printf("Point A = %f %f\n", ptrPoint->x, ptrPoint->y );
-    ptrPoint = &B;
-    printf("Point B = %f %f\n", (*ptrPoint).x, (*ptrPoint).y );
+    printf("Enter array length: \n");
+    int arrayLength;
+    scanf_s("%d", &arrayLength);
 
-    printf("Point C = %f %f\n", B.x, B.y );
+    printf("Enter a line of numbers: \n");
+    char array[arrayLength];
+    scanf("%s", array);
+
+    char arrayFinal[arrayLength];
+
+    for (int i = 0; i < arrayLength; ++i) {
+        int j=(i+splitNumber) %arrayLength;
+        *(arrayFinal + j) = *(array+i);
+    }
+
+    printf("Final array is: \n");
+    for(int i = 0; i < arrayLength; ++i){
+        printf("%c", *(arrayFinal+i));
+    }
 
     return 0;
 }

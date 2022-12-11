@@ -469,6 +469,39 @@ build 12.exe: C_EXECUTABLE_LINKER__12_Debug CMakeFiles/12.dir/1/1.12/12.c.obj
   TARGET_IMPLIB = lib12.dll.a
   TARGET_PDB = 12.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 13
+
+
+#############################################
+# Order-only phony target for 13
+
+build cmake_object_order_depends_target_13: phony || CMakeFiles/13.dir
+
+build CMakeFiles/13.dir/1/1.13/13.c.obj: C_COMPILER__13_Debug E$:/Git/NNTU_INF/1/1.13/13.c || cmake_object_order_depends_target_13
+  DEP_FILE = CMakeFiles\13.dir\1\1.13\13.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\13.dir
+  OBJECT_FILE_DIR = CMakeFiles\13.dir\1\1.13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 13
+
+
+#############################################
+# Link the executable 13.exe
+
+build 13.exe: C_EXECUTABLE_LINKER__13_Debug CMakeFiles/13.dir/1/1.13/13.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\13.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13.exe
+  TARGET_IMPLIB = lib13.dll.a
+  TARGET_PDB = 13.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -503,6 +536,8 @@ build 11: phony 11.exe
 
 build 12: phony 12.exe
 
+build 13: phony 13.exe
+
 build 2: phony 2.exe
 
 build 3: phony 3.exe
@@ -529,7 +564,7 @@ build Test: phony Test.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe Test.exe 12.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe Test.exe 12.exe 13.exe
 
 # =============================================================================
 # Built-in targets

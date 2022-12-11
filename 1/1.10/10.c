@@ -1,7 +1,7 @@
 //
 // Created by Anatejl on 05.11.2022.
 //
-//Task 4 - Var 14
+//Task 4 - Var 14 - array
 
 #include <stdio.h>
 
