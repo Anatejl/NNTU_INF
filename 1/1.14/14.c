@@ -1,7 +1,6 @@
 //
 // Created by Anatejl on 12.12.2022.
 //
-//
 // Task 5 - Var 14 - pointer // Beautified
 
 #include <stdio.h>
@@ -19,6 +18,7 @@ struct Library {
     int year;
     char inplace[NAME_MAX_SIZE];
 };
+struct Library AccessCode[4];
 
 int getInput() {
     printf("Welcome to our IT library.\n What book you wish to access? (1 to 3)\n");
@@ -40,9 +40,6 @@ char getOutput() {
 }
 
 int main() {
-
-    const unsigned int N = 4;
-    struct Library AccessCode[N];
 
     strcpy((AccessCode + 1)->author, "AuthorOne");
     (AccessCode + 1)->cypher = 1;
