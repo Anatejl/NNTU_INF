@@ -4,31 +4,62 @@
 //Task 4 - Var 14 - pointers
 
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
+int splitNumber;
+int arrayLength;
+char userAnswer = 'y';
+
+int getSplitNumber() {
 
     printf("Enter split number: \n");
-    int splitNumber;
     scanf_s("%d", &splitNumber);
 
+    return splitNumber;
+}
+
+int getArrayLength() {
+
     printf("Enter array length: \n");
-    int arrayLength;
     scanf_s("%d", &arrayLength);
 
-    printf("Enter a line of numbers: \n");
+    return arrayLength;
+}
+
+char* getArray() {
+
+    printf("Enter a line: \n");
     char array[arrayLength];
     scanf("%s", array);
 
-    char arrayFinal[arrayLength];
+    return array;
+}
 
-    for (int i = 0; i < arrayLength; ++i) {
-        int j=(i+splitNumber) %arrayLength;
-        *(arrayFinal + j) = *(array+i);
-    }
+int getOutput(char* arrayFinal) {
 
     printf("Final array is: \n");
-    for(int i = 0; i < arrayLength; ++i){
-        printf("%c", *(arrayFinal+i));
+    for (int i = 0; i < arrayLength; ++i) {
+        printf("%c", *(arrayFinal + i));
+    }
+    return 0;
+}
+
+int main() {
+
+    while (userAnswer == 'y') {
+        getSplitNumber();
+        getArrayLength();
+        char* array = getArray();
+
+        char arrayFinal[arrayLength];
+
+        for (int i = 0; i < arrayLength; ++i) {
+            int j = (i + splitNumber) % arrayLength;
+            *(arrayFinal + j) = *(array + i);
+        }
+
+        getOutput(arrayFinal);
+        malloc(10);
     }
 
     return 0;

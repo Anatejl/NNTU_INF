@@ -24,7 +24,7 @@ double two() {
 
     for (; xi <= n; xi++) {
         sum += 1;
-    };
+    }
     double xcp = (1 / n) * sum;
 
     return xcp;

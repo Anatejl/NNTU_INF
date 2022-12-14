@@ -21,7 +21,7 @@ struct Library {
 struct Library AccessCode[4];
 
 int getInput() {
-    printf("Welcome to our IT library.\n What book you wish to access? (1 to 3)\n");
+    printf("Welcome to our IT library.\n Which book you wish to access? (1 to 3)\n");
     scanf_s("%u", &input);
 
     return input;
