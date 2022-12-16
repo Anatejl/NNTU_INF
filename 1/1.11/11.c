@@ -26,21 +26,22 @@ int getArrayLength() {
     return arrayLength;
 }
 
-char* getArray() {
+char *getArray() {
 
     printf("Enter a line: \n");
-    char array[arrayLength];
+    char *array = malloc(arrayLength);
     scanf("%s", array);
 
     return array;
 }
 
-int getOutput(char* arrayFinal) {
+int getOutput(char *arrayFinal) {
 
     printf("Final array is: \n");
-    for (int i = 0; i < arrayLength; ++i) {
-        printf("%c", *(arrayFinal + i));
+    for (int i = 0; i < arrayLength; ++i){
+        printf("%c", arrayFinal[i]);
     }
+    printf("\n");
     return 0;
 }
 
@@ -49,7 +50,7 @@ int main() {
     while (userAnswer == 'y') {
         getSplitNumber();
         getArrayLength();
-        char* array = getArray();
+        char *array = getArray();
 
         char arrayFinal[arrayLength];
 
@@ -59,7 +60,12 @@ int main() {
         }
 
         getOutput(arrayFinal);
-        malloc(10);
+        free(array);
+
+        printf("\n");
+        printf("Again? (y/n) :\n");
+        scanf_s("%s", &userAnswer);
+        printf("\n");
     }
 
     return 0;
