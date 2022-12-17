@@ -29,7 +29,7 @@ int getInput() {
 
 char getOutput() {
 
-    printf("\nBook 1 is:\n");
+    printf("\nBook: %d\n", input);
     printf(" Author: %s\n", (AccessCode + input)->author);
     printf(" Cypher: %u\n", (AccessCode + input)->cypher);
     printf(" UDK: %u\n", (AccessCode + input)->udk);
