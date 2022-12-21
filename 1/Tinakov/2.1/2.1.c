@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+int main() {
 
     double a, b, c, d, k, min, max;
 
@@ -18,12 +18,12 @@ int main(){
         max = c;
     } else if (c < d && d > k) {
         max = d;
-    } else{
+    } else {
         max = k;
     }
 
     if (a < b) {
-         min = a;
+        min = a;
     } else {
         min = b;
     }
