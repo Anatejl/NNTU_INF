@@ -568,6 +568,39 @@ build 15.exe: C_EXECUTABLE_LINKER__15_Debug CMakeFiles/15.dir/1/1.15/15.c.obj
   TARGET_IMPLIB = lib15.dll.a
   TARGET_PDB = 15.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Tin2.1
+
+
+#############################################
+# Order-only phony target for Tin2.1
+
+build cmake_object_order_depends_target_Tin2.1: phony || CMakeFiles/Tin2.1.dir
+
+build CMakeFiles/Tin2.1.dir/1/Tinakov/2.1/2.1.c.obj: C_COMPILER__Tin2.2e1_Debug E$:/Git/NNTU_INF/1/Tinakov/2.1/2.1.c || cmake_object_order_depends_target_Tin2.1
+  DEP_FILE = CMakeFiles\Tin2.1.dir\1\Tinakov\2.1\2.1.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\Tin2.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Tin2.1.dir\1\Tinakov\2.1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Tin2.1
+
+
+#############################################
+# Link the executable Tin2.1.exe
+
+build Tin2.1.exe: C_EXECUTABLE_LINKER__Tin2.2e1_Debug CMakeFiles/Tin2.1.dir/1/Tinakov/2.1/2.1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Tin2.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Tin2.1.exe
+  TARGET_IMPLIB = libTin2.1.dll.a
+  TARGET_PDB = Tin2.1.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -626,6 +659,8 @@ build 9: phony 9.exe
 
 build Test: phony Test.exe
 
+build Tin2.1: phony Tin2.1.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -634,7 +669,7 @@ build Test: phony Test.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/cmake-build-debug
 
-build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe Test.exe 12.exe 13.exe 14.exe 15.exe
+build all: phony 1.exe 2.exe 3.exe 4.exe 5.exe 6.exe 7.exe 8.exe 9.exe 10.exe 11.exe Test.exe 12.exe 13.exe 14.exe 15.exe Tin2.1.exe
 
 # =============================================================================
 # Built-in targets
