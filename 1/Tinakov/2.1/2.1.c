@@ -34,8 +34,6 @@ int main(){
         printf("%.1f\n", min);
     }
 
-    //printf("\n %lf %lf \n", min, max);
-
     system("pause");
 
     return 0;
