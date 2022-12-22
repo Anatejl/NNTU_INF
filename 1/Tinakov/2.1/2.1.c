@@ -29,9 +29,9 @@ int main() {
     }
 
     if (min < max) {
-        printf("%.1f\n", max);
-    } else {
         printf("%.1f\n", min);
+    } else {
+        printf("%.1f\n", max);
     }
 
     system("pause");
