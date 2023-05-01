@@ -1,0 +1,58 @@
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/ninja/win/x64/ninja.exe -DCMAKE_TOOLCHAIN_FILE=C:\Users\Anatejl\.clion-vcpkg\vcpkg\scripts\buildsystems\vcpkg.cmake -G Ninja -S E:\Git\NNTU_INF -B E:\Git\NNTU_INF\cmake-build-debug-visual-studio
+-- Running vcpkg install
+Detecting compiler hash for triplet x64-windows...
+Detecting compiler hash for triplet x86-windows...
+The following packages will be built and installed:
+    sqlite3[core]:x86-windows -> 3.40.1#3 -- C:\Users\Anatejl\.clion-vcpkg\vcpkg\buildtrees\versioning_\versions\sqlite3\846077eab115952eeb4dda0eaae97a3eb776fa9f
+  * vcpkg-cmake[core]:x64-windows -> 2022-12-22 -- C:\Users\Anatejl\.clion-vcpkg\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake\1913f86defd2140d0a6751be2d51952e4090efa4
+  * vcpkg-cmake-config[core]:x64-windows -> 2022-02-06#1 -- C:\Users\Anatejl\.clion-vcpkg\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-config\8d54cc4f487d51b655abec5f9c9c3f86ca83311f
+Additional packages (*) will be modified to complete this operation.
+Restored 2 package(s) from C:\Users\Anatejl\AppData\Local\vcpkg\archives in 24.4 ms. Use --debug to see more details.
+Installing 1/3 vcpkg-cmake-config:x64-windows...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 5.17 ms
+Installing 2/3 vcpkg-cmake:x64-windows...
+Elapsed time to handle vcpkg-cmake:x64-windows: 4.88 ms
+Installing 3/3 sqlite3:x86-windows...
+Building sqlite3[core]:x86-windows...
+-- Installing port from location: C:\Users\Anatejl\.clion-vcpkg\vcpkg\buildtrees\versioning_\versions\sqlite3\846077eab115952eeb4dda0eaae97a3eb776fa9f
+-- Using cached sqlite-amalgamation-3400100.zip.
+-- Cleaning sources at C:/Users/Anatejl/.clion-vcpkg/vcpkg/buildtrees/sqlite3/src/on-3400100-8430f9f010.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/Anatejl/.clion-vcpkg/vcpkg/downloads/sqlite-amalgamation-3400100.zip
+-- Applying patch fix-arm-uwp.patch
+-- Applying patch add-config-include.patch
+-- Using source at C:/Users/Anatejl/.clion-vcpkg/vcpkg/buildtrees/sqlite3/src/on-3400100-8430f9f010.clean
+-- Found external ninja('1.11.0').
+-- Configuring x86-windows
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:112 (message):
+    Command failed: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v
+    Working Directory: C:/Users/Anatejl/.clion-vcpkg/vcpkg/buildtrees/sqlite3/x86-windows-rel/vcpkg-parallel-configure
+    Error code: 1
+    See logs for more information:
+      C:\Users\Anatejl\.clion-vcpkg\vcpkg\buildtrees\sqlite3\config-x86-windows-dbg-CMakeCache.txt.log
+      C:\Users\Anatejl\.clion-vcpkg\vcpkg\buildtrees\sqlite3\config-x86-windows-rel-CMakeCache.txt.log
+      C:\Users\Anatejl\.clion-vcpkg\vcpkg\buildtrees\sqlite3\config-x86-windows-out.log
+
+Call Stack (most recent call first):
+  E:/Git/NNTU_INF/cmake-build-debug-visual-studio/vcpkg_installed/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:248 (vcpkg_execute_required_process)
+  buildtrees/versioning_/versions/sqlite3/846077eab115952eeb4dda0eaae97a3eb776fa9f/portfile.cmake:66 (vcpkg_cmake_configure)
+  scripts/ports.cmake:147 (include)
+
+
+error: building sqlite3:x86-windows failed with: BUILD_FAILED
+Please ensure you're using the latest port files with `git pull` and `vcpkg update`.
+Then check for known issues at:
+    https://github.com/microsoft/vcpkg/issues?q=is%3Aissue+is%3Aopen+in%3Atitle+sqlite3
+You can submit a new issue at:
+    https://github.com/microsoft/vcpkg/issues/new?title=[sqlite3]+Build+error&body=Copy+issue+body+from+E%3A%2FGit%2FNNTU_INF%2Fcmake-build-debug-visual-studio%2Fvcpkg_installed%2Fvcpkg%2Fissue_body.md
+
+-- Running vcpkg install - failed
+CMake Error at C:/Users/Anatejl/.clion-vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake:892 (message):
+  vcpkg install failed.  See logs for more information:
+  E:\Git\NNTU_INF\cmake-build-debug-visual-studio\vcpkg-manifest-install.log
+Call Stack (most recent call first):
+  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake:124 (include)
+  CMakeLists.txt:2 (project)
+
+
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
