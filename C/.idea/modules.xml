@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/NNTU_INF.iml" filepath="$PROJECT_DIR$/.idea/NNTU_INF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nntu2.iml" filepath="$PROJECT_DIR$/.idea/nntu2.iml" />
     </modules>
   </component>
 </project>
