@@ -88,12 +88,6 @@ int main(){
         printf("DB '%d' opened?\n", rc);
     }
 
-
-
-    ,lkl
-    mlml
-
-
     char *sql = sqlite3_mprintf("INSERT INTO MasterTable (Name) VALUES ('petya')");
 
     rc = sqlite3_exec(db, sql, 0 , 0, &error_message);
