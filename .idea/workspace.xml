@@ -1,188 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeSettings">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ca07cf9-cbf7-4954-9a2b-000bbd37e242" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/C/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C/identifier.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/2/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/!HELP/Screenshot_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/!HELP/Screenshot_932.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nntu2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_.zip" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/алгоритмы.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/алгоритмы.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/минобрнауки/fb_210400_62_it1_lbm1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/минобрнауки/fb_210400_62_it1_lbm1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/минобрнауки/fb_210400_62_it1_lbm2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/минобрнауки/fb_210400_62_it1_lbm2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/минобрнауки/fb_210400_62_it1_lbm3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/минобрнауки/fb_210400_62_it1_lbm3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task1_basic.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task1_basic.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task2_control.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task2_control.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task3_function.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task3_function.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task4_array.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task4_array.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task5_structure.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/таски/task5_structure.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Задания_КонтролРабота_22-Рз_/челы.docx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Задания_КонтролРабота_22-Рз_/челы.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Лекции.zip" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Лекции.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Лекции/Lect_0_coursereview.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Лекции/Lect_0_coursereview.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Лекции/Lect_1_c_introduction.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Лекции/Lect_1_c_introduction.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Лекции/Lect_2_c_basic.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Лекции/Lect_2_c_basic.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Лекции/Lect_3_c_control.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Лекции/Lect_3_c_control.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Лекции/Lect_4_c_pointers_array.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Лекции/Lect_4_c_pointers_array.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Лекции/Lect_5_function.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Лекции/Lect_5_function.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Лекции/Lect_6_structure.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Лекции/Lect_6_structure.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/!Task/Оформление котрольной работы.docx" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/!Task/Оформление котрольной работы.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.1/1.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.1/1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.10/10.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.10/10.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.11/11.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.11/11.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.12/12.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.12/12.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.13/13.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.13/13.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.14/14.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.14/14.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.15/15.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.15/15.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.2/2.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.2/2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.3/3.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.3/3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.4/4.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.4/4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.5/5.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.5/5.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.6/6.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.6/6.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.7/7.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.7/7.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.7/diagram(1).png" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.7/diagram(1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.7/diagram(10).json" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.7/diagram(10).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.8/8.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.8/8.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.8/diagram(11).json" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.8/diagram(11).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.9/9.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.9/9.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.Test/Test.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/1.Test/Test.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/1/Алгоритм 1.json" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/1/Алгоритм 1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/1/Алгоритм 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/1/Алгоритм 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.1/2.1.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.1/2.1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.1/diagram(15).json" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.1/diagram(15).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.1/diagram(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.1/diagram(5).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.1/Алгоритм 2.1.json" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.1/Алгоритм 2.1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.1/Алгоритм 2.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.1/Алгоритм 2.1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.2/2.2.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.2/2.2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.2/diagram(14).json" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.2/diagram(14).json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.2/diagram(5).png" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.2/diagram(5).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.2/Алгоритм 2.2.json" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.2/Алгоритм 2.2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/Tinakov/2.2/Алгоритм 2.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/C/1/Tinakov/2.2/Алгоритм 2.2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/assets/shell.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/!Libraries/sqlite3/shell.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/assets/sqlite3.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/!Libraries/sqlite3/sqlite3.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/assets/sqlite3.h" beforeDir="false" afterPath="$PROJECT_DIR$/C/!Libraries/sqlite3/sqlite3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/assets/sqlite3ext.h" beforeDir="false" afterPath="$PROJECT_DIR$/C/!Libraries/sqlite3/sqlite3ext.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/countrylist.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/master.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/tempCountriesArea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/tempCountriesContinents.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/tempCountriesPopulation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-visual-studio/CMakeFiles/clion-Debug-Visual Studio-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/10.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/11.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/12.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/13.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/14.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/15.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/5.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/7.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/8.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/9.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tin2.1.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Tin2.2.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/nntu2.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/query/client-MicrosoftVS/query.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/cache-v2-a6b1780480abb61c4256.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/cmakeFiles-v1-4fffce865f79713d74f1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-669db9c4d57e54fb4f2b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2022-11-04T14-16-26-0311.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-1-Debug-13680d82b9cc80d9a669.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-2-Debug-3b1814c8a8f0d3e73337.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-3-Debug-33c0a23bf791ab6c15d6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-4-Debug-196b80b86b3c02664e36.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-5-Debug-24862167a7e0e7a8e99a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-6-Debug-bf432d33b219aaf36097.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-7-Debug-36d8bca3e1927d7d723c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-8-Debug-ed2c9e1ae89a274b0a9e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-9-Debug-4bba6c6bad62281ff1eb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/toolchains-v1-5857eee2e9817c6174b0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/2.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/2.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/2.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/2.dir/1.1/1.1.2/2.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/2.dir/embed.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/2.dir/intermediate.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/2.dir/manifest.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/2.dir/manifest.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/2.dir/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/3.23.22060601-MSVC_2/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/ShowIncludes/foo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/ShowIncludes/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/ShowIncludes/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/main.dir/1.1/1.1.1/main.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/main.dir/embed.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/main.dir/intermediate.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/main.dir/manifest.rc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/main.dir/manifest.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/main.dir/vc140.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/VSInheritEnvironments.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/main.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/main.ilk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/main.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/main.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/vc140.pdb" beforeDir="false" />
-    </list>
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="until 10s" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,13 +24,10 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2PFdsf83GuTQobh6fiXII2Ik0Rr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -206,29 +36,489 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowSQL Generator.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/Git/NNTU_INF/C",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Git/NNTU_INF",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RunManager" selected="CMake Application.2.1">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="2.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="2.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="2.1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sqlite3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="sqlite3" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.2.1" />
+      <item itemvalue="CMake Application.sqlite3" />
+    </list>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ca07cf9-cbf7-4954-9a2b-000bbd37e242" name="Changes" comment="" />
-      <created>1683056972180</created>
+      <changelist id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="" />
+      <created>1665594927441</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683056972180</updated>
-      <workItem from="1683056975510" duration="17000" />
+      <updated>1665594927441</updated>
+      <workItem from="1665594928787" duration="2318000" />
+      <workItem from="1665597502756" duration="990000" />
+      <workItem from="1665598502659" duration="149000" />
+      <workItem from="1665598664071" duration="141000" />
+      <workItem from="1665598818364" duration="89000" />
+      <workItem from="1665599009974" duration="58000" />
+      <workItem from="1665599076962" duration="424000" />
+      <workItem from="1665601202529" duration="590000" />
+      <workItem from="1665601810940" duration="3201000" />
+      <workItem from="1665790594049" duration="154000" />
+      <workItem from="1665855758897" duration="8771000" />
+      <workItem from="1665918595194" duration="1242000" />
+      <workItem from="1666524937992" duration="604000" />
+      <workItem from="1666631839526" duration="3000" />
+      <workItem from="1666713839229" duration="3000" />
+      <workItem from="1666985239539" duration="163000" />
+      <workItem from="1666985413786" duration="52000" />
+      <workItem from="1667048760932" duration="843000" />
+      <workItem from="1667147090916" duration="11657000" />
+      <workItem from="1667244570126" duration="442000" />
+      <workItem from="1667509452000" duration="7086000" />
+      <workItem from="1667566473316" duration="16983000" />
+      <workItem from="1667674115312" duration="604000" />
+      <workItem from="1667856675849" duration="84000" />
+      <workItem from="1668017856917" duration="6000" />
+      <workItem from="1668454412738" duration="2226000" />
+      <workItem from="1668459531864" duration="17000" />
+      <workItem from="1668961254255" duration="608000" />
+      <workItem from="1670018141993" duration="6000" />
+      <workItem from="1670163107702" duration="21020000" />
+      <workItem from="1670785092025" duration="7162000" />
+      <workItem from="1670878703324" duration="1564000" />
+      <workItem from="1671035635420" duration="7772000" />
+      <workItem from="1671129272044" duration="676000" />
+      <workItem from="1671210624192" duration="7993000" />
+      <workItem from="1671300074942" duration="7804000" />
+      <workItem from="1671485740636" duration="20000" />
+      <workItem from="1671567149251" duration="214000" />
+      <workItem from="1671567374531" duration="111000" />
+      <workItem from="1671639714266" duration="10131000" />
+      <workItem from="1671658046809" duration="123000" />
+      <workItem from="1671745076742" duration="555000" />
+      <workItem from="1671745702466" duration="425000" />
+      <workItem from="1671890406858" duration="182000" />
+      <workItem from="1674557462104" duration="4505000" />
+      <workItem from="1674659434879" duration="2378000" />
+      <workItem from="1674675180039" duration="1787000" />
+      <workItem from="1674684217408" duration="162000" />
+      <workItem from="1674732947202" duration="21000" />
+      <workItem from="1674741202475" duration="5493000" />
+      <workItem from="1681404070222" duration="96000" />
+      <workItem from="1681404176708" duration="91000" />
+      <workItem from="1681404277033" duration="811000" />
+      <workItem from="1681640807091" duration="1874000" />
+      <workItem from="1681745995284" duration="622000" />
+      <workItem from="1681819023561" duration="3665000" />
+      <workItem from="1682708855404" duration="235000" />
+      <workItem from="1682709098678" duration="734000" />
+      <workItem from="1682709846310" duration="560000" />
+      <workItem from="1682710415295" duration="59000" />
+      <workItem from="1682769372270" duration="306000" />
+      <workItem from="1682769689111" duration="345000" />
+      <workItem from="1682788434380" duration="970000" />
+      <workItem from="1682857600752" duration="9915000" />
+      <workItem from="1682894472634" duration="5952000" />
+      <workItem from="1682903778228" duration="447000" />
+      <workItem from="1682904234019" duration="2923000" />
+      <workItem from="1682945368013" duration="759000" />
+      <workItem from="1682946568676" duration="20861000" />
+      <workItem from="1683029962196" duration="11719000" />
+      <workItem from="1683056732939" duration="116000" />
+      <workItem from="1683056886463" duration="70000" />
+      <workItem from="1683056994191" duration="316000" />
+      <workItem from="1683057323435" duration="97000" />
+      <workItem from="1683057507335" duration="162000" />
     </task>
+    <task id="LOCAL-00001" summary="ZDAROVA">
+      <created>1665597851577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665597851577</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ZDAROVA">
+      <created>1665598013414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665598013414</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ZDAROVA">
+      <created>1665598211476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665598211476</updated>
+    </task>
+    <task id="LOCAL-00004" summary="123">
+      <created>1665599473384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665599473384</updated>
+    </task>
+    <task id="LOCAL-00005" summary="123">
+      <created>1665601862445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665601862445</updated>
+    </task>
+    <task id="LOCAL-00006" summary="123">
+      <created>1665601875578</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665601875578</updated>
+    </task>
+    <task id="LOCAL-00007" summary="123">
+      <created>1665601966450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665601966450</updated>
+    </task>
+    <task id="LOCAL-00008" summary="suda">
+      <created>1665602018733</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665602018733</updated>
+    </task>
+    <task id="LOCAL-00009" summary="thermo">
+      <created>1665602168362</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665602168362</updated>
+    </task>
+    <task id="LOCAL-00010" summary="until 10s">
+      <created>1665604459684</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665604459684</updated>
+    </task>
+    <task id="LOCAL-00011" summary="until 10s">
+      <created>1667151862988</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667151862988</updated>
+    </task>
+    <task id="LOCAL-00012" summary="until 10s">
+      <created>1667156016546</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667156016546</updated>
+    </task>
+    <task id="LOCAL-00013" summary="until 10s">
+      <created>1667163046500</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667163046500</updated>
+    </task>
+    <task id="LOCAL-00014" summary="until 10s">
+      <created>1667164925565</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667164925565</updated>
+    </task>
+    <task id="LOCAL-00015" summary="until 10s">
+      <created>1667515589807</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667515589807</updated>
+    </task>
+    <task id="LOCAL-00016" summary="until 10s">
+      <created>1667592114340</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667592114340</updated>
+    </task>
+    <task id="LOCAL-00017" summary="until 10s">
+      <created>1667598181946</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667598181946</updated>
+    </task>
+    <task id="LOCAL-00018" summary="until 10s">
+      <created>1667602455333</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667602455333</updated>
+    </task>
+    <task id="LOCAL-00019" summary="until 10s">
+      <created>1668459540290</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668459540290</updated>
+    </task>
+    <task id="LOCAL-00020" summary="until 10s">
+      <created>1670169274728</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670169274728</updated>
+    </task>
+    <task id="LOCAL-00021" summary="until 10s">
+      <created>1670169512451</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670169512451</updated>
+    </task>
+    <task id="LOCAL-00022" summary="until 10s">
+      <created>1670169898199</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670169898199</updated>
+    </task>
+    <task id="LOCAL-00023" summary="until 10s">
+      <created>1670188736925</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1670188736925</updated>
+    </task>
+    <task id="LOCAL-00024" summary="until 10s">
+      <created>1670190305002</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670190305002</updated>
+    </task>
+    <task id="LOCAL-00025" summary="until 10s">
+      <created>1670789569356</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670789569356</updated>
+    </task>
+    <task id="LOCAL-00026" summary="until 10s">
+      <created>1670791807650</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670791807650</updated>
+    </task>
+    <task id="LOCAL-00027" summary="until 10s">
+      <created>1670880275022</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670880275022</updated>
+    </task>
+    <task id="LOCAL-00028" summary="until 10s">
+      <created>1671048389473</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1671048389473</updated>
+    </task>
+    <task id="LOCAL-00029" summary="until 10s">
+      <created>1671054582088</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1671054582088</updated>
+    </task>
+    <task id="LOCAL-00030" summary="until 10s">
+      <created>1671223817559</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1671223817559</updated>
+    </task>
+    <task id="LOCAL-00031" summary="until 10s">
+      <created>1671226360526</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1671226360526</updated>
+    </task>
+    <task id="LOCAL-00032" summary="until 10s">
+      <created>1671230181607</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1671230181607</updated>
+    </task>
+    <task id="LOCAL-00033" summary="until 10s">
+      <created>1671310011669</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1671310011669</updated>
+    </task>
+    <task id="LOCAL-00034" summary="until 10s">
+      <created>1671652225844</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1671652225844</updated>
+    </task>
+    <task id="LOCAL-00035" summary="until 10s">
+      <created>1671653214827</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1671653214827</updated>
+    </task>
+    <task id="LOCAL-00036" summary="until 10s">
+      <created>1671655355896</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671655355896</updated>
+    </task>
+    <task id="LOCAL-00037" summary="until 10s">
+      <created>1671655603468</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1671655603468</updated>
+    </task>
+    <task id="LOCAL-00038" summary="until 10s">
+      <created>1671656535088</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1671656535088</updated>
+    </task>
+    <task id="LOCAL-00039" summary="until 10s">
+      <created>1671745329417</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1671745329417</updated>
+    </task>
+    <task id="LOCAL-00040" summary="until 10s">
+      <created>1671745613100</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1671745613100</updated>
+    </task>
+    <task id="LOCAL-00041" summary="until 10s">
+      <created>1671745622182</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1671745622182</updated>
+    </task>
+    <task id="LOCAL-00042" summary="until 10s">
+      <created>1682905682214</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1682905682214</updated>
+    </task>
+    <task id="LOCAL-00043" summary="until 10s">
+      <created>1682906124324</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1682906124324</updated>
+    </task>
+    <task id="LOCAL-00044" summary="until 10s">
+      <created>1682906334503</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1682906334503</updated>
+    </task>
+    <task id="LOCAL-00045" summary="until 10s">
+      <created>1682907065748</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1682907065748</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="true" />
+    <isAutomaticCheckingOnLaunch value="true" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="ZDAROVA" />
+    <MESSAGE value="123" />
+    <MESSAGE value="suda" />
+    <MESSAGE value="thermo" />
+    <MESSAGE value="until 10s" />
+    <option name="LAST_COMMIT_MESSAGE" value="until 10s" />
   </component>
 </project>
