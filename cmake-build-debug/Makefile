@@ -128,66 +128,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/build
 .PHONY : 2.1/fast
 
-#=============================================================================
-# Target rules for targets named sqlite3
-
-# Build rule for target.
-sqlite3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sqlite3
-.PHONY : sqlite3
-
-# fast build rule for target.
-sqlite3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/build
-.PHONY : sqlite3/fast
-
-!Libraries/sqlite3/sqlite3.obj: !Libraries/sqlite3/sqlite3.c.obj
-.PHONY : !Libraries/sqlite3/sqlite3.obj
+2/2.1/master.obj: 2/2.1/master.c.obj
+.PHONY : 2/2.1/master.obj
 
 # target to build an object file
-!Libraries/sqlite3/sqlite3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/!Libraries/sqlite3/sqlite3.c.obj
-.PHONY : !Libraries/sqlite3/sqlite3.c.obj
+2/2.1/master.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/master.c.obj
+.PHONY : 2/2.1/master.c.obj
 
-!Libraries/sqlite3/sqlite3.i: !Libraries/sqlite3/sqlite3.c.i
-.PHONY : !Libraries/sqlite3/sqlite3.i
-
-# target to preprocess a source file
-!Libraries/sqlite3/sqlite3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/!Libraries/sqlite3/sqlite3.c.i
-.PHONY : !Libraries/sqlite3/sqlite3.c.i
-
-!Libraries/sqlite3/sqlite3.s: !Libraries/sqlite3/sqlite3.c.s
-.PHONY : !Libraries/sqlite3/sqlite3.s
-
-# target to generate assembly for a file
-!Libraries/sqlite3/sqlite3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/!Libraries/sqlite3/sqlite3.c.s
-.PHONY : !Libraries/sqlite3/sqlite3.c.s
-
-2/2.1/1.obj: 2/2.1/1.c.obj
-.PHONY : 2/2.1/1.obj
-
-# target to build an object file
-2/2.1/1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/1.c.obj
-.PHONY : 2/2.1/1.c.obj
-
-2/2.1/1.i: 2/2.1/1.c.i
-.PHONY : 2/2.1/1.i
+2/2.1/master.i: 2/2.1/master.c.i
+.PHONY : 2/2.1/master.i
 
 # target to preprocess a source file
-2/2.1/1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/1.c.i
-.PHONY : 2/2.1/1.c.i
+2/2.1/master.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/master.c.i
+.PHONY : 2/2.1/master.c.i
 
-2/2.1/1.s: 2/2.1/1.c.s
-.PHONY : 2/2.1/1.s
+2/2.1/master.s: 2/2.1/master.c.s
+.PHONY : 2/2.1/master.s
 
 # target to generate assembly for a file
-2/2.1/1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/1.c.s
-.PHONY : 2/2.1/1.c.s
+2/2.1/master.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/master.c.s
+.PHONY : 2/2.1/master.c.s
 
 # Help Target
 help:
@@ -198,13 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 2.1
-	@echo ... sqlite3
-	@echo ... !Libraries/sqlite3/sqlite3.obj
-	@echo ... !Libraries/sqlite3/sqlite3.i
-	@echo ... !Libraries/sqlite3/sqlite3.s
-	@echo ... 2/2.1/1.obj
-	@echo ... 2/2.1/1.i
-	@echo ... 2/2.1/1.s
+	@echo ... 2/2.1/master.obj
+	@echo ... 2/2.1/master.i
+	@echo ... 2/2.1/master.s
 .PHONY : help
 
 

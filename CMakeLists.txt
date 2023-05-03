@@ -23,6 +23,6 @@ set(CMAKE_C_STANDARD 99)
 #add_executable(1.Tin2.2 "1/Tinakov/2.2/2.2.c")
 #############################################
 
-add_executable(2.1 "2/2.1/1.c" "2/2.1/master.db")
-add_library(sqlite3 "E:/Git/NNTU_INF/!Libraries/sqlite3/sqlite3.c")
-target_link_libraries(2.1 sqlite3)
+add_executable(2.1 "2/2.1/master.c" 2/2.1/data.h )
+#add_library(sqlite3 "E:/Git/NNTU_INF/!Libraries/sqlite3/sqlite3.c")
+#target_link_libraries(2.1 sqlite3)

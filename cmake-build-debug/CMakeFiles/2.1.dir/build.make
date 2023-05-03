@@ -68,30 +68,29 @@ include CMakeFiles/2.1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2.1.dir/flags.make
 
-CMakeFiles/2.1.dir/2/2.1/1.c.obj: CMakeFiles/2.1.dir/flags.make
-CMakeFiles/2.1.dir/2/2.1/1.c.obj: E:/Git/NNTU_INF/2/2.1/1.c
-CMakeFiles/2.1.dir/2/2.1/1.c.obj: CMakeFiles/2.1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/2.1.dir/2/2.1/1.c.obj"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/2.1.dir/2/2.1/1.c.obj -MF CMakeFiles\2.1.dir\2\2.1\1.c.obj.d -o CMakeFiles\2.1.dir\2\2.1\1.c.obj -c E:\Git\NNTU_INF\2\2.1\1.c
+CMakeFiles/2.1.dir/2/2.1/master.c.obj: CMakeFiles/2.1.dir/flags.make
+CMakeFiles/2.1.dir/2/2.1/master.c.obj: E:/Git/NNTU_INF/2/2.1/master.c
+CMakeFiles/2.1.dir/2/2.1/master.c.obj: CMakeFiles/2.1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/2.1.dir/2/2.1/master.c.obj"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/2.1.dir/2/2.1/master.c.obj -MF CMakeFiles\2.1.dir\2\2.1\master.c.obj.d -o CMakeFiles\2.1.dir\2\2.1\master.c.obj -c E:\Git\NNTU_INF\2\2.1\master.c
 
-CMakeFiles/2.1.dir/2/2.1/1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/2.1.dir/2/2.1/1.c.i"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Git\NNTU_INF\2\2.1\1.c > CMakeFiles\2.1.dir\2\2.1\1.c.i
+CMakeFiles/2.1.dir/2/2.1/master.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/2.1.dir/2/2.1/master.c.i"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Git\NNTU_INF\2\2.1\master.c > CMakeFiles\2.1.dir\2\2.1\master.c.i
 
-CMakeFiles/2.1.dir/2/2.1/1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/2.1.dir/2/2.1/1.c.s"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Git\NNTU_INF\2\2.1\1.c -o CMakeFiles\2.1.dir\2\2.1\1.c.s
+CMakeFiles/2.1.dir/2/2.1/master.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/2.1.dir/2/2.1/master.c.s"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Git\NNTU_INF\2\2.1\master.c -o CMakeFiles\2.1.dir\2\2.1\master.c.s
 
 # Object files for target 2.1
 2_1_OBJECTS = \
-"CMakeFiles/2.1.dir/2/2.1/1.c.obj"
+"CMakeFiles/2.1.dir/2/2.1/master.c.obj"
 
 # External object files for target 2.1
 2_1_EXTERNAL_OBJECTS =
 
-2.1.exe: CMakeFiles/2.1.dir/2/2.1/1.c.obj
+2.1.exe: CMakeFiles/2.1.dir/2/2.1/master.c.obj
 2.1.exe: CMakeFiles/2.1.dir/build.make
-2.1.exe: libsqlite3.a
 2.1.exe: CMakeFiles/2.1.dir/linkLibs.rsp
 2.1.exe: CMakeFiles/2.1.dir/objects1
 2.1.exe: CMakeFiles/2.1.dir/link.txt

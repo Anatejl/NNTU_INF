@@ -1,0 +1,139 @@
+//
+// Created by Anatejl on 03.05.2023.
+//
+
+#include "data.h"
+#include <string.h>
+
+void arrayInit() {
+
+    // EU = 1
+    // AS = 2
+    // AF = 3
+    // NA = 4
+
+
+    //1
+    strcpy(AccessCode[1].title, "Austria");
+    strcpy(AccessCode[1].continent, "Europe");
+    strcpy(AccessCode[1].population, "8,945");
+    strcpy(AccessCode[1].area, "82,409");
+
+    //2
+    strcpy(AccessCode[2].title, "China");
+    strcpy(AccessCode[2].continent, "Asia");
+    strcpy(AccessCode[2].population, "1,393,601");
+    strcpy(AccessCode[2].area, "9,596,961");
+
+    //3
+    strcpy(AccessCode[3].title, "France");
+    strcpy(AccessCode[3].continent, "Europe");
+    strcpy(AccessCode[3].population, "67,458");
+    strcpy(AccessCode[3].area, "547,557");
+
+    //4
+    strcpy(AccessCode[4].title, "Germany");
+    strcpy(AccessCode[4].continent, "Europe");
+    strcpy(AccessCode[4].population, "83,149");
+    strcpy(AccessCode[4].area, "348,560");
+
+    //5
+    strcpy(AccessCode[5].title, "Iran");
+    strcpy(AccessCode[5].continent, "Asia");
+    strcpy(AccessCode[5].population, "88,628");
+    strcpy(AccessCode[5].area, "1,628,550");
+
+    //6
+    strcpy(AccessCode[6].title, "Italy");
+    strcpy(AccessCode[6].continent, "Europe");
+    strcpy(AccessCode[6].population, "60,273");
+    strcpy(AccessCode[6].area, "294,140");
+
+    //7
+    strcpy(AccessCode[7].title, "Japan");
+    strcpy(AccessCode[7].continent, "Asia");
+    strcpy(AccessCode[7].population, "126,490");
+    strcpy(AccessCode[7].area, "364,555");
+
+    //8
+    strcpy(AccessCode[8].title, "Kenya");
+    strcpy(AccessCode[8].continent, "Africa");
+    strcpy(AccessCode[8].population, "62,072");
+    strcpy(AccessCode[8].area, "569,140");
+
+    //9
+    strcpy(AccessCode[9].title, "Luxembourg");
+    strcpy(AccessCode[9].continent, "Europe");
+    strcpy(AccessCode[9].population, "618");
+    strcpy(AccessCode[9].area, "2,590");
+
+    //10
+    strcpy(AccessCode[10].title, "Mexico");
+    strcpy(AccessCode[10].continent, "North America");
+    strcpy(AccessCode[10].population, "140,450");
+    strcpy(AccessCode[10].area, "1,943,950");
+
+    //11
+    strcpy(AccessCode[11].title, "North Korea");
+    strcpy(AccessCode[11].continent, "Asia");
+    strcpy(AccessCode[11].population, "67,458");
+    strcpy(AccessCode[11].area, "547,557");
+
+    //12
+    strcpy(AccessCode[12].title, "Norway");
+    strcpy(AccessCode[12].continent, "Europe");
+    strcpy(AccessCode[12].population, "5,560");
+    strcpy(AccessCode[12].area, "304,280");
+
+    //13
+    strcpy(AccessCode[13].title, "Russian Federation");
+    strcpy(AccessCode[13].continent, "Europe");
+    strcpy(AccessCode[13].population, "139,955");
+    strcpy(AccessCode[13].area, "16,377,742");
+
+    //14
+    strcpy(AccessCode[14].title, "Serbia");
+    strcpy(AccessCode[14].continent, "Europe");
+    strcpy(AccessCode[14].population, "7,097");
+    strcpy(AccessCode[14].area, "77,480");
+
+    //15
+    strcpy(AccessCode[15].title, "Spain");
+    strcpy(AccessCode[15].continent, "Europe");
+    strcpy(AccessCode[15].population, "47,750");
+    strcpy(AccessCode[15].area, "498,980");
+
+    //16
+    strcpy(AccessCode[16].title, "Syria");
+    strcpy(AccessCode[16].continent, "Asia");
+    strcpy(AccessCode[16].population, "23,742");
+    strcpy(AccessCode[16].area, "183,630");
+
+    //17
+    strcpy(AccessCode[17].title, "Turkey");
+    strcpy(AccessCode[17].continent, "Asia");
+    strcpy(AccessCode[17].population, "49,524");
+    strcpy(AccessCode[17].area, "197,100");
+
+    //18
+    strcpy(AccessCode[18].title, "Uganda");
+    strcpy(AccessCode[18].continent, "Africa");
+    strcpy(AccessCode[18].population, "49,524");
+    strcpy(AccessCode[18].area, "197,100");
+
+    //19
+    strcpy(AccessCode[19].title, "United States");
+    strcpy(AccessCode[19].continent, "North America");
+    strcpy(AccessCode[19].population, "352,912");
+    strcpy(AccessCode[19].area, "9,147,593");
+
+    //20
+    strcpy(AccessCode[20].title, "Vatican City");
+    strcpy(AccessCode[20].continent, "Europe");
+    strcpy(AccessCode[20].population, "0.8");
+    strcpy(AccessCode[20].area, "0.44");
+
+
+
+
+}

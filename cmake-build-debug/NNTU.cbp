@@ -55,44 +55,6 @@
 					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sqlite3">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/libsqlite3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqlite3"/>
-					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="sqlite3/fast">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/libsqlite3.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 sqlite3/fast"/>
-					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
 				<Option type="4"/>
@@ -114,16 +76,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Git/NNTU_INF/!Libraries/sqlite3/sqlite3.c">
-			<Option target="sqlite3"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/!Libraries/sqlite3/sqlite3.h">
-			<Option target="sqlite3"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/2/2.1/1.c">
+		<Unit filename="E:/Git/NNTU_INF/2/2.1/data.h">
 			<Option target="2.1"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/2/2.1/master.db">
+		<Unit filename="E:/Git/NNTU_INF/2/2.1/master.c">
 			<Option target="2.1"/>
 		</Unit>
 		<Unit filename="E:/Git/NNTU_INF/CMakeLists.txt">

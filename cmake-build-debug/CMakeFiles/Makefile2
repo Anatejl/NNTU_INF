@@ -63,7 +63,6 @@ CMAKE_BINARY_DIR = E:\Git\NNTU_INF\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/2.1.dir/all
-all: CMakeFiles/sqlite3.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,14 +71,13 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/2.1.dir/clean
-clean: CMakeFiles/sqlite3.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/2.1.dir
 
 # All Build rule for target.
-CMakeFiles/2.1.dir/all: CMakeFiles/sqlite3.dir/all
+CMakeFiles/2.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 2.1"
@@ -87,7 +85,7 @@ CMakeFiles/2.1.dir/all: CMakeFiles/sqlite3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/2.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/2.1.dir/rule
@@ -100,32 +98,6 @@ CMakeFiles/2.1.dir/rule: cmake_check_build_system
 CMakeFiles/2.1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/clean
 .PHONY : CMakeFiles/2.1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sqlite3.dir
-
-# All Build rule for target.
-CMakeFiles/sqlite3.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target sqlite3"
-.PHONY : CMakeFiles/sqlite3.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sqlite3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sqlite3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/sqlite3.dir/rule
-
-# Convenience name for target.
-sqlite3: CMakeFiles/sqlite3.dir/rule
-.PHONY : sqlite3
-
-# clean rule for target.
-CMakeFiles/sqlite3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sqlite3.dir\build.make CMakeFiles/sqlite3.dir/clean
-.PHONY : CMakeFiles/sqlite3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
