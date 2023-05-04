@@ -21,7 +21,7 @@ int *getInputID() {
 
 int *getInputArea() {
 
-    printf("\nWell, finally, input area in square thousands km:\n");
+    printf("\nWell, finally, input area in square thousands km, without any separators:\n");
     int *inputArea = malloc(32);
     scanf_s("%d", inputArea);
     fflush(stdin);
@@ -58,7 +58,7 @@ void getOutput() {
         }
     }
 
-    if (resultControl-1 == 0){
+    if (resultControl - 1 == 0) {
         printf("Insufficient query. Try again.");
     }
 

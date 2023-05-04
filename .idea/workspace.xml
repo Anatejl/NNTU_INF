@@ -21,14 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="23">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/array.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/array.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/data.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2/2.1/master.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/master.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/master.db" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/master.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2.1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2.1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +180,7 @@
       <workItem from="1683081228597" duration="6027000" />
       <workItem from="1683087284758" duration="144000" />
       <workItem from="1683087438274" duration="197000" />
-      <workItem from="1683087646683" duration="26552000" />
+      <workItem from="1683087646683" duration="26856000" />
     </task>
     <task id="LOCAL-00001" summary="ZDAROVA">
       <created>1665597851577</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683163548926</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="23">
+      <created>1683172376453</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1683172376453</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,16 +553,5 @@
     <MESSAGE value="until 10s" />
     <MESSAGE value="23" />
     <option name="LAST_COMMIT_MESSAGE" value="23" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/2/2.1/master.c</url>
-          <line>61</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
