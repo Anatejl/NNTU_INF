@@ -23,7 +23,7 @@ int *getInputID() {
 int *getInputArea() {
 
     printf("\nWell, finally, input area in square thousands km, without any separators:\n");
-    int *inputArea = malloc(32);
+    int *inputArea = malloc(128);
     scanf_s("%d", inputArea);
     fflush(stdin);
 
