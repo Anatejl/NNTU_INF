@@ -13,19 +13,19 @@ CMakeFiles/2.1.dir/2/2.1/master.c.obj: E:/Git/NNTU_INF/2/2.1/master.c \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/string.h \
-  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
-  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/malloc.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h \
   C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/errno.h \
   E:/Git/NNTU_INF/2/2.1/data.h \
+  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/string.h \
+  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
   E:/Git/NNTU_INF/2/2.1/array.c
 
 
@@ -63,13 +63,11 @@ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bi
 
 C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
-C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
-
-C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
-
 C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
 
 C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/limits.h:
+
+C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h:
 
 C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
@@ -78,5 +76,7 @@ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bi
 C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/errno.h:
 
 E:/Git/NNTU_INF/2/2.1/data.h:
+
+C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
 E:/Git/NNTU_INF/2/2.1/array.c:

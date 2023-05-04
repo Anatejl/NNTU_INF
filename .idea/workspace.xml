@@ -21,11 +21,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="23">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2/2.1/array.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/array.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2/2.1/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/data.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2/2.1/master.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/master.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/2.1/master.db" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/master.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2.1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2.1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -187,7 +187,7 @@
       <workItem from="1683081228597" duration="6027000" />
       <workItem from="1683087284758" duration="144000" />
       <workItem from="1683087438274" duration="197000" />
-      <workItem from="1683087646683" duration="17831000" />
+      <workItem from="1683087646683" duration="26552000" />
     </task>
     <task id="LOCAL-00001" summary="ZDAROVA">
       <created>1665597851577</created>
@@ -511,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683096835327</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="23">
+      <created>1683163548926</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1683163548926</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,9 +558,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/2/2.1/data.h</url>
-          <line>27</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/2/2.1/master.c</url>
+          <line>61</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

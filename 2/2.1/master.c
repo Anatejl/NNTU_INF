@@ -4,12 +4,11 @@
 //2.1 SEEMS KURCOVAYA
 
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
 #include "data.h"
 #include "array.c"
 
-int *getInputID(){
+int *getInputID() {
 
     printf("Welcome to our cozy world archive. \n");
     printf("Choose a continent (1-EU, 2-AS, 3-AF, 4-NA):\n");
@@ -22,7 +21,7 @@ int *getInputID(){
 
 int *getInputArea() {
 
-    printf("\nWell, finally, input expected area. You'll see any matches with that value, or less.\n");
+    printf("\nWell, finally, input area in square thousands km:\n");
     int *inputArea = malloc(32);
     scanf_s("%d", inputArea);
     fflush(stdin);
@@ -30,49 +29,65 @@ int *getInputArea() {
     return inputArea;
 }
 
-void processing(int inputID) {
+void processing(int inputID, int inputArea) {
 
-    printf("\nINT IS IN FUNC, HERE IT IS - %d\n", inputID);
-    for (int i = 1; i < 21; i++){
+    for (int i = 1; i < 21; i++) {
 
-       if (inputID == AccessCode[i].continentCode){
-           arrayFinal[i].ID = i;
-           printf("\nGONE WELL: %d - %s\n", arrayFinal[i].ID, AccessCode[i].title);
-       }
+        if (inputID == AccessCode[i].continentCode && inputArea > AccessCode[i].area) {
+            arrayFinal[i].ID = i;
+        } else {
+            arrayFinal[i].ID = 0;
+        }
 
-       else{
-           arrayFinal[i].ID = 0;
-           //printf("\n%d Array final ID is - %d\n", i, arrayFinal[i].ID);
-           //printf("\n%s\n", AccessCode[i].title);
-       }
-
-   }
+    }
 }
+
 
 void getOutput() {
 
+    int resultControl = 1;
 
-    //PLACEHOLDER
+    for (int i = 1; i < 21; i++) {
+
+        if (arrayFinal[i].ID != 0) {
+            printf("\n%d. Title: %s\n", resultControl, AccessCode[i].title);
+            printf("   Continent: %s\n", AccessCode[i].continent);
+            printf("   Population: %s /thousands\n", AccessCode[i].population);
+            printf("   Area %ld /thousand km^2\n", AccessCode[i].area);
+            resultControl++;
+        }
+    }
+
+    if (resultControl-1 == 0){
+        printf("Insufficient query. Try again.");
+    }
 
 }
 
 int main() {
 
-    printf("Welcome to Hell.\n");
-    arrayInit();
+    char userAnswer = 'y';
 
-    int *inputID = getInputID();
-    int *inputArea = getInputArea();
+    while (userAnswer == 'y') {
+        arrayInit();
 
-    printf("\nAt main inputID is - %d\n", *inputID);
-    printf("\nAt main inputArea is - %d\n", *inputArea);
-    processing(*inputID);
+        int *inputID = getInputID();
+        int *inputArea = getInputArea();
 
-    getOutput();
+        processing(*inputID, *inputArea);
 
-    printf("\nYYYs, CID - %d; contRAW - %s; area - %s; pop - %s\n",
-           AccessCode[2].continentCode, AccessCode[2].continent, AccessCode[2].area, AccessCode[2].population);
 
+        getOutput();
+
+        free(inputID);
+        free(inputArea);
+
+        printf("\n");
+        printf("Again? (y/n) :\n");
+        scanf_s("%s", &userAnswer);
+        printf("\n");
+
+    }
     return 0;
 }
 

@@ -14,7 +14,7 @@ struct data {
     char continent[NAME_MAX_SIZE];
     int continentCode;
     char population[NAME_MAX_SIZE];
-    char area[NAME_MAX_SIZE];
+    long area;
 
 };
 
@@ -23,6 +23,7 @@ struct data AccessCode[21];
 struct arrFinal {
 
     int ID;
+
 };
 
 struct arrFinal arrayFinal[21];
