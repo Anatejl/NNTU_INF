@@ -53,7 +53,7 @@ void getOutput() {
             printf("\n%d. Title: %s\n", resultControl, AccessCode[i].title);
             printf("   Continent: %s\n", AccessCode[i].continent);
             printf("   Population: %s /thousands\n", AccessCode[i].population);
-            printf("   Area %ld /thousand km^2\n", AccessCode[i].area);
+            printf("   Area %ld /TKM^2\n", AccessCode[i].area);
             resultControl++;
         }
     }
@@ -69,13 +69,13 @@ int main() {
     char userAnswer = 'y';
 
     while (userAnswer == 'y') {
+
         arrayInit();
 
         int *inputID = getInputID();
         int *inputArea = getInputArea();
 
         processing(*inputID, *inputArea);
-
 
         getOutput();
 

@@ -134,7 +134,7 @@ void arrayInit() {
     //18
     strcpy(AccessCode[18].title, "Uganda");
     strcpy(AccessCode[18].continent, "Africa");
-    AccessCode[18].continentCode = 2;
+    AccessCode[18].continentCode = 3;
     strcpy(AccessCode[18].population, "49,524");
     AccessCode[18].area = 197100;
 
@@ -148,7 +148,7 @@ void arrayInit() {
     //20
     strcpy(AccessCode[20].title, "Zimbabwe");
     strcpy(AccessCode[20].continent, "Africa");
-    AccessCode[20].continentCode = 1;
+    AccessCode[20].continentCode = 3;
     strcpy(AccessCode[20].population, "14,611");
     AccessCode[20].area =  386850;
 
