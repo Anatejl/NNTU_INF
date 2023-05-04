@@ -1,3 +1,4 @@
+//master.c
 //
 // Created by Anatejl on 13.04.2023.
 //
@@ -42,7 +43,6 @@ void processing(int inputID, int inputArea) {
     }
 }
 
-
 void getOutput() {
 
     int resultControl = 1;
@@ -86,6 +86,7 @@ int main() {
         printf("Again? (y/n) :\n");
         scanf_s("%s", &userAnswer);
         printf("\n");
+        fflush(stdin);
 
     }
     return 0;
