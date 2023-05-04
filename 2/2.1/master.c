@@ -11,7 +11,7 @@
 int *getInputID() {
 
     printf("Welcome to our cozy world archive. \n");
-    printf("Choose a continent (1-EU, 2-AS, 3-AF, 4-NA):\n");
+    printf("Choose a number of a continent (1-EU, 2-AS, 3-AF, 4-NA):\n");
     int *inputID = malloc(32);
     scanf_s("%d", inputID);
     fflush(stdin);
