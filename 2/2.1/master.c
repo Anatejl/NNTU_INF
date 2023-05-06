@@ -14,7 +14,7 @@
 int *getInputID() {
 
     printf("Welcome to our cozy world archive. \n");
-    printf("Choose a number of a continent (1-EU, 2-AS, 3-AF, 4-NA):\n");
+    printf("Choose a number of a continent: \nNote: (1-EU, 2-AS, 3-AF, 4-NA):\n");
     int *inputID = malloc(INPUT_MAX_SIZE); //Allocating memory for first input variable.
     scanf_s("%d", inputID); //Storing value into inputID variable.
     fflush(stdin); //Command is used to clear input buffer.
