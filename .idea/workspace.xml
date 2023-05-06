@@ -22,6 +22,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/2.1/array.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/array.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/2.1/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/data.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/2.1/master.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/master.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/2/2.1/array.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2/2.1/data.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/2/2.1/master.c" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,11 +92,6 @@
 }</component>
   <component name="RunManager">
     <configuration name="2.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="2.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="2.1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -181,14 +185,11 @@
       <workItem from="1683087284758" duration="144000" />
       <workItem from="1683087438274" duration="197000" />
       <workItem from="1683087646683" duration="29307000" />
-      <workItem from="1683175117868" duration="2385000" />
-    </task>
-    <task id="LOCAL-00004" summary="123">
-      <created>1665599473384</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1665599473384</updated>
+      <workItem from="1683175117868" duration="3065000" />
+      <workItem from="1683180938543" duration="464000" />
+      <workItem from="1683198970763" duration="1256000" />
+      <workItem from="1683244831717" duration="644000" />
+      <workItem from="1683268736469" duration="2379000" />
     </task>
     <task id="LOCAL-00005" summary="123">
       <created>1665601862445</created>
@@ -526,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683177688090</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="23">
+      <created>1683178798853</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1683178798853</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

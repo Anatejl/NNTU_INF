@@ -6,6 +6,7 @@
 #include "data.h"
 #include <string.h>
 
+//Declaring main array, which store crucial information, data about countries.
 void arrayInit() {
 
     // EU = 1
@@ -152,6 +153,5 @@ void arrayInit() {
     AccessCode[20].continentCode = 3;
     strcpy(AccessCode[20].population, "14,611");
     AccessCode[20].area =  386850;
-
-
+    
 }
