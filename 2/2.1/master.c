@@ -71,7 +71,8 @@ void getOutput() {
         }
     }
 
-    if (resultControl - 1 == 0) { // If happens for final array to not contain any values,
+    if (resultControl - 1 == 0) {
+        // If happens for final array to not contain any values,
         // other than 0, condition will display error, marking that.
         printf("Insufficient query. Try again.");
     }
