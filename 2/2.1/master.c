@@ -6,11 +6,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-//We include additional files, since contain code needed for out program to operate.
+//We include additional files, since they contain code needed for our program to operate.
 #include "data.h"
 #include "array.c"
 
-//Function to get continent input from user, and allocate memory.
+//Function to get continent input from user, and allocate memory for it.
 int *getInputID() {
 
     printf("Welcome to our cozy world archive. \n");
@@ -59,8 +59,9 @@ void getOutput() {
     for (int i = 1; i < 21; i++) { //Also introducing cycle, with same iteration amount,
                                    // as our data arrays.
 
-        if (arrayFinal[i].ID != 0) { //Now we are checking whether value of final array
-            // is equal to 0, if negative, condition will output data about country,
+        if (arrayFinal[i].ID != 0) {
+            //Now we are checking whether value of final array
+            // is equal to 0, if negative, condition will output known data about country,
             // assigning resulting number to it.
             printf("\n%d. Title: %s\n", resultControl, AccessCode[i].title);
             printf("   Continent: %s\n", AccessCode[i].continent);
@@ -70,7 +71,7 @@ void getOutput() {
         }
     }
 
-    if (resultControl - 1 == 0) { // If happens to final array not to contain any values,
+    if (resultControl - 1 == 0) { // If happens for final array to not contain any values,
         // other than 0, condition will display error, marking that.
         printf("Insufficient query. Try again.");
     }
@@ -89,7 +90,7 @@ int main() {
         int *inputID = getInputID(); //Getting first input.
         int *inputArea = getInputArea(); //Getting second input.
 
-        processing(*inputID, *inputArea); // Invoking processing and passing necessary variables.
+        processing(*inputID, *inputArea); // Invoke processing and pass necessary variables.
 
         getOutput(); //Getting output to standard device.
 
