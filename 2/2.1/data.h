@@ -5,7 +5,11 @@
 
 #ifndef NNTU_DATA_H
 #define NNTU_DATA_H
+
+//Following values are based on properties of connected database or array.
 #define NAME_MAX_SIZE 25
+#define ARRAY_MAX_SIZE 21
+#define INPUT_MAX_SIZE 16
 
 #include <string.h>
 
@@ -22,7 +26,7 @@ struct data {
 
 //Providing variable which will allow us to access structure,
 // assigning number, which prescribes size of structure.
-struct data AccessCode[21];
+struct data AccessCode[ARRAY_MAX_SIZE];
 
 //Declaring processing array, is which we will store calculated data.
 struct arrFinal {
@@ -31,7 +35,8 @@ struct arrFinal {
 
 };
 
-//Since main data array is 21 line long, we will use same number for processing array.
-struct arrFinal arrayFinal[21];
+//Since main data array length corresponds to ARRAY_MAX_SIZE,
+// we're passing same value to processing array, to iterate through main array.
+struct arrFinal arrayFinal[ARRAY_MAX_SIZE];
 
 #endif //NNTU_DATA_H

@@ -15,7 +15,7 @@ int *getInputID() {
 
     printf("Welcome to our cozy world archive. \n");
     printf("Choose a number of a continent (1-EU, 2-AS, 3-AF, 4-NA):\n");
-    int *inputID = malloc(32); //Allocating memory for designed variable.
+    int *inputID = malloc(INPUT_MAX_SIZE); //Allocating memory for first input variable.
     scanf_s("%d", inputID); //Storing value into inputID variable.
     fflush(stdin); //Command is used to clear input buffer.
 
@@ -26,7 +26,7 @@ int *getInputID() {
 int *getInputArea() {
 
     printf("\nWell, finally, input area in square thousands km, without any separators:\n");
-    int *inputArea = malloc(128); //Allocating memory for designed variable.
+    int *inputArea = malloc(INPUT_MAX_SIZE); //Allocating memory for second input variable.
     scanf_s("%d", inputArea); //Storing value into inputID variable.
     fflush(stdin); //Command is used to clear input buffer.
 
@@ -36,7 +36,7 @@ int *getInputArea() {
 //Main function to process input information, and store it in another array.
 void processing(int inputID, int inputArea) { //We're passing both input variables into function.
 
-    for (int i = 1; i < 21; i++) { //Invoking cycle, which shares length with main array.
+    for (int i = 1; i < ARRAY_MAX_SIZE; i++) { //Invoking cycle, which shares length with main array.
 
         //For each iteration of cycle we are checking, for matches in requested country
         // and stored country code, if passed first, then result checked for match in area
@@ -56,8 +56,8 @@ void getOutput() {
 
     int resultControl = 1; //Declaring new variable to make results better.
 
-    for (int i = 1; i < 21; i++) { //Also introducing cycle, with same iteration amount,
-                                   // as our data arrays.
+    for (int i = 1; i < ARRAY_MAX_SIZE; i++) { //Also introducing cycle, with same iteration amount,
+                                               // as our arrays.
 
         if (arrayFinal[i].ID != 0) {
             //Now we are checking whether value of final array

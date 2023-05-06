@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,15 +72,15 @@ CMakeFiles/2.1.dir/2/2.1/master.c.obj: CMakeFiles/2.1.dir/flags.make
 CMakeFiles/2.1.dir/2/2.1/master.c.obj: E:/Git/NNTU_INF/2/2.1/master.c
 CMakeFiles/2.1.dir/2/2.1/master.c.obj: CMakeFiles/2.1.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/2.1.dir/2/2.1/master.c.obj"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/2.1.dir/2/2.1/master.c.obj -MF CMakeFiles\2.1.dir\2\2.1\master.c.obj.d -o CMakeFiles\2.1.dir\2\2.1\master.c.obj -c E:\Git\NNTU_INF\2\2.1\master.c
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/2.1.dir/2/2.1/master.c.obj -MF CMakeFiles\2.1.dir\2\2.1\master.c.obj.d -o CMakeFiles\2.1.dir\2\2.1\master.c.obj -c E:\Git\NNTU_INF\2\2.1\master.c
 
 CMakeFiles/2.1.dir/2/2.1/master.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/2.1.dir/2/2.1/master.c.i"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Git\NNTU_INF\2\2.1\master.c > CMakeFiles\2.1.dir\2\2.1\master.c.i
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Git\NNTU_INF\2\2.1\master.c > CMakeFiles\2.1.dir\2\2.1\master.c.i
 
 CMakeFiles/2.1.dir/2/2.1/master.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/2.1.dir/2/2.1/master.c.s"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Git\NNTU_INF\2\2.1\master.c -o CMakeFiles\2.1.dir\2\2.1\master.c.s
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Git\NNTU_INF\2\2.1\master.c -o CMakeFiles\2.1.dir\2\2.1\master.c.s
 
 # Object files for target 2.1
 2_1_OBJECTS = \
