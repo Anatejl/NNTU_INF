@@ -14,7 +14,7 @@
 #include <string.h>
 
 //Declaring necessary structures.
-struct data {
+typedef struct  {
 
     char title[NAME_MAX_SIZE];
     char continent[NAME_MAX_SIZE];
@@ -22,21 +22,21 @@ struct data {
     char population[NAME_MAX_SIZE];
     long area;
 
-};
+} data;
 
 //Providing variable which will allow us to access structure,
 // assigning number, which prescribes size of structure.
-struct data AccessCode[ARRAY_MAX_SIZE];
+data AccessCode[ARRAY_MAX_SIZE];
 
 //Declaring processing array, is which we will store calculated data.
-struct arrFinal {
+typedef struct  {
 
     int ID;
 
-};
+} arrFinal;
 
 //Since main data array length corresponds to ARRAY_MAX_SIZE,
 // we're passing same value to processing array, to iterate through main array.
-struct arrFinal arrayFinal[ARRAY_MAX_SIZE];
+arrFinal arrayFinal[ARRAY_MAX_SIZE];
 
 #endif //NNTU_DATA_H

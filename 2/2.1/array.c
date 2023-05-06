@@ -101,8 +101,8 @@ void arrayInit() {
     strcpy(AccessCode[13].title, "Russian Federation");
     strcpy(AccessCode[13].continent, "Europe");
     AccessCode[13].continentCode = 1;
-    strcpy(AccessCode[13].population, "139,955");
-    AccessCode[13].area = 16377742;
+    strcpy(AccessCode[13].population, "147,182");
+    AccessCode[13].area = 17234028;
 
     //14
     strcpy(AccessCode[14].title, "Serbia");

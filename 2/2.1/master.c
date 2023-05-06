@@ -73,7 +73,7 @@ void getOutput() {
     }
 
     if (resultControl - 1 == 0) {
-        // If happens for final array to not contain any values,
+        //If happens for final array to not contain any values,
         // other than 0, condition will display error, marking that.
         printf("Insufficient query. Try again.");
     }
@@ -92,14 +92,14 @@ int main() {
         int *inputID = getInputID(); //Getting first input.
         int *inputArea = getInputArea(); //Getting second input.
 
-        processing(*inputID, *inputArea); // Invoke processing and pass necessary variables.
+        processing(*inputID, *inputArea); //Invoke processing and pass necessary variables.
 
         getOutput(); //Getting output to standard device.
 
-        free(inputID); // Freeing memory, allocated for input.
+        free(inputID); //Freeing memory, allocated for input.
         free(inputArea); // Second time.
 
-        //Prompting user to answer, whether he wished to run program again,
+        //Prompting user to answer, whether he wishes to run program again,
         //if so, cycle will repeat one more time.
         printf("\n");
         printf("Again? (y/n) :\n");
