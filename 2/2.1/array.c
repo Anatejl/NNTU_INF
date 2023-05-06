@@ -4,9 +4,8 @@
 //
 
 #include "data.h"
-#include <string.h>
 
-//Declaring main array, which store crucial information, data about countries.
+//Explicitly filling main array.
 void arrayInit() {
 
     // EU = 1
@@ -19,7 +18,7 @@ void arrayInit() {
     strcpy(AccessCode[1].continent, "Europe");
     AccessCode[1].continentCode = 1;
     strcpy(AccessCode[1].population, "8,945");
-    AccessCode[1].area =  82409;
+    AccessCode[1].area = 82409;
 
     //2
     strcpy(AccessCode[2].title, "China");
@@ -103,7 +102,7 @@ void arrayInit() {
     strcpy(AccessCode[13].continent, "Europe");
     AccessCode[13].continentCode = 1;
     strcpy(AccessCode[13].population, "139,955");
-    AccessCode[13].area =  16377742;
+    AccessCode[13].area = 16377742;
 
     //14
     strcpy(AccessCode[14].title, "Serbia");
@@ -152,6 +151,6 @@ void arrayInit() {
     strcpy(AccessCode[20].continent, "Africa");
     AccessCode[20].continentCode = 3;
     strcpy(AccessCode[20].population, "14,611");
-    AccessCode[20].area =  386850;
-    
+    AccessCode[20].area = 386850;
+
 }

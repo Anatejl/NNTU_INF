@@ -6,7 +6,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-//We include additional files, since they contain code needed for our program to operate.
+
+//We include additional files, since they contain crucial code to run program.
 #include "data.h"
 #include "array.c"
 
@@ -57,7 +58,7 @@ void getOutput() {
     int resultControl = 1; //Declaring new variable to make results better.
 
     for (int i = 1; i < ARRAY_MAX_SIZE; i++) { //Also introducing cycle, with same iteration amount,
-                                               // as our arrays.
+        // as our arrays.
 
         if (arrayFinal[i].ID != 0) {
             //Now we are checking whether value of final array
