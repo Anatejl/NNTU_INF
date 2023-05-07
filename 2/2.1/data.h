@@ -7,9 +7,9 @@
 #define NNTU_DATA_H
 
 //Following values are based on properties of connected database or array.
-#define NAME_MAX_SIZE 25
-#define ARRAY_MAX_SIZE 21
-#define INPUT_MAX_SIZE 16
+#define NAME_MAX_SIZE 25 // input size for array
+#define ARRAY_MAX_SIZE 21 //array size
+#define INPUT_MAX_SIZE 16 //malloc input
 
 #include <string.h>
 

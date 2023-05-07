@@ -15,7 +15,7 @@
 int *getInputID() {
 
     printf("Welcome to our cozy world archive. \n");
-    printf("Choose a number of a continent: \nNote: (1-EU, 2-AS, 3-AF, 4-NA):\n");
+    printf("Choose a number of a continent: \nNote: (1-Europe, 2-Asia, 3-Africa, 4-North America)\n");
     int *inputID = malloc(INPUT_MAX_SIZE); //Allocating memory for first input variable.
     scanf_s("%d", inputID); //Storing value into inputID variable.
     fflush(stdin); //Command is used to clear input buffer.
@@ -102,7 +102,7 @@ int main() {
         //Prompting user to answer, whether he wishes to run program again,
         //if so, cycle will repeat one more time.
         printf("\n");
-        printf("Again? (y/n) :\n");
+        printf("Run program again? (y/n):\n");
         scanf_s("%s", &userAnswer);
         printf("\n");
         fflush(stdin); //Resetting buffer.
