@@ -43,7 +43,7 @@ void processing(int inputID, int inputArea) { //We're passing both input variabl
         // and stored country code, if passed first, then result checked for match in area
         // inputted from user, if both gone well, iteration of cycle will add its I value
         // to corresponding place in final array, otherwise make it 0.
-        if (inputID == AccessCode[i].continentCode && inputArea > AccessCode[i].area) {
+        if (inputID == AccessCode[i].continentCode && inputArea >= AccessCode[i].area) {
             arrayFinal[i].ID = i;
         } else {
             arrayFinal[i].ID = 0;
@@ -72,7 +72,7 @@ void getOutput() {
         }
     }
 
-    if (resultControl - 1 == 0) {
+    if (resultControl == 1) {
         //If happens for final array to not contain any values,
         // other than 0, condition will display error, marking that.
         printf("Insufficient query. Try again.");

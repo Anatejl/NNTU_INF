@@ -21,12 +21,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="23">
+      <change afterPath="$PROJECT_DIR$/2/2.1/diagram(20).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/2.1/diagram(7).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/data.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2/2.1/master.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/master.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/2.1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2.1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +99,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\NNTU_INF\2\2.1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="2.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="2.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="2.1">
       <method v="2">
@@ -212,14 +216,7 @@
       <workItem from="1683412606459" duration="2818000" />
       <workItem from="1683440734261" duration="3320000" />
       <workItem from="1683447299912" duration="2726000" />
-      <workItem from="1683450938410" duration="1588000" />
-    </task>
-    <task id="LOCAL-00012" summary="until 10s">
-      <created>1667156016546</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1667156016546</updated>
+      <workItem from="1683450938410" duration="8935000" />
     </task>
     <task id="LOCAL-00013" summary="until 10s">
       <created>1667163046500</created>
@@ -557,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683413612775</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="23">
+      <created>1683454203832</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1683454203833</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
