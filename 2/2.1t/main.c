@@ -14,7 +14,7 @@ void getInput(){
 
     for (int i = 1; i < INPUT_MAX_DOTS; i++){
 
-        printf("Input %d/3 set of coordinates (x y):", i);
+        printf("Input %d/%d set of coordinates (x y):", i, INPUT_MAX_DOTS-1);
         scanf_s("%d",&inputCode[i].x);
         scanf_s("%d",&inputCode[i].y);
     }
@@ -25,15 +25,16 @@ int *processing(){
 
     int *resultValue = malloc(sizeof (int*));
     *resultValue = 0;
-    for (int i = 1; i < INPUT_MAX_DOTS; i++){
+    for (int j = 1; j < CIRCLES_MAX; j++){
 
-        if (inputCode[i].x <= circlesCode[i].x && inputCode[i].y <= circlesCode[i].y){
+        for (int i = 1; i < INPUT_MAX_DOTS; i++) {
 
-            printf("\nDA #%d\n", i);
-            //finalCode[0].ID++;
-            (*resultValue)++;
+            if (inputCode[i].x <= circlesCode[j].x && inputCode[i].y <= circlesCode[j].y) {
+
+                printf("\nDA #i-%d. #j-%d\n", i, j);
+                (*resultValue)++;
+            }
         }
-
     }
 
     return resultValue;
@@ -42,7 +43,7 @@ int *processing(){
 
 void getOutput(int resultValue){
 
-    printf("Result is: %d", resultValue);
+    printf("Result is: %d", resultValue/(INPUT_MAX_DOTS-1));
 
 }
 

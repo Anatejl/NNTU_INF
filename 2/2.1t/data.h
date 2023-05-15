@@ -5,7 +5,7 @@
 #ifndef NNTU_DATA_H
 #define NNTU_DATA_H
 
-#define INPUT_MAX_DOTS 4
+#define INPUT_MAX_DOTS 11
 #define CIRCLES_MAX 11
 
 typedef struct arrayCircles{

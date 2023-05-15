@@ -24,10 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1t/array.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/array.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2/2.1t/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/data.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2/2.1t/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2.1t.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2.1t.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1t.dir/2/2.1t/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1t.dir/2/2.1t/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1t.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1t.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,14 +234,7 @@
       <workItem from="1683625991319" duration="223000" />
       <workItem from="1683626651777" duration="24000" />
       <workItem from="1683685628728" duration="424000" />
-      <workItem from="1684140105463" duration="10795000" />
-    </task>
-    <task id="LOCAL-00014" summary="until 10s">
-      <created>1667164925565</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1667164925565</updated>
+      <workItem from="1684140105463" duration="13568000" />
     </task>
     <task id="LOCAL-00015" summary="until 10s">
       <created>1667515589807</created>
@@ -578,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684142173834</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="23">
+      <created>1684151206458</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1684151206458</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
