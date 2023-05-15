@@ -24,5 +24,6 @@ set(CMAKE_C_STANDARD 99)
 #############################################
 
 add_executable(2.1 "2/2.1/master.c" 2/2.1/data.h )
+add_executable(2.1t "2/2.1t/main.c" 2/2.1t/data.h)
 #add_library(sqlite3 "E:/Git/NNTU_INF/!Libraries/sqlite3/sqlite3.c")
 #target_link_libraries(2.1 sqlite3)
