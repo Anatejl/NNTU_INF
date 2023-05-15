@@ -1,74 +1,79 @@
-//
-// Created by Anatejl on 15.05.2023.
-//
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include "data.h"
 #include "array.c"
 
-void getInput(){
+void getInput() {
 
     printf("\nWelcome to dot count program!\n");
+    printf("\nPerquisites are:\n %d circles, with start in %d,%d.\n", CIRCLES_MAX-1, circleCode[0].x, circleCode[0].y);
+    printf(" Radius of circle is counted from order number multiplied by 2 (e.g. 3rd circle has radius of 6).");
 
-    for (int i = 0; i < INPUT_MAX_DOTS; i++){
+    for (int i = 0; i < INPUT_MAX_DOTS; i++) {
 
-        printf("Input %d/%d set of coordinates (x y):", i+1, INPUT_MAX_DOTS);
-        scanf_s("%d",&inputDot[i].x);
-        scanf_s("%d",&inputDot[i].y);
+        printf("\nInput %d/%d set of coordinates (x y):", i + 1, INPUT_MAX_DOTS);
+        scanf_s("%d", &inputDot[i].x);
+        scanf_s("%d", &inputDot[i].y);
     }
-
+    fflush(stdin);
 }
 
-void process_count(){
+void process_count() {
 
-
-
+    for (int i = 0; i < CIRCLES_MAX; i++) {
+        circleRadius[i].R = sqrt(
+                pow(circleCode[i].a - circleCode[i].x, 2) +
+                   pow(circleCode[i].b - circleCode[i].y, 2));
+    }
 }
 
-int *process_compare(){
+int *process_compare() {
 
-    int *resultValue = malloc(sizeof (int*));
+    int *resultValue = malloc(sizeof(int *));
     *resultValue = 0;
 
-    for (int i = 0; i < INPUT_MAX_DOTS; i++){
+    for (int i = 0; i < INPUT_MAX_DOTS; i++) {
 
         for (int j = 0; j < CIRCLES_MAX; j++) {
 
-            if (inputDot[i].x <= circleCode[j].x && inputDot[i].y <= circleCode[j].y) {
+            double line = sqrt(pow(inputDot[i].x - circleCode[j].a, 2) +
+                                  pow(inputDot[i].y - circleCode[j].b, 2));
+            if (line < circleRadius[j].R) {
 
-                printf("\nDA #i-%d. #j-%d\n", i, j);
                 (*resultValue)++;
+                printf("%d. Dot %d (%d, %d) interfere circle with radius of %0.f.\n",
+                       *resultValue, i+1, inputDot[i].x, inputDot[i].y, circleRadius[j].R);
             }
-        }
 
+        }
+        printf("---\n");
     }
 
     return resultValue;
 }
 
-void getOutput(int resultValue){
+void getOutput(int resultValue) {
 
-    printf("\nResult is: %d\n", resultValue);
+    printf("\nDots interfere total of %d circles.\n", resultValue);
 
 }
 
+int main() {
 
-
-int main(){
+    explicitCirclesArray();
 
     getInput();
 
-    explicitCirclesArray();
     process_count();
     int *processedValue = process_compare();
 
     getOutput(*processedValue);
 
-   //for (int i = 0; i < CIRCLES_MAX; ++i) {
-   //    printf("\nC-%d : %d\n", i, circleCode[i].y);
-   //}
+    printf("\nPress any key to close...\n");
+    getchar();
 
     free(processedValue);
+
     return 0;
 }
