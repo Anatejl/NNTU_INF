@@ -6,6 +6,7 @@
 #define NNTU_DATA_H
 
 #define INPUT_MAX_DOTS 4
+#define CIRCLES_MAX 11
 
 typedef struct arrayCircles{
 
@@ -14,7 +15,7 @@ typedef struct arrayCircles{
 
 } arrayCircles;
 
-arrayCircles circlesCode[5];
+arrayCircles circlesCode[CIRCLES_MAX];
 
 typedef struct arrayInput{
 
@@ -24,5 +25,14 @@ typedef struct arrayInput{
 } arrayInput;
 
 arrayInput inputCode[INPUT_MAX_DOTS];
+
+//typedef struct arrayFinal{
+//
+//    long ID;
+//
+//}arrayFinal;
+//
+//arrayFinal finalCode[1];
+
 
 #endif //NNTU_DATA_H
