@@ -2,9 +2,8 @@
 // Created by Anatejl on 15.05.2023.
 //
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
-
+#include <math.h>
 #include "data.h"
 #include "array.c"
 
@@ -12,38 +11,45 @@ void getInput(){
 
     printf("\nWelcome to dot count program!\n");
 
-    for (int i = 1; i < INPUT_MAX_DOTS; i++){
+    for (int i = 0; i < INPUT_MAX_DOTS; i++){
 
-        printf("Input %d/%d set of coordinates (x y):", i, INPUT_MAX_DOTS-1);
-        scanf_s("%d",&inputCode[i].x);
-        scanf_s("%d",&inputCode[i].y);
+        printf("Input %d/%d set of coordinates (x y):", i+1, INPUT_MAX_DOTS);
+        scanf_s("%d",&inputDot[i].x);
+        scanf_s("%d",&inputDot[i].y);
     }
 
 }
 
-int *processing(){
+void process_count(){
+
+
+
+}
+
+int *process_compare(){
 
     int *resultValue = malloc(sizeof (int*));
     *resultValue = 0;
-    for (int j = 1; j < CIRCLES_MAX; j++){
 
-        for (int i = 1; i < INPUT_MAX_DOTS; i++) {
+    for (int i = 0; i < INPUT_MAX_DOTS; i++){
 
-            if (inputCode[i].x <= circlesCode[j].x && inputCode[i].y <= circlesCode[j].y) {
+        for (int j = 0; j < CIRCLES_MAX; j++) {
+
+            if (inputDot[i].x <= circleCode[j].x && inputDot[i].y <= circleCode[j].y) {
 
                 printf("\nDA #i-%d. #j-%d\n", i, j);
                 (*resultValue)++;
             }
         }
+
     }
 
     return resultValue;
 }
 
-
 void getOutput(int resultValue){
 
-    printf("Result is: %d", resultValue/(INPUT_MAX_DOTS-1));
+    printf("\nResult is: %d\n", resultValue);
 
 }
 
@@ -54,17 +60,14 @@ int main(){
     getInput();
 
     explicitCirclesArray();
-
-    int *processedValue = processing();
+    process_count();
+    int *processedValue = process_compare();
 
     getOutput(*processedValue);
 
-
-
-    ////debug
-    //for(int i = 1; i < CIRCLES_MAX; i++){
-    //    printf("\nDA %d, %d", circlesCode[i].x, circlesCode[i].y);
-    //}
+   //for (int i = 0; i < CIRCLES_MAX; ++i) {
+   //    printf("\nC-%d : %d\n", i, circleCode[i].y);
+   //}
 
     free(processedValue);
     return 0;

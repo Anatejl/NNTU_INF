@@ -6,37 +6,15 @@
 
 void explicitCirclesArray(){
 
-    int i = 1;
+    int i = 0;
     int *p_i = &i;
     for (i = 0; i < CIRCLES_MAX; i++) {
 
-        circlesCode[i].x = 5;
-        circlesCode[i].y = *p_i * 2;
+        circleCode[i].x1 = 5;
+        circleCode[i].y1 = 0;
 
+        circleCode[i].x2 = 5;
+        circleCode[i].y2 = *p_i * 2;
     }
 
 }
-
-//void explicitCirclesArray(){
-//
-//    //1
-//    circlesCode[0].x = 5;
-//    circlesCode[0].y = 1;
-//
-//    //2
-//    circlesCode[1].x = 5;
-//    circlesCode[1].y = 5;
-//
-//    //3
-//    circlesCode[2].x = 5;
-//    circlesCode[2].y = 10;
-//
-//    //4
-//    circlesCode[3].x = 5;
-//    circlesCode[3].y = 15;
-//
-//    //5
-//    circlesCode[4].x = 5;
-//    circlesCode[4].y = 20;
-//
-//}

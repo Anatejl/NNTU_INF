@@ -5,17 +5,27 @@
 #ifndef NNTU_DATA_H
 #define NNTU_DATA_H
 
-#define INPUT_MAX_DOTS 11
+#define INPUT_MAX_DOTS 5
 #define CIRCLES_MAX 11
 
 typedef struct arrayCircles{
 
-    int x;
-    int y;
+    int x1;
+    int x2;
+    int y1;
+    int y2;
 
 } arrayCircles;
 
-arrayCircles circlesCode[CIRCLES_MAX];
+arrayCircles circleCode[CIRCLES_MAX];
+
+typedef struct cirRad{
+
+    int R;
+
+} circleRad;
+
+circleRad circleRadius[CIRCLES_MAX];
 
 typedef struct arrayInput{
 
@@ -24,7 +34,7 @@ typedef struct arrayInput{
 
 } arrayInput;
 
-arrayInput inputCode[INPUT_MAX_DOTS];
+arrayInput inputDot[INPUT_MAX_DOTS];
 
 //typedef struct arrayFinal{
 //
