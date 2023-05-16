@@ -8,7 +8,9 @@
   "ExpandedNodes": [
     "",
     "\\2",
-    "\\2\\2.1"
+    "\\2\\2.1",
+    "\\2\\2.1t"
   ],
+  "SelectedNode": "\\2\\2.1t\\main.c",
   "PreviewInSolutionExplorer": false
 }

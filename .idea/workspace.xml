@@ -23,7 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="23">
+      <change afterPath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/ae0214de-c16b-44df-aa5e-84fd6eefa0df.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/b0d4aa84-5c4d-4cc4-8b47-1cd259a16033.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/b7716e13-5515-4f80-8c5d-60ba5ba94777.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/d297ba52-1a2b-4764-9f6d-7a7626ef048e.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/ipch/AutoPCH/3143bf8b03a149c8/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-0facaf5c4d9806350dfe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2023-05-16T16-50-58-0620.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-2.1t-Debug-6bffc93a6cf1274e725b.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/78579d47-f304-4111-baca-7b3b1d5ae764.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/eda95f8e-d781-40cb-b2ae-7347e1a72945.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/fbe388ac-4ea9-46af-bac2-aa6c2aed4ce6.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/.wsuo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/2.1t/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-207d7a2752e85a1649f8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2023-05-14T12-32-21-0639.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,40 +85,40 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "ToolWindowSQL Generator.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Git/NNTU_Cpp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "CMakeSettings",
-    "structure.view.defaults.are.configured": "true",
-    "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ToolWindowSQL Generator.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Git/NNTU_Cpp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;E:/Git/NNTU_INF/1/1.11/11.c&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Git\NNTU_INF\2\2.2" />
@@ -109,11 +132,6 @@
       </method>
     </configuration>
     <configuration name="2.1t" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="2.1t" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="2.1t">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -228,14 +246,9 @@
       <workItem from="1683625991319" duration="223000" />
       <workItem from="1683626651777" duration="24000" />
       <workItem from="1683685628728" duration="424000" />
-      <workItem from="1684140105463" duration="31895000" />
-    </task>
-    <task id="LOCAL-00018" summary="until 10s">
-      <created>1667602455333</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1667602455333</updated>
+      <workItem from="1684140105463" duration="32507000" />
+      <workItem from="1684220119477" duration="1297000" />
+      <workItem from="1684252205364" duration="1223000" />
     </task>
     <task id="LOCAL-00019" summary="until 10s">
       <created>1668459540290</created>
@@ -573,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684173998676</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="23">
+      <created>1684180734561</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1684180734561</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
