@@ -59,7 +59,7 @@ void getOutput(int resultValue) {
 
 }
 
-int main(__attribute__((unused)) int argc, __attribute__((unused)) char **argv) {
+int main() {
 
     explicitCirclesArray();
 
