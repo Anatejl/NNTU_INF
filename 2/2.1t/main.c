@@ -40,10 +40,10 @@ int *process_compare() {
 
             double line = sqrt(pow(inputDot[i].a - circleMaster[j].x, 2) +
                                pow(inputDot[i].b - circleMaster[j].y, 2));
-            if (line < circleMaster[j].R) {
+            if (line <= circleMaster[j].R) {
 
                 (*resultValue)++;
-                printf("%d. Dot %d (%d, %d; Radius: %.1f) interfere circle with radius of %0.f.\n",
+                printf("%d. Dot %d (%d, %d; Radius: %.2f) interfere circle with radius of %0.f.\n",
                        *resultValue, i + 1, inputDot[i].a, inputDot[i].b, line, circleMaster[j].R);
             }
 
