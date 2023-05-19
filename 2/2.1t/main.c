@@ -10,7 +10,6 @@ void process_count() {
         circleRadius[i].R = sqrt(
                 pow(circleCode[i].a - circleCode[i].x, 2) +
                 pow(circleCode[i].b - circleCode[i].y, 2));
-        printf("\nrad - %f\n", circleRadius[i].R);
     }
 }
 
@@ -23,8 +22,8 @@ void getInput() {
     for (int i = 0; i < INPUT_MAX_DOTS; i++) {
 
         printf("\nInput %d/%d set of coordinates (x y):", i + 1, INPUT_MAX_DOTS);
-        scanf_s("%d", &inputDot[i].x);
-        scanf_s("%d", &inputDot[i].y);
+        scanf_s("%d", &inputDot[i].a);
+        scanf_s("%d", &inputDot[i].b);
     }
     fflush(stdin);
 }
@@ -38,14 +37,13 @@ int *process_compare() {
 
         for (int j = 0; j < CIRCLES_MAX; j++) {
 
-            double line = sqrt(pow(inputDot[i].x - circleCode[j].x, 2) +
-                                  pow(inputDot[i].y - circleCode[j].y, 2));
-            //printf("\nline %.2f\n", line);
+            double line = sqrt(pow(inputDot[i].a - circleCode[j].x, 2) +
+                               pow(inputDot[i].b - circleCode[j].y, 2));
             if (line < circleRadius[j].R) {
 
                 (*resultValue)++;
-                printf("%d. Dot %d (%d, %d) interfere circle with radius of %0.f.\n",
-                       *resultValue, i+1, inputDot[i].x, inputDot[i].y, circleRadius[j].R);
+                printf("%d. Dot %d (%d, %d; Radius: %.1f) interfere circle with radius of %0.f.\n",
+                       *resultValue, i+1, inputDot[i].a, inputDot[i].b, line, circleRadius[j].R);
             }
 
         }

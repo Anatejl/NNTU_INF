@@ -23,5 +23,5 @@ set(CMAKE_C_STANDARD 99)
 #add_executable(1.Tin2.2 "1/Tinakov/2.2/2.2.c")
 #############################################
 
-add_executable(2.1 "2/2.1/master.c" 2/2.1/data.h )
+#add_executable(2.1 "2/2.1/master.c" 2/2.1/data.h )
 add_executable(2.1tn "2/2.1t/main.c" 2/2.1t/data.h)

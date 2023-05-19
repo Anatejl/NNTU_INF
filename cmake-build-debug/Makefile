@@ -116,19 +116,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 2.1
-
-# Build rule for target.
-2.1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2.1
-.PHONY : 2.1
-
-# fast build rule for target.
-2.1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/build
-.PHONY : 2.1/fast
-
-#=============================================================================
 # Target rules for targets named 2.1tn
 
 # Build rule for target.
@@ -140,30 +127,6 @@ depend:
 2.1tn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1tn.dir\build.make CMakeFiles/2.1tn.dir/build
 .PHONY : 2.1tn/fast
-
-2/2.1/master.obj: 2/2.1/master.c.obj
-.PHONY : 2/2.1/master.obj
-
-# target to build an object file
-2/2.1/master.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/master.c.obj
-.PHONY : 2/2.1/master.c.obj
-
-2/2.1/master.i: 2/2.1/master.c.i
-.PHONY : 2/2.1/master.i
-
-# target to preprocess a source file
-2/2.1/master.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/master.c.i
-.PHONY : 2/2.1/master.c.i
-
-2/2.1/master.s: 2/2.1/master.c.s
-.PHONY : 2/2.1/master.s
-
-# target to generate assembly for a file
-2/2.1/master.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1.dir\build.make CMakeFiles/2.1.dir/2/2.1/master.c.s
-.PHONY : 2/2.1/master.c.s
 
 2/2.1t/main.obj: 2/2.1t/main.c.obj
 .PHONY : 2/2.1t/main.obj
@@ -197,11 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 2.1
 	@echo ... 2.1tn
-	@echo ... 2/2.1/master.obj
-	@echo ... 2/2.1/master.i
-	@echo ... 2/2.1/master.s
 	@echo ... 2/2.1t/main.obj
 	@echo ... 2/2.1t/main.i
 	@echo ... 2/2.1t/main.s

@@ -23,8 +23,8 @@ circleRad circleRadius[CIRCLES_MAX];
 
 typedef struct arrayInput {
 
-    int x;
-    int y;
+    int a;
+    int b;
 
 } arrayInput;
 arrayInput inputDot[INPUT_MAX_DOTS];
