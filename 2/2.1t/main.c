@@ -16,7 +16,8 @@ void process_count() {
 void getInput() {
 
     printf("\nWelcome to dot count program!\n");
-    printf("\nPerquisites are:\n %d circles, with start in %d,%d.\n", CIRCLES_MAX-1, circleMaster[0].x, circleMaster[0].y);
+    printf("\nPerquisites are:\n %d circles, with start in %d,%d.\n", CIRCLES_MAX - 1, circleMaster[0].x,
+           circleMaster[0].y);
     printf(" Radius of circle is counted from order number multiplied by 2 (e.g. 3rd circle has radius of 6).");
 
     for (int i = 0; i < INPUT_MAX_DOTS; i++) {
@@ -43,7 +44,7 @@ int *process_compare() {
 
                 (*resultValue)++;
                 printf("%d. Dot %d (%d, %d; Radius: %.1f) interfere circle with radius of %0.f.\n",
-                       *resultValue, i+1, inputDot[i].a, inputDot[i].b, line, circleMaster[j].R);
+                       *resultValue, i + 1, inputDot[i].a, inputDot[i].b, line, circleMaster[j].R);
             }
 
         }
