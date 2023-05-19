@@ -10,16 +10,10 @@ typedef struct arrayCircles {
     int a;
     int y;
     int b;
-
-} arrayCircles;
-arrayCircles circleCode[CIRCLES_MAX];
-
-typedef struct cirRad {
-
     double R;
 
-} circleRad;
-circleRad circleRadius[CIRCLES_MAX];
+} arrayCircles;
+arrayCircles circleMaster[CIRCLES_MAX];
 
 typedef struct arrayInput {
 

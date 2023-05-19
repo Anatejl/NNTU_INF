@@ -6,11 +6,11 @@ void circlesArray() {
     int *p_i = &i;
     for (i = 0; i < CIRCLES_MAX; i++) {
 
-        circleCode[i].x = 0;
-        circleCode[i].y = 0;
+        circleMaster[i].x = 0;
+        circleMaster[i].y = 0;
 
-        circleCode[i].a = circleCode[i].x;
-        circleCode[i].b = *p_i * 2;
+        circleMaster[i].a = circleMaster[i].x;
+        circleMaster[i].b = *p_i * 2;
     }
 
 }
