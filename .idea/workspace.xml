@@ -22,18 +22,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="23">
-      <change afterPath="$PROJECT_DIR$/2/2.1t/diagram(13).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/2.1t/diagram(39).json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1t/array.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/array.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1t/data.h" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/data.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1t/diagram(12).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1t/diagram(38).json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.1t/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/2.1tn.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/2.1tn.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/2/2.1t/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/2/2.1t/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,14 +226,7 @@
       <workItem from="1684252205364" duration="1294000" />
       <workItem from="1684264436925" duration="3000" />
       <workItem from="1684417528692" duration="11762000" />
-      <workItem from="1684486510132" duration="9093000" />
-    </task>
-    <task id="LOCAL-00023" summary="until 10s">
-      <created>1670188736925</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1670188736925</updated>
+      <workItem from="1684486510132" duration="11427000" />
     </task>
     <task id="LOCAL-00024" summary="until 10s">
       <created>1670190305002</created>
@@ -582,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684499131803</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="23">
+      <created>1684499960411</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1684499960411</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
