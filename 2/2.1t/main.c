@@ -4,6 +4,16 @@
 #include "data.h"
 #include "array.c"
 
+void process_count() {
+
+    for (int i = 0; i < CIRCLES_MAX; i++) {
+        circleRadius[i].R = sqrt(
+                pow(circleCode[i].a - circleCode[i].x, 2) +
+                pow(circleCode[i].b - circleCode[i].y, 2));
+        printf("\nrad - %f\n", circleRadius[i].R);
+    }
+}
+
 void getInput() {
 
     printf("\nWelcome to dot count program!\n");
@@ -19,15 +29,6 @@ void getInput() {
     fflush(stdin);
 }
 
-void process_count() {
-
-    for (int i = 0; i < CIRCLES_MAX; i++) {
-        circleRadius[i].R = sqrt(
-                pow(circleCode[i].a - circleCode[i].x, 2) +
-                   pow(circleCode[i].b - circleCode[i].y, 2));
-    }
-}
-
 int *process_compare() {
 
     int *resultValue = malloc(sizeof(int *));
@@ -37,8 +38,9 @@ int *process_compare() {
 
         for (int j = 0; j < CIRCLES_MAX; j++) {
 
-            double line = sqrt(pow(inputDot[i].x - circleCode[j].a, 2) +
-                                  pow(inputDot[i].y - circleCode[j].b, 2));
+            double line = sqrt(pow(inputDot[i].x - circleCode[j].x, 2) +
+                                  pow(inputDot[i].y - circleCode[j].y, 2));
+            //printf("\nline %.2f\n", line);
             if (line < circleRadius[j].R) {
 
                 (*resultValue)++;
@@ -61,11 +63,11 @@ void getOutput(int resultValue) {
 
 int main() {
 
-    explicitCirclesArray();
+    circlesArray();
+    process_count();
 
     getInput();
 
-    process_count();
     int *processedValue = process_compare();
 
     getOutput(*processedValue);
@@ -73,6 +75,7 @@ int main() {
     printf("\nPress any key to close...\n");
     getchar();
 
+    fflush(stdin);
     free(processedValue);
 
     return 0;

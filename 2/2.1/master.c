@@ -37,7 +37,7 @@ int *getInputArea() {
 //Main function to process input information, and store it in another array.
 void processing(int inputID, int inputArea) { //We're passing both input variables into function.
 
-    for (int i = 1; i < ARRAY_MAX_SIZE; i++) { //Invoking cycle, which shares length with main array.
+    for (int i = 1; i < ARRAY_MAX_SIZE; ++i) { //Invoking cycle, which shares length with main array.
 
         //For each iteration of cycle we are checking, for matches in requested country
         // and stored country code, if passed first, then result checked for match in area
@@ -57,7 +57,7 @@ void getOutput() {
 
     int resultControl = 1; //Declaring new variable to make results better.
 
-    for (int i = 1; i < ARRAY_MAX_SIZE; i++) { //Also introducing cycle, with same iteration amount,
+    for (int i = 1; i < ARRAY_MAX_SIZE; ++i) { //Also introducing cycle, with same iteration amount,
         // as our arrays.
 
         if (arrayFinal[i].ID != 0) {

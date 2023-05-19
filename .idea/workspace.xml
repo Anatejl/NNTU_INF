@@ -12,7 +12,7 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="NNTU" targetName="2.1" />
-      <config projectName="NNTU" targetName="2.1t" />
+      <config projectName="NNTU" targetName="2.1tn" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -23,37 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="23">
-      <change afterPath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/176c0220-e828-4147-a0ee-4f704d55ea8b.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/76149cc5-bd84-4a6a-8cb3-6078c3aa5876.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/ipch/AutoPCH/c19cd828baa1b186/MAIN.ipch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-6408119e478e1b364c79.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2023-05-17T09-34-28-0205.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-2.1test-Debug-4dc0ebccedb954c526ea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/2.1t/diagram(11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/2.1t/diagram(37).json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/b7716e13-5515-4f80-8c5d-60ba5ba94777.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/FileContentIndex/d297ba52-1a2b-4764-9f6d-7a7626ef048e.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/.wsuo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/v17/ipch/AutoPCH/582d917ecc5b4e4d/MASTER.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/ipch/AutoPCH/582d917ecc5b4e4d/MASTER.ipch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/cmake.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/cmake.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/2.1/master.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1/master.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/2.1t/array.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/array.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2/2.1t/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/2/2.1t/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f5d16e99904ba6d781d0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-05-15T08-47-28-0350.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2.1t-Debug-f98afb0b80c5d706ed7a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1t.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1t.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1t.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-0facaf5c4d9806350dfe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2023-05-16T16-50-58-0620.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-2.1t-Debug-6bffc93a6cf1274e725b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +52,9 @@
     <setting file="file://$PROJECT_DIR$/2/2.1/array.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/2/2.1/data.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/2/2.1/master.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2/2.1t/array.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2/2.1t/data.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/2/2.1t/main.c" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -133,17 +114,17 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.2.1tn">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="2.1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="2.1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="2.1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="2.1tn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="2.1tn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="2.1tn">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -262,14 +243,8 @@
       <workItem from="1684220119477" duration="1297000" />
       <workItem from="1684252205364" duration="1294000" />
       <workItem from="1684264436925" duration="3000" />
-      <workItem from="1684417528692" duration="315000" />
-    </task>
-    <task id="LOCAL-00020" summary="until 10s">
-      <created>1670169274728</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1670169274728</updated>
+      <workItem from="1684417528692" duration="11762000" />
+      <workItem from="1684486510132" duration="6531000" />
     </task>
     <task id="LOCAL-00021" summary="until 10s">
       <created>1670169512451</created>
@@ -607,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684256847181</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="23">
+      <created>1684417935537</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1684417935538</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

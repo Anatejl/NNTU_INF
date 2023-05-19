@@ -1,6 +1,6 @@
 #include "data.h"
 
-void explicitCirclesArray() {
+void circlesArray() {
 
     int i = 0;
     int *p_i = &i;
