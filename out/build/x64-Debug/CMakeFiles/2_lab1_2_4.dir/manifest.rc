@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_2_4.dir/embed.manifest"

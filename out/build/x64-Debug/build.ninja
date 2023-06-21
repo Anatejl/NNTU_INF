@@ -401,6 +401,42 @@ build 2_lab1_2_3.exe: C_EXECUTABLE_LINKER__2_lab1_2_3_Debug CMakeFiles\2_lab1_2_
   TARGET_PDB = 2_lab1_2_3.pdb
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 2_lab1_2_4
+
+
+#############################################
+# Order-only phony target for 2_lab1_2_4
+
+build cmake_object_order_depends_target_2_lab1_2_4: phony || CMakeFiles\2_lab1_2_4.dir
+
+build CMakeFiles\2_lab1_2_4.dir\2\Lab1\2.4.c.obj: C_COMPILER__2_lab1_2_4_unscanned_Debug E$:\Git\NNTU_INF\2\Lab1\2.4.c || cmake_object_order_depends_target_2_lab1_2_4
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\2_lab1_2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_lab1_2_4.dir\2\Lab1
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_2_4.dir\
+  TARGET_PDB = 2_lab1_2_4.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_lab1_2_4
+
+
+#############################################
+# Link the executable 2_lab1_2_4.exe
+
+build 2_lab1_2_4.exe: C_EXECUTABLE_LINKER__2_lab1_2_4_Debug CMakeFiles\2_lab1_2_4.dir\2\Lab1\2.4.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\2_lab1_2_4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_2_4.dir\
+  TARGET_FILE = 2_lab1_2_4.exe
+  TARGET_IMPLIB = 2_lab1_2_4.lib
+  TARGET_PDB = 2_lab1_2_4.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 2_lab1_3_1
 
 
@@ -518,6 +554,8 @@ build 2_lab1_2_2: phony 2_lab1_2_2.exe
 
 build 2_lab1_2_3: phony 2_lab1_2_3.exe
 
+build 2_lab1_2_4: phony 2_lab1_2_4.exe
+
 build 2_lab1_3_1: phony 2_lab1_3_1.exe
 
 build 2_lab1_3_2: phony 2_lab1_3_2.exe
@@ -530,7 +568,7 @@ build 2_lab1_3_2: phony 2_lab1_3_2.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/out/build/x64-Debug
 
-build all: phony 2.1.exe 2.1tn.exe 2.1ch.exe 2.1g.exe 2_lab1_1_1.exe 2_lab1_1_2.exe 2_lab1_1_3.exe 2_lab1_2_1.exe 2_lab1_2_2.exe 2_lab1_2_3.exe 2_lab1_3_1.exe 2_lab1_3_2.exe
+build all: phony 2.1.exe 2.1tn.exe 2.1ch.exe 2.1g.exe 2_lab1_1_1.exe 2_lab1_1_2.exe 2_lab1_1_3.exe 2_lab1_2_1.exe 2_lab1_2_2.exe 2_lab1_2_3.exe 2_lab1_2_4.exe 2_lab1_3_1.exe 2_lab1_3_2.exe
 
 # =============================================================================
 # Built-in targets
