@@ -5,6 +5,9 @@ E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2.1g.dir
 E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_1_1.dir
 E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_1_2.dir
 E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_1_3.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_2_1.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_2_2.dir
+E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_2_3.dir
 E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_3_1.dir
 E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/2_lab1_3_2.dir
 E:/Git/NNTU_INF/out/build/x64-Debug/CMakeFiles/edit_cache.dir

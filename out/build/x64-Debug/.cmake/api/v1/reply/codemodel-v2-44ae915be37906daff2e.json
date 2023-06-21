@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NNTU",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2.1-Debug-3d3baec14d07d73fc60d.json",
+					"name" : "2.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2.1ch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2.1ch-Debug-24c9ce418cd22c25ff2f.json",
+					"name" : "2.1ch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2.1g::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2.1g-Debug-5a3f816fb2fb5be1c61c.json",
+					"name" : "2.1g",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2.1tn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2.1tn-Debug-91dbecd9db2127b35ef4.json",
+					"name" : "2.1tn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_lab1_1_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_lab1_1_1-Debug-0bae6e23dbc3929d0327.json",
+					"name" : "2_lab1_1_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_lab1_1_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_lab1_1_2-Debug-6445af46f34b285e6a7b.json",
+					"name" : "2_lab1_1_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_lab1_1_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_lab1_1_3-Debug-537c38bce799b16a0a51.json",
+					"name" : "2_lab1_1_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_lab1_2_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_lab1_2_1-Debug-02b7342ef12d6480a5e5.json",
+					"name" : "2_lab1_2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_lab1_2_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_lab1_2_2-Debug-282b226d56cf34e39c6e.json",
+					"name" : "2_lab1_2_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_lab1_2_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_lab1_2_3-Debug-3877b0c5e6505e476d26.json",
+					"name" : "2_lab1_2_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_lab1_3_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_lab1_3_1-Debug-e1c9554a7e32c6edeb2f.json",
+					"name" : "2_lab1_3_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_lab1_3_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_lab1_3_2-Debug-20358c0d001d717a1156.json",
+					"name" : "2_lab1_3_2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Git/NNTU_INF/out/build/x64-Debug",
+		"source" : "E:/Git/NNTU_INF"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
