@@ -184,6 +184,186 @@ build 2.1g.exe: C_EXECUTABLE_LINKER__2.2e1g_Debug CMakeFiles\2.1g.dir\2\2.1g\mai
   TARGET_IMPLIB = 2.1g.lib
   TARGET_PDB = 2.1g.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_lab1_1_1
+
+
+#############################################
+# Order-only phony target for 2_lab1_1_1
+
+build cmake_object_order_depends_target_2_lab1_1_1: phony || CMakeFiles\2_lab1_1_1.dir
+
+build CMakeFiles\2_lab1_1_1.dir\2\Lab1\1.1.c.obj: C_COMPILER__2_lab1_1_1_unscanned_Debug E$:\Git\NNTU_INF\2\Lab1\1.1.c || cmake_object_order_depends_target_2_lab1_1_1
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\2_lab1_1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_lab1_1_1.dir\2\Lab1
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_1_1.dir\
+  TARGET_PDB = 2_lab1_1_1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_lab1_1_1
+
+
+#############################################
+# Link the executable 2_lab1_1_1.exe
+
+build 2_lab1_1_1.exe: C_EXECUTABLE_LINKER__2_lab1_1_1_Debug CMakeFiles\2_lab1_1_1.dir\2\Lab1\1.1.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\2_lab1_1_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_1_1.dir\
+  TARGET_FILE = 2_lab1_1_1.exe
+  TARGET_IMPLIB = 2_lab1_1_1.lib
+  TARGET_PDB = 2_lab1_1_1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_lab1_1_2
+
+
+#############################################
+# Order-only phony target for 2_lab1_1_2
+
+build cmake_object_order_depends_target_2_lab1_1_2: phony || CMakeFiles\2_lab1_1_2.dir
+
+build CMakeFiles\2_lab1_1_2.dir\2\Lab1\1.2.c.obj: C_COMPILER__2_lab1_1_2_unscanned_Debug E$:\Git\NNTU_INF\2\Lab1\1.2.c || cmake_object_order_depends_target_2_lab1_1_2
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\2_lab1_1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_lab1_1_2.dir\2\Lab1
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_1_2.dir\
+  TARGET_PDB = 2_lab1_1_2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_lab1_1_2
+
+
+#############################################
+# Link the executable 2_lab1_1_2.exe
+
+build 2_lab1_1_2.exe: C_EXECUTABLE_LINKER__2_lab1_1_2_Debug CMakeFiles\2_lab1_1_2.dir\2\Lab1\1.2.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\2_lab1_1_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_1_2.dir\
+  TARGET_FILE = 2_lab1_1_2.exe
+  TARGET_IMPLIB = 2_lab1_1_2.lib
+  TARGET_PDB = 2_lab1_1_2.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_lab1_1_3
+
+
+#############################################
+# Order-only phony target for 2_lab1_1_3
+
+build cmake_object_order_depends_target_2_lab1_1_3: phony || CMakeFiles\2_lab1_1_3.dir
+
+build CMakeFiles\2_lab1_1_3.dir\2\Lab1\1.3.c.obj: C_COMPILER__2_lab1_1_3_unscanned_Debug E$:\Git\NNTU_INF\2\Lab1\1.3.c || cmake_object_order_depends_target_2_lab1_1_3
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\2_lab1_1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_lab1_1_3.dir\2\Lab1
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_1_3.dir\
+  TARGET_PDB = 2_lab1_1_3.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_lab1_1_3
+
+
+#############################################
+# Link the executable 2_lab1_1_3.exe
+
+build 2_lab1_1_3.exe: C_EXECUTABLE_LINKER__2_lab1_1_3_Debug CMakeFiles\2_lab1_1_3.dir\2\Lab1\1.3.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\2_lab1_1_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_1_3.dir\
+  TARGET_FILE = 2_lab1_1_3.exe
+  TARGET_IMPLIB = 2_lab1_1_3.lib
+  TARGET_PDB = 2_lab1_1_3.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_lab1_3_1
+
+
+#############################################
+# Order-only phony target for 2_lab1_3_1
+
+build cmake_object_order_depends_target_2_lab1_3_1: phony || CMakeFiles\2_lab1_3_1.dir
+
+build CMakeFiles\2_lab1_3_1.dir\2\Lab1\3.1.c.obj: C_COMPILER__2_lab1_3_1_unscanned_Debug E$:\Git\NNTU_INF\2\Lab1\3.1.c || cmake_object_order_depends_target_2_lab1_3_1
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\2_lab1_3_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_lab1_3_1.dir\2\Lab1
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_3_1.dir\
+  TARGET_PDB = 2_lab1_3_1.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_lab1_3_1
+
+
+#############################################
+# Link the executable 2_lab1_3_1.exe
+
+build 2_lab1_3_1.exe: C_EXECUTABLE_LINKER__2_lab1_3_1_Debug CMakeFiles\2_lab1_3_1.dir\2\Lab1\3.1.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\2_lab1_3_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_3_1.dir\
+  TARGET_FILE = 2_lab1_3_1.exe
+  TARGET_IMPLIB = 2_lab1_3_1.lib
+  TARGET_PDB = 2_lab1_3_1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_lab1_3_2
+
+
+#############################################
+# Order-only phony target for 2_lab1_3_2
+
+build cmake_object_order_depends_target_2_lab1_3_2: phony || CMakeFiles\2_lab1_3_2.dir
+
+build CMakeFiles\2_lab1_3_2.dir\2\Lab1\3.2.c.obj: C_COMPILER__2_lab1_3_2_unscanned_Debug E$:\Git\NNTU_INF\2\Lab1\3.2.c || cmake_object_order_depends_target_2_lab1_3_2
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  OBJECT_DIR = CMakeFiles\2_lab1_3_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\2_lab1_3_2.dir\2\Lab1
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_3_2.dir\
+  TARGET_PDB = 2_lab1_3_2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_lab1_3_2
+
+
+#############################################
+# Link the executable 2_lab1_3_2.exe
+
+build 2_lab1_3_2.exe: C_EXECUTABLE_LINKER__2_lab1_3_2_Debug CMakeFiles\2_lab1_3_2.dir\2\Lab1\3.2.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\2_lab1_3_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\2_lab1_3_2.dir\
+  TARGET_FILE = 2_lab1_3_2.exe
+  TARGET_IMPLIB = 2_lab1_3_2.lib
+  TARGET_PDB = 2_lab1_3_2.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -218,6 +398,16 @@ build 2.1g: phony 2.1g.exe
 
 build 2.1tn: phony 2.1tn.exe
 
+build 2_lab1_1_1: phony 2_lab1_1_1.exe
+
+build 2_lab1_1_2: phony 2_lab1_1_2.exe
+
+build 2_lab1_1_3: phony 2_lab1_1_3.exe
+
+build 2_lab1_3_1: phony 2_lab1_3_1.exe
+
+build 2_lab1_3_2: phony 2_lab1_3_2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -226,7 +416,7 @@ build 2.1tn: phony 2.1tn.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/out/build/x64-Debug
 
-build all: phony 2.1.exe 2.1tn.exe 2.1ch.exe 2.1g.exe
+build all: phony 2.1.exe 2.1tn.exe 2.1ch.exe 2.1g.exe 2_lab1_1_1.exe 2_lab1_1_2.exe 2_lab1_1_3.exe 2_lab1_3_1.exe 2_lab1_3_2.exe
 
 # =============================================================================
 # Built-in targets
