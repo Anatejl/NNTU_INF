@@ -12,7 +12,7 @@ int main() {
 		printf("Input an integer:");
 		scanf_s("%d", &inputNumber);
 		
-		if (inputNumber % 3 == 0) {
+		if (inputNumber % 3 == 0 && inputNumber % 5 != 0 ) {
 			printf("Number remain the same - %d\n", inputNumber);
 		}
 
@@ -20,7 +20,7 @@ int main() {
 			
 			if (inputNumber % 3 == 0) {
 
-				// Умные мысли приследовали автора, но он был быстрее
+				printf("Initial - %d, powered - %lf\n", inputNumber, pow(inputNumber, 2));
 
 			}
 			
