@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.23)
-project(NNTU C)
+project(NNTU)
 
 set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 17)
 
 # 1 course / 1 semester
 
@@ -39,6 +40,15 @@ set(CMAKE_C_STANDARD 99)
 #add_executable(2_lab1_2_3 "2/Lab1/2.3.c")
 #add_executable(2_lab1_2_4 "2/Lab1/2.4.c")
 #add_executable(2_lab1_3_1 "2/Lab1/3.1.c")
-add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
+#add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
+#add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
+#############################################
+
+# 2 course / 1 semester
+
+#set_target_properties(NNTU PROPERTIES LINKER_LANGUAGE CXX)
+add_executable(3_my "3/3_my/3_my.cpp")
+
+#add_executable(TESTfile "2/Lab1/test.c")
 
 #############################################
