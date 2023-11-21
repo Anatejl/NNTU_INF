@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "gcc",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
@@ -10,7 +10,8 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "cStandard": "c99"
+            "cStandard": "c99",
+            "compilerPath": "F:\\vsp\\x86_64-13.2.0-release-win32-seh-msvcrt-rt_v11-rev0\\mingw64\\bin\\gcc.exe"
         }
     ],
     "version": 4

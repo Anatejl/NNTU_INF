@@ -1,3 +1,10 @@
 # ninja log v5
-2	539	7214172184709786	CMakeFiles/3_my.dir/3/3_my/3_my.cpp.obj	34df853356d409b2
-540	931	7214172188120662	3_my.exe	dcd3c1bafdf08f9f
+16	744	7222095557166379	CMakeFiles/3_my.dir/3/3_my/3_my.cpp.obj	34df853356d409b2
+437	758	7222099749405378	3_my.exe	8b2a595ffeacaa1
+2	414	7222112389692174	CMakeFiles/3_my_2.dir/3/3_my/v0.2/3_my_v0.2.cpp.obj	9cbbbce1c7ba1449
+5	204	7222099744537263	CMakeFiles/3_my.dir/3/3_my/3_my_v0.2.cpp.obj	20b57f7b78e24a33
+2	437	7222099746854104	CMakeFiles/3_my.dir/3/3_my/v0.1/3_my_v0.1.cpp.obj	76eba33851e97bf8
+3	404	7222117865959799	CMakeFiles/attempt.dir/3/3_my/att/main.cpp.obj	4228d90b5fd77287
+405	819	7222117869621226	attempt.exe	d490151de2d7fa7b
+2	406	7222119927927670	CMakeFiles/attempt.dir/3/3_my/att/main.cpp.obj	4228d90b5fd77287
+407	666	7222119929792961	attempt.exe	d490151de2d7fa7b

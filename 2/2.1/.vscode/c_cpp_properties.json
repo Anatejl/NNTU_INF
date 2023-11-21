@@ -1,18 +1,36 @@
 {
-  "configurations": [
-    {
-      "name": "windows-gcc-x64",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "compilerPath": "gcc",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "windows-gcc-x64",
-      "compilerArgs": [
-        ""
-      ]
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "e:/Git/NNTU_INF/2/2.1/**"
+            ],
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                ""
+            ],
+            "mergeConfigurations": false,
+            "compilerPath": "F:\\vsp\\x86_64-13.2.0-release-win32-seh-msvcrt-rt_v11-rev0\\mingw64\\bin\\gcc.exe",
+            "browse": {
+                "path": [
+                    "e:/Git/NNTU_INF/2/2.1/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        },
+        {
+            "name": "mingw",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "F:\\vsp\\x86_64-13.2.0-release-win32-seh-msvcrt-rt_v11-rev0\\mingw64\\bin\\gcc.exe"
+        }
+    ],
+    "version": 4
 }
