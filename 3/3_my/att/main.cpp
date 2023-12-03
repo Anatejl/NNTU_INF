@@ -6,7 +6,8 @@
 int main() {
 
 	intro();
-	getInput();
+	getInputArrayLength();
+	processInitialArray();
 
 	return 0;
 
