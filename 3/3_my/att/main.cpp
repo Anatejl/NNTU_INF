@@ -5,10 +5,20 @@
 
 int main() {
 
+	//Introduction
 	intro();
-	getInputArrayLength();
+
+	//Harvest info from user
+	getInputNumberN();
+	getInputNumberR();
+	getInputNumberX();
+	getInputNumberY();
+
+	//Start processing things
 	processInitialArray();
 
+
+	//"And we're done. This is it..."
 	return 0;
 
 }

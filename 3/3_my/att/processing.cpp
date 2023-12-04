@@ -6,10 +6,10 @@ void intro() {
 
 }
 
-void getInputArrayLength() {
+void getInputNumberN() {
 
-	cout << "Input proposed length of an array: ";
-	cin >> inputNumberArrayLength;
+	cout << "Enter number N, a length of an  array: ";
+	cin >> inputNumberN;
 	
 	// DEBUG
 	//cout << inputNumber << endl;
@@ -23,18 +23,42 @@ void getInputNumberR() {
 
 }
 
+void getInputNumberX() {
+
+	cout << "Input number X: ";
+	cin >> inputNumberX;
+
+}
+
+void getInputNumberY() {
+
+	cout << "Input number Y: ";
+	cin >> inputNumberY;
+
+}
+
+
 void processInitialArray() {
 
-	vector<int> initialArray (inputNumberArrayLength);
+	vector <variableArray> initialArray(inputNumberN);
 
-	for (int i = 0; inputNumberArrayLength > i; i++) {
+	for (int i = 0; initialArray.size() > i; i++) {
 
-		initialArray[i] = i;
-
+		initialArray[i].x = inputNumberX;
+		initialArray[i].y = inputNumberY;
+		initialArray[i].z = sqrt(pow(initialArray[i].x, 2) + pow(initialArray[i].y, 2));
 	}
-	
-	//DEBUG
-	cout << "size is: " << initialArray.size() << endl;
-	cout << initialArray[31] << endl;
+
+	//vector<int> initialArray (inputNumberArrayLength);
+	//
+	//for (int i = 0; inputNumberArrayLength > i; i++) {
+	//
+	//	initialArray[i] = i;
+	//
+	//}
+	//
+	////DEBUG
+	////cout << "size is: " << initialArray.size() << endl;
+	////cout << initialArray[31] << endl;
 
 }
