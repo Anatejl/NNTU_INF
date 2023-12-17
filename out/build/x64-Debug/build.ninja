@@ -41,112 +41,40 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = E$:\Git\NNTU_INF\out\build\x64-Debug\
 # =============================================================================
-# Object build statements for EXECUTABLE target 3_my_1
+# Object build statements for EXECUTABLE target solve
 
 
 #############################################
-# Order-only phony target for 3_my_1
+# Order-only phony target for solve
 
-build cmake_object_order_depends_target_3_my_1: phony || CMakeFiles\3_my_1.dir
+build cmake_object_order_depends_target_solve: phony || CMakeFiles\solve.dir
 
-build CMakeFiles\3_my_1.dir\3\3_my\v0.1\3_my_v0.1.cpp.obj: CXX_COMPILER__3_my_1_unscanned_Debug E$:\Git\NNTU_INF\3\3_my\v0.1\3_my_v0.1.cpp || cmake_object_order_depends_target_3_my_1
+build CMakeFiles\solve.dir\3\3_my\solve\main.cpp.obj: CXX_COMPILER__solve_unscanned_Debug E$:\Git\NNTU_INF\3\3_my\solve\main.cpp || cmake_object_order_depends_target_solve
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  OBJECT_DIR = CMakeFiles\3_my_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\3_my_1.dir\3\3_my\v0.1
-  TARGET_COMPILE_PDB = CMakeFiles\3_my_1.dir\
-  TARGET_PDB = 3_my_1.pdb
+  OBJECT_DIR = CMakeFiles\solve.dir
+  OBJECT_FILE_DIR = CMakeFiles\solve.dir\3\3_my\solve
+  TARGET_COMPILE_PDB = CMakeFiles\solve.dir\
+  TARGET_PDB = solve.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 3_my_1
+# Link build statements for EXECUTABLE target solve
 
 
 #############################################
-# Link the executable 3_my_1.exe
+# Link the executable solve.exe
 
-build 3_my_1.exe: CXX_EXECUTABLE_LINKER__3_my_1_Debug CMakeFiles\3_my_1.dir\3\3_my\v0.1\3_my_v0.1.cpp.obj
+build solve.exe: CXX_EXECUTABLE_LINKER__solve_Debug CMakeFiles\solve.dir\3\3_my\solve\main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\3_my_1.dir
+  OBJECT_DIR = CMakeFiles\solve.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\3_my_1.dir\
-  TARGET_FILE = 3_my_1.exe
-  TARGET_IMPLIB = 3_my_1.lib
-  TARGET_PDB = 3_my_1.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 3_my_2
-
-
-#############################################
-# Order-only phony target for 3_my_2
-
-build cmake_object_order_depends_target_3_my_2: phony || CMakeFiles\3_my_2.dir
-
-build CMakeFiles\3_my_2.dir\3\3_my\v0.2\3_my_v0.2.cpp.obj: CXX_COMPILER__3_my_2_unscanned_Debug E$:\Git\NNTU_INF\3\3_my\v0.2\3_my_v0.2.cpp || cmake_object_order_depends_target_3_my_2
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  OBJECT_DIR = CMakeFiles\3_my_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\3_my_2.dir\3\3_my\v0.2
-  TARGET_COMPILE_PDB = CMakeFiles\3_my_2.dir\
-  TARGET_PDB = 3_my_2.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 3_my_2
-
-
-#############################################
-# Link the executable 3_my_2.exe
-
-build 3_my_2.exe: CXX_EXECUTABLE_LINKER__3_my_2_Debug CMakeFiles\3_my_2.dir\3\3_my\v0.2\3_my_v0.2.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\3_my_2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\3_my_2.dir\
-  TARGET_FILE = 3_my_2.exe
-  TARGET_IMPLIB = 3_my_2.lib
-  TARGET_PDB = 3_my_2.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target attempt
-
-
-#############################################
-# Order-only phony target for attempt
-
-build cmake_object_order_depends_target_attempt: phony || CMakeFiles\attempt.dir
-
-build CMakeFiles\attempt.dir\3\3_my\att\main.cpp.obj: CXX_COMPILER__attempt_unscanned_Debug E$:\Git\NNTU_INF\3\3_my\att\main.cpp || cmake_object_order_depends_target_attempt
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
-  OBJECT_DIR = CMakeFiles\attempt.dir
-  OBJECT_FILE_DIR = CMakeFiles\attempt.dir\3\3_my\att
-  TARGET_COMPILE_PDB = CMakeFiles\attempt.dir\
-  TARGET_PDB = attempt.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target attempt
-
-
-#############################################
-# Link the executable attempt.exe
-
-build attempt.exe: CXX_EXECUTABLE_LINKER__attempt_Debug CMakeFiles\attempt.dir\3\3_my\att\main.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\attempt.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\attempt.dir\
-  TARGET_FILE = attempt.exe
-  TARGET_IMPLIB = attempt.lib
-  TARGET_PDB = attempt.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\solve.dir\
+  TARGET_FILE = solve.exe
+  TARGET_IMPLIB = solve.lib
+  TARGET_PDB = solve.pdb
 
 
 #############################################
@@ -174,11 +102,7 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build 3_my_1: phony 3_my_1.exe
-
-build 3_my_2: phony 3_my_2.exe
-
-build attempt: phony attempt.exe
+build solve: phony solve.exe
 
 # =============================================================================
 # Folder targets.
@@ -188,7 +112,7 @@ build attempt: phony attempt.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/out/build/x64-Debug
 
-build all: phony 3_my_1.exe 3_my_2.exe attempt.exe
+build all: phony solve.exe
 
 # =============================================================================
 # Built-in targets

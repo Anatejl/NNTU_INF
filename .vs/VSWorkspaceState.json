@@ -7,9 +7,12 @@
   },
   "ExpandedNodes": [
     "",
+    "\\2",
     "\\3",
     "\\3\\3_my",
-    "\\3\\3_my\\att"
+    "\\3\\3_my\\att",
+    "\\3\\3_my\\solve"
   ],
+  "SelectedNode": "\\3\\3_my\\solve\\header.h",
   "PreviewInSolutionExplorer": false
 }
