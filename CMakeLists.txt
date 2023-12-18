@@ -50,6 +50,7 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(3_my_2 "3/3_my/v0.2/3_my_v0.2.cpp" 3/3_my/v0.2/application.h)
 #add_executable(attempt "3/3_my/att/main.cpp" 3/3_my/att/header.h)
 add_executable(solve "3/3_my/solve/main.cpp" 3/3_my/solve/header.h)
+add_executable(ROMYCH "3/ROMYCH/replacement.cpp")
 #add_executable(TESTfile "2/Lab1/test.c")
 
 #############################################

@@ -17,7 +17,7 @@ std::vector<IrNumber> init_points(int k) {
 
     for (int i = 0; i < k; ++i) {
 
-        std::cout << "Input set " << i << std::endl;
+        std::cout << "Input set - " << i << ":" << std::endl;
         std::cin >> initialVector[i].x >> initialVector[i].y;
     }
 
@@ -54,11 +54,11 @@ int main() {
 
     int n, R;
 
-    std::cout << "input n" << std::endl;
+    std::cout << "Input n:" << std::endl;
     std::cin >> n;
     auto points = init_points(n);
 
-    std::cout << "Input R" << std::endl;
+    std::cout << "Input R:" << std::endl;
     std::cin >> R;
 
     auto finalVector = filterZ(points, R);
