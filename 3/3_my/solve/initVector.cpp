@@ -1,3 +1,4 @@
+//initVector.cpp
 #include "header.h"
 
 std::vector<IrNumber> init_points(int k) {

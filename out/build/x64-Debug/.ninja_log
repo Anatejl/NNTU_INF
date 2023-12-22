@@ -5,8 +5,11 @@
 2	437	7222099746854104	CMakeFiles/3_my.dir/3/3_my/v0.1/3_my_v0.1.cpp.obj	76eba33851e97bf8
 975	1376	7239352933407259	attempt.exe	d490151de2d7fa7b
 37	974	7239352930080442	CMakeFiles/attempt.dir/3/3_my/att/main.cpp.obj	4228d90b5fd77287
-2	15	0	clean	8c45b54705a541e8
-3	439	7249672658585978	CMakeFiles/solve.dir/3/3_my/solve/main.cpp.obj	138a69bc704d08ab
+1	18	0	clean	8c45b54705a541e8
+2	605	7249766358328070	CMakeFiles/solve.dir/3/3_my/solve/main.cpp.obj	138a69bc704d08ab
 440	653	7249672659945731	solve.exe	fbb7b1164ffe2f6
 2	424	7246349859877279	CMakeFiles/ROMYCH.dir/3/ROMYCH/replacement.cpp.obj	ab85184e4eb1856
 424	601	7246349861066628	ROMYCH.exe	3e3114aeeb418c1d
+9	604	7249766358308123	CMakeFiles/solve.dir/3/3_my/solve/processing.cpp.obj	ea4f6646e0ef7cd8
+5	603	7249766358318098	CMakeFiles/solve.dir/3/3_my/solve/initVector.cpp.obj	244147b49d5f04b5
+2	379	7249766575755925	solve.exe	fbb7b1164ffe2f6
