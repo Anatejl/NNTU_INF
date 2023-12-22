@@ -16,6 +16,7 @@ int main() {
     auto finalVector = filterZ(points, R);
 
     for (int i = 0; i < finalVector.size(); ++i) {
+
         std::cout << "{" << finalVector[i].x << ", " << finalVector[i].y << "}; " << std::endl;
 
     };
