@@ -1,6 +1,28 @@
 //processing.cpp
-#include "header.h"
+#include "processing.h"
 
+//Return square of radius in IrNumber data type.
+int IrNumber::getSquareOfRadius() {
+
+    return x * x + y * y;
+
+}
+
+//Fill initial vactor
+std::vector<IrNumber> init_points(int k) {
+
+    std::vector<IrNumber> initialVector(k);
+
+    for (int i = 0; i < k; ++i) {
+
+        std::cout << "Input set - " << i << ":" << std::endl;
+        std::cin >> initialVector[i].x >> initialVector[i].y;
+    }
+
+    return initialVector;
+}
+
+//Process data into final vector.
 std::vector<IrNumber> filterZ(std::vector<IrNumber>& z, int R) {
 
     std::vector<IrNumber> resultNumbers;
