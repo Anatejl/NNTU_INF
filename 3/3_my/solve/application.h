@@ -3,10 +3,6 @@
 #ifndef APPLICATION_H_
 #define APPLICATION_H_
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
-
 struct application {
 	
 	//Main run method
