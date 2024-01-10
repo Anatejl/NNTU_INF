@@ -1,10 +1,6 @@
 //IrNumber.h
-#ifndef solve_H_
-#define solve_H_
-
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#ifndef IrNumber_H_
+#define IrNumber_H_
 
 struct IrNumber {
 
