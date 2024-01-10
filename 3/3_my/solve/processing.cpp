@@ -20,6 +20,7 @@ auto application::app_initVector(int k) {
             std::cin >> initialVector[i].x >> initialVector[i].y;
 
         }
+
         return initialVector;
     }
 }
