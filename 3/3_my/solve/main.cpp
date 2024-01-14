@@ -13,6 +13,8 @@ int main() {
 
     while (true) {
 
+        std::cout << "Dot includance counter! V1.0" << std::endl;
+
         if (userAnswer == 'y') {
 
             application::app_run();
@@ -21,11 +23,13 @@ int main() {
             std::cin >> userAnswer;
 
         }
+
         else if (userAnswer == 'n') {
 
             return 0;
 
         }
+
         else {
 
             std::cout << "Invalid parameter, try again." << std::endl;
