@@ -1,4 +1,5 @@
 //application.cpp
+
 #include "IrNumber.h"
 
 int application::app_run() {

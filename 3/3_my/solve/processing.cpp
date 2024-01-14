@@ -1,4 +1,5 @@
 //processing.cpp
+
 #include "application.h"
 
 //Return square of radius in IrNumber data type.
