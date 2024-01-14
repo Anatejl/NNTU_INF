@@ -1,2 +1,2 @@
 # NNTU_INF
- NNTU_INF
+ ЗА ДЕНЬГИ ДА
