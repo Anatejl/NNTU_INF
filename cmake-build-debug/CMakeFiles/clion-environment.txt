@@ -1,4 +1,4 @@
-ToolSet: w64 9.0 (local)@C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8770.66\bin\mingw
+ToolSet: 11.0 w64 (local)@C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\mingw
 Options: 
 
 Options:

@@ -2,14 +2,13 @@
 
 #include "application.h"
 
-//Return square of radius in IrNumber data type.
+
 int IrNumber::getSquareOfRadius() {
 
     return x * x + y * y;
 
 }
 
-//Fill initial vactor
 auto application::app_initVector(int k) {
     std::vector<IrNumber> init_points(int k); {
 
@@ -26,7 +25,6 @@ auto application::app_initVector(int k) {
     }
 }
 
-//Process data into final vector.
 auto application::app_processVector(std::vector<IrNumber>& z, int R) {
     std::vector<IrNumber> filterZ(std::vector<IrNumber>& z, int R); {
 
