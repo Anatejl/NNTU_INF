@@ -1,6 +1,8 @@
+//vector.cpp
 //
 // Created by Anatejl on 15.01.2024.
 //
+
 #include "vector.h"
 
 void vectorResize(Vector& v, unsigned size) {
@@ -19,6 +21,8 @@ unsigned vectorGetSizeOfFinal(Vector& v){
 Vector vectorProcess(const Vector& initial, const Vector& final, unsigned R, unsigned n)
 {
     Vector temporaryVector;
+    temporaryVector.counter = 0;
+
     for (int i = 0; i < n; ++i) {
 
         int x = initial.coordX[i];
@@ -27,6 +31,7 @@ Vector vectorProcess(const Vector& initial, const Vector& final, unsigned R, uns
         if (x * x + y * y <= R * R) {
             temporaryVector.coordX.push_back(initial.coordX[i]);
             temporaryVector.coordY.push_back(initial.coordY[i]);
+            temporaryVector.counter++;
 
         }
     }

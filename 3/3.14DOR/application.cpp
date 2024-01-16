@@ -1,6 +1,8 @@
+//application.cpp
 //
 // Created by Anatejl on 15.01.2024.
 //
+
 #include "application.h"
 #include "vector.h"
 #include <iostream>
@@ -74,9 +76,13 @@ static void appOutputResult(Application& app){
 
     unsigned SOF = vectorGetSizeOfFinal(app.final);
 
-    for (int i = 0; i < SOF ; ++i) {
+    if (app.final.counter !=0){
+        for (int i = 0; i < SOF ; ++i) {
 
         std::cout << "{" << app.final.coordX[i] << ", " << app.final.coordY[i] << "}; " << std::endl;
 
+        }
     }
+    else std:: cout << "No dots are applicable.";
+
 }

@@ -55,4 +55,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/solve.dir/DependInfo.cmake"
   "CMakeFiles/ROMYCH.dir/DependInfo.cmake"
   "CMakeFiles/3.14DOR.dir/DependInfo.cmake"
+  "CMakeFiles/gor.dir/DependInfo.cmake"
   )

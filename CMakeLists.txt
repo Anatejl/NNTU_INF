@@ -59,3 +59,6 @@ add_executable(3.14DOR "3/3.14DOR/main.cpp"
 #add_executable(TESTfile "2/Lab1/test.c")
 
 #############################################
+add_executable(gor 3/gor/sorting.cpp
+        3/gor/vector.cpp
+        3/gor/application.cpp)

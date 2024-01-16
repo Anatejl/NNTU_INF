@@ -154,6 +154,19 @@ ROMYCH/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/build
 .PHONY : 3.14DOR/fast
 
+#=============================================================================
+# Target rules for targets named gor
+
+# Build rule for target.
+gor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gor
+.PHONY : gor
+
+# fast build rule for target.
+gor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/build
+.PHONY : gor/fast
+
 3/3.14DOR/application.obj: 3/3.14DOR/application.cpp.obj
 .PHONY : 3/3.14DOR/application.obj
 
@@ -322,6 +335,78 @@ ROMYCH/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ROMYCH.dir\build.make CMakeFiles/ROMYCH.dir/3/ROMYCH/replacement.cpp.s
 .PHONY : 3/ROMYCH/replacement.cpp.s
 
+3/gor/application.obj: 3/gor/application.cpp.obj
+.PHONY : 3/gor/application.obj
+
+# target to build an object file
+3/gor/application.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/application.cpp.obj
+.PHONY : 3/gor/application.cpp.obj
+
+3/gor/application.i: 3/gor/application.cpp.i
+.PHONY : 3/gor/application.i
+
+# target to preprocess a source file
+3/gor/application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/application.cpp.i
+.PHONY : 3/gor/application.cpp.i
+
+3/gor/application.s: 3/gor/application.cpp.s
+.PHONY : 3/gor/application.s
+
+# target to generate assembly for a file
+3/gor/application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/application.cpp.s
+.PHONY : 3/gor/application.cpp.s
+
+3/gor/sorting.obj: 3/gor/sorting.cpp.obj
+.PHONY : 3/gor/sorting.obj
+
+# target to build an object file
+3/gor/sorting.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/sorting.cpp.obj
+.PHONY : 3/gor/sorting.cpp.obj
+
+3/gor/sorting.i: 3/gor/sorting.cpp.i
+.PHONY : 3/gor/sorting.i
+
+# target to preprocess a source file
+3/gor/sorting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/sorting.cpp.i
+.PHONY : 3/gor/sorting.cpp.i
+
+3/gor/sorting.s: 3/gor/sorting.cpp.s
+.PHONY : 3/gor/sorting.s
+
+# target to generate assembly for a file
+3/gor/sorting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/sorting.cpp.s
+.PHONY : 3/gor/sorting.cpp.s
+
+3/gor/vector.obj: 3/gor/vector.cpp.obj
+.PHONY : 3/gor/vector.obj
+
+# target to build an object file
+3/gor/vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/vector.cpp.obj
+.PHONY : 3/gor/vector.cpp.obj
+
+3/gor/vector.i: 3/gor/vector.cpp.i
+.PHONY : 3/gor/vector.i
+
+# target to preprocess a source file
+3/gor/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/vector.cpp.i
+.PHONY : 3/gor/vector.cpp.i
+
+3/gor/vector.s: 3/gor/vector.cpp.s
+.PHONY : 3/gor/vector.s
+
+# target to generate assembly for a file
+3/gor/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/vector.cpp.s
+.PHONY : 3/gor/vector.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -332,6 +417,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 3.14DOR
 	@echo ... ROMYCH
+	@echo ... gor
 	@echo ... solve
 	@echo ... 3/3.14DOR/application.obj
 	@echo ... 3/3.14DOR/application.i
@@ -354,6 +440,15 @@ help:
 	@echo ... 3/ROMYCH/replacement.obj
 	@echo ... 3/ROMYCH/replacement.i
 	@echo ... 3/ROMYCH/replacement.s
+	@echo ... 3/gor/application.obj
+	@echo ... 3/gor/application.i
+	@echo ... 3/gor/application.s
+	@echo ... 3/gor/sorting.obj
+	@echo ... 3/gor/sorting.i
+	@echo ... 3/gor/sorting.s
+	@echo ... 3/gor/vector.obj
+	@echo ... 3/gor/vector.i
+	@echo ... 3/gor/vector.s
 .PHONY : help
 
 
