@@ -21,6 +21,8 @@ int appRun(Application& app){
 
     }
 
+    std::cin.get();
+
     if(!appGetConstantD(app)){
 
         std::cout << "Data input failure." << std::endl;
@@ -28,19 +30,9 @@ int appRun(Application& app){
 
     }
 
-    if(!appProcessDataIntoFinalResult(app)){
+    appProcessDataIntoFinalResult(app);
+    appGetOutputToUser(app);
 
-        std::cout << "Data input failure." << std::endl;
-        return 1;
-
-    }
-
-    if(!appGetOutputToUser(app)){
-
-        std::cout << "Data input failure." << std::endl;
-        return 1;
-
-    }
 
     return 0;
 
@@ -57,16 +49,17 @@ static bool appInitializeData(Application& app){
 static bool appGetConstantD(Application& app){
 
     std::cout << "Input array has been successfully processed." << std::endl << "Input a D constant to compare:" << std:: endl;
-    getchar();
+    std::cin.get();
     std::cin >> app.constD;
-    getchar();
+
+    std::cout << app.constD << std::endl;
 
     return true;
 }
 
 static bool appProcessDataIntoFinalResult(Application& app){
 
-    std::cout << "DA ZDES SOME PROCESSING OCCURS" << std::endl;
+    std::cout << "ZDES' SOME PROCESSING OCCURS" << std::endl;
 
     return true;
 }

@@ -1,0 +1,3 @@
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\gor.dir/objects.a
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\mingw\bin\ar.exe qc CMakeFiles\gor.dir/objects.a @CMakeFiles\gor.dir\objects1.rsp
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\gor.dir/objects.a -Wl,--no-whole-archive -o gor.exe -Wl,--out-implib,libgor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gor.dir\linkLibs.rsp
