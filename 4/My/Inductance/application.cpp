@@ -21,7 +21,7 @@ int appRun(Application& app){
 
     }
 
-    std::cin.get();
+    //std::cin.get();
 
     if(!appGetConstantD(app)){
 
@@ -49,9 +49,10 @@ static bool appInitializeData(Application& app){
 static bool appGetConstantD(Application& app){
 
     std::cout << "Input array has been successfully processed." << std::endl << "Input a D constant to compare:" << std:: endl;
-    std::cin.get();
-    std::cin >> app.constD;
+    //std::cin.get();
+    //std::cin >> app.constD;
 
+    app.constD = 5;
     std::cout << app.constD << std::endl;
 
     return true;
