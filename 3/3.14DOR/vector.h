@@ -6,7 +6,6 @@
 #ifndef NNTU_VECTOR_H
 #define NNTU_VECTOR_H
 
-#include <iostream>
 #include <vector>
 
 struct Vector {

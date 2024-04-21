@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ROMYCH.exe"
+			"path" : "MAIN.exe"
 		},
 		{
-			"path" : "ROMYCH.pdb"
+			"path" : "MAIN.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 55,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -52,11 +52,12 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "ROMYCH::@6890427a1f51a3e7e1df",
+	"id" : "MAIN::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ROMYCH",
-	"nameOnDisk" : "ROMYCH.exe",
+	"name" : "MAIN",
+	"nameOnDisk" : "MAIN.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -89,7 +90,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -98,7 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "3/ROMYCH/replacement.cpp",
+			"path" : "src/inductive_operation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/small_rejector.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

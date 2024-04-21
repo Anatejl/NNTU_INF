@@ -17,7 +17,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -34,7 +36,9 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					]
 				}
 			],
@@ -43,7 +47,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "3.14DOR::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-3.14DOR-Debug-a958d4b33ab38206f4cc.json",
+					"jsonFile" : "target-3.14DOR-Debug-64e3d3d23175c99576ae.json",
 					"name" : "3.14DOR",
 					"projectIndex" : 0
 				},
@@ -52,6 +56,20 @@
 					"id" : "ROMYCH::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ROMYCH-Debug-5b8ce184d67aa7cc1716.json",
 					"name" : "ROMYCH",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TEST::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TEST-Debug-604a45a4bb6ddf61f58b.json",
+					"name" : "TEST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gor-Debug-0d0f132355216989771a.json",
+					"name" : "gor",
 					"projectIndex" : 0
 				},
 				{

@@ -1,0 +1,13 @@
+# ninja log v5
+4	680	7352387951523464	CMakeFiles/MAIN.dir/src/small_rejector.cpp.obj	209ff36074d3322d
+0	1291	7352387957647076	CMakeFiles/MAIN.dir/src/inductive_operation.cpp.obj	70a13f5ea19b40f2
+1292	1416	7352387958863822	MAIN.exe	6ef5029a5cab0640
+6	266	7352652059670895	CMakeFiles/MAIN.dir/src/small_rejector.cpp.obj	209ff36074d3322d
+3	428	7352652061282157	CMakeFiles/MAIN.dir/src/inductive_operation.cpp.obj	70a13f5ea19b40f2
+428	526	7352652062228954	MAIN.exe	6ef5029a5cab0640
+3	414	7352653384693519	CMakeFiles/MAIN.dir/src/inductive_operation.cpp.obj	70a13f5ea19b40f2
+414	505	7352653385586356	MAIN.exe	6ef5029a5cab0640
+3	489	7352656060827794	CMakeFiles/MAIN.dir/src/inductive_operation.cpp.obj	70a13f5ea19b40f2
+489	588	7352656061794956	MAIN.exe	6ef5029a5cab0640
+3	440	7352656271624099	CMakeFiles/MAIN.dir/src/inductive_operation.cpp.obj	70a13f5ea19b40f2
+440	553	7352656272706017	MAIN.exe	6ef5029a5cab0640

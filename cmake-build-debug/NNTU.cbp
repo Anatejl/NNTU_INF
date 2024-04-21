@@ -17,8 +17,8 @@
 					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="solve">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/solve.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="3_SEM_Mainline">
+				<Option output="E:/Git/NNTU_INF/cmake-build-debug/3_SEM_Mainline.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -33,14 +33,14 @@
 					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 solve"/>
+					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_SEM_Mainline"/>
 					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="solve/fast">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/solve.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="3_SEM_Mainline/fast">
+				<Option output="E:/Git/NNTU_INF/cmake-build-debug/3_SEM_Mainline.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -55,14 +55,14 @@
 					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 solve/fast"/>
+					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_SEM_Mainline/fast"/>
 					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ROMYCH">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/ROMYCH.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="4_SEM_Mainline">
+				<Option output="E:/Git/NNTU_INF/cmake-build-debug/4_SEM_Mainline.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -77,14 +77,14 @@
 					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 ROMYCH"/>
+					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_Mainline"/>
 					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ROMYCH/fast">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/ROMYCH.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="4_SEM_Mainline/fast">
+				<Option output="E:/Git/NNTU_INF/cmake-build-debug/4_SEM_Mainline.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -99,95 +99,7 @@
 					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 ROMYCH/fast"/>
-					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="3.14DOR">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/3.14DOR.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.14DOR"/>
-					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="3.14DOR/fast">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/3.14DOR.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.14DOR/fast"/>
-					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gor">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/gor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 gor"/>
-					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gor/fast">
-				<Option output="E:/Git/NNTU_INF/cmake-build-debug/gor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Git/NNTU_INF/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
-					<Add directory="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 gor/fast"/>
+					<Build command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_Mainline/fast"/>
 					<CompileFile command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/mingw32-make.exe -f &quot;E:/Git/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -215,49 +127,34 @@
 			</Target>
 		</Build>
 		<Unit filename="E:/Git/NNTU_INF/3/3.14DOR/application.cpp">
-			<Option target="3.14DOR"/>
+			<Option target="3_SEM_Mainline"/>
 		</Unit>
 		<Unit filename="E:/Git/NNTU_INF/3/3.14DOR/application.h">
-			<Option target="3.14DOR"/>
+			<Option target="3_SEM_Mainline"/>
 		</Unit>
 		<Unit filename="E:/Git/NNTU_INF/3/3.14DOR/main.cpp">
-			<Option target="3.14DOR"/>
+			<Option target="3_SEM_Mainline"/>
 		</Unit>
 		<Unit filename="E:/Git/NNTU_INF/3/3.14DOR/vector.cpp">
-			<Option target="3.14DOR"/>
+			<Option target="3_SEM_Mainline"/>
 		</Unit>
 		<Unit filename="E:/Git/NNTU_INF/3/3.14DOR/vector.h">
-			<Option target="3.14DOR"/>
+			<Option target="3_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/3_my/solve/application.cpp">
-			<Option target="solve"/>
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/application.cpp">
+			<Option target="4_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/3_my/solve/application.h">
-			<Option target="solve"/>
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/application.h">
+			<Option target="4_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/3_my/solve/main.cpp">
-			<Option target="solve"/>
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/main.cpp">
+			<Option target="4_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/3_my/solve/processing.cpp">
-			<Option target="solve"/>
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/vector.cpp">
+			<Option target="4_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/ROMYCH/replacement.cpp">
-			<Option target="ROMYCH"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/gor/application.cpp">
-			<Option target="gor"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/gor/application.h">
-			<Option target="gor"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/gor/sorting.cpp">
-			<Option target="gor"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/gor/vector.cpp">
-			<Option target="gor"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/3/gor/vector.h">
-			<Option target="gor"/>
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/vector.h">
+			<Option target="4_SEM_Mainline"/>
 		</Unit>
 		<Unit filename="E:/Git/NNTU_INF/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

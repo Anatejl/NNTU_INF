@@ -1,6 +1,4 @@
-E:/Git/NNTU_INF/cmake-build-debug/CMakeFiles/solve.dir
-E:/Git/NNTU_INF/cmake-build-debug/CMakeFiles/ROMYCH.dir
-E:/Git/NNTU_INF/cmake-build-debug/CMakeFiles/3.14DOR.dir
-E:/Git/NNTU_INF/cmake-build-debug/CMakeFiles/gor.dir
+E:/Git/NNTU_INF/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir
+E:/Git/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir
 E:/Git/NNTU_INF/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/Git/NNTU_INF/cmake-build-debug/CMakeFiles/rebuild_cache.dir

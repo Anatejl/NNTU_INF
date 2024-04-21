@@ -13,6 +13,9 @@ static bool appGetXY(Application& app, unsigned n);
 static bool appProcessVector(Application& app);
 static void appOutputResult(Application& app);
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "ConstantConditionsOC"
+
 int appRun(Application& app){
 
     if ( !appGetN(app) ){
@@ -32,6 +35,7 @@ int appRun(Application& app){
 
     return 0;
 }
+#pragma clang diagnostic pop
 
 static bool appGetN(Application& app){
 

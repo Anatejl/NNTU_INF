@@ -62,10 +62,8 @@ CMAKE_BINARY_DIR = E:\Git\NNTU_INF\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/solve.dir/all
-all: CMakeFiles/ROMYCH.dir/all
-all: CMakeFiles/3.14DOR.dir/all
-all: CMakeFiles/gor.dir/all
+all: CMakeFiles/3_SEM_Mainline.dir/all
+all: CMakeFiles/4_SEM_Mainline.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,115 +71,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/solve.dir/clean
-clean: CMakeFiles/ROMYCH.dir/clean
-clean: CMakeFiles/3.14DOR.dir/clean
-clean: CMakeFiles/gor.dir/clean
+clean: CMakeFiles/3_SEM_Mainline.dir/clean
+clean: CMakeFiles/4_SEM_Mainline.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/solve.dir
+# Target rules for target CMakeFiles/3_SEM_Mainline.dir
 
 # All Build rule for target.
-CMakeFiles/solve.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=11,12,13,14 "Built target solve"
-.PHONY : CMakeFiles/solve.dir/all
+CMakeFiles/3_SEM_Mainline.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target 3_SEM_Mainline"
+.PHONY : CMakeFiles/3_SEM_Mainline.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/solve.dir/rule: cmake_check_build_system
+CMakeFiles/3_SEM_Mainline.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/solve.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3_SEM_Mainline.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/solve.dir/rule
+.PHONY : CMakeFiles/3_SEM_Mainline.dir/rule
 
 # Convenience name for target.
-solve: CMakeFiles/solve.dir/rule
-.PHONY : solve
+3_SEM_Mainline: CMakeFiles/3_SEM_Mainline.dir/rule
+.PHONY : 3_SEM_Mainline
 
 # clean rule for target.
-CMakeFiles/solve.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/clean
-.PHONY : CMakeFiles/solve.dir/clean
+CMakeFiles/3_SEM_Mainline.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/clean
+.PHONY : CMakeFiles/3_SEM_Mainline.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ROMYCH.dir
+# Target rules for target CMakeFiles/4_SEM_Mainline.dir
 
 # All Build rule for target.
-CMakeFiles/ROMYCH.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ROMYCH.dir\build.make CMakeFiles/ROMYCH.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ROMYCH.dir\build.make CMakeFiles/ROMYCH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target ROMYCH"
-.PHONY : CMakeFiles/ROMYCH.dir/all
+CMakeFiles/4_SEM_Mainline.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8 "Built target 4_SEM_Mainline"
+.PHONY : CMakeFiles/4_SEM_Mainline.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ROMYCH.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ROMYCH.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/ROMYCH.dir/rule
-
-# Convenience name for target.
-ROMYCH: CMakeFiles/ROMYCH.dir/rule
-.PHONY : ROMYCH
-
-# clean rule for target.
-CMakeFiles/ROMYCH.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ROMYCH.dir\build.make CMakeFiles/ROMYCH.dir/clean
-.PHONY : CMakeFiles/ROMYCH.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/3.14DOR.dir
-
-# All Build rule for target.
-CMakeFiles/3.14DOR.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target 3.14DOR"
-.PHONY : CMakeFiles/3.14DOR.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/3.14DOR.dir/rule: cmake_check_build_system
+CMakeFiles/4_SEM_Mainline.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/3.14DOR.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/4_SEM_Mainline.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/3.14DOR.dir/rule
+.PHONY : CMakeFiles/4_SEM_Mainline.dir/rule
 
 # Convenience name for target.
-3.14DOR: CMakeFiles/3.14DOR.dir/rule
-.PHONY : 3.14DOR
+4_SEM_Mainline: CMakeFiles/4_SEM_Mainline.dir/rule
+.PHONY : 4_SEM_Mainline
 
 # clean rule for target.
-CMakeFiles/3.14DOR.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/clean
-.PHONY : CMakeFiles/3.14DOR.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/gor.dir
-
-# All Build rule for target.
-CMakeFiles/gor.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10 "Built target gor"
-.PHONY : CMakeFiles/gor.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/gor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/gor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/gor.dir/rule
-
-# Convenience name for target.
-gor: CMakeFiles/gor.dir/rule
-.PHONY : gor
-
-# clean rule for target.
-CMakeFiles/gor.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/clean
-.PHONY : CMakeFiles/gor.dir/clean
+CMakeFiles/4_SEM_Mainline.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/clean
+.PHONY : CMakeFiles/4_SEM_Mainline.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -156,6 +156,13 @@ build CMakeFiles\3.14DOR.dir\3\3.14DOR\vector.cpp.obj: CXX_COMPILER__3.2e14DOR_u
   TARGET_COMPILE_PDB = CMakeFiles\3.14DOR.dir\
   TARGET_PDB = 3.14DOR.pdb
 
+build CMakeFiles\3.14DOR.dir\3\test.cpp.obj: CXX_COMPILER__3.2e14DOR_unscanned_Debug E$:\Git\NNTU_INF\3\test.cpp || cmake_object_order_depends_target_3.14DOR
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\3.14DOR.dir
+  OBJECT_FILE_DIR = CMakeFiles\3.14DOR.dir\3
+  TARGET_COMPILE_PDB = CMakeFiles\3.14DOR.dir\
+  TARGET_PDB = 3.14DOR.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 3.14DOR
@@ -164,7 +171,7 @@ build CMakeFiles\3.14DOR.dir\3\3.14DOR\vector.cpp.obj: CXX_COMPILER__3.2e14DOR_u
 #############################################
 # Link the executable 3.14DOR.exe
 
-build 3.14DOR.exe: CXX_EXECUTABLE_LINKER__3.2e14DOR_Debug CMakeFiles\3.14DOR.dir\3\3.14DOR\main.cpp.obj CMakeFiles\3.14DOR.dir\3\3.14DOR\application.cpp.obj CMakeFiles\3.14DOR.dir\3\3.14DOR\vector.cpp.obj
+build 3.14DOR.exe: CXX_EXECUTABLE_LINKER__3.2e14DOR_Debug CMakeFiles\3.14DOR.dir\3\3.14DOR\main.cpp.obj CMakeFiles\3.14DOR.dir\3\3.14DOR\application.cpp.obj CMakeFiles\3.14DOR.dir\3\3.14DOR\vector.cpp.obj CMakeFiles\3.14DOR.dir\3\test.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -175,6 +182,92 @@ build 3.14DOR.exe: CXX_EXECUTABLE_LINKER__3.2e14DOR_Debug CMakeFiles\3.14DOR.dir
   TARGET_FILE = 3.14DOR.exe
   TARGET_IMPLIB = 3.14DOR.lib
   TARGET_PDB = 3.14DOR.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target gor
+
+
+#############################################
+# Order-only phony target for gor
+
+build cmake_object_order_depends_target_gor: phony || CMakeFiles\gor.dir
+
+build CMakeFiles\gor.dir\3\gor\sorting.cpp.obj: CXX_COMPILER__gor_unscanned_Debug E$:\Git\NNTU_INF\3\gor\sorting.cpp || cmake_object_order_depends_target_gor
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\gor.dir
+  OBJECT_FILE_DIR = CMakeFiles\gor.dir\3\gor
+  TARGET_COMPILE_PDB = CMakeFiles\gor.dir\
+  TARGET_PDB = gor.pdb
+
+build CMakeFiles\gor.dir\3\gor\vector.cpp.obj: CXX_COMPILER__gor_unscanned_Debug E$:\Git\NNTU_INF\3\gor\vector.cpp || cmake_object_order_depends_target_gor
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\gor.dir
+  OBJECT_FILE_DIR = CMakeFiles\gor.dir\3\gor
+  TARGET_COMPILE_PDB = CMakeFiles\gor.dir\
+  TARGET_PDB = gor.pdb
+
+build CMakeFiles\gor.dir\3\gor\application.cpp.obj: CXX_COMPILER__gor_unscanned_Debug E$:\Git\NNTU_INF\3\gor\application.cpp || cmake_object_order_depends_target_gor
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\gor.dir
+  OBJECT_FILE_DIR = CMakeFiles\gor.dir\3\gor
+  TARGET_COMPILE_PDB = CMakeFiles\gor.dir\
+  TARGET_PDB = gor.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gor
+
+
+#############################################
+# Link the executable gor.exe
+
+build gor.exe: CXX_EXECUTABLE_LINKER__gor_Debug CMakeFiles\gor.dir\3\gor\sorting.cpp.obj CMakeFiles\gor.dir\3\gor\vector.cpp.obj CMakeFiles\gor.dir\3\gor\application.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\gor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\gor.dir\
+  TARGET_FILE = gor.exe
+  TARGET_IMPLIB = gor.lib
+  TARGET_PDB = gor.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TEST
+
+
+#############################################
+# Order-only phony target for TEST
+
+build cmake_object_order_depends_target_TEST: phony || CMakeFiles\TEST.dir
+
+build CMakeFiles\TEST.dir\3\test.cpp.obj: CXX_COMPILER__TEST_unscanned_Debug E$:\Git\NNTU_INF\3\test.cpp || cmake_object_order_depends_target_TEST
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\TEST.dir
+  OBJECT_FILE_DIR = CMakeFiles\TEST.dir\3
+  TARGET_COMPILE_PDB = CMakeFiles\TEST.dir\
+  TARGET_PDB = TEST.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TEST
+
+
+#############################################
+# Link the executable TEST.exe
+
+build TEST.exe: CXX_EXECUTABLE_LINKER__TEST_Debug CMakeFiles\TEST.dir\3\test.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\TEST.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\TEST.dir\
+  TARGET_FILE = TEST.exe
+  TARGET_IMPLIB = TEST.lib
+  TARGET_PDB = TEST.pdb
 
 
 #############################################
@@ -206,6 +299,10 @@ build 3.14DOR: phony 3.14DOR.exe
 
 build ROMYCH: phony ROMYCH.exe
 
+build TEST: phony TEST.exe
+
+build gor: phony gor.exe
+
 build solve: phony solve.exe
 
 # =============================================================================
@@ -216,7 +313,7 @@ build solve: phony solve.exe
 #############################################
 # Folder: E:/Git/NNTU_INF/out/build/x64-Debug
 
-build all: phony solve.exe ROMYCH.exe 3.14DOR.exe
+build all: phony solve.exe ROMYCH.exe 3.14DOR.exe gor.exe TEST.exe
 
 # =============================================================================
 # Built-in targets

@@ -49,16 +49,26 @@ set(CMAKE_CXX_STANDARD 17)
 #add_executable(3_my_1 "3/3_my/v0.1/3_my_v0.1.cpp")
 #add_executable(3_my_2 "3/3_my/v0.2/3_my_v0.2.cpp" 3/3_my/v0.2/application.h)
 #add_executable(attempt "3/3_my/att/main.cpp" 3/3_my/att/header.h)
-add_executable(solve "3/3_my/solve/main.cpp"
-        3/3_my/solve/processing.cpp
-        3/3_my/solve/application.cpp)
-add_executable(ROMYCH "3/ROMYCH/replacement.cpp")
-add_executable(3.14DOR "3/3.14DOR/main.cpp"
+##add_executable(solve "3/3_my/solve/main.cpp"
+##        3/3_my/solve/processing.cpp
+##        3/3_my/solve/application.cpp)
+##add_executable(ROMYCH "3/ROMYCH/replacement.cpp")
+add_executable(3_SEM_Mainline
+        "3/3.14DOR/main.cpp"
         3/3.14DOR/application.cpp
         3/3.14DOR/vector.cpp)
 #add_executable(TESTfile "2/Lab1/test.c")
 
+##add_executable(gor 3/gor/sorting.cpp
+##        3/gor/vector.cpp
+##        3/gor/application.cpp)
+##add_executable(TEST 3/test.cpp)
+
 #############################################
-add_executable(gor 3/gor/sorting.cpp
-        3/gor/vector.cpp
-        3/gor/application.cpp)
+
+# 2 course / 2 semester
+
+add_executable(4_SEM_Mainline
+        "4/My/Inductance/main.cpp"
+         4/My/Inductance/application.cpp
+        4/My/Inductance/vector.cpp)

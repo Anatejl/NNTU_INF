@@ -11,10 +11,8 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="NNTU" targetName="solve" />
-      <config projectName="NNTU" targetName="ROMYCH" />
-      <config projectName="NNTU" targetName="gor" />
-      <config projectName="NNTU" targetName="3.14DOR" />
+      <config projectName="NNTU" targetName="3_SEM_Mainline" />
+      <config projectName="NNTU" targetName="4_SEM_Mainline" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -24,40 +22,89 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="DA ONO RABOTAET,&#10;CHTO TI ESHE XOCHESH DED">
-      <change afterPath="$PROJECT_DIR$/3/gor/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/gor/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/gor/sorting.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/gor/vector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/gor/vector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/cache-v2-999ba2559e91f746f382.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-4497d95bc80839b1bad9.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2024-01-15T17-27-35-0889.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-3.14DOR-Debug-a958d4b33ab38206f4cc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1bb5896b-33b3-4821-89ee-d5d75843c1da.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1bb5896b-33b3-4821-89ee-d5d75843c1da.xml" afterDir="false" />
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="CHETIRE, DA, NE 5.&#10;HAIL OCTOPUS">
+      <change afterPath="$PROJECT_DIR$/3/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/Inductance/application.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/Inductance/application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/Inductance/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/Inductance/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/Inductance/vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/Inductance/vector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.idea/inductive_operation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.settings/language.settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6dc174cc51e63d0aa06e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-4108bb0376666199c25a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ba529c76cf07d9e505b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/reply/index-2024-04-19T14-06-26-0652.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/reply/target-MAIN-Debug-7c5626c96daf0e6e0465.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-0d6aa1e0d0e1fa060ec9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/123" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/MAIN.dir/src/inductive_operation.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/MAIN.dir/src/small_rejector.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/MAIN.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/src/inductive_operation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/src/input_item.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/src/output_item.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/src/small_rejector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/inductive_operation/src/small_rejector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-ada40f8e465a3e58ab53.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2024-02-11T20-13-24-0803.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-3.14DOR-Debug-64e3d3d23175c99576ae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-TEST-Debug-604a45a4bb6ddf61f58b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-gor-Debug-0d0f132355216989771a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NNTU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NNTU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/.wsuo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/NNTU_INF/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/NNTU_INF/v17/Browse.VC.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3/3.14DOR/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3.14DOR/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.14DOR/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3.14DOR/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.14DOR/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3.14DOR/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.14DOR/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3.14DOR/vector.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3/3.14DOR/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3.14DOR/vector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fd2a16ab22ef78cd5e71.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-15T12-39-46-0143.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-3.14DOR-Debug-548c1a176bf0c9d66fc4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ROMYCH-Debug-b97ccf7ca936363e4922.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-solve-Debug-4fef8e40761d8ac15026.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/3.14DOR.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/3.14DOR.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/3/3.14DOR/application.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/3/3.14DOR/application.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/3/3.14DOR/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/3/3.14DOR/main.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/3/3.14DOR/vector.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/3/3.14DOR/vector.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/compiler_depend.internal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14DOR.dir/objects.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe" afterDir="false" />
@@ -65,39 +112,19 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/3/PIDOR/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/3/PIDOR/main.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/linkLibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PIDOR.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ROMYCH.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ROMYCH.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/solve.dir/3/3_my/solve/application.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/solve.dir/3/3_my/solve/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/solve.dir/3/3_my/solve/main.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/solve.dir/3/3_my/solve/processing.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/solve.dir/3/3_my/solve/processing.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/solve.dir/objects.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/solve.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/solve.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/cache-v2-fbee388973a5aa671edf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-c83d703f11d8826079fa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2024-01-15T11-47-32-0823.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vcpkg-manifest-install.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vcpkg-manifest-install.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/codemodel-v2-4497d95bc80839b1bad9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/index-2024-01-15T17-27-35-0889.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/.cmake/api/v1/reply/target-3.14DOR-Debug-a958d4b33ab38206f4cc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/build/x64-Debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/build/x64-Debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -112,6 +139,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -151,8 +185,13 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C/C++ File.inductive_operation.cpp.executor": "Run",
     "CMake Application.3.14DOR.executor": "Run",
+    "CMake Application.3_SEM_Mainline.executor": "Debug",
+    "CMake Application.4SEM_MY.executor": "Run",
+    "CMake Application.4_SEM_Mainline.executor": "Run",
     "CMake Application.PIDOR.executor": "Run",
+    "CMake Application.TEST.executor": "Run",
     "CMake Application.gor.executor": "Run",
     "CMake Application.solve.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -168,14 +207,14 @@
     "database.data.extractors.current.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Git/NNTU_INF",
+    "last_opened_file_path": "C:/Users/Anatejl/iCloudDrive/НГТУ/АиМОПС/examples/inductive_operations-1.2/inductive_operation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "discord-application",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "structure.view.defaults.are.configured": "true",
     "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
     "vue.rearranger.settings.migration": "true"
@@ -188,42 +227,43 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\NNTU_INF\4\My\Inductance" />
       <recent name="E:\Git\NNTU_INF\2\2.2" />
       <recent name="E:\Git\NNTU_INF\2\2.1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.gor">
-    <configuration name="3.14DOR" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="3.14DOR" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="3.14DOR">
+  <component name="RunManager" selected="CMake Application.4_SEM_Mainline">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3_SEM_Mainline" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&gt; 1 23" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="3_SEM_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="3_SEM_Mainline">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ROMYCH" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="ROMYCH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="ROMYCH">
+    <configuration name="4_SEM_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/My/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="inductive_operation.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="inductive_operation.cpp" CONFIG_NAME="inductive_operation.cpp">
+      <option name="sourceFile" value="C:\Users\Anatejl\iCloudDrive\НГТУ\АиМОПС\examples\inductive_operations-1.2\inductive_operation\src\inductive_operation.cpp" />
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="gor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="gor">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="solve" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="solve" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="solve">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.3.14DOR" />
-      <item itemvalue="CMake Application.gor" />
-      <item itemvalue="CMake Application.ROMYCH" />
-      <item itemvalue="CMake Application.solve" />
+      <item itemvalue="C/C++ File.inductive_operation.cpp" />
+      <item itemvalue="CMake Application.3_SEM_Mainline" />
+      <item itemvalue="CMake Application.4_SEM_Mainline" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.inductive_operation.cpp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -341,7 +381,15 @@
       <workItem from="1684961100305" duration="84000" />
       <workItem from="1685141841242" duration="27000" />
       <workItem from="1705319104692" duration="22003000" />
-      <workItem from="1705433347909" duration="718000" />
+      <workItem from="1705433347909" duration="1236000" />
+      <workItem from="1705434945740" duration="772000" />
+      <workItem from="1705482616221" duration="595000" />
+      <workItem from="1705523142064" duration="32000" />
+      <workItem from="1711983720949" duration="115000" />
+      <workItem from="1713169795504" duration="1858000" />
+      <workItem from="1713440113337" duration="1708000" />
+      <workItem from="1713471342184" duration="626000" />
+      <workItem from="1713528458356" duration="26427000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -686,7 +734,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,7 +768,8 @@
     <MESSAGE value="until 10s" />
     <MESSAGE value="23" />
     <MESSAGE value="DA ONO RABOTAET,&#10;CHTO TI ESHE XOCHESH DED" />
-    <option name="LAST_COMMIT_MESSAGE" value="DA ONO RABOTAET,&#10;CHTO TI ESHE XOCHESH DED" />
+    <MESSAGE value="CHETIRE, DA, NE 5.&#10;HAIL OCTOPUS" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHETIRE, DA, NE 5.&#10;HAIL OCTOPUS" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

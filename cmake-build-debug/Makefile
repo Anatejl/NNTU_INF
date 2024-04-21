@@ -116,63 +116,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named solve
+# Target rules for targets named 3_SEM_Mainline
 
 # Build rule for target.
-solve: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 solve
-.PHONY : solve
+3_SEM_Mainline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_SEM_Mainline
+.PHONY : 3_SEM_Mainline
 
 # fast build rule for target.
-solve/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/build
-.PHONY : solve/fast
+3_SEM_Mainline/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/build
+.PHONY : 3_SEM_Mainline/fast
 
 #=============================================================================
-# Target rules for targets named ROMYCH
+# Target rules for targets named 4_SEM_Mainline
 
 # Build rule for target.
-ROMYCH: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ROMYCH
-.PHONY : ROMYCH
+4_SEM_Mainline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4_SEM_Mainline
+.PHONY : 4_SEM_Mainline
 
 # fast build rule for target.
-ROMYCH/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ROMYCH.dir\build.make CMakeFiles/ROMYCH.dir/build
-.PHONY : ROMYCH/fast
-
-#=============================================================================
-# Target rules for targets named 3.14DOR
-
-# Build rule for target.
-3.14DOR: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3.14DOR
-.PHONY : 3.14DOR
-
-# fast build rule for target.
-3.14DOR/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/build
-.PHONY : 3.14DOR/fast
-
-#=============================================================================
-# Target rules for targets named gor
-
-# Build rule for target.
-gor: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gor
-.PHONY : gor
-
-# fast build rule for target.
-gor/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/build
-.PHONY : gor/fast
+4_SEM_Mainline/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/build
+.PHONY : 4_SEM_Mainline/fast
 
 3/3.14DOR/application.obj: 3/3.14DOR/application.cpp.obj
 .PHONY : 3/3.14DOR/application.obj
 
 # target to build an object file
 3/3.14DOR/application.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/application.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/application.cpp.obj
 .PHONY : 3/3.14DOR/application.cpp.obj
 
 3/3.14DOR/application.i: 3/3.14DOR/application.cpp.i
@@ -180,7 +154,7 @@ gor/fast:
 
 # target to preprocess a source file
 3/3.14DOR/application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/application.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/application.cpp.i
 .PHONY : 3/3.14DOR/application.cpp.i
 
 3/3.14DOR/application.s: 3/3.14DOR/application.cpp.s
@@ -188,7 +162,7 @@ gor/fast:
 
 # target to generate assembly for a file
 3/3.14DOR/application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/application.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/application.cpp.s
 .PHONY : 3/3.14DOR/application.cpp.s
 
 3/3.14DOR/main.obj: 3/3.14DOR/main.cpp.obj
@@ -196,7 +170,7 @@ gor/fast:
 
 # target to build an object file
 3/3.14DOR/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/main.cpp.obj
 .PHONY : 3/3.14DOR/main.cpp.obj
 
 3/3.14DOR/main.i: 3/3.14DOR/main.cpp.i
@@ -204,7 +178,7 @@ gor/fast:
 
 # target to preprocess a source file
 3/3.14DOR/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/main.cpp.i
 .PHONY : 3/3.14DOR/main.cpp.i
 
 3/3.14DOR/main.s: 3/3.14DOR/main.cpp.s
@@ -212,7 +186,7 @@ gor/fast:
 
 # target to generate assembly for a file
 3/3.14DOR/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/main.cpp.s
 .PHONY : 3/3.14DOR/main.cpp.s
 
 3/3.14DOR/vector.obj: 3/3.14DOR/vector.cpp.obj
@@ -220,7 +194,7 @@ gor/fast:
 
 # target to build an object file
 3/3.14DOR/vector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/vector.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/vector.cpp.obj
 .PHONY : 3/3.14DOR/vector.cpp.obj
 
 3/3.14DOR/vector.i: 3/3.14DOR/vector.cpp.i
@@ -228,7 +202,7 @@ gor/fast:
 
 # target to preprocess a source file
 3/3.14DOR/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/vector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/vector.cpp.i
 .PHONY : 3/3.14DOR/vector.cpp.i
 
 3/3.14DOR/vector.s: 3/3.14DOR/vector.cpp.s
@@ -236,176 +210,80 @@ gor/fast:
 
 # target to generate assembly for a file
 3/3.14DOR/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\3.14DOR.dir\build.make CMakeFiles/3.14DOR.dir/3/3.14DOR/vector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\3_SEM_Mainline.dir\build.make CMakeFiles/3_SEM_Mainline.dir/3/3.14DOR/vector.cpp.s
 .PHONY : 3/3.14DOR/vector.cpp.s
 
-3/3_my/solve/application.obj: 3/3_my/solve/application.cpp.obj
-.PHONY : 3/3_my/solve/application.obj
+4/My/Inductance/application.obj: 4/My/Inductance/application.cpp.obj
+.PHONY : 4/My/Inductance/application.obj
 
 # target to build an object file
-3/3_my/solve/application.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/application.cpp.obj
-.PHONY : 3/3_my/solve/application.cpp.obj
+4/My/Inductance/application.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/application.cpp.obj
+.PHONY : 4/My/Inductance/application.cpp.obj
 
-3/3_my/solve/application.i: 3/3_my/solve/application.cpp.i
-.PHONY : 3/3_my/solve/application.i
+4/My/Inductance/application.i: 4/My/Inductance/application.cpp.i
+.PHONY : 4/My/Inductance/application.i
 
 # target to preprocess a source file
-3/3_my/solve/application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/application.cpp.i
-.PHONY : 3/3_my/solve/application.cpp.i
+4/My/Inductance/application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/application.cpp.i
+.PHONY : 4/My/Inductance/application.cpp.i
 
-3/3_my/solve/application.s: 3/3_my/solve/application.cpp.s
-.PHONY : 3/3_my/solve/application.s
+4/My/Inductance/application.s: 4/My/Inductance/application.cpp.s
+.PHONY : 4/My/Inductance/application.s
 
 # target to generate assembly for a file
-3/3_my/solve/application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/application.cpp.s
-.PHONY : 3/3_my/solve/application.cpp.s
+4/My/Inductance/application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/application.cpp.s
+.PHONY : 4/My/Inductance/application.cpp.s
 
-3/3_my/solve/main.obj: 3/3_my/solve/main.cpp.obj
-.PHONY : 3/3_my/solve/main.obj
+4/My/Inductance/main.obj: 4/My/Inductance/main.cpp.obj
+.PHONY : 4/My/Inductance/main.obj
 
 # target to build an object file
-3/3_my/solve/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/main.cpp.obj
-.PHONY : 3/3_my/solve/main.cpp.obj
+4/My/Inductance/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.obj
+.PHONY : 4/My/Inductance/main.cpp.obj
 
-3/3_my/solve/main.i: 3/3_my/solve/main.cpp.i
-.PHONY : 3/3_my/solve/main.i
+4/My/Inductance/main.i: 4/My/Inductance/main.cpp.i
+.PHONY : 4/My/Inductance/main.i
 
 # target to preprocess a source file
-3/3_my/solve/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/main.cpp.i
-.PHONY : 3/3_my/solve/main.cpp.i
+4/My/Inductance/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.i
+.PHONY : 4/My/Inductance/main.cpp.i
 
-3/3_my/solve/main.s: 3/3_my/solve/main.cpp.s
-.PHONY : 3/3_my/solve/main.s
+4/My/Inductance/main.s: 4/My/Inductance/main.cpp.s
+.PHONY : 4/My/Inductance/main.s
 
 # target to generate assembly for a file
-3/3_my/solve/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/main.cpp.s
-.PHONY : 3/3_my/solve/main.cpp.s
+4/My/Inductance/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.s
+.PHONY : 4/My/Inductance/main.cpp.s
 
-3/3_my/solve/processing.obj: 3/3_my/solve/processing.cpp.obj
-.PHONY : 3/3_my/solve/processing.obj
+4/My/Inductance/vector.obj: 4/My/Inductance/vector.cpp.obj
+.PHONY : 4/My/Inductance/vector.obj
 
 # target to build an object file
-3/3_my/solve/processing.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/processing.cpp.obj
-.PHONY : 3/3_my/solve/processing.cpp.obj
+4/My/Inductance/vector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/vector.cpp.obj
+.PHONY : 4/My/Inductance/vector.cpp.obj
 
-3/3_my/solve/processing.i: 3/3_my/solve/processing.cpp.i
-.PHONY : 3/3_my/solve/processing.i
-
-# target to preprocess a source file
-3/3_my/solve/processing.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/processing.cpp.i
-.PHONY : 3/3_my/solve/processing.cpp.i
-
-3/3_my/solve/processing.s: 3/3_my/solve/processing.cpp.s
-.PHONY : 3/3_my/solve/processing.s
-
-# target to generate assembly for a file
-3/3_my/solve/processing.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\solve.dir\build.make CMakeFiles/solve.dir/3/3_my/solve/processing.cpp.s
-.PHONY : 3/3_my/solve/processing.cpp.s
-
-3/ROMYCH/replacement.obj: 3/ROMYCH/replacement.cpp.obj
-.PHONY : 3/ROMYCH/replacement.obj
-
-# target to build an object file
-3/ROMYCH/replacement.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ROMYCH.dir\build.make CMakeFiles/ROMYCH.dir/3/ROMYCH/replacement.cpp.obj
-.PHONY : 3/ROMYCH/replacement.cpp.obj
-
-3/ROMYCH/replacement.i: 3/ROMYCH/replacement.cpp.i
-.PHONY : 3/ROMYCH/replacement.i
+4/My/Inductance/vector.i: 4/My/Inductance/vector.cpp.i
+.PHONY : 4/My/Inductance/vector.i
 
 # target to preprocess a source file
-3/ROMYCH/replacement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ROMYCH.dir\build.make CMakeFiles/ROMYCH.dir/3/ROMYCH/replacement.cpp.i
-.PHONY : 3/ROMYCH/replacement.cpp.i
+4/My/Inductance/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/vector.cpp.i
+.PHONY : 4/My/Inductance/vector.cpp.i
 
-3/ROMYCH/replacement.s: 3/ROMYCH/replacement.cpp.s
-.PHONY : 3/ROMYCH/replacement.s
-
-# target to generate assembly for a file
-3/ROMYCH/replacement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ROMYCH.dir\build.make CMakeFiles/ROMYCH.dir/3/ROMYCH/replacement.cpp.s
-.PHONY : 3/ROMYCH/replacement.cpp.s
-
-3/gor/application.obj: 3/gor/application.cpp.obj
-.PHONY : 3/gor/application.obj
-
-# target to build an object file
-3/gor/application.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/application.cpp.obj
-.PHONY : 3/gor/application.cpp.obj
-
-3/gor/application.i: 3/gor/application.cpp.i
-.PHONY : 3/gor/application.i
-
-# target to preprocess a source file
-3/gor/application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/application.cpp.i
-.PHONY : 3/gor/application.cpp.i
-
-3/gor/application.s: 3/gor/application.cpp.s
-.PHONY : 3/gor/application.s
+4/My/Inductance/vector.s: 4/My/Inductance/vector.cpp.s
+.PHONY : 4/My/Inductance/vector.s
 
 # target to generate assembly for a file
-3/gor/application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/application.cpp.s
-.PHONY : 3/gor/application.cpp.s
-
-3/gor/sorting.obj: 3/gor/sorting.cpp.obj
-.PHONY : 3/gor/sorting.obj
-
-# target to build an object file
-3/gor/sorting.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/sorting.cpp.obj
-.PHONY : 3/gor/sorting.cpp.obj
-
-3/gor/sorting.i: 3/gor/sorting.cpp.i
-.PHONY : 3/gor/sorting.i
-
-# target to preprocess a source file
-3/gor/sorting.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/sorting.cpp.i
-.PHONY : 3/gor/sorting.cpp.i
-
-3/gor/sorting.s: 3/gor/sorting.cpp.s
-.PHONY : 3/gor/sorting.s
-
-# target to generate assembly for a file
-3/gor/sorting.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/sorting.cpp.s
-.PHONY : 3/gor/sorting.cpp.s
-
-3/gor/vector.obj: 3/gor/vector.cpp.obj
-.PHONY : 3/gor/vector.obj
-
-# target to build an object file
-3/gor/vector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/vector.cpp.obj
-.PHONY : 3/gor/vector.cpp.obj
-
-3/gor/vector.i: 3/gor/vector.cpp.i
-.PHONY : 3/gor/vector.i
-
-# target to preprocess a source file
-3/gor/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/vector.cpp.i
-.PHONY : 3/gor/vector.cpp.i
-
-3/gor/vector.s: 3/gor/vector.cpp.s
-.PHONY : 3/gor/vector.s
-
-# target to generate assembly for a file
-3/gor/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gor.dir\build.make CMakeFiles/gor.dir/3/gor/vector.cpp.s
-.PHONY : 3/gor/vector.cpp.s
+4/My/Inductance/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/vector.cpp.s
+.PHONY : 4/My/Inductance/vector.cpp.s
 
 # Help Target
 help:
@@ -415,10 +293,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 3.14DOR
-	@echo ... ROMYCH
-	@echo ... gor
-	@echo ... solve
+	@echo ... 3_SEM_Mainline
+	@echo ... 4_SEM_Mainline
 	@echo ... 3/3.14DOR/application.obj
 	@echo ... 3/3.14DOR/application.i
 	@echo ... 3/3.14DOR/application.s
@@ -428,27 +304,15 @@ help:
 	@echo ... 3/3.14DOR/vector.obj
 	@echo ... 3/3.14DOR/vector.i
 	@echo ... 3/3.14DOR/vector.s
-	@echo ... 3/3_my/solve/application.obj
-	@echo ... 3/3_my/solve/application.i
-	@echo ... 3/3_my/solve/application.s
-	@echo ... 3/3_my/solve/main.obj
-	@echo ... 3/3_my/solve/main.i
-	@echo ... 3/3_my/solve/main.s
-	@echo ... 3/3_my/solve/processing.obj
-	@echo ... 3/3_my/solve/processing.i
-	@echo ... 3/3_my/solve/processing.s
-	@echo ... 3/ROMYCH/replacement.obj
-	@echo ... 3/ROMYCH/replacement.i
-	@echo ... 3/ROMYCH/replacement.s
-	@echo ... 3/gor/application.obj
-	@echo ... 3/gor/application.i
-	@echo ... 3/gor/application.s
-	@echo ... 3/gor/sorting.obj
-	@echo ... 3/gor/sorting.i
-	@echo ... 3/gor/sorting.s
-	@echo ... 3/gor/vector.obj
-	@echo ... 3/gor/vector.i
-	@echo ... 3/gor/vector.s
+	@echo ... 4/My/Inductance/application.obj
+	@echo ... 4/My/Inductance/application.i
+	@echo ... 4/My/Inductance/application.s
+	@echo ... 4/My/Inductance/main.obj
+	@echo ... 4/My/Inductance/main.i
+	@echo ... 4/My/Inductance/main.s
+	@echo ... 4/My/Inductance/vector.obj
+	@echo ... 4/My/Inductance/vector.i
+	@echo ... 4/My/Inductance/vector.s
 .PHONY : help
 
 
