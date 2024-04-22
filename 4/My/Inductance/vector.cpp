@@ -5,7 +5,7 @@
 #include "vector.h"
 #include <iostream>
 
-Vector vectorValueArrayInitialize(const Vector& valueArray){
+Vector vectorValueArrayInitialize(const Vector &valueArray) {
 
     Vector temporaryVector;
     temporaryVector.counter = 0;
@@ -15,8 +15,6 @@ Vector vectorValueArrayInitialize(const Vector& valueArray){
         int temporary_value_storage = 0;
 
         for (int k = 0; k <= temporaryVector.counter; k++) {
-
-            //std::cout << "Iteration - "<< k << " " << "EOF IS: " << std::cin.eof() << std::endl;
 
             std::cin >> temporary_value_storage;
             temporaryVector.value.push_back(temporary_value_storage);
@@ -33,7 +31,7 @@ Vector vectorValueArrayInitialize(const Vector& valueArray){
 
 }
 
-Vector vectorIndexArrayInitialize(const Vector& valueArray) {
+Vector vectorIndexArrayInitialize(const Vector &valueArray) {
 
     Vector temporaryVector;
     temporaryVector.counter = 0;
@@ -49,7 +47,7 @@ Vector vectorIndexArrayInitialize(const Vector& valueArray) {
     return temporaryVector;
 }
 
-unsigned vectorGetSize(Vector& v){
+unsigned vectorGetSize(Vector &v) {
 
     return v.value.size();
 }

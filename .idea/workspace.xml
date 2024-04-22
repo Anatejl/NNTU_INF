@@ -25,14 +25,11 @@
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="LE KAL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/vector.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/vector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/application.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/application.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/vector.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/vector.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
     "CMake Application.3.14DOR.executor": "Run",
     "CMake Application.3_SEM_Mainline.executor": "Debug",
     "CMake Application.4SEM_MY.executor": "Run",
-    "CMake Application.4_SEM_Mainline.executor": "Run",
+    "CMake Application.4_SEM_Mainline.executor": "Debug",
     "CMake Application.PIDOR.executor": "Run",
     "CMake Application.TEST.executor": "Run",
     "CMake Application.gor.executor": "Run",
@@ -141,17 +138,12 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.4_SEM_Mainline">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="3_SEM_Mainline" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&gt; 1 23" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="3_SEM_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="3_SEM_Mainline">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="4_SEM_Mainline" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&gt; testfile.txt" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/My/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline">
+    <configuration name="4_SEM_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/My/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -297,7 +289,8 @@
       <workItem from="1713169795504" duration="1858000" />
       <workItem from="1713440113337" duration="1708000" />
       <workItem from="1713471342184" duration="626000" />
-      <workItem from="1713528458356" duration="63379000" />
+      <workItem from="1713528458356" duration="63395000" />
+      <workItem from="1713826035188" duration="364000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -642,7 +635,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,15 +675,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="LE KAL" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/4/My/Inductance/application.cpp</url>
-          <line>135</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="temporaryVector.coordX[0]" />

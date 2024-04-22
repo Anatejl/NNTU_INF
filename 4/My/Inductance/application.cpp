@@ -5,7 +5,6 @@
 #include "application.h"
 #include "vector.h"
 #include <iostream>
-#include <vector>
 
 static bool appInitializeData(Application &app);
 
@@ -106,8 +105,7 @@ static bool appProcessDataIntoFinalResult(Application &app) {
 
                 app.finalRightByValue = app.valueArray.value[app.finalRightByIndex];
 
-            }
-            else {
+            } else {
 
                 app.finalRightByValue = app.valueArray.value[app.finalRightByIndex - 1];
 
@@ -122,7 +120,7 @@ static bool appProcessDataIntoFinalResult(Application &app) {
 
 static bool appGetOutputToUser(Application &app) {
 
-    std::cout << "Provided vector consists of  " << vectorGetSize(app.valueArray) << " entries." << std::endl;
+    std::cout << "Provided vector consists of " << vectorGetSize(app.valueArray) << " entries." << std::endl;
     std::cout << "Values as follows:" << std::endl;
 
     for (int i = 0; i < vectorGetSize(app.valueArray); i++) {
@@ -133,9 +131,11 @@ static bool appGetOutputToUser(Application &app) {
 
     std::cout << std::endl << "Consequence broke " << (vectorGetSize(app.seqTracker)) << " times." << std::endl;
 
-    std::cout << "Longest streak of ascending values is " << app.finalConsequenceStreak << std::endl;
-    std::cout << "Left index of matched sequence: " << app.finalLeftByIndex << " Value is: " << app.finalLeftByValue << std::endl;
-    std::cout << "Right index of matched sequence: " << app.finalRightByIndex << " Value is: " << app.finalRightByValue << std::endl;
+    std::cout << "Longest streak of ascending values is: " << app.finalConsequenceStreak << std::endl;
+    std::cout << "Left index of matched sequence: " << app.finalLeftByIndex << " Value is: " << app.finalLeftByValue
+              << std::endl;
+    std::cout << "Right index of matched sequence: " << app.finalRightByIndex << " Value is: " << app.finalRightByValue
+              << std::endl;
 
     return true;
 
