@@ -5,7 +5,7 @@
 #include "vector.h"
 #include <iostream>
 
-Vector vectorInitialize(const Vector& valueArray){
+Vector vectorValueArrayInitialize(const Vector& valueArray){
 
     Vector temporaryVector;
     temporaryVector.counter = 0;
@@ -31,6 +31,22 @@ Vector vectorInitialize(const Vector& valueArray){
 
     return temporaryVector;
 
+}
+
+Vector vectorIndexArrayInitialize(const Vector& valueArray) {
+
+    Vector temporaryVector;
+    temporaryVector.counter = 0;
+
+    for (int i = 0; valueArray.counter > i; ++i) {
+
+        int temporary_index_storage = 0;
+        temporary_index_storage = i;
+        temporaryVector.value.push_back(temporary_index_storage);
+        temporaryVector.counter++;
+    }
+
+    return temporaryVector;
 }
 
 unsigned vectorGetSize(Vector& v){

@@ -11,9 +11,14 @@
 struct Application {
 
     Vector valueArray;
+    Vector indexArray;
     unsigned constD;
-    unsigned finalMin;
-    unsigned finalMax;
+
+    unsigned finalMinByValue;
+    unsigned finalMaxByValue;
+
+    unsigned finalMinByIndex;
+    unsigned finalMaxByIndex;
 
 };
 

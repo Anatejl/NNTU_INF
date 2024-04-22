@@ -148,6 +148,4 @@ CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.obj: \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc

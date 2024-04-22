@@ -10,11 +10,14 @@
 struct Vector{
 
     std::vector<unsigned> value;
+    std::vector<unsigned> seqTracker;
     unsigned counter;
 
 };
 
-Vector vectorInitialize(const Vector& valueArray);
+Vector vectorValueArrayInitialize(const Vector& valueArray);
+Vector vectorIndexArrayInitialize(const Vector& valueArray);
+//Vector vectorCreateTempVector(unsigned index);
 unsigned vectorGetSize(Vector& v);
 
 #endif //NNTU_VECTOR_H
