@@ -7,24 +7,27 @@
 #include <iostream>
 #include <vector>
 
-static bool appInitializeData(Application& app);
-static bool appGetConstantD(Application& app);
-static bool appProcessDataIntoFinalResult(Application& app);
-static bool appGetOutputToUser(Application& app);
+static bool appInitializeData(Application &app);
+
+static bool appGetConstantD(Application &app);
+
+static bool appProcessDataIntoFinalResult(Application &app);
+
+static bool appGetOutputToUser(Application &app);
 
 
 Vector vectorCreateTempVector(int i);
 
-int appRun(Application& app){
+int appRun(Application &app) {
 
-    if(!appInitializeData(app)){
+    if (!appInitializeData(app)) {
 
         std::cout << "Data input failure." << std::endl;
         return 1;
 
     }
 
-    if(!appGetConstantD(app)){
+    if (!appGetConstantD(app)) {
 
         std::cout << "Data input failure." << std::endl;
         return 1;
@@ -39,7 +42,7 @@ int appRun(Application& app){
 
 }
 
-static bool appInitializeData(Application& app){
+static bool appInitializeData(Application &app) {
 
     app.valueArray = vectorValueArrayInitialize(app.valueArray);
     app.indexArray = vectorIndexArrayInitialize(app.valueArray);
@@ -48,11 +51,10 @@ static bool appInitializeData(Application& app){
 
 }
 
-static bool appGetConstantD(Application& app){
+static bool appGetConstantD(Application &app) {
 
-    std::cout << "Input array has been successfully processed." << std::endl << "Input a D constant to compare:" << std:: endl;
-    //std::cin.get();
-    //std::cin >> app.constD;
+    std::cout << "Input array has been successfully processed." << std::endl << "Input a D constant to compare:"
+              << std::endl;
 
     app.constD = 5;
     std::cout << app.constD << std::endl;
@@ -60,76 +62,80 @@ static bool appGetConstantD(Application& app){
     return true;
 }
 
-static bool appProcessDataIntoFinalResult(Application& app){
+static bool appProcessDataIntoFinalResult(Application &app) {
 
-    // At this point you have:
-    // app.valueArray.value[i] - vector of values, 14 total.
-    // app.valueArray.counter - Counter of items in an array.
-    // app.indexArray.value[i] - vector of idexes, 14 total.
-    // app.constD - A D constant from task.
-    // app.finalMinByValue
-    // app.finalMaxByValue
-    // app.finalMinByIndex
-    // app.finalMaxByIndex
-
-    std::cout << "ZDES' SOME PROCESSING OCCURS" << std::endl;
-
-    unsigned tempMinByValue = 0;
-    unsigned tempMaxByValue = -1;
-    unsigned tempMinByIndex = 0;
-    unsigned tempMaxByIndex = -1;
+    for (int i = 0; i < app.valueArray.counter; i++) {
 
 
-    for(int i = 0; i < app.valueArray.counter; i++){
+        if (app.indexArray.value[i] != 0) {
 
-        //check for index
-        if(app.indexArray.value[i] == 0){
-
-            tempMinByIndex = i;
-            tempMinByValue = app.valueArray.value[i];
-
-        }
-        else if(app.indexArray.value[i] != 0){
-
-            //check for greater of subsequent then previous
-            if(app.valueArray.value[i] > app.valueArray.value[i-1] && app.valueArray.value[i+1] < app.valueArray.value[i]){
-
-                //WE'RE IN ASCENDING LIST
-
-                tempMaxByIndex = app.indexArray.value[i];
-                tempMaxByValue = app.valueArray.value[i];
-
-            }
-            if(app.valueArray.value[i] > app.valueArray.value[i+1]){
-
-                //ASCENDING LIST BROKE
-
-                tempMinByIndex = app.indexArray.value[i];
-                tempMinByValue = app.valueArray.value[i];
+            if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
 
                 //seqTracker is the array of sequence brokerers, value which broke ascending list.
-                app.valueArray.seqTracker.push_back(i+1);
+                app.seqTracker.value.push_back(i + 1);
 
             }
+        }
+
+        if (i + 1 == app.valueArray.counter) {
+
+            app.seqTracker.value.push_back(app.indexArray.value[i]);
 
         }
+    }
+
+    for (int i = 1; i < vectorGetSize(app.seqTracker); ++i) {
+
+        if ((app.seqTracker.value[i] - app.seqTracker.value[i - 1]) > app.finalConsequenceStreak) {
+
+            app.finalConsequenceStreak = app.seqTracker.value[i] - app.seqTracker.value[i - 1];
+            app.finalLeftByIndex = app.seqTracker.value[i - 1];
+            app.finalRightByIndex = app.seqTracker.value[i];
+
+        }
+
+    }
+
+    for (int i = 1; i < vectorGetSize(app.seqTracker); ++i) {
+
+        if ((app.seqTracker.value[i] - app.seqTracker.value[i - 1]) == app.finalConsequenceStreak) {
+
+            app.finalLeftByValue = app.valueArray.value[app.finalLeftByIndex];
+
+            if (app.finalRightByIndex == app.valueArray.counter - 1) {
+
+                app.finalRightByValue = app.valueArray.value[app.finalRightByIndex];
+
+            }
+            else {
+
+                app.finalRightByValue = app.valueArray.value[app.finalRightByIndex - 1];
+
+            }
+            break;
+        }
+
     }
 
     return true;
 }
 
-static bool appGetOutputToUser(Application& app){
+static bool appGetOutputToUser(Application &app) {
 
-   //std::cout << "Main vector has " << vectorGetSize(app.valueArray) << " entries." << std::endl;
-   //std::cout << "Values as follows:" << std::endl;
+    std::cout << "Provided vector consists of  " << vectorGetSize(app.valueArray) << " entries." << std::endl;
+    std::cout << "Values as follows:" << std::endl;
 
-   //for (int i = 0; i < vectorGetSize(app.valueArray); i++) {
+    for (int i = 0; i < vectorGetSize(app.valueArray); i++) {
 
-   //    std::cout << app.valueArray.value[i] << " ";
+        std::cout << app.valueArray.value[i] << " ";
 
-   //}
+    }
 
-   std::cout << "Consequence broke " << (app.valueArray.seqTracker.size()/2) << " times.";
+    std::cout << std::endl << "Consequence broke " << (vectorGetSize(app.seqTracker)) << " times." << std::endl;
+
+    std::cout << "Longest streak of ascending values is " << app.finalConsequenceStreak << std::endl;
+    std::cout << "Left index of matched sequence: " << app.finalLeftByIndex << " Value is: " << app.finalLeftByValue << std::endl;
+    std::cout << "Right index of matched sequence: " << app.finalRightByIndex << " Value is: " << app.finalRightByValue << std::endl;
 
     return true;
 

@@ -26,16 +26,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/vector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/application.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/application.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/main.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/vector.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance/vector.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
@@ -98,7 +94,7 @@
     "CMake Application.3.14DOR.executor": "Run",
     "CMake Application.3_SEM_Mainline.executor": "Debug",
     "CMake Application.4SEM_MY.executor": "Run",
-    "CMake Application.4_SEM_Mainline.executor": "Debug",
+    "CMake Application.4_SEM_Mainline.executor": "Run",
     "CMake Application.PIDOR.executor": "Run",
     "CMake Application.TEST.executor": "Run",
     "CMake Application.gor.executor": "Run",
@@ -301,7 +297,7 @@
       <workItem from="1713169795504" duration="1858000" />
       <workItem from="1713440113337" duration="1708000" />
       <workItem from="1713471342184" duration="626000" />
-      <workItem from="1713528458356" duration="52774000" />
+      <workItem from="1713528458356" duration="63379000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -646,7 +642,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,8 +686,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/My/Inductance/application.cpp</url>
-          <line>118</line>
-          <option name="timeStamp" value="19" />
+          <line>135</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

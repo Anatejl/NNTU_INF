@@ -12,14 +12,15 @@ struct Application {
 
     Vector valueArray;
     Vector indexArray;
+    Vector seqTracker;
     unsigned constD;
 
-    unsigned finalMinByValue;
-    unsigned finalMaxByValue;
+    unsigned finalLeftByValue;
+    unsigned finalRightByValue;
 
-    unsigned finalMinByIndex;
-    unsigned finalMaxByIndex;
-
+    unsigned finalLeftByIndex;
+    unsigned finalRightByIndex;
+    unsigned finalConsequenceStreak;
 };
 
 // To execute application

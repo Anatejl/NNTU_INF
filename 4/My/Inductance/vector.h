@@ -10,7 +10,6 @@
 struct Vector{
 
     std::vector<unsigned> value;
-    std::vector<unsigned> seqTracker;
     unsigned counter;
 
 };
