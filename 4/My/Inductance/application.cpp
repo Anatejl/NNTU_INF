@@ -7,15 +7,9 @@
 #include <iostream>
 
 static bool appInitializeData(Application &app);
-
 static bool appGetConstantD(Application &app);
-
 static bool appProcessDataIntoFinalResult(Application &app);
-
 static bool appGetOutputToUser(Application &app);
-
-
-Vector vectorCreateTempVector(int i);
 
 int appRun(Application &app) {
 
@@ -76,6 +70,7 @@ static bool appProcessDataIntoFinalResult(Application &app) {
             }
         }
 
+        //If sluchaetsuya, chto last index - last item of the file -> push index poslednego itema v vector.
         if (i + 1 == app.valueArray.counter) {
 
             app.seqTracker.value.push_back(app.indexArray.value[i]);
@@ -83,6 +78,7 @@ static bool appProcessDataIntoFinalResult(Application &app) {
         }
     }
 
+    //Get indexi posledotel'nosti
     for (int i = 1; i < vectorGetSize(app.seqTracker); ++i) {
 
         if ((app.seqTracker.value[i] - app.seqTracker.value[i - 1]) > app.finalConsequenceStreak) {
@@ -95,6 +91,7 @@ static bool appProcessDataIntoFinalResult(Application &app) {
 
     }
 
+    //Get values podhodyashih indexov
     for (int i = 1; i < vectorGetSize(app.seqTracker); ++i) {
 
         if ((app.seqTracker.value[i] - app.seqTracker.value[i - 1]) == app.finalConsequenceStreak) {
@@ -110,6 +107,7 @@ static bool appProcessDataIntoFinalResult(Application &app) {
                 app.finalRightByValue = app.valueArray.value[app.finalRightByIndex - 1];
 
             }
+
             break;
         }
 
@@ -130,7 +128,6 @@ static bool appGetOutputToUser(Application &app) {
     }
 
     std::cout << std::endl << "Consequence broke " << (vectorGetSize(app.seqTracker)) << " times." << std::endl;
-
     std::cout << "Longest streak of ascending values is: " << app.finalConsequenceStreak << std::endl;
     std::cout << "Left index of matched sequence: " << app.finalLeftByIndex << " Value is: " << app.finalLeftByValue
               << std::endl;
