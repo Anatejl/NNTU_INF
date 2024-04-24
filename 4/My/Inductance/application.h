@@ -15,12 +15,12 @@ struct Application {
     Vector seqTracker;
     unsigned constD;
 
-    unsigned finalLeftByValue;
-    unsigned finalRightByValue;
+    //unsigned finalLeftByValue = 0 ;
+    //unsigned finalRightByValue = -1;
 
-    unsigned finalLeftByIndex;
-    unsigned finalRightByIndex;
-    unsigned finalConsequenceStreak;
+    unsigned finalLeftByIndex = 0;
+    unsigned finalRightByIndex = 0;
+    unsigned finalConsequenceStreak = 0;
 };
 
 // To execute application

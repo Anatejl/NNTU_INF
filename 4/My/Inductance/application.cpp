@@ -5,10 +5,14 @@
 #include "application.h"
 #include "vector.h"
 #include <iostream>
+#include <numeric>
 
 static bool appInitializeData(Application &app);
+
 static bool appGetConstantD(Application &app);
+
 static bool appProcessDataIntoFinalResult(Application &app);
+
 static bool appGetOutputToUser(Application &app);
 
 int appRun(Application &app) {
@@ -56,62 +60,107 @@ static bool appGetConstantD(Application &app) {
 }
 
 static bool appProcessDataIntoFinalResult(Application &app) {
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //Assemble seqTracker vector, to get all sequence breaking indexes.
+    for (int i = 0; i <= app.valueArray.counter - 1; i++) {
 
-    for (int i = 0; i < app.valueArray.counter; i++) {
-
-
-        if (app.indexArray.value[i] != 0) {
-
-            if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
-
-                //seqTracker is the array of sequence brokerers, value which broke ascending list.
-                app.seqTracker.value.push_back(i + 1);
-
-            }
-        }
-
-        //If sluchaetsuya, chto last index - last item of the file -> push index poslednego itema v vector.
-        if (i + 1 == app.valueArray.counter) {
+        if (i == 0) {
 
             app.seqTracker.value.push_back(app.indexArray.value[i]);
 
         }
+
+        //If index, by value, breaks ascending sequence, it's index added to seqTracker vector.
+        if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
+
+            //app.seqTracker.value.push_back(app.valueArray.value[app.indexArray.value[i]-1]);
+            app.seqTracker.value.push_back(app.indexArray.value[i]);
+
+            //if (i == 0 && app.seqTracker.value[i] == app.seqTracker.value[i + 1]) {
+//
+            //    //app.seqTracker.value.pop_back();
+//
+            //}
+
+            app.seqTracker.value.push_back(app.indexArray.value[i] + 1);
+
+        }
+
+
+
+        //Push last item's index.
+        if (i == app.valueArray.counter - 1) {
+
+            app.seqTracker.value.push_back(app.indexArray.value[i]);
+
+        }
+
+        //If only one ascending seq -> insert 0 to the beginning of seqTracker
+        //if (i == app.valueArray.counter-1 && app.seqTracker.value.size() == 1){
+//
+        //    app.seqTracker.value.insert(app.seqTracker.value.begin(), 0);
+//
+        //}
+
+    }
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //Narrow indexes by checking them against D constant, provided above.
+    for (int i = 0; i < app.seqTracker.value.size() - 1; i++) {
+
+        if (app.valueArray.value[app.seqTracker.value[i] - 1] - app.valueArray.value[app.seqTracker.value[i]] <
+            app.constD) {
+
+            app.seqTracker.value[i] = 0;
+
+        }
+
+
+        //if (std::accumulate(app.seqTracker.value.begin(), app.seqTracker.value.end(), 0) == 0){ // NOLINT(*-fold-init-type)
+//
+        //    app.seqTracker.value.clear();
+//
+        //}
     }
 
     //Get indexi posledotel'nosti
-    for (int i = 1; i < vectorGetSize(app.seqTracker); ++i) {
-
-        if ((app.seqTracker.value[i] - app.seqTracker.value[i - 1]) > app.finalConsequenceStreak) {
-
-            app.finalConsequenceStreak = app.seqTracker.value[i] - app.seqTracker.value[i - 1];
-            app.finalLeftByIndex = app.seqTracker.value[i - 1];
-            app.finalRightByIndex = app.seqTracker.value[i];
-
-        }
-
-    }
+    //for (int i = 0; i < vectorGetSize(app.seqTracker)-1; ++i) {
+//
+    //    if ((app.seqTracker.value[i+1] - app.seqTracker.value[i]) > app.finalConsequenceStreak) {
+//
+    //        app.finalConsequenceStreak = app.seqTracker.value[i+1] - app.seqTracker.value[i];
+    //        app.finalLeftByIndex = app.seqTracker.value[i];
+//
+    //        if(vectorGetSize(app.seqTracker) == 1){
+    //            app.finalRightByIndex = app.seqTracker.value[i];
+    //        }
+    //        else {
+    //            app.finalRightByIndex = app.seqTracker.value[i + 1];
+    //        }
+    //    }
+//
+    //}
 
     //Get values podhodyashih indexov
-    for (int i = 1; i < vectorGetSize(app.seqTracker); ++i) {
-
-        if ((app.seqTracker.value[i] - app.seqTracker.value[i - 1]) == app.finalConsequenceStreak) {
-
-            app.finalLeftByValue = app.valueArray.value[app.finalLeftByIndex];
-
-            if (app.finalRightByIndex == app.valueArray.counter - 1) {
-
-                app.finalRightByValue = app.valueArray.value[app.finalRightByIndex];
-
-            } else {
-
-                app.finalRightByValue = app.valueArray.value[app.finalRightByIndex - 1];
-
-            }
-
-            break;
-        }
-
-    }
+    //for (int i = 1; i < vectorGetSize(app.seqTracker); ++i) {
+//
+    //    if ((app.seqTracker.value[i] - app.seqTracker.value[i - 1]) == app.finalConsequenceStreak) {
+//
+    //        app.finalLeftByValue = app.valueArray.value[app.finalLeftByIndex];
+//
+    //        if (app.finalRightByIndex == app.valueArray.counter - 1) {
+//
+    //            app.finalRightByValue = app.valueArray.value[app.finalRightByIndex];
+//
+    //        } else {
+//
+    //            app.finalRightByValue = app.valueArray.value[app.finalRightByIndex - 1];
+//
+    //        }
+//
+    //        break;
+    //    }
+//
+    //}
 
     return true;
 }
@@ -129,9 +178,10 @@ static bool appGetOutputToUser(Application &app) {
 
     std::cout << std::endl << "Consequence broke " << (vectorGetSize(app.seqTracker)) << " times." << std::endl;
     std::cout << "Longest streak of ascending values is: " << app.finalConsequenceStreak << std::endl;
-    std::cout << "Left index of matched sequence: " << app.finalLeftByIndex << " Value is: " << app.finalLeftByValue
+    std::cout << "Left index of matched sequence: " << app.finalLeftByIndex << " Value is: " //<< app.finalLeftByValue
               << std::endl;
-    std::cout << "Right index of matched sequence: " << app.finalRightByIndex << " Value is: " << app.finalRightByValue
+    std::cout << "Right index of matched sequence: " << app.finalRightByIndex
+              << " Value is: " //<< app.finalRightByValue
               << std::endl;
 
     return true;
