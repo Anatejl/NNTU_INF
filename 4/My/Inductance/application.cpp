@@ -68,17 +68,17 @@ static bool appProcessDataIntoFinalResult(Application &app) {
     //Assemble seqTracker vector, to get all sequence breaking indexes.
     for (int i = 0; i <= app.valueArray.counter - 1; i++) {
 
-        //if (i == 0) {
-//
-        //    app.seqTracker.value.push_back(app.indexArray.value[i]);
-//
-        //}
-
         //If index, by value, breaks ascending sequence, it's index added to seqTracker vector.
         if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
 
             app.seqTracker.value.push_back(app.indexArray.value[i]);
             app.seqTracker.value.push_back(app.indexArray.value[i] + 1);
+
+            if (i == 0){
+
+                app.seqTracker.value.insert(app.seqTracker.value.begin(), 0);
+
+            }
 
         }
 
@@ -97,16 +97,26 @@ static bool appProcessDataIntoFinalResult(Application &app) {
 
             }
 
-            if (app.seqTracker.value.size() == 1) {
+            if (vectorGetSize(app.seqTracker) == 1) {
 
                 app.seqTracker.value.insert(app.seqTracker.value.begin(), 0);
+
+            }
+
+            if (vectorGetSize(app.seqTracker) > 2){
+
+                if(app.seqTracker.value[1] - app.seqTracker.value[0] == 1){
+
+                    app.seqTracker.value.insert(app.seqTracker.value.begin(), 0);
+
+                }
 
             }
         }
     }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //Narrow indexes by checking them against D constant, provided above.
-    for (int i = 0; i <= app.seqTracker.value.size() - 1; i += 2) {
+    for (int i = 0; i < vectorGetSize(app.seqTracker) - 1; i += 2) {
 
         if (app.valueArray.value[app.seqTracker.value[i + 1]] - app.valueArray.value[app.seqTracker.value[i]] <
             app.constD) {
@@ -119,7 +129,7 @@ static bool appProcessDataIntoFinalResult(Application &app) {
     }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //Get final indexes
-    for (int i = 0; i < app.seqTracker.value.size(); i += 2) {
+    for (int i = 0; i < vectorGetSize(app.seqTracker); i += 2) {
 
         if (app.seqTracker.value[i + 1] != 0) {
 
@@ -150,7 +160,7 @@ static bool appGetOutputToUser(Application &app) {
     }
 
     if (app.finalConsequenceStreak != 0) {
-        std::cout << std::endl << "Consequence broke " << (vectorGetSize(app.seqTracker) / 2) << " times." << std::endl;
+        std::cout << std::endl << std::endl << "Consequence broke " << vectorGetSize(app.seqTracker) / 2 << " times." << std::endl;
         std::cout << "Longest streak of ascending values is: " << app.finalConsequenceStreak << std::endl;
         std::cout << "Left index of matched sequence: " << app.finalLeftByIndex << ", which value is: "
                   << app.valueArray.value[app.finalLeftByIndex] << std::endl;

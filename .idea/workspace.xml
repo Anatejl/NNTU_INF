@@ -22,7 +22,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="LE KALO">
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="e'bal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance/testfile.txt" afterDir="false" />
@@ -294,7 +294,7 @@
       <workItem from="1713903727119" duration="22360000" />
       <workItem from="1714001667919" duration="1040000" />
       <workItem from="1714002720939" duration="29000" />
-      <workItem from="1714038444166" duration="6694000" />
+      <workItem from="1714038444166" duration="11514000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -639,7 +639,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,12 +688,21 @@
     <MESSAGE value="INDUCT MY HUY" />
     <MESSAGE value="LE KAL" />
     <MESSAGE value="LE KALO" />
-    <option name="LAST_COMMIT_MESSAGE" value="LE KALO" />
+    <MESSAGE value="e'bal" />
+    <option name="LAST_COMMIT_MESSAGE" value="e'bal" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/4/My/Inductance/application.cpp</url>
+          <line>162</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="temporaryVector.coordX[0]" />
         <watch expression="app.constD" />
       </configuration>
     </watches-manager>
