@@ -63,29 +63,52 @@ static bool appGetConstantD(Application &app) {
 
 static bool appProcessDataIntoFinalResult(Application &app) {
 
+    unsigned tempConsequenceStreak = 0;
+
     for (int i = 0; i < app.valueArray.counter; ++i) {
 
         if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
 
-            if ((app.valueArray.value[i] - app.valueArray.value[i - (app.finalConsequenceStreak - 1)]) > app.constD) {
+            if ((app.valueArray.value[i] - app.valueArray.value[i - (tempConsequenceStreak - 1)]) > app.constD
+                && tempConsequenceStreak > app.finalConsequenceStreak) {
 
+                if (app.finalLeft == -1) {
+
+                    app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak)];
+
+                }
+                else{
+
+                    app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak) + 1];
+
+                }
                 app.finalRight = app.indexArray.value[i];
-                app.finalLeft = app.indexArray.value[i - (app.finalConsequenceStreak - 1)];
-
+                app.finalConsequenceStreak = tempConsequenceStreak;
             }
 
-            app.finalConsequenceStreak = 0;
+            tempConsequenceStreak = 0;
+
         }
 
-        if (app.valueArray.counter - 1 == i &&
-           (app.valueArray.value[i] - app.valueArray.value[i - (app.finalConsequenceStreak)]) > app.constD) {
+        if (app.valueArray.counter - 1 == i
+            && (app.valueArray.value[i] - app.valueArray.value[i - (tempConsequenceStreak)]) > app.constD
+            && tempConsequenceStreak > app.finalConsequenceStreak) {
 
-            app.finalLeft = app.indexArray.value[i - app.finalConsequenceStreak];
+            if (app.finalLeft == -1) {
+
+                app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak)];
+
+            }
+            else{
+
+                app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak) + 1];
+
+            }
             app.finalRight = app.indexArray.value[i];
 
         }
 
-        ++app.finalConsequenceStreak;
+        ++tempConsequenceStreak;
     }
 
     return true;
@@ -104,14 +127,12 @@ static bool appGetOutputToUser(Application &app) {
     }
 
     //Output results
-    if (!(app.finalLeft == 0 && app.finalRight == 0)) {
+    if (!(app.finalLeft == (0|-1) && app.finalRight == (0|-1))) {
 
         std::cout << std::endl << app.finalLeft << " - Left Index" << std::endl;
         std::cout << app.finalRight << " - Right Index" << std::endl;
 
-    }
-
-    else {
+    } else {
 
         std::cout << std::endl << "No matches applicable." << std::endl;
 

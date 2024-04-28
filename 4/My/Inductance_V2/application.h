@@ -14,8 +14,8 @@ struct Application {
     Vector indexArray;
     unsigned constD;
 
-    unsigned finalLeft = 0;
-    unsigned finalRight = 0;
+    unsigned finalLeft = -1;
+    unsigned finalRight = -1;
     unsigned finalConsequenceStreak = 0;
 };
 
