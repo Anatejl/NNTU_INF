@@ -69,6 +69,6 @@ add_executable(3_SEM_Mainline
 # 2 course / 2 semester
 
 add_executable(4_SEM_Mainline
-        "4/My/Inductance/main.cpp"
-         4/My/Inductance/application.cpp
-        4/My/Inductance/vector.cpp)
+        "4/My/Inductance_V2/main.cpp"
+         4/My/Inductance_V2/application.cpp
+        4/My/Inductance_V2/vector.cpp)

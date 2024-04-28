@@ -141,19 +141,19 @@
 		<Unit filename="E:/Git/NNTU_INF/3/3.14DOR/vector.h">
 			<Option target="3_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/application.cpp">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/application.cpp">
 			<Option target="4_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/application.h">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/application.h">
 			<Option target="4_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/main.cpp">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/main.cpp">
 			<Option target="4_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/vector.cpp">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/vector.cpp">
 			<Option target="4_SEM_Mainline"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance/vector.h">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/vector.h">
 			<Option target="4_SEM_Mainline"/>
 		</Unit>
 		<Unit filename="E:/Git/NNTU_INF/CMakeLists.txt">
