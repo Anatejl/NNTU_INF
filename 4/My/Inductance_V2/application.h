@@ -12,11 +12,11 @@ struct Application {
 
     Vector valueArray;
     Vector indexArray;
-    unsigned constD;
+    int constD;
 
-    unsigned finalLeft = -1;
-    unsigned finalRight = -1;
-    unsigned finalConsequenceStreak = 0;
+    int finalLeft = -1;
+    int finalRight = -1;
+    int finalConsequenceStreak = 0;
 };
 
 // To execute application

@@ -9,13 +9,13 @@
 
 struct Vector{
 
-    std::vector<unsigned> value;
-    unsigned counter;
+    std::vector<int> value;
+    int counter;
 
 };
 
 Vector vectorValueArrayInitialize(const Vector& valueArray);
 Vector vectorIndexArrayInitialize(const Vector& valueArray);
-unsigned vectorGetSize(Vector& v);
+int vectorGetSize(Vector& v);
 
 #endif //NNTU_VECTOR_H

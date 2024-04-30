@@ -55,7 +55,7 @@ bool appGetConstantD(Application &app) {
 
 bool appProcessDataIntoFinalResult(Application &app) {
 
-    unsigned tempConsequenceStreak = 0;
+    int tempConsequenceStreak = 0;
 
     for (int i = 0; i < app.valueArray.counter; ++i) {
 

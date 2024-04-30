@@ -156,6 +156,10 @@ ASSERT_EQ(3, test_app.finalLeft);
 ASSERT_EQ(6, test_app.finalRight);
 }
 
+TEST(NegativeUInt, NegativeUInt) {
+    unsigned int huy = -1;
+    ASSERT_EQ(-1, huy);
+}
 
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
