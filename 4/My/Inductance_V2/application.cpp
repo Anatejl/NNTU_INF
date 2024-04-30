@@ -6,13 +6,6 @@
 #include "vector.h"
 #include <iostream>
 
-static bool appInitializeData(Application &app);
-
-static bool appGetConstantD(Application &app);
-
-static bool appProcessDataIntoFinalResult(Application &app);
-
-static bool appGetOutputToUser(Application &app);
 
 int appRun(Application &app) {
 
@@ -29,7 +22,6 @@ int appRun(Application &app) {
         return 1;
 
     }
-
     appProcessDataIntoFinalResult(app);
 
     if (!appGetOutputToUser(app)) {
@@ -42,7 +34,7 @@ int appRun(Application &app) {
 
 }
 
-static bool appInitializeData(Application &app) {
+bool appInitializeData(Application &app) {
 
     app.valueArray = vectorValueArrayInitialize(app.valueArray);
     app.indexArray = vectorIndexArrayInitialize(app.valueArray);
@@ -52,7 +44,7 @@ static bool appInitializeData(Application &app) {
 
 }
 
-static bool appGetConstantD(Application &app) {
+bool appGetConstantD(Application &app) {
 
     std::cout << "Input a D constant to compare:" << std::endl;
     app.constD = 5;
@@ -61,7 +53,7 @@ static bool appGetConstantD(Application &app) {
     return true;
 }
 
-static bool appProcessDataIntoFinalResult(Application &app) {
+bool appProcessDataIntoFinalResult(Application &app) {
 
     unsigned tempConsequenceStreak = 0;
 
@@ -111,10 +103,16 @@ static bool appProcessDataIntoFinalResult(Application &app) {
         ++tempConsequenceStreak;
     }
 
+    if(app.finalLeft == (0|-1) && app.finalRight == (0|-1)){
+
+        return false;
+
+    }
+
     return true;
 }
 
-static bool appGetOutputToUser(Application &app) {
+bool appGetOutputToUser(Application &app) {
 
     //Demonstrate input data
     std::cout << "Provided vector consists of " << vectorGetSize(app.valueArray) << " entries." << std::endl;
@@ -141,3 +139,4 @@ static bool appGetOutputToUser(Application &app) {
 
     return true;
 }
+

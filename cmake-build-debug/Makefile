@@ -64,6 +64,16 @@ CMAKE_BINARY_DIR = E:\Git\NNTU_INF\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\cmake\win\x64\bin\ctest.exe --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -83,6 +93,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"gmock\" \"gtest\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -140,6 +195,71 @@ depend:
 4_SEM_Mainline/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/build
 .PHONY : 4_SEM_Mainline/fast
+
+#=============================================================================
+# Target rules for targets named 4_SEM_Mainline_test
+
+# Build rule for target.
+4_SEM_Mainline_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4_SEM_Mainline_test
+.PHONY : 4_SEM_Mainline_test
+
+# fast build rule for target.
+4_SEM_Mainline_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/build
+.PHONY : 4_SEM_Mainline_test/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock.dir\build.make googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googlemock\CMakeFiles\gmock_main.dir\build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 3/3.14DOR/application.obj: 3/3.14DOR/application.cpp.obj
 .PHONY : 3/3.14DOR/application.obj
@@ -219,6 +339,7 @@ depend:
 # target to build an object file
 4/My/Inductance_V2/application.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj
 .PHONY : 4/My/Inductance_V2/application.cpp.obj
 
 4/My/Inductance_V2/application.i: 4/My/Inductance_V2/application.cpp.i
@@ -227,6 +348,7 @@ depend:
 # target to preprocess a source file
 4/My/Inductance_V2/application.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.i
 .PHONY : 4/My/Inductance_V2/application.cpp.i
 
 4/My/Inductance_V2/application.s: 4/My/Inductance_V2/application.cpp.s
@@ -235,6 +357,7 @@ depend:
 # target to generate assembly for a file
 4/My/Inductance_V2/application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.s
 .PHONY : 4/My/Inductance_V2/application.cpp.s
 
 4/My/Inductance_V2/main.obj: 4/My/Inductance_V2/main.cpp.obj
@@ -261,12 +384,37 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.s
 .PHONY : 4/My/Inductance_V2/main.cpp.s
 
+4/My/Inductance_V2/test.obj: 4/My/Inductance_V2/test.cpp.obj
+.PHONY : 4/My/Inductance_V2/test.obj
+
+# target to build an object file
+4/My/Inductance_V2/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.obj
+.PHONY : 4/My/Inductance_V2/test.cpp.obj
+
+4/My/Inductance_V2/test.i: 4/My/Inductance_V2/test.cpp.i
+.PHONY : 4/My/Inductance_V2/test.i
+
+# target to preprocess a source file
+4/My/Inductance_V2/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.i
+.PHONY : 4/My/Inductance_V2/test.cpp.i
+
+4/My/Inductance_V2/test.s: 4/My/Inductance_V2/test.cpp.s
+.PHONY : 4/My/Inductance_V2/test.s
+
+# target to generate assembly for a file
+4/My/Inductance_V2/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.s
+.PHONY : 4/My/Inductance_V2/test.cpp.s
+
 4/My/Inductance_V2/vector.obj: 4/My/Inductance_V2/vector.cpp.obj
 .PHONY : 4/My/Inductance_V2/vector.obj
 
 # target to build an object file
 4/My/Inductance_V2/vector.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/vector.cpp.obj
 .PHONY : 4/My/Inductance_V2/vector.cpp.obj
 
 4/My/Inductance_V2/vector.i: 4/My/Inductance_V2/vector.cpp.i
@@ -275,6 +423,7 @@ depend:
 # target to preprocess a source file
 4/My/Inductance_V2/vector.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/vector.cpp.i
 .PHONY : 4/My/Inductance_V2/vector.cpp.i
 
 4/My/Inductance_V2/vector.s: 4/My/Inductance_V2/vector.cpp.s
@@ -283,6 +432,7 @@ depend:
 # target to generate assembly for a file
 4/My/Inductance_V2/vector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/vector.cpp.s
 .PHONY : 4/My/Inductance_V2/vector.cpp.s
 
 # Help Target
@@ -292,9 +442,19 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... test
 	@echo ... 3_SEM_Mainline
 	@echo ... 4_SEM_Mainline
+	@echo ... 4_SEM_Mainline_test
+	@echo ... gmock
+	@echo ... gmock_main
+	@echo ... gtest
+	@echo ... gtest_main
 	@echo ... 3/3.14DOR/application.obj
 	@echo ... 3/3.14DOR/application.i
 	@echo ... 3/3.14DOR/application.s
@@ -310,6 +470,9 @@ help:
 	@echo ... 4/My/Inductance_V2/main.obj
 	@echo ... 4/My/Inductance_V2/main.i
 	@echo ... 4/My/Inductance_V2/main.s
+	@echo ... 4/My/Inductance_V2/test.obj
+	@echo ... 4/My/Inductance_V2/test.i
+	@echo ... 4/My/Inductance_V2/test.s
 	@echo ... 4/My/Inductance_V2/vector.obj
 	@echo ... 4/My/Inductance_V2/vector.i
 	@echo ... 4/My/Inductance_V2/vector.s

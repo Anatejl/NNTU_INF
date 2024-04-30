@@ -22,4 +22,9 @@ struct Application {
 // To execute application
 int appRun(Application& app);
 
+bool appInitializeData(Application &app);
+bool appGetConstantD(Application &app);
+bool appProcessDataIntoFinalResult(Application &app);
+bool appGetOutputToUser(Application &app);
+
 #endif //NNTU_APPLICATION_H
