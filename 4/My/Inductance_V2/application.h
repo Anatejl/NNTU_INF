@@ -5,6 +5,7 @@
 #ifndef NNTU_APPLICATION_H
 #define NNTU_APPLICATION_H
 
+#include <climits>
 #include "vector.h"
 
 //Data for program to handle.
@@ -14,8 +15,8 @@ struct Application {
     Vector indexArray;
     int constD;
 
-    int finalLeft = -1;
-    int finalRight = -1;
+    int finalLeft = INT_MAX;
+    int finalRight = INT_MAX;
     int finalConsequenceStreak = 0;
 };
 

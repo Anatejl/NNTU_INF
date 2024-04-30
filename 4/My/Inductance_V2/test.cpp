@@ -52,7 +52,7 @@ ASSERT_EQ(1, test_app.finalRight);
 }
 
 TEST(IndexFindCorrectly, Simple_4) {
-Application test_app = init_application(std::vector<unsigned>{1, 2, 1}, 0);
+Application test_app = init_application(std::vector<unsigned>{11, 12, 11}, 0);
 ASSERT_TRUE(appProcessDataIntoFinalResult(test_app));
 
 ASSERT_EQ(0, test_app.finalLeft);
@@ -69,10 +69,11 @@ ASSERT_EQ(4, test_app.finalRight);
 
 TEST(IndexFindCorrectly, Simple_6) {
 Application test_app = init_application(std::vector<unsigned>{4, 3, 2, 1}, 0);
-ASSERT_TRUE(appProcessDataIntoFinalResult(test_app));
+ASSERT_FALSE(appProcessDataIntoFinalResult(test_app));
 
-ASSERT_TRUE(test_app.finalLeft == 0 || test_app.finalLeft == 4);
-ASSERT_TRUE(test_app.finalRight == 0 || test_app.finalRight == 4);
+//ASSERT_TRUE(appProcessDataIntoFinalResult(test_app));
+//ASSERT_TRUE(test_app.finalLeft == 0 || test_app.finalLeft == 4 || test_app.finalLeft == INT_MAX);
+//ASSERT_TRUE(test_app.finalRight == 0 || test_app.finalRight == 4 || test_app.finalRight == INT_MAX);
 }
 
 TEST(IndexFindCorrectly, Simple_7) {

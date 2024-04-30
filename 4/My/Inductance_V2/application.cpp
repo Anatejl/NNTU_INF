@@ -22,7 +22,13 @@ int appRun(Application &app) {
         return 1;
 
     }
-    appProcessDataIntoFinalResult(app);
+
+    if (!appProcessDataIntoFinalResult(app)) {
+
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
+
+    }
 
     if (!appGetOutputToUser(app)) {
 
@@ -61,12 +67,12 @@ bool appProcessDataIntoFinalResult(Application &app) {
 
         if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
 
-            if ((app.valueArray.value[i] - app.valueArray.value[i - (tempConsequenceStreak - 1)]) > app.constD
+            if ((app.valueArray.value[i] - app.valueArray.value[i - tempConsequenceStreak]) > app.constD
                 && tempConsequenceStreak > app.finalConsequenceStreak) {
 
-                if (app.finalLeft == -1) {
+                if (app.finalLeft == INT_MAX) {
 
-                    app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak)];
+                    app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
 
                 }
                 else{
@@ -86,9 +92,9 @@ bool appProcessDataIntoFinalResult(Application &app) {
             && (app.valueArray.value[i] - app.valueArray.value[i - (tempConsequenceStreak)]) > app.constD
             && tempConsequenceStreak > app.finalConsequenceStreak) {
 
-            if (app.finalLeft == -1) {
+            if (app.finalLeft == INT_MAX) {
 
-                app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak)];
+                app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
 
             }
             else{
@@ -100,10 +106,17 @@ bool appProcessDataIntoFinalResult(Application &app) {
 
         }
 
+        if(i == 0 && app.valueArray.counter == 1 && (app.finalLeft == INT_MAX && app.finalRight == INT_MAX)){
+
+            app.finalLeft = i;
+            app.finalRight = i;
+
+        }
+
         ++tempConsequenceStreak;
     }
 
-    if(app.finalLeft == (0|-1) && app.finalRight == (0|-1)){
+    if(app.finalLeft == (INT_MAX) && app.finalRight == (INT_MAX)){
 
         return false;
 
@@ -125,7 +138,7 @@ bool appGetOutputToUser(Application &app) {
     }
 
     //Output results
-    if (!(app.finalLeft == (0|-1) && app.finalRight == (0|-1))) {
+    if (!(app.finalLeft == (INT_MAX) && app.finalRight == (INT_MAX))) {
 
         std::cout << std::endl << app.finalLeft << " - Left Index" << std::endl;
         std::cout << app.finalRight << " - Right Index" << std::endl;

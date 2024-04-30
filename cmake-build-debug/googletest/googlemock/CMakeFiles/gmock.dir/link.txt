@@ -1,0 +1,2 @@
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\mingw\bin\ar.exe qc ..\..\lib\libgmock.a "CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\mingw\bin\ranlib.exe ..\..\lib\libgmock.a

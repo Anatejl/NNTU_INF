@@ -47,7 +47,7 @@ Vector vectorIndexArrayInitialize(const Vector &valueArray) {
     return temporaryVector;
 }
 
-unsigned vectorGetSize(Vector &v) {
+int vectorGetSize(Vector &v) {
 
     return v.value.size();
 }

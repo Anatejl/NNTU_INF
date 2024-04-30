@@ -1,13 +1,24 @@
 CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj: \
  E:\Git\NNTU_INF\4\My\Inductance_V2\main.cpp \
  E:\Git\NNTU_INF\4\My\Inductance_V2\application.h \
- E:\Git\NNTU_INF\4\My\Inductance_V2\vector.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/limits.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ E:\Git\NNTU_INF\4\My\Inductance_V2\vector.h \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+ C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functexcept.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_defines.h \
@@ -52,13 +63,6 @@ CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj: \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/_mingw.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/vadefs.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
@@ -99,9 +103,6 @@ CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj: \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/sys/types.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/process.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/syslimits.h \
- C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/limits.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/signal.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h \
  C:/Users/Anatejl/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/x86_64-w64-mingw32/include/time.h \

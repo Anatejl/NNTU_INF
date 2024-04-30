@@ -1,0 +1,1 @@
+-isystem E:/Git/NNTU_INF/googletest/googlemock/include -isystem E:/Git/NNTU_INF/googletest/googlemock -isystem E:/Git/NNTU_INF/googletest/googletest/include -isystem E:/Git/NNTU_INF/googletest/googletest

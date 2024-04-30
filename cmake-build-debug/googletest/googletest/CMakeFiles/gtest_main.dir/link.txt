@@ -1,0 +1,2 @@
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\mingw\bin\ar.exe qc ..\..\lib\libgtest_main.a CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.13135.93\bin\mingw\bin\ranlib.exe ..\..\lib\libgtest_main.a
