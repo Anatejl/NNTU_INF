@@ -8,50 +8,37 @@
 
 
 int appRun(Application &app) {
-
     if (!appInitializeData(app)) {
-
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
-
     }
 
     if (!appGetConstantD(app)) {
-
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
-
     }
 
     if (!appProcessDataIntoFinalResult(app)) {
-
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
-
     }
 
     if (!appGetOutputToUser(app)) {
-
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
-
     }
     return 0;
-
 }
 
 bool appInitializeData(Application &app) {
-
     app.valueArray = vectorValueArrayInitialize(app.valueArray);
     app.indexArray = vectorIndexArrayInitialize(app.valueArray);
     std::cout << "Input array has been successfully processed." << std::endl;
 
     return true;
-
 }
 
 bool appGetConstantD(Application &app) {
-
     std::cout << "Input a D constant to compare:" << std::endl;
     app.constD = 5;
     std::cout << app.constD << std::endl;
@@ -60,91 +47,74 @@ bool appGetConstantD(Application &app) {
 }
 
 bool appProcessDataIntoFinalResult(Application &app) {
-
     int tempConsequenceStreak = 0;
 
     for (int i = 0; i < app.valueArray.counter; ++i) {
-
         if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
-
-            if ((app.valueArray.value[i] - app.valueArray.value[i - tempConsequenceStreak]) > app.constD
-                && tempConsequenceStreak > app.finalConsequenceStreak) {
-
-                if (app.finalLeft == INT_MAX) {
-
-                    app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
-
-                }
-                else{
-
+            if (tempConsequenceStreak < i) {
+                if ((app.valueArray.value[i] - app.valueArray.value[i - (tempConsequenceStreak - 1)]) > app.constD
+                    && tempConsequenceStreak > app.finalConsequenceStreak) {
                     app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak) + 1];
-
+                    app.finalRight = app.indexArray.value[i];
+                    app.finalConsequenceStreak = tempConsequenceStreak;
                 }
-                app.finalRight = app.indexArray.value[i];
-                app.finalConsequenceStreak = tempConsequenceStreak;
+            }
+            else {
+                if ((app.valueArray.value[i] - app.valueArray.value[i - tempConsequenceStreak]) > app.constD
+                    && tempConsequenceStreak > app.finalConsequenceStreak) {
+                    if (app.finalLeft == INT_MAX) {
+                        app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
+                    } else {
+                        app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak) + 1];
+                    }
+                    app.finalRight = app.indexArray.value[i];
+                    app.finalConsequenceStreak = tempConsequenceStreak;
+                }
             }
 
             tempConsequenceStreak = 0;
-
         }
 
         if (app.valueArray.counter - 1 == i
             && (app.valueArray.value[i] - app.valueArray.value[i - (tempConsequenceStreak)]) > app.constD
             && tempConsequenceStreak > app.finalConsequenceStreak) {
-
             if (app.finalLeft == INT_MAX) {
-
                 app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
-
-            }
-            else{
-
+            } else {
                 app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak) + 1];
-
             }
             app.finalRight = app.indexArray.value[i];
-
         }
 
-        if(i == 0 && app.valueArray.counter == 1 && (app.finalLeft == INT_MAX && app.finalRight == INT_MAX)){
-
+        if (i == 0 && app.valueArray.counter == 1 && (app.finalLeft == INT_MAX && app.finalRight == INT_MAX)) {
             app.finalLeft = i;
             app.finalRight = i;
-
         }
 
         ++tempConsequenceStreak;
     }
 
-    if(app.finalLeft == (INT_MAX) && app.finalRight == (INT_MAX)){
-
+    if (app.finalLeft == (INT_MAX) && app.finalRight == (INT_MAX)) {
         return false;
-
     }
 
     return true;
 }
 
 bool appGetOutputToUser(Application &app) {
-
     //Demonstrate input data
     std::cout << "Provided vector consists of " << vectorGetSize(app.valueArray) << " entries." << std::endl;
     std::cout << "Values as follows:" << std::endl;
 
     for (int i = 0; i < vectorGetSize(app.valueArray); i++) {
-
         std::cout << app.valueArray.value[i] << " ";
-
     }
 
     //Output results
     if (!(app.finalLeft == (INT_MAX) && app.finalRight == (INT_MAX))) {
-
         std::cout << std::endl << app.finalLeft << " - Left Index" << std::endl;
         std::cout << app.finalRight << " - Right Index" << std::endl;
-
     } else {
-
         std::cout << std::endl << "No matches applicable." << std::endl;
 
         return false;
@@ -152,4 +122,3 @@ bool appGetOutputToUser(Application &app) {
 
     return true;
 }
-

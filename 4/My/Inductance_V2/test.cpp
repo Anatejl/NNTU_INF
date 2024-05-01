@@ -4,8 +4,8 @@
 #ifndef INDUCTANCE_V2_APPLICATION_TESTS_CPP
 #define INDUCTANCE_V2_APPLICATION_TESTS_CPP
 
-#include "E:\Git\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
-#include "E:\Git\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
+#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
 #include "application.h"
 
 using namespace std;
@@ -80,8 +80,8 @@ TEST(IndexFindCorrectly, Simple_7) {
 Application test_app = init_application(std::vector<unsigned>{4, 3, 2, 1, 3, 2}, 0);
 ASSERT_TRUE(appProcessDataIntoFinalResult(test_app));
 
-ASSERT_EQ(4, test_app.finalLeft);
-ASSERT_EQ(5, test_app.finalRight);
+ASSERT_EQ(3, test_app.finalLeft);
+ASSERT_EQ(4, test_app.finalRight);
 }
 
 TEST(IndexFindCorrectly, Simple_8) {
@@ -97,7 +97,7 @@ Application test_app = init_application(std::vector<unsigned>{1, 2, 3, 3, 2, 1, 
 ASSERT_TRUE(appProcessDataIntoFinalResult(test_app));
 
 ASSERT_EQ(0, test_app.finalLeft);
-ASSERT_EQ(4, test_app.finalRight);
+ASSERT_EQ(3, test_app.finalRight);
 }
 
 TEST(IndexFindCorrectly, Simple_10) {
@@ -105,7 +105,7 @@ Application test_app = init_application(std::vector<unsigned>{6, 4, 2, 1, 5, 8, 
 ASSERT_TRUE(appProcessDataIntoFinalResult(test_app));
 
 ASSERT_EQ(6, test_app.finalLeft);
-ASSERT_EQ(10, test_app.finalRight);
+ASSERT_EQ(9, test_app.finalRight);
 }
 
 TEST(IndexFindCorrectly, Simple_11) {
@@ -138,7 +138,7 @@ Application test_app = init_application(std::vector<unsigned>{1, 2, 3, 4, 5, 1, 
 ASSERT_TRUE(appProcessDataIntoFinalResult(test_app));
 
 ASSERT_EQ(5, test_app.finalLeft);
-ASSERT_EQ(8, test_app.finalRight);
+ASSERT_EQ(7, test_app.finalRight);
 }
 
 TEST(IndexWithD, Filttered_by_D_2) {
