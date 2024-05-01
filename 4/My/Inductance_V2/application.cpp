@@ -102,13 +102,6 @@ bool appProcessDataIntoFinalResult(Application &app) {
 }
 
 bool appGetOutputToUser(Application &app) {
-    //Demonstrate input data
-    std::cout << "Provided vector consists of " << vectorGetSize(app.valueArray) << " entries." << std::endl;
-    std::cout << "Values as follows:" << std::endl;
-
-    for (int i = 0; i < vectorGetSize(app.valueArray); i++) {
-        std::cout << app.valueArray.value[i] << " ";
-    }
 
     //Output results
     if (!(app.finalLeft == (INT_MAX) && app.finalRight == (INT_MAX))) {
