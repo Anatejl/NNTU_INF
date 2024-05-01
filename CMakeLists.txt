@@ -85,15 +85,13 @@ add_executable(4_SEM_Mainline_test
 target_link_libraries(4_SEM_Mainline_test gtest_main gmock_main)
 
 ####### 1
-
 add_executable(4_SEM_1_Mainline
         4/1/Inductance/main.cpp
         4/1/Inductance/application.cpp
         4/1/Inductance/vector.cpp)
 
-add_executable(4_SEM_1_Mainline_test
-        4/1/Inductance/application.cpp
-        4/1/Inductance/vector.cpp
-        4/1/Inductance/vector.h
-        4/1/Inductance/test.cpp)
-target_link_libraries(4_SEM_1_Mainline_test gtest_main gmock_main)
+####### 10
+add_executable(4_SEM_10_Mainline
+        4/10/Inductance/main.cpp
+        4/10/Inductance/application.cpp
+        4/10/Inductance/vector.cpp)

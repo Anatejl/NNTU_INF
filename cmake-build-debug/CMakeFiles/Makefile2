@@ -66,7 +66,7 @@ all: CMakeFiles/3_SEM_Mainline.dir/all
 all: CMakeFiles/4_SEM_Mainline.dir/all
 all: CMakeFiles/4_SEM_Mainline_test.dir/all
 all: CMakeFiles/4_SEM_1_Mainline.dir/all
-all: CMakeFiles/4_SEM_1_Mainline_test.dir/all
+all: CMakeFiles/4_SEM_10_Mainline.dir/all
 all: googletest/all
 .PHONY : all
 
@@ -79,7 +79,7 @@ clean: CMakeFiles/3_SEM_Mainline.dir/clean
 clean: CMakeFiles/4_SEM_Mainline.dir/clean
 clean: CMakeFiles/4_SEM_Mainline_test.dir/clean
 clean: CMakeFiles/4_SEM_1_Mainline.dir/clean
-clean: CMakeFiles/4_SEM_1_Mainline_test.dir/clean
+clean: CMakeFiles/4_SEM_10_Mainline.dir/clean
 clean: googletest/clean
 .PHONY : clean
 
@@ -192,8 +192,8 @@ CMakeFiles/4_SEM_Mainline.dir/clean:
 # All Build rule for target.
 CMakeFiles/4_SEM_Mainline_test.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 CMakeFiles/4_SEM_Mainline_test.dir/all: googletest/googlemock/CMakeFiles/gmock_main.dir/all
-CMakeFiles/4_SEM_Mainline_test.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/4_SEM_Mainline_test.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/4_SEM_Mainline_test.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=17,18,19,20 "Built target 4_SEM_Mainline_test"
@@ -222,7 +222,7 @@ CMakeFiles/4_SEM_Mainline_test.dir/clean:
 CMakeFiles/4_SEM_1_Mainline.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_1_Mainline.dir\build.make CMakeFiles/4_SEM_1_Mainline.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_1_Mainline.dir\build.make CMakeFiles/4_SEM_1_Mainline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8 "Built target 4_SEM_1_Mainline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=9,10,11,12 "Built target 4_SEM_1_Mainline"
 .PHONY : CMakeFiles/4_SEM_1_Mainline.dir/all
 
 # Build rule for subdir invocation for target.
@@ -242,33 +242,30 @@ CMakeFiles/4_SEM_1_Mainline.dir/clean:
 .PHONY : CMakeFiles/4_SEM_1_Mainline.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/4_SEM_1_Mainline_test.dir
+# Target rules for target CMakeFiles/4_SEM_10_Mainline.dir
 
 # All Build rule for target.
-CMakeFiles/4_SEM_1_Mainline_test.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
-CMakeFiles/4_SEM_1_Mainline_test.dir/all: googletest/googlemock/CMakeFiles/gmock_main.dir/all
-CMakeFiles/4_SEM_1_Mainline_test.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
-CMakeFiles/4_SEM_1_Mainline_test.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_1_Mainline_test.dir\build.make CMakeFiles/4_SEM_1_Mainline_test.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_1_Mainline_test.dir\build.make CMakeFiles/4_SEM_1_Mainline_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=9,10,11,12 "Built target 4_SEM_1_Mainline_test"
-.PHONY : CMakeFiles/4_SEM_1_Mainline_test.dir/all
+CMakeFiles/4_SEM_10_Mainline.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_10_Mainline.dir\build.make CMakeFiles/4_SEM_10_Mainline.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_10_Mainline.dir\build.make CMakeFiles/4_SEM_10_Mainline.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=5,6,7,8 "Built target 4_SEM_10_Mainline"
+.PHONY : CMakeFiles/4_SEM_10_Mainline.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/4_SEM_1_Mainline_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles 12
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/4_SEM_1_Mainline_test.dir/all
+CMakeFiles/4_SEM_10_Mainline.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/4_SEM_10_Mainline.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/4_SEM_1_Mainline_test.dir/rule
+.PHONY : CMakeFiles/4_SEM_10_Mainline.dir/rule
 
 # Convenience name for target.
-4_SEM_1_Mainline_test: CMakeFiles/4_SEM_1_Mainline_test.dir/rule
-.PHONY : 4_SEM_1_Mainline_test
+4_SEM_10_Mainline: CMakeFiles/4_SEM_10_Mainline.dir/rule
+.PHONY : 4_SEM_10_Mainline
 
 # clean rule for target.
-CMakeFiles/4_SEM_1_Mainline_test.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_1_Mainline_test.dir\build.make CMakeFiles/4_SEM_1_Mainline_test.dir/clean
-.PHONY : CMakeFiles/4_SEM_1_Mainline_test.dir/clean
+CMakeFiles/4_SEM_10_Mainline.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_10_Mainline.dir\build.make CMakeFiles/4_SEM_10_Mainline.dir/clean
+.PHONY : CMakeFiles/4_SEM_10_Mainline.dir/clean
 
 #=============================================================================
 # Target rules for target googletest/googlemock/CMakeFiles/gmock.dir

@@ -201,17 +201,13 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="4_SEM_1_Mainline_test">
-				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_1_Mainline_test.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="4_SEM_10_Mainline">
+				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_10_Mainline.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googletest/include"/>
-					<Add directory="C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googletest"/>
-					<Add directory="C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googlemock/include"/>
-					<Add directory="C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googlemock"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
@@ -221,23 +217,19 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_1_Mainline_test"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_10_Mainline"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="4_SEM_1_Mainline_test/fast">
-				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_1_Mainline_test.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="4_SEM_10_Mainline/fast">
+				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_10_Mainline.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googletest/include"/>
-					<Add directory="C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googletest"/>
-					<Add directory="C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googlemock/include"/>
-					<Add directory="C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googlemock"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
@@ -247,7 +239,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_1_Mainline_test/fast"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_10_Mainline/fast"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -541,24 +533,33 @@
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/1/Inductance/application.cpp">
 			<Option target="4_SEM_1_Mainline"/>
-			<Option target="4_SEM_1_Mainline_test"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/1/Inductance/application.h">
 			<Option target="4_SEM_1_Mainline"/>
-			<Option target="4_SEM_1_Mainline_test"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/1/Inductance/main.cpp">
 			<Option target="4_SEM_1_Mainline"/>
 		</Unit>
-		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/1/Inductance/test.cpp">
-			<Option target="4_SEM_1_Mainline_test"/>
-		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/1/Inductance/vector.cpp">
 			<Option target="4_SEM_1_Mainline"/>
-			<Option target="4_SEM_1_Mainline_test"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/1/Inductance/vector.h">
-			<Option target="4_SEM_1_Mainline_test"/>
+			<Option target="4_SEM_1_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10/Inductance/application.cpp">
+			<Option target="4_SEM_10_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10/Inductance/application.h">
+			<Option target="4_SEM_10_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10/Inductance/main.cpp">
+			<Option target="4_SEM_10_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10/Inductance/vector.cpp">
+			<Option target="4_SEM_10_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10/Inductance/vector.h">
+			<Option target="4_SEM_10_Mainline"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/My/Inductance_V2/application.cpp">
 			<Option target="4_SEM_Mainline"/>
