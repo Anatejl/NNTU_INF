@@ -79,8 +79,6 @@ bool appProcessDataIntoFinalResult(Application &app) {
 }
 
 bool appGetOutputToUser(Application &app) {
-    //Demonstrate input data
-
 
     //Output results
     if (!app.finalValueArray.value.empty()) {

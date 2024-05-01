@@ -27,6 +27,7 @@ Vector vectorValueArrayInitialize(const Vector &valueArray) {
         }
     }
 
+    //Demonstrate input data
     std::cout << "Provided vector consists of " << vectorGetSize(temporaryVector) << " entries." << std::endl;
     std::cout << "Values as follows:" << std::endl;
 
