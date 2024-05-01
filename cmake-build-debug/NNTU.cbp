@@ -245,6 +245,50 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="4_SEM_41_Mainline">
+				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_41_Mainline.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_41_Mainline"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_SEM_41_Mainline/fast">
+				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_41_Mainline.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_41_Mainline/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test">
 				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
 				<Option type="4"/>
@@ -560,6 +604,21 @@
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10/Inductance/vector.h">
 			<Option target="4_SEM_10_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Inductance/application.cpp">
+			<Option target="4_SEM_41_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Inductance/application.h">
+			<Option target="4_SEM_41_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Inductance/main.cpp">
+			<Option target="4_SEM_41_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Inductance/vector.cpp">
+			<Option target="4_SEM_41_Mainline"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Inductance/vector.h">
+			<Option target="4_SEM_41_Mainline"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/My/Inductance_V2/application.cpp">
 			<Option target="4_SEM_Mainline"/>

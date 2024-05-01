@@ -12,6 +12,7 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="NNTU" targetName="3_SEM_Mainline" />
+      <config projectName="NNTU" targetName="4_SEM_41_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_test" />
       <config projectName="NNTU" targetName="4_SEM_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_1_Mainline" />
@@ -29,33 +30,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="TERRESTRIAL KRACAVA">
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/testfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/vector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/vector.h" afterDir="false" />
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="NON-ARGUABLE KRACAVA">
+      <change afterPath="$PROJECT_DIR$/4/41/Inductance/application.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/41/Inductance/application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/41/Inductance/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/41/Inductance/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/41/Inductance/vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/41/Inductance/vector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/1/Inductance/test.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e47dce510e17a1d2b514.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-05-01T08-53-04-0888.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-4_SEM_1_Mainline-Debug-f14590c61f08d1036099.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-4_SEM_1_Mainline_test-Debug-c587174a4b422aeacc8d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-4_SEM_Mainline_test-Debug-0468ddbcf6291033e1c4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-googletest.googlemock-Debug-d25d85acdfa03e9cbedb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-googletest.googletest-Debug-1da6476180ecb6d97246.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +145,7 @@
     "database.data.extractors.current.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10",
+    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -167,6 +165,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\41" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\10" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\1\Inductance" />
       <recent name="E:\Git\NNTU_INF\4\My\Inductance V2" />
@@ -179,7 +178,7 @@
       <recent name="E:\Git\NNTU_INF\2\2.1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_10_Mainline">
+  <component name="RunManager" selected="CMake Application.4_SEM_41_Mainline">
     <configuration name="4_SEM_Mainline_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -231,6 +230,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="4_SEM_41_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/41/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_41_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_41_Mainline">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="4_SEM_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -265,6 +269,7 @@
       <item itemvalue="CMake Application.3_SEM_Mainline" />
       <item itemvalue="CMake Application.4_SEM_10_Mainline" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline" />
+      <item itemvalue="CMake Application.4_SEM_41_Mainline" />
       <item itemvalue="CMake Application.4_SEM_Mainline" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
@@ -427,7 +432,7 @@
       <workItem from="1714434364231" duration="5668000" />
       <workItem from="1714472199599" duration="12436000" />
       <workItem from="1714545464045" duration="5155000" />
-      <workItem from="1714550856213" duration="7466000" />
+      <workItem from="1714550856213" duration="8642000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -772,7 +777,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,7 +832,8 @@
     <MESSAGE value="NA MNE TOL'KO FENDI HOODIE I KOL'CO KART'E" />
     <MESSAGE value="OPPA" />
     <MESSAGE value="TERRESTRIAL KRACAVA" />
-    <option name="LAST_COMMIT_MESSAGE" value="TERRESTRIAL KRACAVA" />
+    <MESSAGE value="NON-ARGUABLE KRACAVA" />
+    <option name="LAST_COMMIT_MESSAGE" value="NON-ARGUABLE KRACAVA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

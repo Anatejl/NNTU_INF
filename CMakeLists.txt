@@ -95,3 +95,9 @@ add_executable(4_SEM_10_Mainline
         4/10/Inductance/main.cpp
         4/10/Inductance/application.cpp
         4/10/Inductance/vector.cpp)
+
+####### 41
+add_executable(4_SEM_41_Mainline
+        4/41/Inductance/main.cpp
+        4/41/Inductance/application.cpp
+        4/41/Inductance/vector.cpp)
