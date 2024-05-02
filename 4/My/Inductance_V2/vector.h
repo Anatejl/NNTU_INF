@@ -15,7 +15,6 @@ struct Vector{
 };
 
 Vector vectorValueArrayInitialize(const Vector& valueArray);
-Vector vectorIndexArrayInitialize(const Vector& valueArray);
 int vectorGetSize(Vector& v);
 
 #endif //NNTU_VECTOR_H

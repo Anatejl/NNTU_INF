@@ -15,11 +15,6 @@ Application init_application(std::vector<unsigned> &&init_values, unsigned D) {
     test_application.constD = D;
     test_application.valueArray.counter = init_values.size();
     test_application.valueArray.value.reserve(init_values.size());
-    test_application.indexArray.counter = init_values.size();
-    test_application.indexArray.value.resize(init_values.size());
-    for (int i = 0; i < init_values.size(); ++i) {
-        test_application.indexArray.value[i] = i;
-    }
     for (auto &val: init_values) {
         test_application.valueArray.value.push_back(val);
     }

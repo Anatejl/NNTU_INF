@@ -32,7 +32,6 @@ int appRun(Application &app) {
 
 bool appInitializeData(Application &app) {
     app.valueArray = vectorValueArrayInitialize(app.valueArray);
-    app.indexArray = vectorIndexArrayInitialize(app.valueArray);
     std::cout << "Input array has been successfully processed." << std::endl;
 
     return true;
@@ -52,18 +51,18 @@ bool appProcessDataIntoFinalResult(Application &app) {
     for (int i = 0; i < app.valueArray.counter; ++i) {
         if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
 
-            if ((app.valueArray.value[i] -
-            app.valueArray.value[i - ((tempConsequenceStreak-1) || tempConsequenceStreak)]) > app.constD
-            && tempConsequenceStreak > app.finalConsequenceStreak)
+            if (tempConsequenceStreak > app.finalConsequenceStreak &&
+            (((app.valueArray.value[i] -app.valueArray.value[i - ((tempConsequenceStreak-1))]) > app.constD) ||
+            (app.valueArray.value[i] -app.valueArray.value[i - tempConsequenceStreak]) > app.constD))
             {
                 if((app.finalLeft == INT_MAX && app.finalRight == INT_MAX) &&
                    (i == tempConsequenceStreak || i == tempConsequenceStreak+1)){
-                    app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
+                    app.finalLeft = i - tempConsequenceStreak;
                 }
                 else{
-                    app.finalLeft = app.indexArray.value[i - (tempConsequenceStreak-1)];
+                    app.finalLeft = i - (tempConsequenceStreak-1);
                 }
-                app.finalRight = app.indexArray.value[i];
+                app.finalRight = i;
                 app.finalConsequenceStreak = tempConsequenceStreak;
             }
 

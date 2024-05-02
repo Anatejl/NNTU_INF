@@ -12,7 +12,6 @@
 struct Application {
 
     Vector valueArray;
-    Vector indexArray;
     int constD;
 
     int finalLeft = INT_MAX;

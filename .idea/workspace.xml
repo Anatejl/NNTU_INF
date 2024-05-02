@@ -33,8 +33,13 @@
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="ROBUSTA FILTER == MINUS VSE CHTO BILO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline_test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline_test.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +60,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -101,7 +107,7 @@
     "CMake Application.4_SEM_10_Mainline.executor": "Run",
     "CMake Application.4_SEM_1_Mainline.executor": "Run",
     "CMake Application.4_SEM_41_Mainline.executor": "Run",
-    "CMake Application.4_SEM_Mainline.executor": "Run",
+    "CMake Application.4_SEM_Mainline.executor": "Debug",
     "CMake Application.PIDOR.executor": "Run",
     "CMake Application.TEST.executor": "Run",
     "CMake Application.gor.executor": "Run",
@@ -116,7 +122,7 @@
     "Google Test.IndexFindCorrectly.Simple_5.executor": "Run",
     "Google Test.IndexFindCorrectly.Simple_7.executor": "Run",
     "Google Test.IndexFindCorrectly.Simple_8.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_9.executor": "Debug",
+    "Google Test.IndexFindCorrectly.Simple_9.executor": "Run",
     "Google Test.IndexFindCorrectly_Simple_1_Test.executor": "Run",
     "Google Test.IndexWithD.Filttered_by_D_1.executor": "Run",
     "Google Test.IndexWithD.Filttered_by_D_2.executor": "Run",
@@ -170,7 +176,7 @@
       <recent name="E:\Git\NNTU_INF\2\2.1" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.4_SEM_Mainline_test">
+  <component name="RunManager" selected="CMake Application.4_SEM_Mainline">
     <configuration name="4_SEM_Mainline_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -423,7 +429,8 @@
       <workItem from="1714573378107" duration="4294000" />
       <workItem from="1714591151796" duration="4208000" />
       <workItem from="1714597445408" duration="6350000" />
-      <workItem from="1714605930109" duration="4399000" />
+      <workItem from="1714605930109" duration="4419000" />
+      <workItem from="1714640462678" duration="3854000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -768,7 +775,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -837,7 +844,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/My/Inductance_V2/test.cpp</url>
-          <line>96</line>
+          <line>91</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
