@@ -53,8 +53,7 @@ bool appProcessDataIntoFinalResult(Application &app) {
         if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
 
             if ((app.valueArray.value[i] -
-            (app.valueArray.value[i - (tempConsequenceStreak-1)]) > app.constD
-            || app.valueArray.value[i - (tempConsequenceStreak)]) > app.constD
+            app.valueArray.value[i - ((tempConsequenceStreak-1) || tempConsequenceStreak)]) > app.constD
             && tempConsequenceStreak > app.finalConsequenceStreak)
             {
                 if((app.finalLeft == INT_MAX && app.finalRight == INT_MAX) &&
