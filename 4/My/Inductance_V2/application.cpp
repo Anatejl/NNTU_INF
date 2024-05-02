@@ -39,7 +39,7 @@ bool appInitializeData(Application &app) {
 
 bool appGetConstantD(Application &app) {
     std::cout << "Input a D constant to compare:" << std::endl;
-    app.constD = 5;
+    app.constD = 0;
     std::cout << app.constD << std::endl;
 
     return true;
