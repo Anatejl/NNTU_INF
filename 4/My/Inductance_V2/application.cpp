@@ -48,8 +48,10 @@ bool appGetConstantD(Application &app) {
 bool appProcessDataIntoFinalResult(Application &app) {
     int tempConsequenceStreak = 0;
 
-    for (int i = 0; i < app.valueArray.counter; ++i) {
-        if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
+    for (int i = 0; i < vectorGetSize(app.valueArray); ++i) {
+        if ( (app.valueArray.value[i] > app.valueArray.value[i + 1]) ||
+            (i==vectorGetSize(app.valueArray)-1 && app.valueArray.value[i] < 0)
+            )  {
 
             if (tempConsequenceStreak > app.finalConsequenceStreak &&
             (((app.valueArray.value[i] -app.valueArray.value[i - ((tempConsequenceStreak-1))]) > app.constD) ||
@@ -72,7 +74,7 @@ bool appProcessDataIntoFinalResult(Application &app) {
         ++tempConsequenceStreak;
     }
 
-    if (app.finalLeft == INT_MAX && app.finalRight == INT_MAX && app.valueArray.counter == 1) {
+    if (app.finalLeft == INT_MAX && app.finalRight == INT_MAX && vectorGetSize(app.valueArray) == 1) {
         app.finalLeft = 0;
         app.finalRight = 0;
     }

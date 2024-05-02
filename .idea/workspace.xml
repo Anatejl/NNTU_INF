@@ -34,15 +34,28 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline_test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline_test.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest-distribution.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgmock.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgmock.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgmock_main.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgmock_main.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest_main.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgtest_main.a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +76,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h" root0="FORCE_HIGHLIGHTING" />
@@ -133,6 +145,7 @@
     "Google Test.IndexWithD.Filttered_by_D_2.executor": "Run",
     "Google Test.IndexWithD.Filttered_by_D_3.executor": "Run",
     "Google Test.IndexWithD_Filttered_by_D_1_Test.executor": "Run",
+    "Google Test.NegativeUInt.Negative_unit_becomes_False.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -181,7 +194,12 @@
       <recent name="E:\Git\NNTU_INF\2\2.1" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.Custom.Two">
+  <component name="RunManager" selected="Google Test.4_SEM_Mainline_test">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="4_SEM_Mainline_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -194,25 +212,25 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Custom.Three" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="Custom" TEST_METHOD="Three" TEST_MODE="SUITE_TEST">
+    <configuration name="Custom.Three" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="Custom" TEST_METHOD="Three" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Custom.Two" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="Custom" TEST_METHOD="Two" TEST_MODE="SUITE_TEST">
+    <configuration name="Custom.Two" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="Custom" TEST_METHOD="Two" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexFindCorrectly.Simple_5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_5" TEST_MODE="SUITE_TEST">
+    <configuration name="IndexFindCorrectly.Simple_9" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_9" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexFindCorrectly.Simple_9" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_9" TEST_MODE="SUITE_TEST">
+    <configuration name="NegativeUInt.Negative_unit_becomes_False" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="NegativeUInt" TEST_METHOD="Negative_unit_becomes_False" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -274,19 +292,19 @@
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="Google Test.4_SEM_Mainline_test" />
+      <item itemvalue="Google Test.NegativeUInt.Negative_unit_becomes_False" />
       <item itemvalue="Google Test.Custom.One" />
       <item itemvalue="Google Test.Custom.Three" />
       <item itemvalue="Google Test.Custom.Two" />
       <item itemvalue="Google Test.IndexFindCorrectly.Simple_9" />
-      <item itemvalue="Google Test.IndexFindCorrectly.Simple_5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.Custom.Two" />
         <item itemvalue="Google Test.Custom.Three" />
+        <item itemvalue="Google Test.Custom.Two" />
+        <item itemvalue="Google Test.NegativeUInt.Negative_unit_becomes_False" />
         <item itemvalue="Google Test.Custom.One" />
         <item itemvalue="Google Test.IndexFindCorrectly.Simple_9" />
-        <item itemvalue="Google Test.IndexFindCorrectly.Simple_5" />
       </list>
     </recent_temporary>
   </component>
@@ -437,6 +455,7 @@
       <workItem from="1714605930109" duration="4419000" />
       <workItem from="1714640462678" duration="4469000" />
       <workItem from="1714645633089" duration="1604000" />
+      <workItem from="1714650700092" duration="5867000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -852,7 +871,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/My/Inductance_V2/test.cpp</url>
-          <line>91</line>
+          <line>89</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>

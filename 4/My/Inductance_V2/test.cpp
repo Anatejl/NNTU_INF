@@ -4,8 +4,11 @@
 #ifndef INDUCTANCE_V2_APPLICATION_TESTS_CPP
 #define INDUCTANCE_V2_APPLICATION_TESTS_CPP
 
-#include "E:\Git\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
-#include "E:\Git\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+//#include "E:\Git\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
+//#include "E:\Git\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
+#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+
 #include "application.h"
 
 using namespace std;
@@ -155,6 +158,13 @@ ASSERT_EQ(6, test_app.finalRight);
 TEST(NegativeUInt, NegativeUInt) {
     unsigned int huy = -1;
     ASSERT_EQ(-1, huy);
+}
+
+TEST(NegativeUInt, Negative_unit_becomes_false) {
+    int huy = -1;
+    int huy2 = 1;
+    //ASSERT_FALSE(huy);
+    ASSERT_TRUE(huy2);
 }
 
 TEST(Custom, One) {
