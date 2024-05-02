@@ -7,7 +7,7 @@
 
 int main() {
 
-    std::cout << "VAR 1 CODE" << std::endl;
+    std::cout << "VAR 10 CODE" << std::endl;
 
     Application app;
 

@@ -51,50 +51,34 @@ bool appProcessDataIntoFinalResult(Application &app) {
 
     for (int i = 0; i < app.valueArray.counter; ++i) {
         if (app.valueArray.value[i] > app.valueArray.value[i + 1]) {
-            if (tempConsequenceStreak < i) {
-                if ((app.valueArray.value[i] - app.valueArray.value[i - (tempConsequenceStreak - 1)]) > app.constD
-                    && tempConsequenceStreak > app.finalConsequenceStreak) {
-                    app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak) + 1];
-                    app.finalRight = app.indexArray.value[i];
-                    app.finalConsequenceStreak = tempConsequenceStreak;
+
+            if ((app.valueArray.value[i] -
+            (app.valueArray.value[i - (tempConsequenceStreak-1)]) > app.constD
+            || app.valueArray.value[i - (tempConsequenceStreak)]) > app.constD
+            && tempConsequenceStreak > app.finalConsequenceStreak)
+            {
+                if((app.finalLeft == INT_MAX && app.finalRight == INT_MAX) &&
+                   (i == tempConsequenceStreak || i == tempConsequenceStreak+1)){
+                    app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
                 }
-            }
-            else {
-                if ((app.valueArray.value[i] - app.valueArray.value[i - tempConsequenceStreak]) > app.constD
-                    && tempConsequenceStreak > app.finalConsequenceStreak) {
-                    if (app.finalLeft == INT_MAX) {
-                        app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
-                    } else {
-                        app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak) + 1];
-                    }
-                    app.finalRight = app.indexArray.value[i];
-                    app.finalConsequenceStreak = tempConsequenceStreak;
+                else{
+                    app.finalLeft = app.indexArray.value[i - (tempConsequenceStreak-1)];
                 }
+                app.finalRight = app.indexArray.value[i];
+                app.finalConsequenceStreak = tempConsequenceStreak;
             }
 
             tempConsequenceStreak = 0;
         }
 
-        if (app.valueArray.counter - 1 == i
-            && (app.valueArray.value[i] - app.valueArray.value[i - (tempConsequenceStreak)]) > app.constD
-            && tempConsequenceStreak > app.finalConsequenceStreak) {
-            if (app.finalLeft == INT_MAX) {
-                app.finalLeft = app.indexArray.value[i - tempConsequenceStreak];
-            } else {
-                app.finalLeft = app.indexArray.value[(i - tempConsequenceStreak) + 1];
-            }
-            app.finalRight = app.indexArray.value[i];
-        }
-
-        if (i == 0 && app.valueArray.counter == 1 && (app.finalLeft == INT_MAX && app.finalRight == INT_MAX)) {
-            app.finalLeft = i;
-            app.finalRight = i;
-        }
-
         ++tempConsequenceStreak;
     }
 
-    if (app.finalLeft == (INT_MAX) && app.finalRight == (INT_MAX)) {
+    if (app.finalLeft == INT_MAX && app.finalRight == INT_MAX && app.valueArray.counter == 1) {
+        app.finalLeft = 0;
+        app.finalRight = 0;
+    }
+    if (app.finalLeft == INT_MAX && app.finalRight == INT_MAX) {
         return false;
     }
 

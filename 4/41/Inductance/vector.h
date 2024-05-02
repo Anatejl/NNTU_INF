@@ -10,12 +10,12 @@
 struct Vector{
 
     std::vector<std::pair<int,int>> value;
+    bool insideTheCircle = false;
     int counter;
 
 };
 
-Vector vectorValueArrayInitialize(const Vector& valueArray);
-Vector vectorIndexArrayInitialize(const Vector& valueArray);
+Vector vectorInitialArrayInitialize(const Vector& initialArray);
 int vectorGetSize(Vector& v);
 
 #endif //NNTU_VECTOR_H

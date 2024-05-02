@@ -11,7 +11,7 @@
 //Data for program to handle.
 struct Application {
 
-    Vector initiaArray;
+    Vector initialArray;
     Vector finalArray;
     int constR;
     int constK;
@@ -22,6 +22,7 @@ int appRun(Application& app);
 
 bool appInitializeData(Application &app);
 bool appGetConstantD(Application &app);
+bool appGetConstantK(Application &app);
 bool appProcessDataIntoFinalResult(Application &app);
 bool appGetOutputToUser(Application &app);
 

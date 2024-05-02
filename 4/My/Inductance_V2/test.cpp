@@ -4,8 +4,8 @@
 #ifndef INDUCTANCE_V2_APPLICATION_TESTS_CPP
 #define INDUCTANCE_V2_APPLICATION_TESTS_CPP
 
-#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
-#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+#include "E:\Git\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
+#include "E:\Git\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
 #include "application.h"
 
 using namespace std;
@@ -13,15 +13,15 @@ using namespace std;
 Application init_application(std::vector<unsigned> &&init_values, unsigned D) {
     Application test_application;
     test_application.constD = D;
-    test_application.initialValueArray.counter = init_values.size();
-    test_application.initialValueArray.value.reserve(init_values.size());
-    test_application.initialIndexArray.counter = init_values.size();
-    test_application.initialIndexArray.value.resize(init_values.size());
+    test_application.valueArray.counter = init_values.size();
+    test_application.valueArray.value.reserve(init_values.size());
+    test_application.indexArray.counter = init_values.size();
+    test_application.indexArray.value.resize(init_values.size());
     for (int i = 0; i < init_values.size(); ++i) {
-        test_application.initialIndexArray.value[i] = i;
+        test_application.indexArray.value[i] = i;
     }
     for (auto &val: init_values) {
-        test_application.initialValueArray.value.push_back(val);
+        test_application.valueArray.value.push_back(val);
     }
 
     return test_application;

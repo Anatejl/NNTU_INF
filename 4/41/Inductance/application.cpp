@@ -5,7 +5,6 @@
 #include "application.h"
 #include "vector.h"
 #include <iostream>
-#include <numeric>
 
 
 int appRun(Application &app) {
@@ -15,6 +14,11 @@ int appRun(Application &app) {
     }
 
     if (!appGetConstantD(app)) {
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
+    }
+
+    if (!appGetConstantK(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
@@ -32,51 +36,38 @@ int appRun(Application &app) {
 }
 
 bool appInitializeData(Application &app) {
-    app.initialValueArray = vectorValueArrayInitialize(app.initialValueArray);
+    app.initialArray = vectorInitialArrayInitialize(app.initialArray);
     std::cout << "Input array has been successfully processed." << std::endl;
 
     return true;
 }
 
 bool appGetConstantD(Application &app) {
-    std::cout << "Input a S constant, to compare adjacent values:" << std::endl;
-    app.constS = 150;
-    std::cout << app.constS << std::endl;
+    std::cout << "Input a R constant:" << std::endl;
+    app.constR = 2;
+    std::cout << app.constR << std::endl;
+
+    return true;
+}
+
+bool appGetConstantK(Application &app) {
+    std::cout << "Input a K constant:" << std::endl;
+    app.constK = 6;
+    std::cout << app.constK << std::endl;
 
     return true;
 }
 
 bool appProcessDataIntoFinalResult(Application &app) {
 
-    int tempSumm = 0;
 
-    for (int i = 0; i <  app.initialValueArray.counter; ++i) {
-
-        tempSumm += app.initialValueArray.value[i];
-
-    }
-
-    if (tempSumm >= app.constS) {
-
-        app.finalSumm = tempSumm;
-
-    }
 
     return true;
 }
 
 bool appGetOutputToUser(Application &app) {
 
-    //Output results
 
-    if (app.finalSumm > 0) {
-        std::cout << std::endl << "Final summ is - " << app.finalSumm << std::endl;
-    }
-    else {
 
-        std::cout << "Entered data aren't resolve into acceptable value." << std::endl;
-        return false;
-
-    }
     return true;
 }
