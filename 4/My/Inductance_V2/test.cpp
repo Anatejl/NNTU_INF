@@ -16,7 +16,6 @@ using namespace std;
 Application init_application(std::vector<int> &&init_values, int D) {
     Application test_application;
     test_application.constD = D;
-    test_application.valueArray.counter = init_values.size();
     test_application.valueArray.value.reserve(init_values.size());
     for (auto &val: init_values) {
         test_application.valueArray.value.push_back(val);

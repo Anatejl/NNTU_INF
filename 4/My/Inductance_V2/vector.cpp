@@ -8,18 +8,18 @@
 Vector vectorValueArrayInitialize(const Vector &valueArray) {
 
     Vector temporaryVector;
-    temporaryVector.counter = 0;
+    int counter = 0;
 
     while (!std::cin.eof()) {
 
         int temporary_value_storage = 0;
 
-        for (int k = 0; k <= temporaryVector.counter; k++) {
+        for (int k = 0; k <= counter; k++) {
 
             std::cin >> temporary_value_storage;
             temporaryVector.value.push_back(temporary_value_storage);
 
-            temporaryVector.counter++;
+            counter++;
 
             if (std::cin.eof()) {
                 break;

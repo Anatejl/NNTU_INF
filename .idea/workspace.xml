@@ -30,16 +30,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="ZAPULKA">
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="rofl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_10_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_10_Mainline.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline_test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline_test.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -440,7 +432,7 @@
       <workItem from="1714605930109" duration="4419000" />
       <workItem from="1714640462678" duration="4469000" />
       <workItem from="1714645633089" duration="1604000" />
-      <workItem from="1714650700092" duration="8257000" />
+      <workItem from="1714650700092" duration="8700000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -785,7 +777,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,7 +837,8 @@
     <MESSAGE value="FOR THE VICTORY, FOR THE GLORY OF THE EMPEROR OF MANKIND" />
     <MESSAGE value="FOR THE VICTORY, FOR THE GLORY OF THE EMPEROR OF MANKIND THROUGH THE ETERNITY OF SUFFERING" />
     <MESSAGE value="ZAPULKA" />
-    <option name="LAST_COMMIT_MESSAGE" value="ZAPULKA" />
+    <MESSAGE value="rofl" />
+    <option name="LAST_COMMIT_MESSAGE" value="rofl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

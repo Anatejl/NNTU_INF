@@ -10,7 +10,6 @@
 struct Vector{
 
     std::vector<int> value;
-    int counter;
 
 };
 
