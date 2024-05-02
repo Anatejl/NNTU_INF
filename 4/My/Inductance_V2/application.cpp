@@ -49,9 +49,11 @@ bool appProcessDataIntoFinalResult(Application &app) {
     int tempConsequenceStreak = 0;
 
     for (int i = 0; i < vectorGetSize(app.valueArray); ++i) {
-        if ( (app.valueArray.value[i] > app.valueArray.value[i + 1]) ||
-            (i==vectorGetSize(app.valueArray)-1 && app.valueArray.value[i] < 0)
-            )  {
+        if (
+        (i != vectorGetSize(app.valueArray)-1 && app.valueArray.value[i] > app.valueArray.value[i + 1])
+            ||
+        (i == vectorGetSize(app.valueArray)-1 ))
+        {
 
             if (tempConsequenceStreak > app.finalConsequenceStreak &&
             (((app.valueArray.value[i] -app.valueArray.value[i - ((tempConsequenceStreak-1))]) > app.constD) ||
