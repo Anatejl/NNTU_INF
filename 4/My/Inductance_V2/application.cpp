@@ -19,7 +19,7 @@ int appRun(Application &app) {
     }
 
     if (!appProcessDataIntoFinalResult(app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
+        std::cout << "DATA INPUT FAILURE." << std::endl << "No matches are acceptable." << std::endl;
         return 1;
     }
 
@@ -86,14 +86,8 @@ bool appProcessDataIntoFinalResult(Application &app) {
 bool appGetOutputToUser(Application &app) {
 
     //Output results
-    if (!(app.finalLeft == (INT_MAX) && app.finalRight == (INT_MAX))) {
-        std::cout << std::endl << app.finalLeft << " - Left Index" << std::endl;
-        std::cout << app.finalRight << " - Right Index" << std::endl;
-    } else {
-        std::cout << std::endl << "No matches applicable." << std::endl;
-
-        return false;
-    }
+    std::cout << std::endl << app.finalLeft << " - Left Index" << std::endl;
+    std::cout << app.finalRight << " - Right Index" << std::endl;
 
     return true;
 }
