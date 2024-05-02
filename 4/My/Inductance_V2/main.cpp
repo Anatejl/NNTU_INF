@@ -7,7 +7,7 @@
 
 int main() {
 
-    std::cout << "XUYNYA COUNTER!" << std::endl;
+    std::cout << "An unarguably valuable piece of software, THE diamond!" << std::endl;
 
     Application app;
 
