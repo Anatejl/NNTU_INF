@@ -6,7 +6,6 @@
 #include "vector.h"
 #include <iostream>
 
-
 int appRun(Application &app) {
     if (!appInitializeData(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
@@ -32,7 +31,6 @@ int appRun(Application &app) {
 
 bool appInitializeData(Application &app) {
     app.initialValueArray = vectorValueArrayInitialize(app.initialValueArray);
-    app.initialIndexArray = vectorIndexArrayInitialize(app.initialValueArray);
     std::cout << "Input array has been successfully processed." << std::endl;
 
     return true;
@@ -47,29 +45,20 @@ bool appGetConstantD(Application &app) {
 }
 
 bool appProcessDataIntoFinalResult(Application &app) {
-    for (int i = 0; i < app.initialValueArray.counter; ++i) {
-        if ((app.initialValueArray.value[i] - app.initialValueArray.value[i - 1]) > app.constR) {
-            app.finalIndexArray.value.push_back(app.initialIndexArray.value[i]);
+    for (int i = 0; i < vectorGetSize(app.initialValueArray); ++i) {
+
+        if ((app.initialValueArray.value[i] - app.initialValueArray.value[i - 1] > app.constR) ||
+            ((i != 0 && app.initialValueArray.value[i] == 0) && (app.initialValueArray.value[i - 1] - app.initialValueArray.value[i] > app.constR))
+            ) {
             app.finalValueArray.value.push_back(
                 std::make_pair(app.initialValueArray.value[i - 1], app.initialValueArray.value[i]));
-            ++app.finalValueArray.counter && app.finalIndexArray.counter;
         }
 
-        if (i != 0 && app.initialValueArray.value[i] == 0) {
-            if ((app.initialValueArray.value[i - 1] - app.initialValueArray.value[i]) > app.constR) {
-                app.finalIndexArray.value.push_back(app.initialIndexArray.value[i]);
-                app.finalValueArray.value.push_back(
-                    std::make_pair(app.initialValueArray.value[i - 1], app.initialValueArray.value[i]));
-                ++app.finalValueArray.counter && app.finalIndexArray.counter;
-            }
-        }
-
-
-        if (i == app.initialValueArray.counter && app.finalValueArray.value.empty()) {
+        if (i == vectorGetSize(app.initialValueArray) && vectorGetEmpty(app.initialValueArray)) {
             return false;
         }
 
-        if (i == 0 && app.initialValueArray.counter == 1) {
+        if (i == 0 && vectorGetSize(app.initialValueArray) == 1) {
             std::cout << std::endl << "Can't compare with void." << std::endl;
             return false;
         }
@@ -82,10 +71,10 @@ bool appGetOutputToUser(Application &app) {
 
     //Output results
     if (!app.finalValueArray.value.empty()) {
-        std::cout << std::endl << "Final values are (Index - Left element / Right Element):" << std::endl;
+        std::cout << std::endl << "Final values are (Index - Left element / Right element):" << std::endl;
 
         for (int i = 0; i < app.finalValueArray.value.size(); ++i) {
-            std::cout << "Index: " << app.finalIndexArray.value[i] << " - " << app.finalValueArray.value[i].first <<
+            std::cout << "Index: " << i+1 << " - " << app.finalValueArray.value[i].first <<
                     "/" << app.finalValueArray.value[i].second << std::endl;
         }
     } else {

@@ -10,19 +10,17 @@
 struct Vector{
 
     std::vector<int> value;
-    int counter;
 
 };
 
 struct VectorPair {
 
     std::vector<std::pair<int, int>> value;
-    int counter;
 
 };
 
 Vector vectorValueArrayInitialize(const Vector& valueArray);
-Vector vectorIndexArrayInitialize(const Vector& valueArray);
 int vectorGetSize(Vector& v);
+int vectorGetEmpty(Vector& v);
 
 #endif //NNTU_VECTOR_H
