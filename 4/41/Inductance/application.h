@@ -1,7 +1,7 @@
 //
 // Created by Anatejl on 15.04.2024.
 //
-
+#pragma once
 #ifndef NNTU_APPLICATION_H
 #define NNTU_APPLICATION_H
 
