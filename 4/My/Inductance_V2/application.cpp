@@ -52,8 +52,8 @@ bool appProcessDataIntoFinalResult(Application &app) {
         if (
         (i != vectorGetSize(app.valueArray)-1 && app.valueArray.value[i] > app.valueArray.value[i + 1])
             ||
-        (i == vectorGetSize(app.valueArray)-1 ))
-        {
+        (i == vectorGetSize(app.valueArray)-1 )
+        ){
 
             if (tempConsequenceStreak > app.finalConsequenceStreak &&
             (((app.valueArray.value[i] -app.valueArray.value[i - ((tempConsequenceStreak-1))]) > app.constD) ||

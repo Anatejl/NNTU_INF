@@ -21,6 +21,8 @@ struct VectorPair {
 
 Vector vectorValueArrayInitialize(const Vector& valueArray);
 int vectorGetSize(Vector& v);
-int vectorGetEmpty(Vector& v);
+int vectorGetSize_pair(VectorPair& v);
+bool vectorGetEmpty(Vector& v);
+bool vectorGetEmpty_pair(VectorPair& v);
 
 #endif //NNTU_VECTOR_H

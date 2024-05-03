@@ -49,7 +49,7 @@ bool appProcessDataIntoFinalResult(Application &app) {
 
         if ((app.initialValueArray.value[i] - app.initialValueArray.value[i - 1] > app.constR) ||
             ((i != 0 && app.initialValueArray.value[i] == 0) && (app.initialValueArray.value[i - 1] - app.initialValueArray.value[i] > app.constR))
-            ) {
+            ){
             app.finalValueArray.value.push_back(
                 std::make_pair(app.initialValueArray.value[i - 1], app.initialValueArray.value[i]));
         }
@@ -70,10 +70,10 @@ bool appProcessDataIntoFinalResult(Application &app) {
 bool appGetOutputToUser(Application &app) {
 
     //Output results
-    if (!app.finalValueArray.value.empty()) {
+    if (!vectorGetEmpty_pair(app.finalValueArray)) {
         std::cout << std::endl << "Final values are (Index - Left element / Right element):" << std::endl;
 
-        for (int i = 0; i < app.finalValueArray.value.size(); ++i) {
+        for (int i = 0; i < vectorGetSize_pair(app.finalValueArray); ++i) {
             std::cout << "Index: " << i+1 << " - " << app.finalValueArray.value[i].first <<
                     "/" << app.finalValueArray.value[i].second << std::endl;
         }

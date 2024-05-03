@@ -74,7 +74,7 @@ bool appGetOutputToUser(Application &app) {
     }
     else {
 
-        std::cout << "Entered data aren't resolve into acceptable value." << std::endl;
+        std::cout << "Entered data doesn't resolve into acceptable value." << std::endl;
         return false;
 
     }

@@ -45,7 +45,17 @@ int vectorGetSize(Vector &v) {
     return v.value.size();
 }
 
-int vectorGetEmpty(Vector &v) {
+int vectorGetSize_pair(VectorPair& v){
+
+    return v.value.size();
+}
+
+bool vectorGetEmpty(Vector &v) {
+
+    return v.value.empty();
+}
+
+bool vectorGetEmpty_pair(VectorPair& v){
 
     return v.value.empty();
 }
