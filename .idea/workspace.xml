@@ -32,129 +32,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="minus counter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/41/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_41_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_41_Mainline.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/4/10/Inductance/application.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/4/10/Inductance/application.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/4/10/Inductance/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/4/10/Inductance/main.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/4/10/Inductance/vector.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/4/10/Inductance/vector.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/4/1/Inductance/application.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/4/1/Inductance/application.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/4/1/Inductance/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/4/1/Inductance/main.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/4/1/Inductance/vector.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/4/1/Inductance/vector.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/application.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/application.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/application.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/application.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/main.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/main.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/vector.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/vector.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/vector.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/4/41/Inductance/vector.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/vector.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/vector.cpp.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/gmock.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/gmock.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest-distribution.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest-distribution.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/gtest.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/gtest.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,75 +92,75 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "C/C++ File.inductive_operation.cpp.executor": "Run",
-    "CMake Application.3.14DOR.executor": "Run",
-    "CMake Application.3_SEM_Mainline.executor": "Debug",
-    "CMake Application.4SEM_MY.executor": "Run",
-    "CMake Application.4_SEM_10_Mainline.executor": "Run",
-    "CMake Application.4_SEM_1_Mainline.executor": "Run",
-    "CMake Application.4_SEM_41_Mainline.executor": "Debug",
-    "CMake Application.4_SEM_Mainline.executor": "Run",
-    "CMake Application.PIDOR.executor": "Run",
-    "CMake Application.TEST.executor": "Run",
-    "CMake Application.gor.executor": "Run",
-    "CMake Application.solve.executor": "Run",
-    "Google Test.4_SEM_Mainline_test.executor": "Run",
-    "Google Test.All in 4_SEM_Mainline_test.executor": "Run",
-    "Google Test.Custom.One.executor": "Run",
-    "Google Test.Custom.Three.executor": "Run",
-    "Google Test.Custom.Two.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_1.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_10.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_11.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_2.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_3.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_5.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_7.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_8.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_9.executor": "Run",
-    "Google Test.IndexFindCorrectly_Simple_1_Test.executor": "Run",
-    "Google Test.IndexWithD.Filttered_by_D_1.executor": "Run",
-    "Google Test.IndexWithD.Filttered_by_D_2.executor": "Run",
-    "Google Test.IndexWithD.Filttered_by_D_3.executor": "Run",
-    "Google Test.IndexWithD_Filttered_by_D_1_Test.executor": "Run",
-    "Google Test.NegativeUInt.Negative_unit_becomes_False.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "ToolWindowSQL Generator.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.advertisement.text.has.clang-format": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "structure.view.defaults.are.configured": "true",
-    "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;C/C++ File.inductive_operation.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.3.14DOR.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.3_SEM_Mainline.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake Application.4SEM_MY.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.4_SEM_10_Mainline.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.4_SEM_1_Mainline.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.4_SEM_41_Mainline.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake Application.4_SEM_Mainline.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.PIDOR.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.TEST.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.gor.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.solve.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.4_SEM_Mainline_test.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.All in 4_SEM_Mainline_test.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.Custom.One.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.Custom.Three.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.Custom.Two.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_1.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_10.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_11.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_2.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_3.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_5.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_7.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_8.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly.Simple_9.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexFindCorrectly_Simple_1_Test.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexWithD.Filttered_by_D_1.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexWithD.Filttered_by_D_2.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexWithD.Filttered_by_D_3.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.IndexWithD_Filttered_by_D_1_Test.executor&quot;: &quot;Run&quot;,
+    &quot;Google Test.NegativeUInt.Negative_unit_becomes_False.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;ToolWindowSQL Generator.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;E:/Git/NNTU_INF/1/1.11/11.c&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\41" />
@@ -562,6 +442,9 @@
       <workItem from="1714684330443" duration="650000" />
       <workItem from="1714727122856" duration="3993000" />
       <workItem from="1714737367152" duration="9071000" />
+      <workItem from="1714787052654" duration="121000" />
+      <workItem from="1714787393721" duration="322000" />
+      <workItem from="1714825048092" duration="1069000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -985,7 +868,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/41/Inductance/vector.cpp</url>
-          <line>20</line>
+          <line>17</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>

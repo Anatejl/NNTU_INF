@@ -21,15 +21,23 @@ Vector vectorInitialArrayInitialize(const Vector &initialArray, int coeffK) {
                 temporaryVector.row.push_back(column);
 
                 for (int j = 0; j < coeffK; ++j) {
-                    std::cin >> tempCIN;
-                    temporaryVector.row[i].push_back(tempCIN);
+
+                    if(!std::cin.eof()) {
+                        std::cin >> tempCIN;
+                        temporaryVector.row[i].push_back(tempCIN);
+                    }
+                    else{
+                        break;
+                    }
                 }
-
             }
-
+            else{
+                break;
+            }
         }
-
     }
+
+    //if(temporaryVector.row[temporaryVector.row.end()].[2])
 
     return temporaryVector;
 
