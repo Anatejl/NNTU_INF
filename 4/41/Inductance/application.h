@@ -11,8 +11,17 @@
 //Data for program to handle.
 struct Application {
 
+    //DATA
     Vector initialArray;
     Vector finalArray;
+
+    //CIRCLE
+    //Assume 1-X 2-Y
+    std::pair<int,int> circleCenter;
+    std::pair<int,int> circleXY;
+    int circleR;
+
+
     int constR;
     int constK;
 };
@@ -21,6 +30,7 @@ struct Application {
 int appRun(Application& app);
 
 bool appInitializeData(Application &app);
+bool appGetCircleDimensions(Application &app);
 bool appGetConstantD(Application &app);
 bool appGetConstantK(Application &app);
 bool appProcessDataIntoFinalResult(Application &app);

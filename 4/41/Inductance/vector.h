@@ -10,7 +10,7 @@
 struct Vector{
 
     std::vector<std::vector<int>>row;
-    bool insideTheCircle = false;
+    std::vector<int> insideTheCircle;
     int counter = 0;
 
 };

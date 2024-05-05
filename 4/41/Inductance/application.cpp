@@ -7,13 +7,19 @@
 #include <vector>
 #include <iostream>
 #include  <stdlib.h>
+#include <math.h>
 
 int appRun(Application &app) {
 
-    if (!appGetConstantD(app)) {
+    if (!appGetCircleDimensions(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
+
+//    if (!appGetConstantD(app)) {
+//        std::cout << "DATA INPUT FAILURE." << std::endl;
+//        return 1;
+//    }
 
     if (!appGetConstantK(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
@@ -34,7 +40,38 @@ int appRun(Application &app) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
+
     return 0;
+}
+
+bool appGetCircleDimensions(Application &app) {
+
+    std::cout << "Input CENTER 'X Y' coordinate of circle " << std::endl;
+    std::cin >> app.circleCenter.first >> app.circleCenter.second;
+
+    std::cout << "Input EDGE 'X Y' coordinate of circle " << std::endl;
+    std::cin >> app.circleXY.first >> app.circleXY.second;
+
+    app.circleR = sqrt(
+            pow(app.circleXY.first - app.circleCenter.first, 2) +
+            pow(app.circleXY.second - app.circleCenter.second, 2));
+
+    return true;
+}
+
+//bool appGetConstantD(Application &app) {
+//    std::cout << "Input a R constant:" << std::endl;
+//    app.constR = 2;
+//    std::cout << app.constR << std::endl;
+//
+//    return true;
+//}
+
+bool appGetConstantK(Application &app) {
+    std::cout << "Input a K constant:" << std::endl;
+    app.constK = 3;
+    std::cout << app.constK << std::endl;
+    return true;
 }
 
 bool appInitializeData(Application &app) {
@@ -44,27 +81,15 @@ bool appInitializeData(Application &app) {
     return true;
 }
 
-bool appGetConstantD(Application &app) {
-    std::cout << "Input a R constant:" << std::endl;
-    app.constR = 2;
-    std::cout << app.constR << std::endl;
-
-    return true;
-}
-
-bool appGetConstantK(Application &app) {
-    std::cout << "Input a K constant:" << std::endl;
-    app.constK = 3;
-    std::cout << app.constK << std::endl;
-
-    return true;
-}
-
 bool appProcessDataIntoFinalResult(Application &app) {
 
-    for(int i = 0; i < 10; ++i) {
-        std::cout << std::rand() % 101 << std::endl;
+    for(int i = 0; i < app.initialArray.row.size(); ++i){
+
+        app.finalArray.row;
+
     }
+
+
     return true;
 }
 

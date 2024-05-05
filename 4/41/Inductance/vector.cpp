@@ -7,19 +7,17 @@
 
 Vector vectorInitialArrayInitialize(const Vector &initialArray, int coeffK) {
 
-    int tempFirst = 0, tempSecond = 0;
     Vector temporaryVector;
-    int counter = 0;
     std::vector<int> column;
 
-    while(!std::cin.eof()) {
+    while(true) {
         int tempCIN;
         for(int i = 0 ;; ++i) {
 
             if(!std::cin.eof()) {
 
                 temporaryVector.row.push_back(column);
-
+                ++temporaryVector.counter;
                 for (int j = 0; j < coeffK; ++j) {
 
                     if(!std::cin.eof()) {
@@ -35,15 +33,27 @@ Vector vectorInitialArrayInitialize(const Vector &initialArray, int coeffK) {
                 break;
             }
         }
+        break;
     }
 
-    //if(temporaryVector.row[temporaryVector.row.end()].[2])
+    while(temporaryVector.row[temporaryVector.row.size()-1].size() < coeffK){
+
+        std::cout << "Value of " << temporaryVector.row[temporaryVector.row.size()-1][temporaryVector.row[temporaryVector.row.size()-1].size()-1]
+        << " was destroyed, since it don't comply with the rules." << std::endl;
+        temporaryVector.row[temporaryVector.row.size()-1].pop_back();
+
+        if(temporaryVector.row[temporaryVector.row.size()-1].empty()){
+
+            temporaryVector.row.pop_back();
+
+        }
+    }
 
     return temporaryVector;
 
 }
 
-//int vectorGetSize(Vector &v) {
-//
-//    return v.value.size();
-//}
+int vectorGetSize(Vector &v) {
+
+    return v.row.size();
+}

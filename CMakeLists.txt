@@ -29,7 +29,7 @@ set(CMAKE_CXX_STANDARD 17)
 # 1 course / 2 semester
 
 #add_executable(2.1 "2/2.1/master.c" 2/2.1/data.h )
-#add_executable(2.1tn "2/2.1t/main.c" 2/2.1t/data.h)
+add_executable(2.1tn "2/2.1t/main.c" 2/2.1t/data.h)
 #add_executable(2.1ch "2/2.1ch/index.c" 2/2.1ch/struct.h)
 #add_executable(2.1g "2/2.1g/main.c" 2/2.1g/programs.h)
 #add_executable(2_lab1_1_1 "2/Lab1/1.1.c")

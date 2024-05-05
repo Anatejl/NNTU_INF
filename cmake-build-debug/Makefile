@@ -171,6 +171,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 2.1tn
+
+# Build rule for target.
+2.1tn: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2.1tn
+.PHONY : 2.1tn
+
+# fast build rule for target.
+2.1tn/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1tn.dir\build.make CMakeFiles/2.1tn.dir/build
+.PHONY : 2.1tn/fast
+
+#=============================================================================
 # Target rules for targets named 3_SEM_Mainline
 
 # Build rule for target.
@@ -299,6 +312,30 @@ gtest_main: cmake_check_build_system
 gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
+
+2/2.1t/main.obj: 2/2.1t/main.c.obj
+.PHONY : 2/2.1t/main.obj
+
+# target to build an object file
+2/2.1t/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1tn.dir\build.make CMakeFiles/2.1tn.dir/2/2.1t/main.c.obj
+.PHONY : 2/2.1t/main.c.obj
+
+2/2.1t/main.i: 2/2.1t/main.c.i
+.PHONY : 2/2.1t/main.i
+
+# target to preprocess a source file
+2/2.1t/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1tn.dir\build.make CMakeFiles/2.1tn.dir/2/2.1t/main.c.i
+.PHONY : 2/2.1t/main.c.i
+
+2/2.1t/main.s: 2/2.1t/main.c.s
+.PHONY : 2/2.1t/main.s
+
+# target to generate assembly for a file
+2/2.1t/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2.1tn.dir\build.make CMakeFiles/2.1tn.dir/2/2.1t/main.c.s
+.PHONY : 2/2.1t/main.c.s
 
 3/3.14DOR/application.obj: 3/3.14DOR/application.cpp.obj
 .PHONY : 3/3.14DOR/application.obj
@@ -703,6 +740,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... 2.1tn
 	@echo ... 3_SEM_Mainline
 	@echo ... 4_SEM_10_Mainline
 	@echo ... 4_SEM_1_Mainline
@@ -713,6 +751,9 @@ help:
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... 2/2.1t/main.obj
+	@echo ... 2/2.1t/main.i
+	@echo ... 2/2.1t/main.s
 	@echo ... 3/3.14DOR/application.obj
 	@echo ... 3/3.14DOR/application.i
 	@echo ... 3/3.14DOR/application.s
