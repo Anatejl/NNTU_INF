@@ -5,13 +5,13 @@
 #include "vector.h"
 #include <iostream>
 
-Vector vectorInitialArrayInitialize(const Vector &initialArray, int coeffK) {
+initialVector vectorInitialArrayInitialize(const initialVector &initialArray, int coeffK) {
 
-    Vector temporaryVector;
-    std::vector<int> column;
+    initialVector temporaryVector;
+    std::vector<std::pair<double,double>> column;
 
     while(true) {
-        int tempCIN;
+        std::pair<double,double> tempCIN;
         for(int i = 0 ;; ++i) {
 
             if(!std::cin.eof()) {
@@ -21,7 +21,7 @@ Vector vectorInitialArrayInitialize(const Vector &initialArray, int coeffK) {
                 for (int j = 0; j < coeffK; ++j) {
 
                     if(!std::cin.eof()) {
-                        std::cin >> tempCIN;
+                        std::cin >> tempCIN.first >> tempCIN.second;
                         temporaryVector.row[i].push_back(tempCIN);
                     }
                     else{
@@ -38,8 +38,9 @@ Vector vectorInitialArrayInitialize(const Vector &initialArray, int coeffK) {
 
     while(temporaryVector.row[temporaryVector.row.size()-1].size() < coeffK){
 
-        std::cout << "Value of " << temporaryVector.row[temporaryVector.row.size()-1][temporaryVector.row[temporaryVector.row.size()-1].size()-1]
-        << " was destroyed, since it don't comply with the rules." << std::endl;
+        std::cout << "Value of " << temporaryVector.row[temporaryVector.row.size()-1][temporaryVector.row[temporaryVector.row.size()-1].size()-1].first
+        << "/" << temporaryVector.row[temporaryVector.row.size()-1][temporaryVector.row[temporaryVector.row.size()-1].size()-1].second
+        <<" was destroyed, since it don't comply with the rules." << std::endl;
         temporaryVector.row[temporaryVector.row.size()-1].pop_back();
 
         if(temporaryVector.row[temporaryVector.row.size()-1].empty()){
@@ -53,7 +54,7 @@ Vector vectorInitialArrayInitialize(const Vector &initialArray, int coeffK) {
 
 }
 
-int vectorGetSize(Vector &v) {
+int vectorGetSize(initialVector &v) {
 
     return v.row.size();
 }

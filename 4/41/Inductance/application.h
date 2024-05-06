@@ -12,17 +12,14 @@
 struct Application {
 
     //DATA
-    Vector initialArray;
-    Vector finalArray;
+    initialVector initialArray;
+    finalVector finalArray;
 
     //CIRCLE
     //Assume 1-X 2-Y
     std::pair<int,int> circleCenter;
     std::pair<int,int> circleXY;
     int circleR;
-
-
-    int constR;
     int constK;
 };
 
@@ -33,7 +30,8 @@ bool appInitializeData(Application &app);
 bool appGetCircleDimensions(Application &app);
 bool appGetConstantD(Application &app);
 bool appGetConstantK(Application &app);
-bool appProcessDataIntoFinalResult(Application &app);
+bool appProcessXYArrayIntoRArray(Application &app);
+bool appProcessFinalResult(Application &app);
 bool appGetOutputToUser(Application &app);
 
 #endif //NNTU_APPLICATION_H

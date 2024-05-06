@@ -2,8 +2,8 @@
 // Created by Anatejl on 20.04.2024.
 //
 
-#include "vector.h"
 #include <iostream>
+#include "vector.h"
 
 Vector vectorValueArrayInitialize(const Vector &valueArray) {
 

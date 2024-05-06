@@ -7,15 +7,21 @@
 
 #include <vector>
 
-struct Vector{
+struct initialVector{
 
-    std::vector<std::vector<int>>row;
-    std::vector<int> insideTheCircle;
+    std::vector<std::vector<std::pair<double, double>>>row;
     int counter = 0;
 
 };
 
-Vector vectorInitialArrayInitialize(const Vector& initialArray, int coeffK);
-int vectorGetSize(Vector& v);
+struct finalVector {
+
+    std::vector<std::vector<double>> row;
+    std::vector<bool> insideTheCircle;
+
+};
+
+initialVector vectorInitialArrayInitialize(const initialVector& initialArray, int coeffK);
+int vectorGetSize(initialVector& v);
 
 #endif //NNTU_VECTOR_H
