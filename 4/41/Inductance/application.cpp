@@ -6,7 +6,6 @@
 #include "vector.h"
 #include <vector>
 #include <iostream>
-#include <cstdlib>
 #include <cmath>
 #include <numeric>
 
@@ -106,7 +105,8 @@ bool appProcessFinalResult(Application &app) {
         }
     }
 
-    if (std::accumulate(app.finalArray.insideTheCircle.begin(), app.finalArray.insideTheCircle.end(), 0) == 0) {
+    if (std::accumulate(app.finalArray.insideTheCircle.begin(),
+                        app.finalArray.insideTheCircle.end(), 0) == 0) {
         return false;
     }
     return true;
@@ -117,7 +117,7 @@ bool appGetOutputToUser(Application &app) {
 
     for(int i = 0; i < app.finalArray.insideTheCircle.size(); ++i) {
 
-        if(app.finalArray.insideTheCircle[i] == true) {
+        if(app.finalArray.insideTheCircle[i]) {
             std::cout << "Group " << i+1 << " - ";
             for (int j = 0; j < app.constK; ++j) {
                 std::cout << "(" <<app.initialArray.row[i][j].first << "/"<< app.initialArray.row[i][j].second
