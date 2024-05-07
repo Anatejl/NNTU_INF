@@ -29,7 +29,8 @@ set(CMAKE_CXX_STANDARD 17)
 # 1 course / 2 semester
 
 #add_executable(2.1 "2/2.1/master.c" 2/2.1/data.h )
-add_executable(2.1tn "2/2.1t/main.c" 2/2.1t/data.h)
+add_executable(2.1tn "2/2.1t/main.c" 2/2.1t/data.h
+        4/13/Inductance/test13.cpp)
 #add_executable(2.1ch "2/2.1ch/index.c" 2/2.1ch/struct.h)
 #add_executable(2.1g "2/2.1g/main.c" 2/2.1g/programs.h)
 #add_executable(2_lab1_1_1 "2/Lab1/1.1.c")
@@ -96,8 +97,19 @@ add_executable(4_SEM_10_Mainline
         4/10/Inductance/application.cpp
         4/10/Inductance/vector.cpp)
 
+####### 13
+add_executable(4_SEM_13_TEST 4/13/Inductance/test13.cpp)
+add_executable(4_SEM_13_Mainline
+        4/13/Inductance/main.cpp
+        4/13/Inductance/application.cpp
+        4/13/Inductance/vector.cpp)
+
+
+
 ####### 41
 add_executable(4_SEM_41_Mainline
         4/41/Inductance/main.cpp
         4/41/Inductance/application.cpp
         4/41/Inductance/vector.cpp)
+
+
