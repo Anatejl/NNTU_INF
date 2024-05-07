@@ -6,20 +6,16 @@
 #include "vector.h"
 #include <vector>
 #include <iostream>
-#include  <stdlib.h>
-#include <math.h>
+#include <cstdlib>
+#include <cmath>
 #include <numeric>
 
 int appRun(Application &app) {
+
     if (!appGetCircleDimensions(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
-
-    //    if (!appGetConstantD(app)) {
-    //        std::cout << "DATA INPUT FAILURE." << std::endl;
-    //        return 1;
-    //    }
 
     if (!appGetConstantK(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
@@ -54,22 +50,14 @@ bool appGetCircleDimensions(Application &app) {
     std::cin >> app.circleCenter.first >> app.circleCenter.second;
 
     std::cout << "Input EDGE 'X Y' coordinate of circle " << std::endl;
-    std::cin >> app.circleXY.first >> app.circleXY.second;
+    std::cin >> app.circleEdge.first >> app.circleEdge.second;
 
     app.circleR = sqrt(
-        pow(app.circleXY.first - app.circleCenter.first, 2) +
-        pow(app.circleXY.second - app.circleCenter.second, 2));
+            pow(app.circleEdge.first - app.circleCenter.first, 2) +
+            pow(app.circleEdge.second - app.circleCenter.second, 2));
 
     return true;
 }
-
-//bool appGetConstantD(Application &app) {
-//    std::cout << "Input a R constant:" << std::endl;
-//    app.constR = 2;
-//    std::cout << app.constR << std::endl;
-//
-//    return true;
-//}
 
 bool appGetConstantK(Application &app) {
     std::cout << "Input a K constant:" << std::endl;
@@ -103,7 +91,7 @@ bool appProcessXYArrayIntoRArray(Application &app) {
 }
 
 bool appProcessFinalResult(Application &app) {
-    int tempStreakCheck = 0;
+    int tempStreakCheck;
     for (int i = 0; i < app.finalArray.row.size(); ++i) {
         tempStreakCheck = 0;
         for (int j = 0; j < app.finalArray.row[i].size(); ++j) {

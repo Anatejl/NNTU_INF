@@ -18,7 +18,7 @@ struct Application {
     //CIRCLE
     //Assume 1-X 2-Y
     std::pair<int,int> circleCenter;
-    std::pair<int,int> circleXY;
+    std::pair<int,int> circleEdge;
     int circleR;
     int constK;
 };
