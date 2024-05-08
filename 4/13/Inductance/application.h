@@ -11,13 +11,12 @@
 //Data for program to handle.
 struct Application {
 
-    initialVector initialValueArray;
-    initialVector sortedArray;
+    initialVector initialArray;
 
-    int va = 0;
-    int a0 = 0;
-    int vb = 0;
-    int b0 = 0;
+    int va = INT_MAX;
+    int a0 = INT_MAX;
+    int vb = INT_MAX;
+    int b0 = INT_MAX;
 
 };
 

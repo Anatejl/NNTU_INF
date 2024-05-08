@@ -21,9 +21,9 @@ struct finalVector {
 
 };
 
-initialVector vectorInitializeData(const initialVector& initialValueArray, int va, int a0, int vb, int b0);
-initialVector vectorAVectorInitialize(const initialVector& initialValueArray, int va, int a0);
-initialVector vectorBVectorInitialize(const initialVector& initialValueArray);
+initialVector vectorInitializeData(const initialVector& initialArray);
+initialVector vectorAVectorInitialize(const initialVector& initialArray, int va, int a0);
+initialVector vectorBVectorInitialize(const initialVector& initialArray, int vb, int b0);
 int vectorGetSize(initialVector& v);
 
 #endif //NNTU_VECTOR_H

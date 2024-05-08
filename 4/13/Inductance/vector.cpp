@@ -5,20 +5,25 @@
 #include <iostream>
 #include "vector.h"
 
-initialVector vectorInitializeData(const initialVector &initialValueArray, int va, int a0, int vb, int b0) {
+initialVector vectorInitializeData(const initialVector &initialArray) {
 
     initialVector temporaryVector;
+    int tempValue;
 
+    while(!std::cin.eof()) {
 
+        std::cin >> tempValue;
+        temporaryVector.initialData.push_back(tempValue);
 
+    }
 
     return temporaryVector;
 
 }
 
-initialVector vectorIndexArrayInitialize(const initialVector &initialValueArray) {
-
-
-    return temporaryVector;
-}
+//initialVector vectorIndexArrayInitialize(const initialVector &initialArray) {
+//
+//
+//    return temporaryVector;
+//}
 
