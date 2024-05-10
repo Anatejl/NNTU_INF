@@ -8,7 +8,7 @@
 #include <climits>
 #include "vector.h"
 
-//Data for program to handle.
+//Data for program to handle
 struct Application {
 
     initialVector initialArray;

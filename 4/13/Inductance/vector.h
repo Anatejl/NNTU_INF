@@ -16,8 +16,8 @@ struct initialVector{
 };
 
 initialVector vectorInitializeData(const initialVector& initialArray);
-initialVector vectorAVectorInitialize(const initialVector& initialArray, int va, int a0);
-initialVector vectorBVectorInitialize(const initialVector& initialArray, int vb, int b0);
+std::vector<int> vectorAVectorInitialize(const initialVector& initialArray, int va, int a0);
+std::vector<int> vectorBVectorInitialize(const initialVector& initialArray, int vb, int b0);
 
 int vectorGetSizeInitialData(initialVector& v);
 bool vectorGetEmptyInitialData(initialVector& v);

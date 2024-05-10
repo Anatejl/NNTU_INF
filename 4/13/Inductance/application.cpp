@@ -53,7 +53,7 @@ bool appInitializeA(Application &app) {
     }
 
     if (!vectorGetEmptyInitialData(app.initialArray)) {
-        app.initialArray = vectorAVectorInitialize(app.initialArray, app.va, app.a0);
+        app.initialArray.AVector = vectorAVectorInitialize(app.initialArray, app.va, app.a0);
     }
 
     return true;
@@ -66,7 +66,7 @@ bool appInitializeB(Application &app) {
     }
 
     if (!vectorGetEmptyInitialData(app.initialArray)) {
-        app.initialArray = vectorBVectorInitialize(app.initialArray, app.vb, app.b0);
+        app.initialArray.BVector = vectorBVectorInitialize(app.initialArray, app.vb, app.b0);
     }
 
     return true;
@@ -84,7 +84,6 @@ bool appProcessDataIntoFinalResult(Application &app) {
     std::vector<int> tempToErase;
 
     for (int i = 0; i < vectorGetSizeInitialData(app.initialArray); ++i) {
-
         if (!(app.initialArray.initialData[i] > app.initialArray.AVector[i] &&
               app.initialArray.initialData[i] < app.initialArray.BVector[i])) {
             tempToErase.push_back(i);
