@@ -1,1 +1,1 @@
--isystem C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googletest/include -isystem C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googletest -isystem C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googlemock/include -isystem C:/Users/l3t/Documents/GitHub/NNTU_INF/googletest/googlemock
+-isystem E:/Git/NNTU_INF/googletest/googletest/include -isystem E:/Git/NNTU_INF/googletest/googletest -isystem E:/Git/NNTU_INF/googletest/googlemock/include -isystem E:/Git/NNTU_INF/googletest/googlemock

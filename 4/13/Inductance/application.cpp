@@ -5,8 +5,6 @@
 #include "application.h"
 #include "vector.h"
 #include <iostream>
-#include <numeric>
-
 
 int appRun(Application &app) {
 
@@ -44,34 +42,33 @@ int appRun(Application &app) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
+
     return 0;
 }
 
 bool appInitializeA(Application &app) {
 
-    if(app.va == INT_MAX && app.a0 == INT_MAX) {
+    if (app.va == INT_MAX && app.a0 == INT_MAX) {
         std::cin >> app.va >> app.a0;
     }
 
-    if(!app.initialArray.initialData.empty()) {
-        for(int i = 0; i < app.initialArray.initialData.size(); ++i){
-            app.initialArray.AVector.push_back(app.va * i + app.a0);
-        }
+    if (!vectorGetEmptyInitialData(app.initialArray)) {
+        app.initialArray = vectorAVectorInitialize(app.initialArray, app.va, app.a0);
     }
+
     return true;
 }
 
 bool appInitializeB(Application &app) {
 
-    if(app.vb == INT_MAX && app.b0 == INT_MAX) {
+    if (app.vb == INT_MAX && app.b0 == INT_MAX) {
         std::cin >> app.vb >> app.b0;
     }
 
-    if(!app.initialArray.initialData.empty()) {
-        for(int i = 0; i < app.initialArray.initialData.size(); ++i){
-            app.initialArray.BVector.push_back(app.vb * i + app.b0);
-        }
+    if (!vectorGetEmptyInitialData(app.initialArray)) {
+        app.initialArray = vectorBVectorInitialize(app.initialArray, app.vb, app.b0);
     }
+
     return true;
 }
 
@@ -84,10 +81,18 @@ bool appInitializeData(Application &app) {
 
 bool appProcessDataIntoFinalResult(Application &app) {
 
-    for (int i = 0; i < app.initialArray.initialData.size(); ++i) {
+    std::vector<int> tempToErase;
 
-        
+    for (int i = 0; i < vectorGetSizeInitialData(app.initialArray); ++i) {
 
+        if (!(app.initialArray.initialData[i] > app.initialArray.AVector[i] &&
+              app.initialArray.initialData[i] < app.initialArray.BVector[i])) {
+            tempToErase.push_back(i);
+        }
+    }
+
+    for (int i = tempToErase.size(); i > 0; --i) {
+        app.initialArray.initialData.erase(app.initialArray.initialData.begin() + tempToErase[i - 1]);
     }
 
     return true;
@@ -95,7 +100,11 @@ bool appProcessDataIntoFinalResult(Application &app) {
 
 bool appGetOutputToUser(Application &app) {
 
-
+    std::cout << "After exclusion, left-over values are:" << std::endl;
+    for (int i = 0; i < vectorGetSizeInitialData(app.initialArray); ++i) {
+        std::cout << app.initialArray.initialData[i] << " ";
+    }
+    std::cout << std::endl;
 
     return true;
 }
