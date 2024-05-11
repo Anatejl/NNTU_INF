@@ -8,12 +8,13 @@
 
 
 int appRun(Application &app) {
-    if (!appInitializeData(app)) {
+
+    if (!appGetConstantD(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
 
-    if (!appGetConstantD(app)) {
+    if (!appInitializeData(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
@@ -27,25 +28,29 @@ int appRun(Application &app) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
+
     return 0;
 }
 
+bool appGetConstantD(Application &app) {
+
+    std::cout << "Input a D constant to compare:" << std::endl;
+    std::cin >> app.constD;
+    std::cout << app.constD << std::endl;
+
+    return true;
+}
+
 bool appInitializeData(Application &app) {
+
     app.valueArray = vectorValueArrayInitialize(app.valueArray);
     std::cout << "Input array has been successfully processed." << std::endl;
 
     return true;
 }
 
-bool appGetConstantD(Application &app) {
-    std::cout << "Input a D constant to compare:" << std::endl;
-    app.constD = 0;
-    std::cout << app.constD << std::endl;
-
-    return true;
-}
-
 bool appProcessDataIntoFinalResult(Application &app) {
+
     int tempConsequenceStreak = 0;
 
     for (int i = 0; i < vectorGetSize(app.valueArray); ++i) {
@@ -80,6 +85,7 @@ bool appProcessDataIntoFinalResult(Application &app) {
         app.finalLeft = 0;
         app.finalRight = 0;
     }
+
     if (app.finalLeft == INT_MAX && app.finalRight == INT_MAX) {
         return false;
     }
