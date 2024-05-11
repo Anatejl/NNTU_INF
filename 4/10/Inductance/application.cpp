@@ -5,16 +5,15 @@
 #include "application.h"
 #include "vector.h"
 #include <iostream>
-#include <numeric>
-
 
 int appRun(Application &app) {
-    if (!appInitializeData(app)) {
+
+    if (!appGetConstantD(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
 
-    if (!appGetConstantD(app)) {
+    if (!appInitializeData(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
@@ -28,7 +27,16 @@ int appRun(Application &app) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
+
     return 0;
+}
+
+bool appGetConstantD(Application &app) {
+    std::cout << "Input an S constant:" << std::endl;
+    std::cin >> app.constS;
+    std::cout << app.constS << std::endl;
+
+    return true;
 }
 
 bool appInitializeData(Application &app) {
@@ -38,28 +46,14 @@ bool appInitializeData(Application &app) {
     return true;
 }
 
-bool appGetConstantD(Application &app) {
-    std::cout << "Input a S constant, to compare adjacent values:" << std::endl;
-    app.constS = 150;
-    std::cout << app.constS << std::endl;
-
-    return true;
-}
-
 bool appProcessDataIntoFinalResult(Application &app) {
 
     int tempSumm = 0;
-
     for (int i = 0; i <  app.initialValueArray.counter; ++i) {
-
         tempSumm += app.initialValueArray.value[i];
-
     }
-
     if (tempSumm >= app.constS) {
-
         app.finalSumm = tempSumm;
-
     }
 
     return true;
@@ -68,15 +62,13 @@ bool appProcessDataIntoFinalResult(Application &app) {
 bool appGetOutputToUser(Application &app) {
 
     //Output results
-
     if (app.finalSumm > 0) {
         std::cout << std::endl << "Final summ is - " << app.finalSumm << std::endl;
     }
     else {
-
         std::cout << "Entered data doesn't resolve into acceptable value." << std::endl;
         return false;
-
     }
+
     return true;
 }

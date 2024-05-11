@@ -7,12 +7,13 @@
 #include <iostream>
 
 int appRun(Application &app) {
-    if (!appInitializeData(app)) {
+
+    if (!appGetConstantD(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
 
-    if (!appGetConstantD(app)) {
+    if (!appInitializeData(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
@@ -26,7 +27,16 @@ int appRun(Application &app) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
+
     return 0;
+}
+
+bool appGetConstantD(Application &app) {
+    std::cout << "Input a R constant, to compare adjacent values:" << std::endl;
+    std::cin >> app.constR;
+    std::cout << app.constR << std::endl;
+
+    return true;
 }
 
 bool appInitializeData(Application &app) {
@@ -36,15 +46,8 @@ bool appInitializeData(Application &app) {
     return true;
 }
 
-bool appGetConstantD(Application &app) {
-    std::cout << "Input a R constant, to compare adjacent values:" << std::endl;
-    app.constR = 0;
-    std::cout << app.constR << std::endl;
-
-    return true;
-}
-
 bool appProcessDataIntoFinalResult(Application &app) {
+
     for (int i = 0; i < vectorGetSize(app.initialValueArray); ++i) {
 
         if ((app.initialValueArray.value[i] - app.initialValueArray.value[i - 1] > app.constR) ||
@@ -71,15 +74,19 @@ bool appGetOutputToUser(Application &app) {
 
     //Output results
     if (!vectorGetEmpty_pair(app.finalValueArray)) {
+
         std::cout << std::endl << "Final values are (Index - Left element / Right element):" << std::endl;
 
         for (int i = 0; i < vectorGetSize_pair(app.finalValueArray); ++i) {
             std::cout << "Index: " << i+1 << " - " << app.finalValueArray.value[i].first <<
                     "/" << app.finalValueArray.value[i].second << std::endl;
         }
-    } else {
+    }
+
+    else {
         std::cout << std::endl << "No matches are applicable." << std::endl;
         return false;
     }
+
     return true;
 }

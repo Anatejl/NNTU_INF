@@ -46,7 +46,6 @@ Vector vectorIndexArrayInitialize(const Vector &valueArray) {
     temporaryVector.counter = 0;
 
     for (int i = 0; valueArray.counter > i; ++i) {
-
         int temporary_index_storage = 0;
         temporary_index_storage = i;
         temporaryVector.value.push_back(temporary_index_storage);

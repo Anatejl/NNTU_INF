@@ -11,12 +11,12 @@
 
 int appRun(Application &app) {
 
-    if (!appGetCircleDimensions(app)) {
+    if (!appGetConstantK(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
 
-    if (!appGetConstantK(app)) {
+    if (!appGetCircleDimensions(app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
@@ -44,6 +44,13 @@ int appRun(Application &app) {
     return 0;
 }
 
+bool appGetConstantK(Application &app) {
+    std::cout << "Input a K constant:" << std::endl;
+    std::cin >> app.constK;
+    std::cout << app.constK << std::endl;
+    return true;
+}
+
 bool appGetCircleDimensions(Application &app) {
     std::cout << "Input CENTER 'X Y' coordinate of circle " << std::endl;
     std::cin >> app.circleCenter.first >> app.circleCenter.second;
@@ -58,16 +65,9 @@ bool appGetCircleDimensions(Application &app) {
     return true;
 }
 
-bool appGetConstantK(Application &app) {
-    std::cout << "Input a K constant:" << std::endl;
-    app.constK = 3;
-    std::cout << app.constK << std::endl;
-    return true;
-}
-
 bool appInitializeData(Application &app) {
     app.initialArray = vectorInitialArrayInitialize(app.initialArray, app.constK);
-    std::cout << "Input array has been successfully processed." << std::endl;
+    std::cout << "Input array has been processed." << std::endl;
 
     return true;
 }

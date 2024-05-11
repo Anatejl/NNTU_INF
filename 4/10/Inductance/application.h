@@ -5,7 +5,6 @@
 #ifndef NNTU_APPLICATION_H
 #define NNTU_APPLICATION_H
 
-#include <climits>
 #include "vector.h"
 
 //Data for program to handle.

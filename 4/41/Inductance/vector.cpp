@@ -51,7 +51,6 @@ initialVector vectorInitialArrayInitialize(const initialVector &initialArray, in
     }
 
     return temporaryVector;
-
 }
 
 int vectorGetSize(initialVector &v) {

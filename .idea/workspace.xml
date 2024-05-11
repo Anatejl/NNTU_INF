@@ -34,13 +34,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="TO DORABOTAT">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/1/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/1/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_10_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_10_Mainline.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_13_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_13_Mainline.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_1_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_1_Mainline.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_41_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_41_Mainline.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +92,22 @@
     <setting file="file://$PROJECT_DIR$/2/2.1t/data.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/2/2.1t/main.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/1/Inductance/vector.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/10/Inductance/application.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/10/Inductance/application.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/10/Inductance/main.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/10/Inductance/vector.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/10/Inductance/vector.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/13/Inductance/application.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/13/Inductance/application.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/13/Inductance/test13.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/41/Inductance/application.cpp" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/4/41/Inductance/application.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/13/Inductance/testfile.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/13/Inductance/vector.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/13/Inductance/vector.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/41/Inductance/application.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/41/Inductance/application.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/41/Inductance/main.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/41/Inductance/vector.cpp" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/4/41/Inductance/vector.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/41/Inductance/vector.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/41/Inductance/vector.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/application.h" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/main.cpp" root0="SKIP_INSPECTION" />
@@ -125,7 +149,7 @@
     "CMake Application.4_SEM_13_Mainline.executor": "Run",
     "CMake Application.4_SEM_13_TEST.executor": "Debug",
     "CMake Application.4_SEM_1_Mainline.executor": "Run",
-    "CMake Application.4_SEM_41_Mainline.executor": "Debug",
+    "CMake Application.4_SEM_41_Mainline.executor": "Run",
     "CMake Application.4_SEM_Mainline.executor": "Debug",
     "CMake Application.PIDOR.executor": "Run",
     "CMake Application.TEST.executor": "Run",
@@ -200,7 +224,12 @@
       <recent name="E:\Git\NNTU_INF\2\2.1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_13_Mainline">
+  <component name="RunManager" selected="CMake Application.4_SEM_41_Mainline">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="4_SEM_Mainline_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -273,11 +302,6 @@
       </method>
     </configuration>
     <configuration name="4_SEM_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -497,6 +521,7 @@
       <workItem from="1715154299722" duration="4771000" />
       <workItem from="1715235057509" duration="2541000" />
       <workItem from="1715339371747" duration="12955000" />
+      <workItem from="1715421698422" duration="3307000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
