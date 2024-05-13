@@ -49,8 +49,11 @@ bool appInitializeData(Application &app) {
 bool appProcessDataIntoFinalResult(Application &app) {
 
     int tempSumm = 0;
+
     for (int i = 0; i <  app.initialValueArray.counter; ++i) {
-        tempSumm += app.initialValueArray.value[i];
+        if((tempSumm + app.initialValueArray.value[i]) > tempSumm) {
+            tempSumm += app.initialValueArray.value[i];
+        }
     }
     if (tempSumm >= app.constS) {
         app.finalSumm = tempSumm;

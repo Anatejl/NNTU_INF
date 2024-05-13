@@ -7,6 +7,7 @@ C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_10_Mai
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_13_TEST.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_13_Mainline.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir
+C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_41_2_Mainline.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/test.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/rebuild_cache.dir
