@@ -65,6 +65,7 @@ bool appGetCircleDimensions(Application &app) {
 }
 
 bool appInitializeData(Application &app) {
+
     app.initialArray = vectorInitialArrayInitialize(app.initialArray, app.constK);
     std::cout << "Input array has been processed." << std::endl;
 
@@ -86,16 +87,11 @@ bool appProcessXYArrayIntoRArray(Application &app) {
 bool appProcessFinalResult(Application &app) {
 
     int tempSeqStreak = 0;
-    int tempSeqMax = 0;
-
     std::vector<int> column;
-
     std::vector<std::vector<int>> tempFinal;
 
     for (int i = 0; i < app.finalArray.row.size(); ++i) {
-
         if((app.finalArray.row[i] >= app.circleR) || i == app.finalArray.row.size()-1) {
-
             if(tempSeqStreak >= app.constK) {
                 tempFinal.push_back(column);
                 for(int j = tempSeqStreak; j > 0; --j) {
@@ -105,16 +101,13 @@ bool appProcessFinalResult(Application &app) {
             tempSeqStreak = 0;
         }
         else {
-
             ++tempSeqStreak;
         }
-
     }
 
     app.finalArray.insideTheCircleGroup = tempFinal;
     return true;
 }
-
 
 bool appGetOutputToUser(Application &app) {
 
