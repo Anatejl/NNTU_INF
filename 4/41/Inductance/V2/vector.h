@@ -17,7 +17,6 @@ struct initialVector{
 struct finalVector {
 
     std::vector<double> row;
-    std::vector<bool> insideTheCircle;
     std::vector<std::vector<int>> insideTheCircleGroup;
 
 };

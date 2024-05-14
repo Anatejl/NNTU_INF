@@ -85,56 +85,40 @@ bool appProcessXYArrayIntoRArray(Application &app) {
 
 bool appProcessFinalResult(Application &app) {
 
-    std::vector<int>column;
     int tempSeqStreak = 0;
-    std::vector<int> tempVector;
+    int tempSeqMax = 0;
+
+    std::vector<int> column;
+
+    std::vector<std::vector<int>> tempFinal;
 
     for (int i = 0; i < app.finalArray.row.size(); ++i) {
 
-        if (app.finalArray.row[i] <= app.circleR) {
-
-            ++tempSeqStreak;
+        if((app.finalArray.row[i] >= app.circleR) || i == app.finalArray.row.size()-1) {
 
             if(tempSeqStreak >= app.constK) {
-                if(tempVector.empty()) {
-                    for(int j = 0; j < app.constK; ++j) {
-
-                        tempVector.push_back(j);
-
-                    }
+                tempFinal.push_back(column);
+                for(int j = tempSeqStreak; j > 0; --j) {
+                    tempFinal[tempFinal.size()-1].push_back(i-j);
                 }
-                tempVector.push_back(i);
             }
-            else {
-                tempVector.push_back(i);
-            }
+            tempSeqStreak = 0;
+        }
+        else {
 
+            ++tempSeqStreak;
         }
-        else if(tempSeqStreak < app.constK && app.finalArray.row[i] > app.circleR) {
-            tempVector.clear();
-        }
+
     }
 
-    if (std::accumulate(app.finalArray.insideTheCircle.begin(),
-                        app.finalArray.insideTheCircle.end(), 0) == 0) {
-        return false;
-    }
+    app.finalArray.insideTheCircleGroup = tempFinal;
     return true;
 }
 
 
 bool appGetOutputToUser(Application &app) {
 
-    for(int i = 0; i < app.finalArray.insideTheCircle.size(); ++i) {
 
-        if(app.finalArray.insideTheCircle[i]) {
-            std::cout << "Dot " << i+1 << " - ";
-            std::cout << "(" <<app.initialArray.row[i].first << "/"<< app.initialArray.row[i].second << "; R - " << app.finalArray.row[i]
-            << ") ";
-            std::cout << "is inside the circle." << std::endl;
-        }
-
-    }
 
     return true;
 }
