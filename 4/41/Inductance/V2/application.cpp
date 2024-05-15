@@ -111,7 +111,17 @@ bool appProcessFinalResult(Application &app) {
 
 bool appGetOutputToUser(Application &app) {
 
+    std::cout << "Initial data unfolds into " << app.finalArray.insideTheCircleGroup.size() << " groups." << std::endl
+    << "Here they are: "<< std::endl;
 
+    for(int i = 0; i < app.finalArray.insideTheCircleGroup.size(); ++i) {
+
+        std::cout << "Group " << i+1 << ": ";
+        for(int j = 0; j < app.finalArray.insideTheCircleGroup[i].size(); ++j) {
+            std::cout << app.finalArray.insideTheCircleGroup[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
 
     return true;
 }
