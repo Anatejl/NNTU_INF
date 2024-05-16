@@ -31,8 +31,8 @@ Vector vectorValueArrayInitialize(const Vector &valueArray) {
     std::cout << "Provided vector consists of " << vectorGetSize(temporaryVector) << " entries." << std::endl;
     std::cout << "Values as follows:" << std::endl;
 
-    for (int i = 0; i < vectorGetSize(temporaryVector); i++) {
-        std::cout << temporaryVector.value[i] << " ";
+    for (int i : temporaryVector.value) {
+        std::cout << i << " ";
     }
     std::cout << std::endl;
 

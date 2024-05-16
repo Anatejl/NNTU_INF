@@ -73,10 +73,8 @@ bool appInitializeData(Application &app) {
 }
 
 bool appProcessXYArrayIntoRArray(Application &app) {
-    int tempIterativeCircleR;
-
     for (int i = 0; i < app.initialArray.row.size(); ++i) {
-        tempIterativeCircleR = sqrt(
+        int tempIterativeCircleR = sqrt(
             pow(app.initialArray.row[i].first - app.circleCenter.first, 2) +
             pow(app.initialArray.row[i].second - app.circleCenter.second, 2));
         app.finalArray.row.push_back(tempIterativeCircleR);
@@ -91,7 +89,7 @@ bool appProcessFinalResult(Application &app) {
     std::vector<std::vector<int>> tempFinal;
 
     for (int i = 0; i < app.finalArray.row.size(); ++i) {
-        if((app.finalArray.row[i] >= app.circleR) || i == app.finalArray.row.size()-1) {
+        if(app.finalArray.row[i] >= app.circleR || i == app.finalArray.row.size()-1) {
             if(tempSeqStreak >= app.constK) {
                 tempFinal.push_back(column);
                 for(int j = tempSeqStreak; j > 0; --j) {
@@ -117,9 +115,10 @@ bool appGetOutputToUser(Application &app) {
     for(int i = 0; i < app.finalArray.insideTheCircleGroup.size(); ++i) {
 
         std::cout << "Group " << i+1 << ": ";
-        for(int j = 0; j < app.finalArray.insideTheCircleGroup[i].size(); ++j) {
-            std::cout << app.finalArray.insideTheCircleGroup[i][j] << " ";
+        for(int &j : app.finalArray.insideTheCircleGroup[i]) {
+            std::cout << j << " ";
         }
+
         std::cout << std::endl;
     }
 
