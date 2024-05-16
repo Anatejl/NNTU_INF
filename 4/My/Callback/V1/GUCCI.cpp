@@ -5,7 +5,6 @@
 #include <vector>
 #include <utility>
 
-
 struct SequenceHolder {
     std::vector<int> values = {};
     int d;
@@ -55,30 +54,31 @@ bool get_max_len(void *sequence_holder) {
     return true;
 }
 
-std::pair<int, int> getMinMaxIndx(std::vector<int> &values, int d) {
-    int minIndx = 0, maxIndx = -1, leftIndx = 0;
-    if (values.empty()) {
-        return {minIndx, maxIndx};
-    }
-    for (int i = 1; i < values.size(); ++i) {
-        if (values[i] < values[i - 1]) {
-            if (values[i - 1] - values[leftIndx] > d && maxIndx - minIndx < i - leftIndx - 1) {
-                maxIndx = i - 1;
-                minIndx = leftIndx;
-            }
-            leftIndx = i;
-        }
-    }
-    if (maxIndx - minIndx < static_cast<int>(values.size()) - 1 - leftIndx &&
-        values.back() - values[leftIndx] > d) {
-        maxIndx = static_cast<int>(values.size()) - 1;
-        minIndx = leftIndx;
-    }
-
-    return {minIndx, maxIndx};
-}
+//std::pair<int, int> getMinMaxIndx(std::vector<int> &values, int d) {
+//    int minIndx = 0, maxIndx = -1, leftIndx = 0;
+//    if (values.empty()) {
+//        return {minIndx, maxIndx};
+//    }
+//    for (int i = 1; i < values.size(); ++i) {
+//        if (values[i] < values[i - 1]) {
+//            if (values[i - 1] - values[leftIndx] > d && maxIndx - minIndx < i - leftIndx - 1) {
+//                maxIndx = i - 1;
+//                minIndx = leftIndx;
+//            }
+//            leftIndx = i;
+//        }
+//    }
+//    if (maxIndx - minIndx < static_cast<int>(values.size()) - 1 - leftIndx &&
+//        values.back() - values[leftIndx] > d) {
+//        maxIndx = static_cast<int>(values.size()) - 1;
+//        minIndx = leftIndx;
+//    }
+//
+//    return {minIndx, maxIndx};
+//}
 
 int main() {
+
     int n, d;
     std::cout << "Print len of vector and D" << std::endl;
     std::cin >> n >> d;
