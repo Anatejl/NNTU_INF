@@ -1,2 +1,2 @@
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ar.exe qc ..\..\lib\libgtest.a "CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
-C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\ranlib.exe ..\..\lib\libgtest.a
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\ar.exe qc ..\..\lib\libgtest.a "CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\ranlib.exe ..\..\lib\libgtest.a
