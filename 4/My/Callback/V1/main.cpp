@@ -11,7 +11,7 @@ int main() {
 
     Application app;
 
-    int ret = appRun(app);
+    int ret = appRun(&app);
 
     return ret;
 }

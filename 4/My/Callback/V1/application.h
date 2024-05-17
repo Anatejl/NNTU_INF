@@ -12,19 +12,24 @@
 struct Application {
 
     Vector valueArray;
-    int constD;
 
+    int constD;
     int finalLeft = INT_MAX;
     int finalRight = INT_MAX;
     int finalConsequenceStreak = 0;
+    int tempConsequenceStreak = 0;
 };
 
-// To execute application
-int appRun(Application& app);
+typedef bool (*Callback)(void *object);
 
-bool appInitializeData(Application &app);
-bool appGetConstantD(Application &app);
-bool appProcessDataIntoFinalResult(Application &app);
-bool appGetOutputToUser(Application &app);
+bool operation(Callback callback, void *data);
+
+// To execute application
+
+int appRun(void *app);
+bool appInitializeData(void *app);
+bool appGetConstantD(void *app);
+bool appProcessDataIntoFinalResult(void *app);
+bool appGetOutputToUser(void *app);
 
 #endif //NNTU_APPLICATION_H

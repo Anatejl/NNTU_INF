@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Git\NNTU_INF
+CMAKE_SOURCE_DIR = C:\Users\l3t\Documents\GitHub\NNTU_INF
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Git\NNTU_INF\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\Git\NNTU_INF\cmake-build-debug
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\ctest.exe --force-new-ctest-process $(ARGS)
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -77,7 +77,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,7 +87,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -106,44 +106,44 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles E:\Git\NNTU_INF\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -325,6 +325,19 @@ depend:
 4_SEM_41_2_Mainline/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_41_2_Mainline.dir\build.make CMakeFiles/4_SEM_41_2_Mainline.dir/build
 .PHONY : 4_SEM_41_2_Mainline/fast
+
+#=============================================================================
+# Target rules for targets named 4_SEM_Mainline_Callback_SEN
+
+# Build rule for target.
+4_SEM_Mainline_Callback_SEN: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 4_SEM_Mainline_Callback_SEN
+.PHONY : 4_SEM_Mainline_Callback_SEN
+
+# fast build rule for target.
+4_SEM_Mainline_Callback_SEN/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_Callback_SEN.dir\build.make CMakeFiles/4_SEM_Mainline_Callback_SEN.dir/build
+.PHONY : 4_SEM_Mainline_Callback_SEN/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -861,6 +874,30 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_41_2_Mainline.dir\build.make CMakeFiles/4_SEM_41_2_Mainline.dir/4/41/Inductance/V2/vector.cpp.s
 .PHONY : 4/41/Inductance/V2/vector.cpp.s
 
+4/My/Callback/V1/GUCCI.obj: 4/My/Callback/V1/GUCCI.cpp.obj
+.PHONY : 4/My/Callback/V1/GUCCI.obj
+
+# target to build an object file
+4/My/Callback/V1/GUCCI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_Callback_SEN.dir\build.make CMakeFiles/4_SEM_Mainline_Callback_SEN.dir/4/My/Callback/V1/GUCCI.cpp.obj
+.PHONY : 4/My/Callback/V1/GUCCI.cpp.obj
+
+4/My/Callback/V1/GUCCI.i: 4/My/Callback/V1/GUCCI.cpp.i
+.PHONY : 4/My/Callback/V1/GUCCI.i
+
+# target to preprocess a source file
+4/My/Callback/V1/GUCCI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_Callback_SEN.dir\build.make CMakeFiles/4_SEM_Mainline_Callback_SEN.dir/4/My/Callback/V1/GUCCI.cpp.i
+.PHONY : 4/My/Callback/V1/GUCCI.cpp.i
+
+4/My/Callback/V1/GUCCI.s: 4/My/Callback/V1/GUCCI.cpp.s
+.PHONY : 4/My/Callback/V1/GUCCI.s
+
+# target to generate assembly for a file
+4/My/Callback/V1/GUCCI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_Callback_SEN.dir\build.make CMakeFiles/4_SEM_Mainline_Callback_SEN.dir/4/My/Callback/V1/GUCCI.cpp.s
+.PHONY : 4/My/Callback/V1/GUCCI.cpp.s
+
 4/My/Callback/V1/application.obj: 4/My/Callback/V1/application.cpp.obj
 .PHONY : 4/My/Callback/V1/application.obj
 
@@ -1087,6 +1124,7 @@ help:
 	@echo ... 4_SEM_41_2_Mainline
 	@echo ... 4_SEM_41_Mainline
 	@echo ... 4_SEM_Mainline
+	@echo ... 4_SEM_Mainline_Callback_SEN
 	@echo ... 4_SEM_Mainline_Callback_V1
 	@echo ... 4_SEM_Mainline_Callback_V1_test
 	@echo ... 4_SEM_Mainline_test
@@ -1154,6 +1192,9 @@ help:
 	@echo ... 4/41/Inductance/V2/vector.obj
 	@echo ... 4/41/Inductance/V2/vector.i
 	@echo ... 4/41/Inductance/V2/vector.s
+	@echo ... 4/My/Callback/V1/GUCCI.obj
+	@echo ... 4/My/Callback/V1/GUCCI.i
+	@echo ... 4/My/Callback/V1/GUCCI.s
 	@echo ... 4/My/Callback/V1/application.obj
 	@echo ... 4/My/Callback/V1/application.i
 	@echo ... 4/My/Callback/V1/application.s

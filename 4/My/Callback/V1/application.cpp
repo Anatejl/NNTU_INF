@@ -5,98 +5,116 @@
 #include "application.h"
 #include "vector.h"
 #include <iostream>
+#include <utility>
 
-
-int appRun(Application &app) {
-
-    if (!appGetConstantD(app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
-
-    if (!appInitializeData(app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
-
-    if (!appProcessDataIntoFinalResult(app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl << "No matches applicable." << std::endl;
-        return 1;
-    }
-
-    if (!appGetOutputToUser(app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
-
-    return 0;
+bool operation(Callback callback, void *data) {
+    return (*callback)(data);
 }
 
-bool appGetConstantD(Application &app) {
+bool appGetConstantD(void *app) {
+
+    Application &tempApp = *(Application *) app;
 
     std::cout << "Input a D constant to compare:" << std::endl;
-    std::cin >> app.constD;
-    std::cout << app.constD << std::endl;
+    std::cin >> tempApp.constD;
+    std::cout << tempApp.constD << std::endl;
 
     return true;
 }
 
-bool appInitializeData(Application &app) {
+bool appInitializeData(void *app) {
 
-    app.valueArray = vectorValueArrayInitialize(app.valueArray);
+    Application &tempApp = *(Application *) app;
+
+    int tmp;
+    if(std::cin.eof()) {
+        return false;
+    }
+    std::cin >> tmp;
+    tempApp.valueArray.value.push_back(tmp);
+
     std::cout << "Input array has been successfully processed." << std::endl;
+    std::cout << "Provided vector consists of " << tempApp.valueArray.value.size() << " entries." << std::endl;
+    std::cout << "Values as follows:" << std::endl;
+
+    for (int i: tempApp.valueArray.value) {
+        std::cout << i << " ";
+    }
+    std::cout << std::endl;
 
     return true;
 }
 
-bool appProcessDataIntoFinalResult(Application &app) {
+bool appProcessDataIntoFinalResult(void *app) {
 
-    int tempConsequenceStreak = 0;
+    Application &tempApp = *(Application *) app;
 
-    for (int i = 0; i < vectorGetSize(app.valueArray); ++i) {
+    for (int i = 0; i < vectorGetSize(tempApp.valueArray); ++i) {
         if (
-        (i != vectorGetSize(app.valueArray)-1 && app.valueArray.value[i] > app.valueArray.value[i + 1])
+        (i != vectorGetSize(tempApp.valueArray)-1 && tempApp.valueArray.value[i] > tempApp.valueArray.value[i + 1])
             ||
-        (i == vectorGetSize(app.valueArray)-1 )
+        (i == vectorGetSize(tempApp.valueArray)-1 )
         ){
 
-            if (tempConsequenceStreak > app.finalConsequenceStreak &&
-            (app.valueArray.value[i] -app.valueArray.value[i - (tempConsequenceStreak-1)] > app.constD ||
-            app.valueArray.value[i] -app.valueArray.value[i - tempConsequenceStreak] > app.constD))
+            if (tempApp.tempConsequenceStreak > tempApp.finalConsequenceStreak &&
+            (tempApp.valueArray.value[i] -tempApp.valueArray.value[i - (tempApp.tempConsequenceStreak-1)] > tempApp.constD ||
+            tempApp.valueArray.value[i] -tempApp.valueArray.value[i - tempApp.tempConsequenceStreak] > tempApp.constD))
             {
-                if((app.finalLeft == INT_MAX && app.finalRight == INT_MAX) &&
-                   (i == tempConsequenceStreak || i == tempConsequenceStreak+1)){
-                    app.finalLeft = i - tempConsequenceStreak;
+                if((tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) &&
+                   (i == tempApp.tempConsequenceStreak || i == tempApp.tempConsequenceStreak+1)){
+                    tempApp.finalLeft = i - tempApp.tempConsequenceStreak;
                 }
                 else{
-                    app.finalLeft = i - (tempConsequenceStreak-1);
+                    tempApp.finalLeft = i - (tempApp.tempConsequenceStreak-1);
                 }
-                app.finalRight = i;
-                app.finalConsequenceStreak = tempConsequenceStreak;
+                tempApp.finalRight = i;
+                tempApp.finalConsequenceStreak = tempApp.tempConsequenceStreak;
             }
 
-            tempConsequenceStreak = 0;
+            tempApp.tempConsequenceStreak = 0;
         }
 
-        ++tempConsequenceStreak;
+        ++tempApp.tempConsequenceStreak;
     }
 
-    if (app.finalLeft == INT_MAX && app.finalRight == INT_MAX && vectorGetSize(app.valueArray) == 1) {
-        app.finalLeft = 0;
-        app.finalRight = 0;
+    if (tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX && vectorGetSize(tempApp.valueArray) == 1) {
+        tempApp.finalLeft = 0;
+        tempApp.finalRight = 0;
     }
 
-    if (app.finalLeft == INT_MAX && app.finalRight == INT_MAX) {
+    if (tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) {
         return false;
     }
 
     return true;
 }
-// TODO DAD
-bool appGetOutputToUser(Application &app) {
 
-        std::cout << std::endl << app.finalLeft << " - Left Index" << std::endl;
-        std::cout << app.finalRight << " - Right Index" << std::endl;
+//bool appGetOutputToUser(Application &app) {
+//
+//        std::cout << std::endl << app.finalLeft << " - Left Index" << std::endl;
+//        std::cout << app.finalRight << " - Right Index" << std::endl;
+//
+//    return true;
+//}
 
-    return true;
+int appRun(void *app) {
+
+    Application &tempApp = *(Application *) app;
+
+    if (!operation(&appGetConstantD, &app)) {
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
+    }
+
+    while(!std::cin.eof()) {
+
+        bool initData = operation(&appInitializeData, &app);
+        if (!initData) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
+
+    }
+
+    return 0;
 }

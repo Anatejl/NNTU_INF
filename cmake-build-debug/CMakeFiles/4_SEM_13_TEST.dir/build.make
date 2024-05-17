@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2024.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Git\NNTU_INF
+CMAKE_SOURCE_DIR = C:\Users\l3t\Documents\GitHub\NNTU_INF
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Git\NNTU_INF\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/4_SEM_13_TEST.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/4_SEM_13_TEST.dir/progress.make
 include CMakeFiles/4_SEM_13_TEST.dir/flags.make
 
 CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.obj: CMakeFiles/4_SEM_13_TEST.dir/flags.make
-CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.obj: E:/Git/NNTU_INF/4/13/Inductance/test13.cpp
+CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.obj: C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Inductance/test13.cpp
 CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.obj: CMakeFiles/4_SEM_13_TEST.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.obj"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.obj -MF CMakeFiles\4_SEM_13_TEST.dir\4\13\Inductance\test13.cpp.obj.d -o CMakeFiles\4_SEM_13_TEST.dir\4\13\Inductance\test13.cpp.obj -c E:\Git\NNTU_INF\4\13\Inductance\test13.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.obj -MF CMakeFiles\4_SEM_13_TEST.dir\4\13\Inductance\test13.cpp.obj.d -o CMakeFiles\4_SEM_13_TEST.dir\4\13\Inductance\test13.cpp.obj -c C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Inductance\test13.cpp
 
 CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.i"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Git\NNTU_INF\4\13\Inductance\test13.cpp > CMakeFiles\4_SEM_13_TEST.dir\4\13\Inductance\test13.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Inductance\test13.cpp > CMakeFiles\4_SEM_13_TEST.dir\4\13\Inductance\test13.cpp.i
 
 CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.s"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Git\NNTU_INF\4\13\Inductance\test13.cpp -o CMakeFiles\4_SEM_13_TEST.dir\4\13\Inductance\test13.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Inductance\test13.cpp -o CMakeFiles\4_SEM_13_TEST.dir\4\13\Inductance\test13.cpp.s
 
 # Object files for target 4_SEM_13_TEST
 4_SEM_13_TEST_OBJECTS = \
@@ -94,7 +94,7 @@ CMakeFiles/4_SEM_13_TEST.dir/4/13/Inductance/test13.cpp.s: cmake_force
 4_SEM_13_TEST.exe: CMakeFiles/4_SEM_13_TEST.dir/linkLibs.rsp
 4_SEM_13_TEST.exe: CMakeFiles/4_SEM_13_TEST.dir/objects1.rsp
 4_SEM_13_TEST.exe: CMakeFiles/4_SEM_13_TEST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 4_SEM_13_TEST.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 4_SEM_13_TEST.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\4_SEM_13_TEST.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/4_SEM_13_TEST.dir/clean:
 .PHONY : CMakeFiles/4_SEM_13_TEST.dir/clean
 
 CMakeFiles/4_SEM_13_TEST.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Git\NNTU_INF E:\Git\NNTU_INF E:\Git\NNTU_INF\cmake-build-debug E:\Git\NNTU_INF\cmake-build-debug E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles\4_SEM_13_TEST.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\l3t\Documents\GitHub\NNTU_INF C:\Users\l3t\Documents\GitHub\NNTU_INF C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug C:\Users\l3t\Documents\GitHub\NNTU_INF\cmake-build-debug\CMakeFiles\4_SEM_13_TEST.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/4_SEM_13_TEST.dir/depend
 

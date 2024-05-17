@@ -133,3 +133,4 @@ add_executable(4_SEM_41_2_Mainline
         4/41/Inductance/V2/application.cpp
         4/41/Inductance/V2/vector.cpp)
 
+add_executable(4_SEM_Mainline_Callback_SEN 4/My/Callback/V1/GUCCI.cpp)
