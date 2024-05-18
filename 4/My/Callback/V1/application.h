@@ -18,7 +18,7 @@ struct Application {
     int finalRight = INT_MAX;
     int finalConsequenceStreak = 0;
     int tempConsequenceStreak = 0;
-    int processIndex = 0;
+    int processIterator = 0;
 };
 
 typedef bool (*Callback)(void *object);

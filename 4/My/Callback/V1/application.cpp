@@ -23,6 +23,7 @@ bool appGetConstantD(void *app) {
 bool appInitializeData(void *app) {
 
     Application &tempApp = *(Application *) app;
+
     tempApp.valueArray = vectorValueArrayInitialize(tempApp.valueArray);
 
     return true;
@@ -35,46 +36,49 @@ bool appProcessDataIntoFinalResult(void *app) {
     //DENOTE FOR GTEST ONLY
     //for (int i = 0; i < tempApp.valueArray.value.size(); ++i) {
 
-        if (
-                (tempApp.processIndex != vectorGetSize(tempApp.valueArray) - 1 &&
-                 tempApp.valueArray.value[tempApp.processIndex] > tempApp.valueArray.value[tempApp.processIndex + 1])
-                ||
-                (tempApp.processIndex == vectorGetSize(tempApp.valueArray) - 1)
-                ) {
-            if (tempApp.tempConsequenceStreak > tempApp.finalConsequenceStreak &&
-                (tempApp.valueArray.value[tempApp.processIndex] -
-                 tempApp.valueArray.value[tempApp.processIndex - (tempApp.tempConsequenceStreak - 1)] >
-                 tempApp.constD ||
-                 tempApp.valueArray.value[tempApp.processIndex] -
-                 tempApp.valueArray.value[tempApp.processIndex - tempApp.tempConsequenceStreak] > tempApp.constD)) {
-                if ((tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) &&
-                    (tempApp.processIndex == tempApp.tempConsequenceStreak ||
-                     tempApp.processIndex == tempApp.tempConsequenceStreak + 1)) {
-                    tempApp.finalLeft = tempApp.processIndex - tempApp.tempConsequenceStreak;
-                } else {
-                    tempApp.finalLeft = tempApp.processIndex - (tempApp.tempConsequenceStreak - 1);
-                }
-                tempApp.finalRight = tempApp.processIndex;
-                tempApp.finalConsequenceStreak = tempApp.tempConsequenceStreak;
+    if (
+            (tempApp.processIterator != vectorGetSize(tempApp.valueArray) - 1 &&
+             tempApp.valueArray.value[tempApp.processIterator] > tempApp.valueArray.value[tempApp.processIterator + 1])
+            ||
+            (tempApp.processIterator == vectorGetSize(tempApp.valueArray) - 1)
+            ) {
+        if (tempApp.tempConsequenceStreak > tempApp.finalConsequenceStreak &&
+            (tempApp.valueArray.value[tempApp.processIterator] -
+             tempApp.valueArray.value[tempApp.processIterator - (tempApp.tempConsequenceStreak - 1)] >
+             tempApp.constD ||
+             tempApp.valueArray.value[tempApp.processIterator] -
+             tempApp.valueArray.value[tempApp.processIterator - tempApp.tempConsequenceStreak] > tempApp.constD)) {
+
+            if ((tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) &&
+                (tempApp.processIterator == tempApp.tempConsequenceStreak ||
+                 tempApp.processIterator == tempApp.tempConsequenceStreak + 1)) {
+                tempApp.finalLeft = tempApp.processIterator - tempApp.tempConsequenceStreak;
+            } else {
+                tempApp.finalLeft = tempApp.processIterator - (tempApp.tempConsequenceStreak - 1);
             }
-            tempApp.tempConsequenceStreak = 0;
+
+            tempApp.finalRight = tempApp.processIterator;
+            tempApp.finalConsequenceStreak = tempApp.tempConsequenceStreak;
         }
 
+        tempApp.tempConsequenceStreak = 0;
+    }
 
-        if (tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX && vectorGetSize(tempApp.valueArray) == 1) {
-            tempApp.finalLeft = 0;
-            tempApp.finalRight = 0;
-        }
 
-        ++tempApp.tempConsequenceStreak;
-        ++tempApp.processIndex;
+    if (tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX && vectorGetSize(tempApp.valueArray) == 1) {
+        tempApp.finalLeft = 0;
+        tempApp.finalRight = 0;
+    }
 
-        //DENOTE FOR GTEST ONLY
-        //if (i == tempApp.valueArray.value.size() - 1 && tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) {
-        //    return false;
-        //}
+    ++tempApp.tempConsequenceStreak;
+    ++tempApp.processIterator;
 
+    //DENOTE FOR GTEST ONLY
+    //if (i == tempApp.valueArray.value.size() - 1 && tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) {
+    //    return false;
     //}
+    //}
+
     return true;
 }
 
@@ -90,8 +94,8 @@ bool appGetOutputToUser(void *app) {
 
 int appRun() {
 
-    //Application &tempApp = app;
     Application app;
+
     //std::cout << "tempapp - apprun "<< &tempApp << std::endl;
 
     // 1 - Get D  const
@@ -107,7 +111,6 @@ int appRun() {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
-
     }
 
     // 3 - Process data
