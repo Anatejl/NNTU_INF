@@ -23,7 +23,6 @@ bool appGetConstantD(void *app) {
 bool appInitializeData(void *app) {
 
     Application &tempApp = *(Application *) app;
-
     tempApp.valueArray = vectorValueArrayInitialize(tempApp.valueArray);
 
     return true;

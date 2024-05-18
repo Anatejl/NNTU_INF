@@ -73,19 +73,19 @@ add_executable(3_SEM_Mainline
 enable_testing()
 add_subdirectory(googletest)
 
-##add_executable(4_SEM_Mainline
-##        "4/My/Inductance_V2/main.cpp"
-##         4/My/Inductance_V2/application.cpp
-##        4/My/Inductance_V2/vector.cpp)
-##
-##
-##
-##add_executable(4_SEM_Mainline_test
-##        4/My/Inductance_V2/application.cpp
-##        4/My/Inductance_V2/vector.cpp
-##        4/My/Inductance_V2/vector.h
-##        4/My/Inductance_V2/test.cpp)
-##target_link_libraries(4_SEM_Mainline_test gtest_main gmock_main)
+add_executable(4_SEM_Mainline
+        "4/My/Inductance_V2/main.cpp"
+         4/My/Inductance_V2/application.cpp
+        4/My/Inductance_V2/vector.cpp)
+
+
+
+add_executable(4_SEM_Mainline_test
+        4/My/Inductance_V2/application.cpp
+        4/My/Inductance_V2/vector.cpp
+        4/My/Inductance_V2/vector.h
+        4/My/Inductance_V2/test.cpp)
+target_link_libraries(4_SEM_Mainline_test gtest_main gmock_main)
 
 
 add_executable(4_SEM_Mainline_Callback_V1

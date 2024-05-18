@@ -35,7 +35,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="GIVE ME A FUCKING BREAK">
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="UNREAL YOBKA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/application.h" afterDir="false" />
@@ -168,7 +168,7 @@
     "Google Test.Custom.One.executor": "Run",
     "Google Test.Custom.Three.executor": "Run",
     "Google Test.Custom.Two.executor": "Run",
-    "Google Test.IndexFindCorrectly.Simple_1.executor": "Debug",
+    "Google Test.IndexFindCorrectly.Simple_1.executor": "Run",
     "Google Test.IndexFindCorrectly.Simple_10.executor": "Run",
     "Google Test.IndexFindCorrectly.Simple_11.executor": "Run",
     "Google Test.IndexFindCorrectly.Simple_2.executor": "Debug",
@@ -232,7 +232,7 @@
       <recent name="E:\Git\NNTU_INF\4\My\Inductance" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_Mainline_Callback_V1">
+  <component name="RunManager" selected="Google Test.4_SEM_Mainline_Callback_V1_test">
     <configuration name="4_SEM_Mainline_Callback_V1_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V1_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V1_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -263,7 +263,7 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexFindCorrectly.Simple_3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V1_test" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V1_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_3" TEST_MODE="SUITE_TEST">
+    <configuration name="IndexFindCorrectly.Simple_3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V1_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V1_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_3" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -374,8 +374,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.IndexFindCorrectly.Simple_3" />
         <item itemvalue="Google Test.IndexFindCorrectly.Simple_1" />
+        <item itemvalue="Google Test.IndexFindCorrectly.Simple_3" />
         <item itemvalue="Google Test.IndexFindCorrectly.Simple_2" />
         <item itemvalue="Google Test.Custom.Three" />
         <item itemvalue="Google Test.Custom.Two" />
@@ -555,7 +555,7 @@
       <workItem from="1715932811106" duration="824000" />
       <workItem from="1715936325884" duration="7560000" />
       <workItem from="1716008948204" duration="14927000" />
-      <workItem from="1716029146659" duration="752000" />
+      <workItem from="1716029146659" duration="979000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -900,7 +900,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -938,7 +938,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="INDUCT MY HUY" />
     <MESSAGE value="LE KAL" />
     <MESSAGE value="LE KALO" />
     <MESSAGE value="e'bal" />
@@ -963,7 +962,8 @@
     <MESSAGE value="NOVAYA VOLNA" />
     <MESSAGE value="SMERT" />
     <MESSAGE value="GIVE ME A FUCKING BREAK" />
-    <option name="LAST_COMMIT_MESSAGE" value="GIVE ME A FUCKING BREAK" />
+    <MESSAGE value="UNREAL YOBKA" />
+    <option name="LAST_COMMIT_MESSAGE" value="UNREAL YOBKA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1002,6 +1002,11 @@
           <url>file://$PROJECT_DIR$/4/My/Callback/V1/test.cpp</url>
           <line>34</line>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/4/My/Callback/V1/test.cpp</url>
+          <line>44</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
