@@ -36,30 +36,30 @@ bool appProcessDataIntoFinalResult(void *app) {
     //DENOTE FOR GTEST ONLY
     //for (int i = 0; i < tempApp.valueArray.value.size(); ++i) {
 
-    if (
-            (tempApp.processIterator != vectorGetSize(tempApp.valueArray) - 1 &&
-             tempApp.valueArray.value[tempApp.processIterator] > tempApp.valueArray.value[tempApp.processIterator + 1])
-            ||
-            (tempApp.processIterator == vectorGetSize(tempApp.valueArray) - 1)
-            ) {
-        if (tempApp.tempConsequenceStreak > tempApp.finalConsequenceStreak &&
-            (tempApp.valueArray.value[tempApp.processIterator] -
-             tempApp.valueArray.value[tempApp.processIterator - (tempApp.tempConsequenceStreak - 1)] >
-             tempApp.constD ||
-             tempApp.valueArray.value[tempApp.processIterator] -
-             tempApp.valueArray.value[tempApp.processIterator - tempApp.tempConsequenceStreak] > tempApp.constD)) {
+    if ((tempApp.processIterator != vectorGetSize(tempApp.valueArray) - 1 &&
+        tempApp.valueArray.value[tempApp.processIterator] > tempApp.valueArray.value[tempApp.processIterator + 1])
+        ||
+        (tempApp.processIterator == vectorGetSize(tempApp.valueArray) - 1)){
 
-            if ((tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) &&
-                (tempApp.processIterator == tempApp.tempConsequenceStreak ||
-                 tempApp.processIterator == tempApp.tempConsequenceStreak + 1)) {
-                tempApp.finalLeft = tempApp.processIterator - tempApp.tempConsequenceStreak;
-            } else {
-                tempApp.finalLeft = tempApp.processIterator - (tempApp.tempConsequenceStreak - 1);
+            if (tempApp.tempConsequenceStreak > tempApp.finalConsequenceStreak &&
+                (tempApp.valueArray.value[tempApp.processIterator] -
+                 tempApp.valueArray.value[tempApp.processIterator - (tempApp.tempConsequenceStreak - 1)] >
+                 tempApp.constD ||
+                 tempApp.valueArray.value[tempApp.processIterator] -
+                 tempApp.valueArray.value[tempApp.processIterator - tempApp.tempConsequenceStreak] > tempApp.constD)) {
+
+                if ((tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) &&
+                    (tempApp.processIterator == tempApp.tempConsequenceStreak ||
+                     tempApp.processIterator == tempApp.tempConsequenceStreak + 1)) {
+                    tempApp.finalLeft = tempApp.processIterator - tempApp.tempConsequenceStreak;
+                }
+                else {
+                    tempApp.finalLeft = tempApp.processIterator - (tempApp.tempConsequenceStreak - 1);
+                }
+
+                tempApp.finalRight = tempApp.processIterator;
+                tempApp.finalConsequenceStreak = tempApp.tempConsequenceStreak;
             }
-
-            tempApp.finalRight = tempApp.processIterator;
-            tempApp.finalConsequenceStreak = tempApp.tempConsequenceStreak;
-        }
 
         tempApp.tempConsequenceStreak = 0;
     }
