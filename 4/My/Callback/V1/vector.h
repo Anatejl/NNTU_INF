@@ -7,13 +7,13 @@
 
 #include <vector>
 
-struct Vector{
+//struct Vector{
+//
+//    std::vector<int> value;
+//
+//};
 
-    std::vector<int> value;
-
-};
-
-Vector vectorValueArrayInitialize(const Vector& valueArray);
-int vectorGetSize(Vector& v);
+//Vector vectorValueArrayInitialize(const Vector& valueArray);
+int vectorGetSize(std::vector<int>& v);
 
 #endif //NNTU_VECTOR_H

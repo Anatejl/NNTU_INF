@@ -7,11 +7,10 @@
 
 int main() {
 
-    std::cout << "An unarguably valuable piece of software, THE diamond!" << std::endl;
+    std::cout << std::endl << "An unarguably valuable piece of software, THE diamond!" << std::endl;
+    std::cout << "GIVE ME A FUCKING BREAK!1!!1 " <<std::endl << std::endl;
 
-    Application app;
+    auto balenciaga = appRun();
 
-    int ret = appRun(&app);
-
-    return ret;
+    return balenciaga;
 }
