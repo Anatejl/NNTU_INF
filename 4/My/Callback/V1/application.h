@@ -9,22 +9,20 @@
 #include <vector>
 #include "vector.h"
 
-//Data for program to handle.
 struct Application {
 
-    std::vector<int> valueArray = {};
+    Vector valueArray = {};
 
     int constD = 0;
     int finalLeft = INT_MAX;
     int finalRight = INT_MAX;
-    int finalConsequenceStreak = 0, tempConsequenceStreak = 0;
+    int finalConsequenceStreak = 0;
+    int tempConsequenceStreak = 0;
     int processIndex = 0;
 };
 
 typedef bool (*Callback)(void *object);
 bool operation(Callback callback, void *data);
-
-// To execute application
 
 int appRun();
 bool appInitializeData(void *app);
