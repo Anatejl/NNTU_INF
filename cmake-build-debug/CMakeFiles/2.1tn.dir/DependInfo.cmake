@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Git/NNTU_INF/2/2.1t/main.c" "CMakeFiles/2.1tn.dir/2/2.1t/main.c.obj" "gcc" "CMakeFiles/2.1tn.dir/2/2.1t/main.c.obj.d"
-  "E:/Git/NNTU_INF/4/13/Inductance/test13.cpp" "CMakeFiles/2.1tn.dir/4/13/Inductance/test13.cpp.obj" "gcc" "CMakeFiles/2.1tn.dir/4/13/Inductance/test13.cpp.obj.d"
+  "C:/Users/l3t/Documents/GitHub/NNTU_INF/2/2.1t/main.c" "CMakeFiles/2.1tn.dir/2/2.1t/main.c.obj" "gcc" "CMakeFiles/2.1tn.dir/2/2.1t/main.c.obj.d"
+  "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Inductance/test13.cpp" "CMakeFiles/2.1tn.dir/4/13/Inductance/test13.cpp.obj" "gcc" "CMakeFiles/2.1tn.dir/4/13/Inductance/test13.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

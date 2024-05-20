@@ -6,7 +6,6 @@
 #define NNTU_APPLICATION_H
 
 #include <climits>
-#include <vector>
 #include "vector.h"
 
 struct Application {
