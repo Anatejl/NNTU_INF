@@ -9,5 +9,5 @@ CMake Deprecation Warning:
 
 
 -- Configuring done (0.2s)
--- Generating done (0.5s)
+-- Generating done (0.7s)
 -- Build files have been written to: C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug

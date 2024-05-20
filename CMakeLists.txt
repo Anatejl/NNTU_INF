@@ -118,10 +118,15 @@ add_executable(4_SEM_10_Mainline
 
 ####### 13
 add_executable(4_SEM_13_TEST 4/13/Inductance/test13.cpp)
-add_executable(4_SEM_13_Mainline
+add_executable(4_SEM_13_Mainline_Induction
         4/13/Inductance/main.cpp
         4/13/Inductance/application.cpp
         4/13/Inductance/vector.cpp)
+
+add_executable(4_SEM_13_Mainline_Callback
+        4/13/Callback/main.cpp
+        4/13/Callback/application.cpp
+        4/13/Callback/vector.cpp)
 
 
 

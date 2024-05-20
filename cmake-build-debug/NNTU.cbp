@@ -429,8 +429,8 @@
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="4_SEM_13_Mainline">
-				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_13_Mainline.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="4_SEM_13_Mainline_Induction">
+				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_13_Mainline_Induction.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -445,14 +445,14 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_13_Mainline"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_13_Mainline_Induction"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="4_SEM_13_Mainline/fast">
-				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_13_Mainline.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="4_SEM_13_Mainline_Induction/fast">
+				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_13_Mainline_Induction.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -467,7 +467,51 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_13_Mainline/fast"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_13_Mainline_Induction/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_SEM_13_Mainline_Callback">
+				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_13_Mainline_Callback.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_13_Mainline_Callback"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4_SEM_13_Mainline_Callback/fast">
+				<Option output="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/4_SEM_13_Mainline_Callback.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2024.1.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 4_SEM_13_Mainline_Callback/fast"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -971,24 +1015,39 @@
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10/Inductance/vector.h">
 			<Option target="4_SEM_10_Mainline"/>
 		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Callback/application.cpp">
+			<Option target="4_SEM_13_Mainline_Callback"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Callback/application.h">
+			<Option target="4_SEM_13_Mainline_Callback"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Callback/main.cpp">
+			<Option target="4_SEM_13_Mainline_Callback"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Callback/vector.cpp">
+			<Option target="4_SEM_13_Mainline_Callback"/>
+		</Unit>
+		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Callback/vector.h">
+			<Option target="4_SEM_13_Mainline_Callback"/>
+		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Inductance/application.cpp">
-			<Option target="4_SEM_13_Mainline"/>
+			<Option target="4_SEM_13_Mainline_Induction"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Inductance/application.h">
-			<Option target="4_SEM_13_Mainline"/>
+			<Option target="4_SEM_13_Mainline_Induction"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Inductance/main.cpp">
-			<Option target="4_SEM_13_Mainline"/>
+			<Option target="4_SEM_13_Mainline_Induction"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Inductance/test13.cpp">
 			<Option target="2.1tn"/>
 			<Option target="4_SEM_13_TEST"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Inductance/vector.cpp">
-			<Option target="4_SEM_13_Mainline"/>
+			<Option target="4_SEM_13_Mainline_Induction"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Inductance/vector.h">
-			<Option target="4_SEM_13_Mainline"/>
+			<Option target="4_SEM_13_Mainline_Induction"/>
 		</Unit>
 		<Unit filename="C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Callback/application.cpp">
 			<Option target="4_SEM_41_Callback_Mainline"/>
