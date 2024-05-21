@@ -100,8 +100,6 @@ int appRun() {
 
     Application app;
 
-    //std::cout << "tempapp - apprun "<< &tempApp << std::endl;
-
     // 1 - Get D const
     if (!operation(&appGetConstantD, &app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
