@@ -65,7 +65,7 @@ bool appProcessDataIntoFinalResult(Application &app) {
 bool appGetOutputToUser(Application &app) {
 
     //Output results
-    if (app.finalSumm > 0) {
+    if (app.finalSumm > app.constS) {
         std::cout << std::endl << "Final summ is - " << app.finalSumm << std::endl;
     }
     else {

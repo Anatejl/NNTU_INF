@@ -40,21 +40,6 @@ Vector vectorValueArrayInitialize(const Vector &valueArray) {
 
 }
 
-Vector vectorIndexArrayInitialize(const Vector &valueArray) {
-
-    Vector temporaryVector;
-    temporaryVector.counter = 0;
-
-    for (int i = 0; valueArray.counter > i; ++i) {
-        int temporary_index_storage = 0;
-        temporary_index_storage = i;
-        temporaryVector.value.push_back(temporary_index_storage);
-        temporaryVector.counter++;
-    }
-
-    return temporaryVector;
-}
-
 int vectorGetSize(Vector &v) {
 
     return v.value.size();

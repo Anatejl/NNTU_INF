@@ -17,6 +17,10 @@ bool appGetConstantD(void *app) {
     std::cin >> tempApp.constD;
     std::cout << tempApp.constD << std::endl;
 
+    if(std::cin.fail()) {
+        return false;
+    }
+
     return true;
 }
 
@@ -114,7 +118,7 @@ int appRun() {
     }
 
     // 3 - Process data
-    for (int i = 0; i < app.valueArray.value.size(); ++i) {
+    for (int i : app.valueArray.value) {
 
         operation(&appProcessDataIntoFinalResult, &app);
 

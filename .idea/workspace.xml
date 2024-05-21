@@ -20,14 +20,15 @@
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V1" />
       <config projectName="NNTU" targetName="gmock_main" />
       <config projectName="NNTU" targetName="gtest" />
+      <config projectName="NNTU" targetName="4_SEM_10_Mainline_Inductance" />
       <config projectName="NNTU" targetName="4_SEM_41_Callback_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_41_2_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_test" />
       <config projectName="NNTU" targetName="4_SEM_1_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_13_TEST" />
       <config projectName="NNTU" targetName="4_SEM_13_Mainline_Induction" />
+      <config projectName="NNTU" targetName="4_SEM_10_Mainline_Callback" />
       <config projectName="NNTU" targetName="4_SEM_13_Mainline_Callback" />
-      <config projectName="NNTU" targetName="4_SEM_10_Mainline" />
       <config projectName="NNTU" targetName="gmock" />
       <config projectName="NNTU" targetName="gtest_main" />
     </generated>
@@ -40,10 +41,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="HELLO BITCHES">
+      <change afterPath="$PROJECT_DIR$/4/10/callback/application.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/callback/application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/callback/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/callback/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/callback/vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/callback/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Callback/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Callback/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Callback/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_13_TEST.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_13_TEST.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,10 +107,10 @@
     <setting file="file://$PROJECT_DIR$/2/2.1t/main.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/1/Inductance/vector.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/10/Inductance/application.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/10/Inductance/application.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/10/Inductance/application.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/10/Inductance/main.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/10/Inductance/vector.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/10/Inductance/vector.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/10/Inductance/vector.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/10/Inductance/vector.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/13/Inductance/application.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/13/Inductance/application.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/13/Inductance/test13.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -141,6 +163,7 @@
     "CMake Application.3_SEM_Mainline.executor": "Debug",
     "CMake Application.4SEM_MY.executor": "Run",
     "CMake Application.4_SEM_10_Mainline.executor": "Debug",
+    "CMake Application.4_SEM_10_Mainline_Callback.executor": "Run",
     "CMake Application.4_SEM_13_Mainline.executor": "Run",
     "CMake Application.4_SEM_13_Mainline_Callback.executor": "Run",
     "CMake Application.4_SEM_13_Mainline_Induction.executor": "Run",
@@ -194,7 +217,7 @@
     "database.data.extractors.current.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/13/Callback",
+    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10/callback",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -214,11 +237,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\10\callback" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Callback" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\41\Callback" />
       <recent name="E:\Git\NNTU_INF\4\My\Callback\V1" />
       <recent name="E:\Git\NNTU_INF\4\41\Callback\V1" />
-      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\41\V2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\41\Inductance\V1" />
@@ -228,7 +251,7 @@
       <recent name="E:\Git\NNTU_INF\4\My\Inductance" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_13_Mainline_Callback">
+  <component name="RunManager" selected="CMake Application.4_SEM_10_Mainline_Callback">
     <configuration name="4_SEM_Mainline_Callback_V1_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V1_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V1_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -276,6 +299,16 @@
       </method>
     </configuration>
     <configuration name="4_SEM_10_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/10/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_10_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_10_Mainline">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="4_SEM_10_Mainline_Callback" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/10/callback/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_10_Mainline_Callback" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_10_Mainline_Callback">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="4_SEM_10_Mainline_Inductance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_10_Mainline_Inductance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_10_Mainline_Inductance">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -363,7 +396,9 @@
     <list>
       <item itemvalue="CMake Application.2.1tn" />
       <item itemvalue="CMake Application.3_SEM_Mainline" />
+      <item itemvalue="CMake Application.4_SEM_10_Mainline_Callback" />
       <item itemvalue="CMake Application.4_SEM_10_Mainline" />
+      <item itemvalue="CMake Application.4_SEM_10_Mainline_Inductance" />
       <item itemvalue="CMake Application.4_SEM_13_Mainline" />
       <item itemvalue="CMake Application.4_SEM_13_Mainline_Callback" />
       <item itemvalue="CMake Application.4_SEM_13_Mainline_Induction" />
@@ -571,7 +606,7 @@
       <workItem from="1716008948204" duration="14927000" />
       <workItem from="1716029146659" duration="2336000" />
       <workItem from="1716178113495" duration="11526000" />
-      <workItem from="1716292084686" duration="12478000" />
+      <workItem from="1716292084686" duration="14938000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -916,7 +951,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

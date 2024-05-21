@@ -10,11 +10,10 @@
 struct Vector{
 
     std::vector<int> value;
-    int counter;
 
 };
 
-Vector vectorValueArrayInitialize(const Vector& valueArray);
+int vectorValueInitialize();
 int vectorGetSize(Vector& v);
-
+int vectorAccumulate(Vector &v);
 #endif //NNTU_VECTOR_H
