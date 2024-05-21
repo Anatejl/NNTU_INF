@@ -52,14 +52,15 @@ bool appProcessDataIntoFinalResult(void *app) {
 
     Application &tempApp = *(Application *) app;
 
-    for (int i = 0; i < vectorGetSizeInitialData(tempApp.initialArray); ++i) {
-        if (!(tempApp.initialArray.initialData[i] > tempApp.initialArray.AVector[i] &&
-              tempApp.initialArray.initialData[i] < tempApp.initialArray.BVector[i])) {
-            tempApp.temp_var.temp_vector.temp_to_erase.push_back(i);
+    if (tempApp.temp_var.first < vectorGetSizeInitialData(tempApp.initialArray)) {
+        if (!(tempApp.initialArray.initialData[tempApp.temp_var.first] > tempApp.initialArray.AVector[tempApp.temp_var.first] &&
+              tempApp.initialArray.initialData[tempApp.temp_var.first] < tempApp.initialArray.BVector[tempApp.temp_var.first])) {
+            tempApp.temp_var.temp_vector.temp_to_erase.push_back(tempApp.temp_var.first);
         }
+        ++tempApp.temp_var.first;
     }
 
-    if(tempApp.temp_var.first == vectorGetEmptyInitialData(tempApp.initialArray) && tempApp.temp_var.second == 0) {
+    if(tempApp.temp_var.first == vectorGetSizeInitialData(tempApp.initialArray) && tempApp.temp_var.second == 0) {
         for (int i = vectorGetSizeTempData(tempApp.temp_var.temp_vector); i > 0; --i) {
             tempApp.initialArray.initialData.erase(tempApp.initialArray.initialData.begin() + tempApp.temp_var.temp_vector.temp_to_erase[i - 1]);
         }
@@ -71,11 +72,16 @@ bool appGetOutputToUser(void *app) {
 
     Application &tempApp = *(Application *) app;
 
-    std::cout << "After exclusion, left-over values are:" << std::endl;
-    for (int i = 0; i < vectorGetSizeInitialData(tempApp.initialArray); ++i) {
-        std::cout << tempApp.initialArray.initialData[i] << " ";
+    if (tempApp.temp_var.third == 0) {
+        std::cout << "After exclusion, left-over values are:" << std::endl;
     }
-    std::cout << std::endl;
+
+    std::cout << tempApp.initialArray.initialData[tempApp.temp_var.third] << " ";
+    ++tempApp.temp_var.third;
+
+    if (tempApp.temp_var.third == vectorGetSizeInitialData(tempApp.initialArray)) {
+        std::cout << std::endl;
+    }
 
     return true;
 }
@@ -109,15 +115,18 @@ int appRun() {
         return 1;
     }
 
-    if (!operation(&appProcessDataIntoFinalResult, &app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
+    for(int i = 0; i < vectorGetSizeInitialData(app.initialArray); ++i) {
+        if (!operation(&appProcessDataIntoFinalResult, &app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
     }
 
-    if (!operation(&appGetOutputToUser, &app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
+    for (int i = 0; i < vectorGetSizeInitialData(app.initialArray); ++i) {
+        if (!operation(&appGetOutputToUser, &app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
     }
-
     return 0;
 }

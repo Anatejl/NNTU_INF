@@ -18,6 +18,7 @@ struct initialVector{
 struct tempVector {
 
     std::vector<int> temp_to_erase;
+
 };
 
 initialVector vectorInitializeData(const initialVector& initialArray);

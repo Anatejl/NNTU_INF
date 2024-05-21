@@ -48,7 +48,7 @@ int vectorGetSizeInitialData(initialVector &v) {
     return v.initialData.size();
 }
 
-int vectorGetSizeteTempData(tempVector &v) {
+int vectorGetSizeTempData(tempVector &v) {
 
     return v.temp_to_erase.size();
 }

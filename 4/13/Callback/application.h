@@ -14,7 +14,8 @@ bool operation (Callback callback, void *data);
 struct tempVar {
 
     int first = 0;
-    int second;
+    int second = 0;
+    int third = 0;
     tempVector temp_vector;
 
 };
