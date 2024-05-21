@@ -5,7 +5,7 @@
 #include "vector.h"
 #include <iostream>
 
-auto vectorValueInitialize() {
+std::pair<bool, std::pair<int, int>> vectorPairInitialize() {
 
     int first, second;
     std::pair <bool, std::pair<int, int>> final_pair;
@@ -19,21 +19,16 @@ auto vectorValueInitialize() {
         final_pair = std::make_pair(true, vectorMakePair(first, second));
     }
     else {
-        final_pair = std::make_pair(false, vectorMakePair(first, second));;
+        final_pair = std::make_pair(false, vectorMakePair(first, INT_MAX));;
     }
 
     return final_pair;
 
 }
 
-auto vectorMakePair(int first, int second) {
+std::pair<int, int> vectorMakePair(int first, int second) {
 
     return std::make_pair(first, second);
-}
-
-int vectorGetSize(Vector &v) {
-
-    return v.value.size();
 }
 
 int vectorGetSize_pair(VectorPair& v){
@@ -41,10 +36,6 @@ int vectorGetSize_pair(VectorPair& v){
     return v.value.size();
 }
 
-bool vectorGetEmpty(Vector &v) {
-
-    return v.value.empty();
-}
 
 bool vectorGetEmpty_pair(VectorPair& v){
 

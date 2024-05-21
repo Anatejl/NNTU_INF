@@ -3,7 +3,6 @@
 //
 
 #include "application.h"
-#include "vector.h"
 #include <iostream>
 
 bool operation(Callback callback, void *data) {
@@ -21,36 +20,39 @@ bool appGetConstantD(void *app) {
     return true;
 }
 
-bool appInitializeData(void *app) {
+bool appProcessResult(void *app) {
 
     Application &tempApp = *(Application*)app;
 
-    tempApp.initialValueArray.value.push_back(vectorValueInitialize());
+    auto temp_pair = vectorPairInitialize();
 
-    return true;
-}
+    if(temp_pair.first){
 
-bool appProcessDataIntoFinalResult(void *app) {
+        if (tempApp.processIteratorCounter == 0){
+            if (abs((temp_pair.second.first - temp_pair.second.second)) > tempApp.constR) {
+                tempApp.finalValueArray.value.push_back(vectorMakePair(temp_pair.second.first, temp_pair.second.second));
+            }
+            tempApp.lastRight = temp_pair.second.second;
+        }
+        else{
+            if (abs((tempApp.lastRight-temp_pair.second.first)) > tempApp.constR){
+                tempApp.finalValueArray.value.push_back(vectorMakePair(tempApp.lastRight, temp_pair.second.first));
+            }
+            if (abs((temp_pair.second.first - temp_pair.second.second)) > tempApp.constR){
+                tempApp.finalValueArray.value.push_back(vectorMakePair(temp_pair.second.first, temp_pair.second.second));
+            }
 
-    Application &tempApp = *(Application*)app;
-    
-    for (int i = 0; i < vectorGetSize(tempApp.initialValueArray); ++i) {
-
-        if ((tempApp.initialValueArray.value[i] - tempApp.initialValueArray.value[i - 1] > tempApp.constR) ||
-            ((i != 0 && tempApp.initialValueArray.value[i] == 0) && (tempApp.initialValueArray.value[i - 1] - tempApp.initialValueArray.value[i] > tempApp.constR))
-            ){
-            tempApp.finalValueArray.value.push_back(
-                std::make_pair(tempApp.initialValueArray.value[i - 1], tempApp.initialValueArray.value[i]));
+            tempApp.lastRight = temp_pair.second.second;
         }
 
-        if (i == vectorGetSize(tempApp.initialValueArray) && vectorGetEmpty(tempApp.initialValueArray)) {
-            return false;
+        ++tempApp.processIteratorCounter;
+    }
+    else{
+
+        if (abs((tempApp.lastRight-temp_pair.second.first)) > tempApp.constR){
+            tempApp.finalValueArray.value.push_back(vectorMakePair(tempApp.lastRight, temp_pair.second.first));
         }
 
-        if (i == 0 && vectorGetSize(tempApp.initialValueArray) == 1) {
-            std::cout << std::endl << "Can't compare with void." << std::endl;
-            return false;
-        }
     }
 
     return true;
@@ -62,9 +64,7 @@ bool appGetOutputToUser(void *app) {
     
     //Output results
     if (!vectorGetEmpty_pair(tempApp.finalValueArray)) {
-
         std::cout << std::endl << "Final values are (Index - Left element / Right element):" << std::endl;
-
         for (int i = 0; i < vectorGetSize_pair(tempApp.finalValueArray); ++i) {
             std::cout << "Index: " << i+1 << " - " << tempApp.finalValueArray.value[i].first <<
                     "/" << tempApp.finalValueArray.value[i].second << std::endl;
@@ -88,14 +88,11 @@ int appRun() {
         return 1;
     }
 
-    if (!operation(&appInitializeData, &app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
-
-    if (!operation(&appProcessDataIntoFinalResult, &app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
+    while(!std::cin.eof()) {
+        if (!operation(&appProcessResult, &app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
     }
 
     if (!operation(&appGetOutputToUser, &app)) {

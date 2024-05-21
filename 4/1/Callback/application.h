@@ -13,17 +13,17 @@ bool operation (Callback callback, void *data);
 //Data for program to handle.
 struct Application {
 
-    Vector initialValueArray;
     VectorPair finalValueArray;
-    int constR;
+    int constR = 0;
+    int lastRight = 0;
+    int processIteratorCounter = 0;
 };
 
 // To execute application
 int appRun();
 
-bool appInitializeData(void *app);
 bool appGetConstantD(void *app);
-bool appProcessDataIntoFinalResult(void *app);
+bool appProcessResult(void *app);
 bool appGetOutputToUser(void *app);
 
 #endif //NNTU_APPLICATION_H
