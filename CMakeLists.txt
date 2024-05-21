@@ -105,10 +105,15 @@ target_link_libraries(4_SEM_Mainline_Callback_V1_test gtest_main gmock_main)
 
 
 ####### 1
-add_executable(4_SEM_1_Mainline
+add_executable(4_SEM_1_Mainline_Induction
         4/1/Inductance/main.cpp
         4/1/Inductance/application.cpp
         4/1/Inductance/vector.cpp)
+
+add_executable(4_SEM_1_Mainline_Callback
+        4/1/Callback/main.cpp
+        4/1/Callback/application.cpp
+        4/1/Callback/vector.cpp)
 
 ####### 10
 add_executable(4_SEM_10_Mainline_Inductance

@@ -12,7 +12,7 @@ bool operation(Callback callback, void *data) {
 
 bool appGetConstantD(void *app) {
 
-    Application &tempApp = *( Application* ) app;
+    Application &tempApp = *(Application*) app;
 
     std::cout << "Input an S constant:" << std::endl;
     std::cin >> tempApp.constS;
@@ -40,7 +40,7 @@ bool appInitializeData(void *app) {
 
 bool appProcessDataIntoFinalResult(void *app) {
 
-    Application &tempApp = *( Application* ) app;
+    Application &tempApp = *(Application*) app;
 
     if(vectorAccumulate(tempApp.initialValueArray) + tempApp.initialValueArray.value.back()
         > vectorAccumulate(tempApp.initialValueArray) )  {
@@ -53,7 +53,7 @@ bool appProcessDataIntoFinalResult(void *app) {
 
 bool appGetOutputToUser(void *app) {
 
-    Application &tempApp = *( Application* ) app;
+    Application &tempApp = *(Application*) app;
 
     //Output results
     if (tempApp.finalSumm > tempApp.constS) {

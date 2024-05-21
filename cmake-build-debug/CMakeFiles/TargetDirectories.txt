@@ -4,7 +4,8 @@ C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_Mainli
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_Mainline_Callback_V1.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_Mainline_Callback_V1_test.dir
-C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline.dir
+C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline_Induction.dir
+C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_1_Mainline_Callback.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline_Inductance.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_10_Mainline_Callback.dir
 C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug/CMakeFiles/4_SEM_13_TEST.dir
