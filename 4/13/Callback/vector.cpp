@@ -5,55 +5,26 @@
 #include <iostream>
 #include "vector.h"
 
-
-struct finalVector;
-
-initialVector vectorInitializeData(const initialVector &initialArray) {
-
-    initialVector temporaryVector;
-    int tempValue;
-
-    while (!std::cin.eof()) {
-        std::cin >> tempValue;
-        temporaryVector.initialData.push_back(tempValue);
-    }
-
-    return temporaryVector;
+int vectorInitializeData() {
+    int to_write;
+    std::cin >> to_write;
+    return to_write;
 }
 
-std::vector<int> vectorAVectorInitialize(const initialVector &initialArray, int va, int a0) {
-
-    std::vector<int> temporaryVector;
-    temporaryVector.reserve(initialArray.initialData.size());
-    for (int i = 0; i < initialArray.initialData.size(); ++i) {
-        temporaryVector.push_back(va * i + a0);
-    }
-
-    return temporaryVector;
+int vectorAVectorInitialize(int va, int a0, int second) {
+    int to_write = va * second + a0;
+    return to_write;
 }
 
-std::vector<int> vectorBVectorInitialize(const initialVector &initialArray, int vb, int b0) {
-
-    std::vector<int> temporaryVector;
-    temporaryVector.reserve(initialArray.initialData.size());
-    for (int i = 0; i < initialArray.initialData.size(); ++i) {
-        temporaryVector.push_back(vb * i + b0);
-    }
-
-    return temporaryVector;
+int vectorBVectorInitialize(int vb, int b0, int second) {
+    int to_write = vb * second + b0;
+    return to_write;
 }
 
 int vectorGetSizeInitialData(initialVector &v) {
-
     return v.initialData.size();
 }
 
-int vectorGetSizeTempData(tempVector &v) {
-
-    return v.temp_to_erase.size();
-}
-
 bool vectorGetEmptyInitialData(initialVector &v) {
-
     return v.initialData.empty();
 }

@@ -39,12 +39,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="GIVE ME A FUCKING BREAK">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="GIVE ME A FUCKING BREAK V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/13/Callback/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/13/Callback/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Callback/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/13/Callback/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/vector.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/13/Callback/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/vector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -574,7 +573,7 @@
       <workItem from="1716008948204" duration="14927000" />
       <workItem from="1716029146659" duration="2336000" />
       <workItem from="1716178113495" duration="11526000" />
-      <workItem from="1716292084686" duration="2259000" />
+      <workItem from="1716292084686" duration="12086000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -919,7 +918,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -957,7 +956,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="LE KALO" />
     <MESSAGE value="e'bal" />
     <MESSAGE value="VI KA?" />
     <MESSAGE value="NA MNE TOL'KO FENDI HOODIE" />
@@ -982,7 +980,8 @@
     <MESSAGE value="UNREAL YOBKA" />
     <MESSAGE value="UNREAL YOBQA&#10;&#10;FIX INDENTATION" />
     <MESSAGE value="GIVE ME A FUCKING BREAK" />
-    <option name="LAST_COMMIT_MESSAGE" value="GIVE ME A FUCKING BREAK" />
+    <MESSAGE value="GIVE ME A FUCKING BREAK V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="GIVE ME A FUCKING BREAK V2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1016,11 +1015,6 @@
           <url>file://$PROJECT_DIR$/4/My/Callback/V1/test.cpp</url>
           <line>44</line>
           <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/4/13/Callback/application.cpp</url>
-          <line>62</line>
-          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

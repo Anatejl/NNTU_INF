@@ -7,7 +7,8 @@
 
 int main() {
 
-    std::cout << "VAR 13 CODE, DA POMOZHET B.O.G." << std::endl << "INITIALIZATION START START" << std::endl;
+    std::cout << "KUTAK Inc. Software ver. [REDACTED]" << std::endl;
+    std::cout << "VAR 13 CODE, DA POMOZHET B.O.G." << std::endl << "INITIALIZATION START START" << std::endl << std::endl;
 
     int gosha_rubchinskii = appRun();
 

@@ -10,76 +10,70 @@ bool operation(Callback callback, void *data) {
 }
 
 bool appInitializeA(void *app) {
-
     Application &tempApp = *(Application *) app;
 
-    if (tempApp.va == INT_MAX && tempApp.a0 == INT_MAX) {
-        std::cin >> tempApp.va >> tempApp.a0;
+    if (tempApp.va != INT_MAX && tempApp.a0 != INT_MAX) {
+        tempApp.initialArray.AVector.push_back(
+            vectorAVectorInitialize(tempApp.va, tempApp.a0, tempApp.temp_var.second));
     }
-
-    if (!vectorGetEmptyInitialData(tempApp.initialArray)) {
-        tempApp.initialArray.AVector = vectorAVectorInitialize(tempApp.initialArray, tempApp.va, tempApp.a0);
+    else {
+        std::cin >> tempApp.va >> tempApp.a0;
     }
 
     return true;
 }
 
 bool appInitializeB(void *app) {
-
     Application &tempApp = *(Application *) app;
 
-    if (tempApp.vb == INT_MAX && tempApp.b0 == INT_MAX) {
-        std::cin >> tempApp.vb >> tempApp.b0;
+    if (tempApp.vb != INT_MAX && tempApp.b0 != INT_MAX) {
+        tempApp.initialArray.BVector.push_back(
+            vectorBVectorInitialize(tempApp.vb, tempApp.b0, tempApp.temp_var.second));
     }
-
-    if (!vectorGetEmptyInitialData(tempApp.initialArray)) {
-        tempApp.initialArray.BVector = vectorBVectorInitialize(tempApp.initialArray, tempApp.vb, tempApp.b0);
+    else {
+        std::cin >> tempApp.vb >> tempApp.b0;
     }
 
     return true;
 }
 
 bool appInitializeData(void *app) {
-
     Application &tempApp = *(Application *) app;
 
-    tempApp.initialArray = vectorInitializeData(tempApp.initialArray);
+    tempApp.initialArray.initialData.push_back(vectorInitializeData());
 
     return true;
 }
 
 bool appProcessDataIntoFinalResult(void *app) {
-
     Application &tempApp = *(Application *) app;
 
-    if (tempApp.temp_var.first < vectorGetSizeInitialData(tempApp.initialArray)) {
-        if (!(tempApp.initialArray.initialData[tempApp.temp_var.first] > tempApp.initialArray.AVector[tempApp.temp_var.first] &&
-              tempApp.initialArray.initialData[tempApp.temp_var.first] < tempApp.initialArray.BVector[tempApp.temp_var.first])) {
-            tempApp.temp_var.temp_vector.temp_to_erase.push_back(tempApp.temp_var.first);
-        }
-        ++tempApp.temp_var.first;
+    if (
+        (tempApp.initialArray.initialData.back() < tempApp.initialArray.AVector.back()
+         && tempApp.initialArray.initialData.back() < tempApp.initialArray.BVector.back())
+        ||
+        (tempApp.initialArray.initialData.back() > tempApp.initialArray.AVector.back()
+         && tempApp.initialArray.initialData.back() > tempApp.initialArray.BVector.back())
+    ) {
+        tempApp.initialArray.initialData.pop_back();
+        tempApp.initialArray.AVector.pop_back();
+        tempApp.initialArray.BVector.pop_back();
     }
 
-    if(tempApp.temp_var.first == vectorGetSizeInitialData(tempApp.initialArray) && tempApp.temp_var.second == 0) {
-        for (int i = vectorGetSizeTempData(tempApp.temp_var.temp_vector); i > 0; --i) {
-            tempApp.initialArray.initialData.erase(tempApp.initialArray.initialData.begin() + tempApp.temp_var.temp_vector.temp_to_erase[i - 1]);
-        }
-    }
     return true;
 }
 
 bool appGetOutputToUser(void *app) {
-
     Application &tempApp = *(Application *) app;
 
-    if (tempApp.temp_var.third == 0) {
+    if (tempApp.temp_var.first == 0) {
         std::cout << "After exclusion, left-over values are:" << std::endl;
     }
 
-    std::cout << tempApp.initialArray.initialData[tempApp.temp_var.third] << " ";
-    ++tempApp.temp_var.third;
+    std::cout << tempApp.initialArray.initialData[tempApp.temp_var.first] << " ";
+    ++tempApp.temp_var.first;
 
-    if (tempApp.temp_var.third == vectorGetSizeInitialData(tempApp.initialArray)) {
+    if (tempApp.temp_var.first == vectorGetSizeInitialData(tempApp.initialArray)) {
         std::cout << std::endl;
     }
 
@@ -87,7 +81,6 @@ bool appGetOutputToUser(void *app) {
 }
 
 int appRun() {
-
     Application app;
 
     if (!operation(&appInitializeA, &app)) {
@@ -100,29 +93,36 @@ int appRun() {
         return 1;
     }
 
-    if (!operation(&appInitializeData, &app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
+    while (!std::cin.eof()) {
 
-    if (!operation(&appInitializeA, &app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
+        //Get Value from cin
+        if (!operation(&appInitializeData, &app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
 
-    if (!operation(&appInitializeB, &app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
+        //Get left border
+        if (!operation(&appInitializeA, &app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
 
-    for(int i = 0; i < vectorGetSizeInitialData(app.initialArray); ++i) {
+        //Get right border
+        if (!operation(&appInitializeB, &app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
+
+        //Decide whether value is applicable
         if (!operation(&appProcessDataIntoFinalResult, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
+
+        ++app.temp_var.second;
     }
 
-    for (int i = 0; i < vectorGetSizeInitialData(app.initialArray); ++i) {
+    for (int i : app.initialArray.initialData) {
         if (!operation(&appGetOutputToUser, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;

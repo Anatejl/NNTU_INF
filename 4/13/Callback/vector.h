@@ -15,18 +15,11 @@ struct initialVector{
 
 };
 
-struct tempVector {
-
-    std::vector<int> temp_to_erase;
-
-};
-
-initialVector vectorInitializeData(const initialVector& initialArray);
-std::vector<int> vectorAVectorInitialize(const initialVector& initialArray, int va, int a0);
-std::vector<int> vectorBVectorInitialize(const initialVector& initialArray, int vb, int b0);
+int vectorInitializeData();
+int vectorAVectorInitialize(int va, int a0, int second);
+int vectorBVectorInitialize(int vb, int b0, int second);
 
 int vectorGetSizeInitialData(initialVector& v);
-int vectorGetSizeTempData(tempVector& v);
 bool vectorGetEmptyInitialData(initialVector& v);
 
 #endif //NNTU_VECTOR_H
