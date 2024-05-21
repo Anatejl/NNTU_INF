@@ -40,7 +40,7 @@ bool appInitializeB(void *app) {
 bool appInitializeData(void *app) {
     Application &tempApp = *(Application *) app;
 
-    tempApp.initialArray.initialData.push_back(vectorInitializeData());
+    tempApp.initialArray.initialData.push_back(vectorDataInitialize());
 
     return true;
 }

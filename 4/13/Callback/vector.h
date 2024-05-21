@@ -15,7 +15,7 @@ struct initialVector{
 
 };
 
-int vectorInitializeData();
+int vectorDataInitialize();
 int vectorAVectorInitialize(int va, int a0, int second);
 int vectorBVectorInitialize(int vb, int b0, int second);
 
