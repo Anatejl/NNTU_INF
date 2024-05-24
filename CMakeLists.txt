@@ -94,6 +94,11 @@ add_executable(4_SEM_Mainline_Callback_V1
         4/My/Callback/V1/vector.cpp
         4/My/Callback/V1/vector.h)
 
+add_executable(4_SEM_Mainline_Callback_V2
+        4/My/Callback/V2/main.cpp
+        4/My/Callback/V2/application.cpp
+        4/My/Callback/V2/vector.cpp
+        4/My/Callback/V2/vector.h)
 
 add_executable(4_SEM_Mainline_Callback_V1_test
         4/My/Callback/V1/application.cpp
@@ -102,6 +107,11 @@ add_executable(4_SEM_Mainline_Callback_V1_test
         4/My/Callback/V1/test.cpp)
 target_link_libraries(4_SEM_Mainline_Callback_V1_test gtest_main gmock_main)
 
+add_executable(4_SEM_Mainline_Callback_V2_test
+        4/My/Callback/V2/application.cpp
+        4/My/Callback/V2/vector.cpp
+        4/My/Callback/V2/test.cpp)
+target_link_libraries(4_SEM_Mainline_Callback_V2_test gtest_main gmock_main)
 
 
 ####### 1
