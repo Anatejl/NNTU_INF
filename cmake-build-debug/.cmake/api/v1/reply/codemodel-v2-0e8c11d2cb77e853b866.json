@@ -1,0 +1,346 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "googletest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-Debug-294c64d4885f2a55f3f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "googletest"
+				},
+				{
+					"build" : "googletest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest.googlemock-Debug-0ae3607051250816a9ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "googletest/googlemock",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest.googletest-Debug-0709934d1e47e89f9185.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "googletest/googletest",
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NNTU",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_10_Mainline_Callback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_10_Mainline_Callback-Debug-9894fcde1dcf900d0599.json",
+					"name" : "4_SEM_10_Mainline_Callback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_10_Mainline_Inductance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_10_Mainline_Inductance-Debug-e9a22febcb5a4e1718b2.json",
+					"name" : "4_SEM_10_Mainline_Inductance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_13_Mainline_Callback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_13_Mainline_Callback-Debug-f076f7c069530d20e023.json",
+					"name" : "4_SEM_13_Mainline_Callback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_13_Mainline_Induction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_13_Mainline_Induction-Debug-aa292fd207af58253b41.json",
+					"name" : "4_SEM_13_Mainline_Induction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_13_TEST::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_13_TEST-Debug-7f6d5a2a43267d9452d5.json",
+					"name" : "4_SEM_13_TEST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_18_Mainline_Callback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_18_Mainline_Callback-Debug-93353bd20893c3b9cb60.json",
+					"name" : "4_SEM_18_Mainline_Callback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_1_Mainline_Callback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_1_Mainline_Callback-Debug-219c4e4783081fe50d09.json",
+					"name" : "4_SEM_1_Mainline_Callback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_1_Mainline_Induction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_1_Mainline_Induction-Debug-81d15d6f523b76d7fc48.json",
+					"name" : "4_SEM_1_Mainline_Induction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_41_2_Mainline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_41_2_Mainline-Debug-29dc10e4f240ed2dc142.json",
+					"name" : "4_SEM_41_2_Mainline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_41_Callback_Mainline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_41_Callback_Mainline-Debug-03edabcfdd26f6a8570d.json",
+					"name" : "4_SEM_41_Callback_Mainline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_41_Mainline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_41_Mainline-Debug-1484091044b0e58d9a3e.json",
+					"name" : "4_SEM_41_Mainline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_Mainline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_Mainline-Debug-d672b244a001a9a47be5.json",
+					"name" : "4_SEM_Mainline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_Mainline_Callback_SEN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_Mainline_Callback_SEN-Debug-0963eab1f7050a3cdddc.json",
+					"name" : "4_SEM_Mainline_Callback_SEN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_Mainline_Callback_V1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_Mainline_Callback_V1-Debug-c1e26f842aa747fdf119.json",
+					"name" : "4_SEM_Mainline_Callback_V1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_Mainline_Callback_V1_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_Mainline_Callback_V1_test-Debug-74ba5a8f88a3fc71af27.json",
+					"name" : "4_SEM_Mainline_Callback_V1_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_Mainline_Callback_V2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_Mainline_Callback_V2-Debug-5dd22dcc1b315c8c1bf2.json",
+					"name" : "4_SEM_Mainline_Callback_V2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_Mainline_Callback_V2_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_Mainline_Callback_V2_test-Debug-2cae2b58efe51a6cbceb.json",
+					"name" : "4_SEM_Mainline_Callback_V2_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4_SEM_Mainline_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4_SEM_Mainline_test-Debug-f433d36792f0e162302e.json",
+					"name" : "4_SEM_Mainline_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@d68da25237a7ca2351af",
+					"jsonFile" : "target-gmock-Debug-5769261665acd0029f35.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@d68da25237a7ca2351af",
+					"jsonFile" : "target-gmock_main-Debug-8b9ceba59b14072b7f52.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest-Debug-f185b011a441e67706e1.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@f95b5c00bd49b3b4698d",
+					"jsonFile" : "target-gtest_main-Debug-53fc1e364df5cfa1caa2.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug",
+		"source" : "C:/Users/l3t/Documents/GitHub/NNTU_INF"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

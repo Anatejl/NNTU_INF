@@ -1,3 +1,4 @@
+//application.cpp
 //
 // Created by Anatejl on 20.04.2024.
 //
@@ -57,12 +58,12 @@ bool appProcessDataIntoFinalResult(Application &app) {
         if (
         (i != vectorGetSize(app.valueArray)-1 && app.valueArray.value[i] > app.valueArray.value[i + 1])
             ||
-        (i == vectorGetSize(app.valueArray)-1 )
+        (i == vectorGetSize(app.valueArray)-1)
         ){
 
-            if (tempConsequenceStreak > app.finalConsequenceStreak &&
-            (app.valueArray.value[i] -app.valueArray.value[i - (tempConsequenceStreak-1)] > app.constD ||
-            app.valueArray.value[i] -app.valueArray.value[i - tempConsequenceStreak] > app.constD))
+            if ((tempConsequenceStreak > app.finalConsequenceStreak &&
+            app.valueArray.value[i] -app.valueArray.value[i - (tempConsequenceStreak-1)] > app.constD) ||
+            app.valueArray.value[i] -app.valueArray.value[i - tempConsequenceStreak] > app.constD)
             {
                 if((app.finalLeft == INT_MAX && app.finalRight == INT_MAX) &&
                    (i == tempConsequenceStreak || i == tempConsequenceStreak+1)){

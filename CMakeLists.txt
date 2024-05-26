@@ -29,8 +29,8 @@ set(CMAKE_CXX_STANDARD 17)
 # 1 course / 2 semester
 
 #add_executable(2.1 "2/2.1/master.c" 2/2.1/data.h )
-add_executable(2.1tn "2/2.1t/main.c" 2/2.1t/data.h
-        4/13/Inductance/test13.cpp)
+#add_executable(2.1tn "2/2.1t/main.c" 2/2.1t/data.h
+#        4/13/Inductance/test13.cpp)
 #add_executable(2.1ch "2/2.1ch/index.c" 2/2.1ch/struct.h)
 #add_executable(2.1g "2/2.1g/main.c" 2/2.1g/programs.h)
 #add_executable(2_lab1_1_1 "2/Lab1/1.1.c")
@@ -54,10 +54,10 @@ add_executable(2.1tn "2/2.1t/main.c" 2/2.1t/data.h
 ##        3/3_my/solve/processing.cpp
 ##        3/3_my/solve/application.cpp)
 ##add_executable(ROMYCH "3/ROMYCH/replacement.cpp")
-add_executable(3_SEM_Mainline
-        "3/3.14DOR/main.cpp"
-        3/3.14DOR/application.cpp
-        3/3.14DOR/vector.cpp)
+#add_executable(3_SEM_Mainline
+#        "3/3.14DOR/main.cpp"
+#        3/3.14DOR/application.cpp
+#        3/3.14DOR/vector.cpp)
 #add_executable(TESTfile "2/Lab1/test.c")
 
 ##add_executable(gor 3/gor/sorting.cpp
@@ -74,16 +74,13 @@ enable_testing()
 add_subdirectory(googletest)
 
 add_executable(4_SEM_Mainline
-        "4/My/Inductance_V2/main.cpp"
-         4/My/Inductance_V2/application.cpp
+        4/My/Inductance_V2/main.cpp
+        4/My/Inductance_V2/application.cpp
         4/My/Inductance_V2/vector.cpp)
-
-
 
 add_executable(4_SEM_Mainline_test
         4/My/Inductance_V2/application.cpp
         4/My/Inductance_V2/vector.cpp
-        4/My/Inductance_V2/vector.h
         4/My/Inductance_V2/test.cpp)
 target_link_libraries(4_SEM_Mainline_test gtest_main gmock_main)
 

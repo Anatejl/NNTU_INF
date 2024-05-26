@@ -14,7 +14,6 @@
       <config projectName="NNTU" targetName="4_SEM_41_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_SEN" />
       <config projectName="NNTU" targetName="4_SEM_1_Mainline_Induction" />
-      <config projectName="NNTU" targetName="2.1tn" />
       <config projectName="NNTU" targetName="4_SEM_18_Mainline_Callback" />
       <config projectName="NNTU" targetName="gtest" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V2_test" />
@@ -23,7 +22,6 @@
       <config projectName="NNTU" targetName="4_SEM_13_TEST" />
       <config projectName="NNTU" targetName="4_SEM_13_Mainline_Induction" />
       <config projectName="NNTU" targetName="gmock" />
-      <config projectName="NNTU" targetName="3_SEM_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V1_test" />
       <config projectName="NNTU" targetName="4_SEM_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V1" />
@@ -44,13 +42,66 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="JONNY ONI NA DEREVYAH">
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="NICHEGO NE POLYCHAETSYA, DA I POSHLO VSE B PIZDU">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Callback/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V2/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Callback/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V2/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Callback/V2/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V2/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-2.1tn-Debug-33537c47f0bd0b754178.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-3_SEM_Mainline-Debug-06813c5ce0bdb3953d02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline_test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/4_SEM_Mainline_test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/linkLibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/2.1tn.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/linkLibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3_SEM_Mainline.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_13_TEST.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_13_TEST.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_41_Mainline.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/4_SEM_Mainline_test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/NNTU.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +128,7 @@
     <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/limits.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_HOME_DIR$/bin/mingw/x86_64-w64-mingw32/include/stdlib.h" root0="FORCE_HIGHLIGHTING" />
@@ -112,7 +164,7 @@
     <setting file="file://$PROJECT_DIR$/4/My/Callback/V2/application.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/application.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/main.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/main.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/testfile.txt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/vector.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -138,93 +190,95 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C/C++ File.inductive_operation.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.2.1tn.executor&quot;: &quot;Debug&quot;,
-    &quot;CMake Application.3.14DOR.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.3_SEM_Mainline.executor&quot;: &quot;Debug&quot;,
-    &quot;CMake Application.4SEM_MY.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_10_Mainline.executor&quot;: &quot;Debug&quot;,
-    &quot;CMake Application.4_SEM_10_Mainline_Callback.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_13_Mainline.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_13_Mainline_Callback.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_13_Mainline_Induction.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_13_TEST.executor&quot;: &quot;Debug&quot;,
-    &quot;CMake Application.4_SEM_18_Mainline_Callback.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_1_Mainline.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_1_Mainline_Callback.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_1_Mainline_Induction.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_41_2_Mainline.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_41_Callback_Mainline.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_41_Mainline.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_Mainline.executor&quot;: &quot;Valgrind&quot;,
-    &quot;CMake Application.4_SEM_Mainline_Callback_SEN.executor&quot;: &quot;Debug&quot;,
-    &quot;CMake Application.4_SEM_Mainline_Callback_V1.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.4_SEM_Mainline_Callback_V2.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.PIDOR.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.TEST.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.gor.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.solve.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.4_SEM_Mainline_Callback_V1.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.4_SEM_Mainline_Callback_V1_test.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.4_SEM_Mainline_Callback_V2_test.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.4_SEM_Mainline_test.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.All in 4_SEM_Mainline_test.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.Custom.One.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.Custom.Three.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.Custom.Two.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_1.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_10.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_11.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_2.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_3.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_5.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_7.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_8.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly.Simple_9.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexFindCorrectly_Simple_1_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexWithD.Filttered_by_D_1.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexWithD.Filttered_by_D_2.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexWithD.Filttered_by_D_3.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.IndexWithD_Filttered_by_D_1_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Google Test.NegativeUInt.Negative_unit_becomes_False.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowSQL Generator.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/l3t/Documents/GitHub/NNTU_INF/4/My/Callback/V2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;E:/Git/NNTU_INF/1/1.11/11.c&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C/C++ File.inductive_operation.cpp.executor": "Run",
+    "CMake Application.2.1tn.executor": "Debug",
+    "CMake Application.3.14DOR.executor": "Run",
+    "CMake Application.3_SEM_Mainline.executor": "Debug",
+    "CMake Application.4SEM_MY.executor": "Run",
+    "CMake Application.4_SEM_10_Mainline.executor": "Debug",
+    "CMake Application.4_SEM_10_Mainline_Callback.executor": "Run",
+    "CMake Application.4_SEM_13_Mainline.executor": "Run",
+    "CMake Application.4_SEM_13_Mainline_Callback.executor": "Run",
+    "CMake Application.4_SEM_13_Mainline_Induction.executor": "Run",
+    "CMake Application.4_SEM_13_TEST.executor": "Debug",
+    "CMake Application.4_SEM_18_Mainline_Callback.executor": "Run",
+    "CMake Application.4_SEM_1_Mainline.executor": "Run",
+    "CMake Application.4_SEM_1_Mainline_Callback.executor": "Run",
+    "CMake Application.4_SEM_1_Mainline_Induction.executor": "Run",
+    "CMake Application.4_SEM_41_2_Mainline.executor": "Run",
+    "CMake Application.4_SEM_41_Callback_Mainline.executor": "Run",
+    "CMake Application.4_SEM_41_Mainline.executor": "Run",
+    "CMake Application.4_SEM_Mainline.executor": "Run",
+    "CMake Application.4_SEM_Mainline_Callback_SEN.executor": "Debug",
+    "CMake Application.4_SEM_Mainline_Callback_V1.executor": "Run",
+    "CMake Application.4_SEM_Mainline_Callback_V2.executor": "Run",
+    "CMake Application.PIDOR.executor": "Run",
+    "CMake Application.TEST.executor": "Run",
+    "CMake Application.gor.executor": "Run",
+    "CMake Application.solve.executor": "Run",
+    "Google Test.4 _SEM_Mainline_Induction_TEST.executor": "Run",
+    "Google Test.4_SEM_Mainline_Callback_V1.executor": "Run",
+    "Google Test.4_SEM_Mainline_Callback_V1_test.executor": "Run",
+    "Google Test.4_SEM_Mainline_Callback_V2_test.executor": "Run",
+    "Google Test.4_SEM_Mainline_test.executor": "Run",
+    "Google Test.All in 4_SEM_Mainline_test.executor": "Run",
+    "Google Test.Custom.One.executor": "Run",
+    "Google Test.Custom.Three.executor": "Run",
+    "Google Test.Custom.Two.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_1.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_10.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_11.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_2.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_3.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_5.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_7.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_8.executor": "Run",
+    "Google Test.IndexFindCorrectly.Simple_9.executor": "Run",
+    "Google Test.IndexFindCorrectly_Simple_1_Test.executor": "Run",
+    "Google Test.IndexWithD.Filttered_by_D_1.executor": "Run",
+    "Google Test.IndexWithD.Filttered_by_D_2.executor": "Run",
+    "Google Test.IndexWithD.Filttered_by_D_3.executor": "Run",
+    "Google Test.IndexWithD_Filttered_by_D_1_Test.executor": "Run",
+    "Google Test.NegativeUInt.Negative_unit_becomes_False.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowSQL Generator.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "database.data.extractors.current.id": "Comma-separated (CSV)_id",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/My/Callback/V2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "structure.view.defaults.are.configured": "true",
+    "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\My\Callback\V2" />
@@ -241,7 +295,13 @@
       <recent name="E:\Git\NNTU_INF\4\My" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.4_SEM_Mainline_Callback_V1_test">
+  <component name="RunManager" selected="Google Test.4 _SEM_Mainline_Induction_TEST">
+    <configuration name="4 _SEM_Mainline_Induction_TEST" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="4_SEM_Mainline_Callback_V1_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V1_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V1_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -254,49 +314,10 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Custom.Three" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_CLASS="Custom" TEST_METHOD="Three" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IndexFindCorrectly.Simple_1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V2_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V2_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_1" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexFindCorrectly.Simple_2" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V2_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V2_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_2" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexFindCorrectly.Simple_3" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V1_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V1_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_3" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexFindCorrectly.Simple_5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V2_test" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V2_test" TEST_CLASS="IndexFindCorrectly" TEST_METHOD="Simple_5" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="2.1tn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="2.1tn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="2.1tn">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="3_SEM_Mainline" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&gt; 1 23" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="3_SEM_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="3_SEM_Mainline">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_10_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/10/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_10_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_10_Mainline">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="4_SEM_10_Mainline_Callback" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/10/callback/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_10_Mainline_Callback" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_10_Mainline_Callback">
@@ -305,11 +326,6 @@
       </method>
     </configuration>
     <configuration name="4_SEM_10_Mainline_Inductance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_10_Mainline_Inductance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_10_Mainline_Inductance">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_13_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/13/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_13_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_13_Mainline">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -330,11 +346,6 @@
       </method>
     </configuration>
     <configuration name="4_SEM_18_Mainline_Callback" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/18/Callback/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_18_Mainline_Callback" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_18_Mainline_Callback">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_1_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/1/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_1_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_1_Mainline">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -384,6 +395,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -405,18 +421,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.2.1tn" />
-      <item itemvalue="CMake Application.3_SEM_Mainline" />
       <item itemvalue="CMake Application.4_SEM_10_Mainline_Callback" />
-      <item itemvalue="CMake Application.4_SEM_10_Mainline" />
       <item itemvalue="CMake Application.4_SEM_10_Mainline_Inductance" />
-      <item itemvalue="CMake Application.4_SEM_13_Mainline" />
       <item itemvalue="CMake Application.4_SEM_13_Mainline_Callback" />
       <item itemvalue="CMake Application.4_SEM_13_Mainline_Induction" />
       <item itemvalue="CMake Application.4_SEM_13_TEST" />
       <item itemvalue="CMake Application.4_SEM_18_Mainline_Callback" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline_Callback" />
-      <item itemvalue="CMake Application.4_SEM_1_Mainline" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline_Induction" />
       <item itemvalue="CMake Application.4_SEM_41_2_Mainline" />
       <item itemvalue="CMake Application.4_SEM_41_Callback_Mainline" />
@@ -429,21 +440,14 @@
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V2" />
+      <item itemvalue="Google Test.4 _SEM_Mainline_Induction_TEST" />
       <item itemvalue="Google Test.4_SEM_Mainline_Callback_V1_test" />
       <item itemvalue="Google Test.4_SEM_Mainline_Callback_V2_test" />
-      <item itemvalue="Google Test.IndexFindCorrectly.Simple_5" />
-      <item itemvalue="Google Test.IndexFindCorrectly.Simple_2" />
-      <item itemvalue="Google Test.IndexFindCorrectly.Simple_3" />
-      <item itemvalue="Google Test.Custom.Three" />
       <item itemvalue="Google Test.IndexFindCorrectly.Simple_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.IndexFindCorrectly.Simple_5" />
         <item itemvalue="Google Test.IndexFindCorrectly.Simple_1" />
-        <item itemvalue="Google Test.IndexFindCorrectly.Simple_2" />
-        <item itemvalue="Google Test.IndexFindCorrectly.Simple_3" />
-        <item itemvalue="Google Test.Custom.Three" />
       </list>
     </recent_temporary>
   </component>
@@ -629,7 +633,8 @@
       <workItem from="1716329509675" duration="3036000" />
       <workItem from="1716455471643" duration="11332000" />
       <workItem from="1716545253314" duration="4336000" />
-      <workItem from="1716705330835" duration="2582000" />
+      <workItem from="1716705330835" duration="6621000" />
+      <workItem from="1716719612391" duration="4502000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -974,7 +979,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1012,7 +1017,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="TERRESTRIAL KRACAVA" />
     <MESSAGE value="NON-ARGUABLE KRACAVA" />
     <MESSAGE value="ROBUSTA FILTER == MINUS VSE CHTO BILO" />
     <MESSAGE value="FOR THE VICTORY, FOR THE GLORY OF THE EMPEROR OF MANKIND" />
@@ -1037,7 +1041,8 @@
     <MESSAGE value="BF NA 8OI VTARIL" />
     <MESSAGE value="INGLORIOUS COMMIT" />
     <MESSAGE value="JONNY ONI NA DEREVYAH" />
-    <option name="LAST_COMMIT_MESSAGE" value="JONNY ONI NA DEREVYAH" />
+    <MESSAGE value="NICHEGO NE POLYCHAETSYA, DA I POSHLO VSE B PIZDU" />
+    <option name="LAST_COMMIT_MESSAGE" value="NICHEGO NE POLYCHAETSYA, DA I POSHLO VSE B PIZDU" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1081,6 +1086,11 @@
           <url>file://$PROJECT_DIR$/4/18/Callback/application.cpp</url>
           <line>53</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$APPLICATION_HOME_DIR$/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits</url>
+          <line>40</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
