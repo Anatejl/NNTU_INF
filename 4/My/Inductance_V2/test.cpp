@@ -4,10 +4,10 @@
 #ifndef INDUCTANCE_V2_APPLICATION_TESTS_CPP
 #define INDUCTANCE_V2_APPLICATION_TESTS_CPP
 
-//#include "E:\Git\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
-//#include "E:\Git\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
-#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
-#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+#include "E:\Git\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
+#include "E:\Git\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+//#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
+//#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
 
 #include "application.h"
 
@@ -67,10 +67,6 @@ ASSERT_EQ(4, test_app.finalRight);
 TEST(IndexFindCorrectly, Simple_6) {
 Application test_app = init_application(std::vector<int>{4, 3, 2, 1}, 0);
 ASSERT_FALSE(appProcessDataIntoFinalResult(test_app));
-
-//ASSERT_TRUE(appProcessDataIntoFinalResult(test_app));
-//ASSERT_TRUE(test_app.finalLeft == 0 || test_app.finalLeft == 4 || test_app.finalLeft == INT_MAX);
-//ASSERT_TRUE(test_app.finalRight == 0 || test_app.finalRight == 4 || test_app.finalRight == INT_MAX);
 }
 
 TEST(IndexFindCorrectly, Simple_7) {
@@ -160,10 +156,9 @@ TEST(NegativeUInt, NegativeUInt) {
 }
 
 TEST(NegativeUInt, Negative_unit_becomes_false) {
-    int huy = -1;
-    int huy2 = 1;
-    //ASSERT_FALSE(huy);
-    ASSERT_TRUE(huy2);
+    int op = -1;
+    int op2 = 1;
+    ASSERT_TRUE(op2);
 }
 
 TEST(Custom, One) {
