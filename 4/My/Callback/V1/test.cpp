@@ -4,10 +4,10 @@
 #ifndef CALLBACK_V1_APPLICATION_TESTS_CPP
 #define CALLBACK_V1_APPLICATION_TESTS_CPP
 
-#include "E:\Git\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
-#include "E:\Git\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
-//#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
-//#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+//#include "E:\Git\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
+//#include "E:\Git\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
+#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googlemock\include\gmock\gmock.h"
+#include "C:\Users\l3t\Documents\GitHub\NNTU_INF\googletest\googletest\include\gtest\gtest.h"
 
 #include "application.h"
 

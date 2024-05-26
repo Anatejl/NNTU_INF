@@ -10,14 +10,13 @@ bool operation(Callback callback, void *data) {
 }
 
 bool appGetConstantD(void *app) {
-
     Application &tempApp = *(Application *) app;
 
     std::cout << "Input a D constant to compare:" << std::endl;
     std::cin >> tempApp.constD;
     std::cout << tempApp.constD << std::endl;
 
-    if(std::cin.fail()) {
+    if (std::cin.fail()) {
         return false;
     }
 
@@ -25,7 +24,6 @@ bool appGetConstantD(void *app) {
 }
 
 bool appInitializeData(void *app) {
-
     Application &tempApp = *(Application *) app;
 
     tempApp.temp_data.cin_read.value.push_back(vectorValueInitialize());
@@ -34,75 +32,82 @@ bool appInitializeData(void *app) {
 }
 
 bool appProcessData(void *app) {
-
     Application &tempApp = *(Application *) app;
 
     //DENOTE FOR GTEST ONLY
     //for (int i = 0; i < tempApp.temp_data.cin_read.value.size(); ++i) {
 
-        if(tempApp.temp_data.cin_read.value.back() > tempApp.temp_data.cin_read.value[tempApp.temp_data.cin_read.value.size()-1] ||tempApp.temp_data.cin_read.value.empty()) {
-
-            if(vectorGetSize(tempApp.temp_data.cin_read) == 1) {
-                tempApp.finalLeft = tempApp.temp_data.cin_read.value.back();
-                tempApp.finalRight = tempApp.temp_data.cin_read.value.back();
-                ++tempApp.temp_data.tempConsequenceStreak;
+    for (; tempApp.temp_data.processIterator < tempApp.temp_data.cin_read.value.size(); ++tempApp.temp_data.
+           processIterator) {
+        if (tempApp.temp_data.cin_read.value[tempApp.temp_data.processIterator] >
+            tempApp.temp_data.cin_read.value[tempApp.temp_data.processIterator - tempApp.temp_data.tempConsequenceStreak]) {
+            tempApp.temp_data.tempConsequenceStreak = 0;
+            tempApp.temp_data.leftWritten = false;
             }
-            tempApp.finalLeft = tempApp.temp_data.cin_read.value[tempApp.temp_data.cin_read.value.size()-tempApp.temp_data.tempConsequenceStreak];
-            tempApp.finalRight = tempApp.temp_data.cin_read.value.back();
+        else if (tempApp.temp_data.processIterator == 0) {
+            tempApp.finalLeft = tempApp.temp_data.processIterator;
+            tempApp.finalRight = tempApp.temp_data.processIterator;
         }
-
-    //DENOTE FOR GTEST ONLY
+        else {
+            if (tempApp.temp_data.leftWritten == false) {
+                tempApp.finalLeft = tempApp.temp_data.processIterator;
+                tempApp.temp_data.leftWritten = true;
+            }
+            tempApp.finalRight = tempApp.temp_data.processIterator;
+            ++tempApp.temp_data.tempConsequenceStreak;
+        }
+        //DENOTE FOR GTEST ONLY
         //if (i == tempApp.temp_data.processIterator && tempApp.finalLeft == INT_MAX && tempApp.finalRight == INT_MAX) {
         //    return false;
         //}
-    //}
+        //}
 
-    return true;
+        return true;
+           }
 }
 
-bool appGetOutputToUser(void *app) {
+    bool appGetOutputToUser(void *app) {
+        Application &tempApp = *(Application *) app;
 
-    Application &tempApp = *(Application *) app;
+        std::cout << std::endl << tempApp.finalLeft << " - Left Index" << std::endl;
+        std::cout << tempApp.finalRight << " - Right Index" << std::endl;
 
-    std::cout << std::endl << tempApp.finalLeft << " - Left Index" << std::endl;
-    std::cout << tempApp.finalRight << " - Right Index" << std::endl;
-
-    return true;
-}
-
-int appRun() {
-
-    Application app;
-
-    // 1 - Get D const
-    if (!operation(&appGetConstantD, &app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
+        return true;
     }
 
-    // 2 - Work on input
-    while (!std::cin.eof()) {
+    int appRun() {
+        Application app;
 
-        if (!operation(&appInitializeData, &app)) {
+        // 1 - Get D const
+        if (!operation(&appGetConstantD, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
 
-        if (!operation(&appProcessData, &app)) {
+        // 2 - Work on input
+        while (!std::cin.eof()) {
+            if (!operation(&appInitializeData, &app)) {
+                std::cout << "DATA INPUT FAILURE." << std::endl;
+                return 1;
+            }
+
+            if (!operation(&appProcessData, &app)) {
+                std::cout << "DATA INPUT FAILURE." << std::endl;
+                return 1;
+            }
+        }
+
+        // 3 - Display result
+        if (app.finalRight - app.finalLeft < app.constD ||
+            (app.temp_data.processIterator - 1 == app.valueArray.value.size() - 1 && app.finalLeft == INT_MAX && app.
+             finalRight == INT_MAX)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
-    }
+        // ReSharper disable once CppRedundantElseKeywordInsideCompoundStatement
+        else {
+            operation(&appGetOutputToUser, &app);
+        }
 
-    // 3 - Display result
-    if (app.temp_data.processIterator-1 == app.valueArray.value.size() - 1 && app.finalLeft == INT_MAX && app.finalRight == INT_MAX) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
+        return 0;
     }
-    // ReSharper disable once CppRedundantElseKeywordInsideCompoundStatement
-    else {
-        operation(&appGetOutputToUser, &app);
-    }
-
-    return 0;
-}

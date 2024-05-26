@@ -14,6 +14,7 @@ struct temp_data {
     int tempConsequenceStreak = 0;
     int processIterator = 0;
     int outputIterator = 0;
+    bool leftWritten = false;
 
 };
 

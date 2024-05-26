@@ -16,6 +16,7 @@ using namespace std;
 Application init_application(std::vector<int> &&init_values, int D) {
     Application test_application;
     test_application.constD = D;
+    //test_application.temp_data.processIterator = init_values.size()-1;
     test_application.temp_data.cin_read.value.reserve(init_values.size());
     for (auto &val: init_values) {
         test_application.temp_data.cin_read.value.push_back(val);
