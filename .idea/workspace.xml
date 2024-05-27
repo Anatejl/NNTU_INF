@@ -43,10 +43,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="JONNY ONI NA DEREVYAH">
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V2/.~lock.otchot.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/otchot.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V1/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V1/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/.~lock.otchot.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/otchot.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V2/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -575,7 +581,7 @@
       <workItem from="1716545253314" duration="4336000" />
       <workItem from="1716705330835" duration="6621000" />
       <workItem from="1716719612391" duration="4502000" />
-      <workItem from="1716790091321" duration="3281000" />
+      <workItem from="1716790091321" duration="8717000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
