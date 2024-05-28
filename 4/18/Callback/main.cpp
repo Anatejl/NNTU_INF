@@ -7,7 +7,7 @@
 
 int main() {
 
-    std::cout << "KUTAK Inc. Software ver. [REDACTED]" << std::endl;
+    std::cout << "KUTAK Inc. Software ver. 666" << std::endl;
     std::cout << "VAR 18 CODE, DA POMOZHET B.O.G." << std::endl << "INITIALIZATION START START" << std::endl << std::endl;
 
     int dolcegabana = appRun();

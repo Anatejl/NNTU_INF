@@ -5,7 +5,6 @@
 #ifndef NNTU_VECTOR_H
 #define NNTU_VECTOR_H
 
-#include <bemapiset.h>
 #include <vector>
 
 struct initialVector {
