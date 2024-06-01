@@ -1,8 +1,0 @@
-error: while checking out baseline from commit 'cb1301e9977b5f10b49f7988f68b808f7a558970', failed to `git show` versions/baseline.json. This may be fixed by fetching commits with `git fetch`.
-error: git failed with exit code: (128).
-fatal: not a git repository: 'C:\vcpkg\.git'
-
-Failed to determine the current commit:
-error: git failed with exit code: (128).
-fatal: not a git repository: 'C:\vcpkg\.git'
-
