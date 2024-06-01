@@ -21,13 +21,10 @@ int appRun(Application &app) {
             return 1;
         }
 
-
-        appProcess(app);
-
-       // if (!appProcess(app)) {
-       //     std::cout << "DATA INPUT FAILURE." << std::endl << "No matches applicable." << std::endl;
-       //     return 1;
-       // }
+        if (!appProcess(app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl << "No matches applicable." << std::endl;
+            return 1;
+        }
 
         if (!appGetOutputToUser(app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
@@ -85,7 +82,7 @@ bool appProcess(Application &app) {
 
 bool appGetOutputToUser(Application &app) {
 
-    std::cout << app.current_element.first << " iteration" << std::endl;
+    std::cout << app.current_element.first << " - Iteration" << std::endl;
     std::cout << "L - " << app.finalLeft.first << std::endl;
     std::cout << "R - " << app.finalRight.first << std::endl << std::endl;
 
