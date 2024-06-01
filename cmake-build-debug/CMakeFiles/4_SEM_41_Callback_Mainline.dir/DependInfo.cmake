@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Git/NNTU_INF/4/41/Callback/application.cpp" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/application.cpp.obj" "gcc" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/application.cpp.obj.d"
-  "E:/Git/NNTU_INF/4/41/Callback/main.cpp" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/main.cpp.obj" "gcc" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/main.cpp.obj.d"
-  "E:/Git/NNTU_INF/4/41/Callback/vector.cpp" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/vector.cpp.obj" "gcc" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/vector.cpp.obj.d"
+  "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Callback/application.cpp" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/application.cpp.obj" "gcc" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/application.cpp.obj.d"
+  "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Callback/main.cpp" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/main.cpp.obj" "gcc" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/main.cpp.obj.d"
+  "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41/Callback/vector.cpp" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/vector.cpp.obj" "gcc" "CMakeFiles/4_SEM_41_Callback_Mainline.dir/4/41/Callback/vector.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

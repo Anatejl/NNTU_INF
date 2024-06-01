@@ -152,6 +152,11 @@ add_executable(4_SEM_18_Mainline_Callback
         4/18/Callback/application.cpp
         4/18/Callback/vector.cpp)
 
+add_executable(4_SEM_18_Mainline_Inductance
+        4/18/Inductance/main.cpp
+        4/18/Inductance/application.cpp
+        4/18/Inductance/vector.cpp)
+
 
 ####### 41
 add_executable(4_SEM_41_Mainline
