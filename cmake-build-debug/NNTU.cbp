@@ -1303,26 +1303,22 @@
 		<Unit filename="E:/Git/NNTU_INF/4/My/Callback/V2/vector.h">
 			<Option target="4_SEM_Mainline_Callback_V2"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/application.cpp">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V3/algo.cpp">
 			<Option target="4_SEM_Mainline"/>
 			<Option target="4_SEM_Mainline_test"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/application.h">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V3/application.cpp">
 			<Option target="4_SEM_Mainline"/>
 			<Option target="4_SEM_Mainline_test"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/main.cpp">
-			<Option target="4_SEM_Mainline"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/test.cpp">
-			<Option target="4_SEM_Mainline_test"/>
-		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/vector.cpp">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V3/application.h">
 			<Option target="4_SEM_Mainline"/>
 			<Option target="4_SEM_Mainline_test"/>
 		</Unit>
-		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V2/vector.h">
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V3/main.cpp">
 			<Option target="4_SEM_Mainline"/>
+		</Unit>
+		<Unit filename="E:/Git/NNTU_INF/4/My/Inductance_V3/test.cpp">
 			<Option target="4_SEM_Mainline_test"/>
 		</Unit>
 		<Unit filename="E:/Git/NNTU_INF/googletest/googlemock/src/gmock-all.cc">

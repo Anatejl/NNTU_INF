@@ -1428,107 +1428,107 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_Callback_V2_test.dir\build.make CMakeFiles/4_SEM_Mainline_Callback_V2_test.dir/4/My/Callback/V2/vector.cpp.s
 .PHONY : 4/My/Callback/V2/vector.cpp.s
 
-4/My/Inductance_V2/application.obj: 4/My/Inductance_V2/application.cpp.obj
-.PHONY : 4/My/Inductance_V2/application.obj
+4/My/Inductance_V3/algo.obj: 4/My/Inductance_V3/algo.cpp.obj
+.PHONY : 4/My/Inductance_V3/algo.obj
 
 # target to build an object file
-4/My/Inductance_V2/application.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.obj
-.PHONY : 4/My/Inductance_V2/application.cpp.obj
+4/My/Inductance_V3/algo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/algo.cpp.obj
+.PHONY : 4/My/Inductance_V3/algo.cpp.obj
 
-4/My/Inductance_V2/application.i: 4/My/Inductance_V2/application.cpp.i
-.PHONY : 4/My/Inductance_V2/application.i
+4/My/Inductance_V3/algo.i: 4/My/Inductance_V3/algo.cpp.i
+.PHONY : 4/My/Inductance_V3/algo.i
 
 # target to preprocess a source file
-4/My/Inductance_V2/application.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.i
-.PHONY : 4/My/Inductance_V2/application.cpp.i
+4/My/Inductance_V3/algo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/algo.cpp.i
+.PHONY : 4/My/Inductance_V3/algo.cpp.i
 
-4/My/Inductance_V2/application.s: 4/My/Inductance_V2/application.cpp.s
-.PHONY : 4/My/Inductance_V2/application.s
+4/My/Inductance_V3/algo.s: 4/My/Inductance_V3/algo.cpp.s
+.PHONY : 4/My/Inductance_V3/algo.s
 
 # target to generate assembly for a file
-4/My/Inductance_V2/application.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/application.cpp.s
-.PHONY : 4/My/Inductance_V2/application.cpp.s
+4/My/Inductance_V3/algo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/algo.cpp.s
+.PHONY : 4/My/Inductance_V3/algo.cpp.s
 
-4/My/Inductance_V2/main.obj: 4/My/Inductance_V2/main.cpp.obj
-.PHONY : 4/My/Inductance_V2/main.obj
+4/My/Inductance_V3/application.obj: 4/My/Inductance_V3/application.cpp.obj
+.PHONY : 4/My/Inductance_V3/application.obj
 
 # target to build an object file
-4/My/Inductance_V2/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj
-.PHONY : 4/My/Inductance_V2/main.cpp.obj
+4/My/Inductance_V3/application.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/application.cpp.obj
+.PHONY : 4/My/Inductance_V3/application.cpp.obj
 
-4/My/Inductance_V2/main.i: 4/My/Inductance_V2/main.cpp.i
-.PHONY : 4/My/Inductance_V2/main.i
+4/My/Inductance_V3/application.i: 4/My/Inductance_V3/application.cpp.i
+.PHONY : 4/My/Inductance_V3/application.i
 
 # target to preprocess a source file
-4/My/Inductance_V2/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.i
-.PHONY : 4/My/Inductance_V2/main.cpp.i
+4/My/Inductance_V3/application.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/application.cpp.i
+.PHONY : 4/My/Inductance_V3/application.cpp.i
 
-4/My/Inductance_V2/main.s: 4/My/Inductance_V2/main.cpp.s
-.PHONY : 4/My/Inductance_V2/main.s
+4/My/Inductance_V3/application.s: 4/My/Inductance_V3/application.cpp.s
+.PHONY : 4/My/Inductance_V3/application.s
 
 # target to generate assembly for a file
-4/My/Inductance_V2/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.s
-.PHONY : 4/My/Inductance_V2/main.cpp.s
+4/My/Inductance_V3/application.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/application.cpp.s
+.PHONY : 4/My/Inductance_V3/application.cpp.s
 
-4/My/Inductance_V2/test.obj: 4/My/Inductance_V2/test.cpp.obj
-.PHONY : 4/My/Inductance_V2/test.obj
+4/My/Inductance_V3/main.obj: 4/My/Inductance_V3/main.cpp.obj
+.PHONY : 4/My/Inductance_V3/main.obj
 
 # target to build an object file
-4/My/Inductance_V2/test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.obj
-.PHONY : 4/My/Inductance_V2/test.cpp.obj
+4/My/Inductance_V3/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj
+.PHONY : 4/My/Inductance_V3/main.cpp.obj
 
-4/My/Inductance_V2/test.i: 4/My/Inductance_V2/test.cpp.i
-.PHONY : 4/My/Inductance_V2/test.i
+4/My/Inductance_V3/main.i: 4/My/Inductance_V3/main.cpp.i
+.PHONY : 4/My/Inductance_V3/main.i
 
 # target to preprocess a source file
-4/My/Inductance_V2/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.i
-.PHONY : 4/My/Inductance_V2/test.cpp.i
+4/My/Inductance_V3/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.i
+.PHONY : 4/My/Inductance_V3/main.cpp.i
 
-4/My/Inductance_V2/test.s: 4/My/Inductance_V2/test.cpp.s
-.PHONY : 4/My/Inductance_V2/test.s
+4/My/Inductance_V3/main.s: 4/My/Inductance_V3/main.cpp.s
+.PHONY : 4/My/Inductance_V3/main.s
 
 # target to generate assembly for a file
-4/My/Inductance_V2/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/test.cpp.s
-.PHONY : 4/My/Inductance_V2/test.cpp.s
+4/My/Inductance_V3/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.s
+.PHONY : 4/My/Inductance_V3/main.cpp.s
 
-4/My/Inductance_V2/vector.obj: 4/My/Inductance_V2/vector.cpp.obj
-.PHONY : 4/My/Inductance_V2/vector.obj
+4/My/Inductance_V3/test.obj: 4/My/Inductance_V3/test.cpp.obj
+.PHONY : 4/My/Inductance_V3/test.obj
 
 # target to build an object file
-4/My/Inductance_V2/vector.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/vector.cpp.obj
-.PHONY : 4/My/Inductance_V2/vector.cpp.obj
+4/My/Inductance_V3/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/test.cpp.obj
+.PHONY : 4/My/Inductance_V3/test.cpp.obj
 
-4/My/Inductance_V2/vector.i: 4/My/Inductance_V2/vector.cpp.i
-.PHONY : 4/My/Inductance_V2/vector.i
+4/My/Inductance_V3/test.i: 4/My/Inductance_V3/test.cpp.i
+.PHONY : 4/My/Inductance_V3/test.i
 
 # target to preprocess a source file
-4/My/Inductance_V2/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/vector.cpp.i
-.PHONY : 4/My/Inductance_V2/vector.cpp.i
+4/My/Inductance_V3/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/test.cpp.i
+.PHONY : 4/My/Inductance_V3/test.cpp.i
 
-4/My/Inductance_V2/vector.s: 4/My/Inductance_V2/vector.cpp.s
-.PHONY : 4/My/Inductance_V2/vector.s
+4/My/Inductance_V3/test.s: 4/My/Inductance_V3/test.cpp.s
+.PHONY : 4/My/Inductance_V3/test.s
 
 # target to generate assembly for a file
-4/My/Inductance_V2/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline.dir\build.make CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V2/vector.cpp.s
-.PHONY : 4/My/Inductance_V2/vector.cpp.s
+4/My/Inductance_V3/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\4_SEM_Mainline_test.dir\build.make CMakeFiles/4_SEM_Mainline_test.dir/4/My/Inductance_V3/test.cpp.s
+.PHONY : 4/My/Inductance_V3/test.cpp.s
 
 # Help Target
 help:
@@ -1685,18 +1685,18 @@ help:
 	@echo ... 4/My/Callback/V2/vector.obj
 	@echo ... 4/My/Callback/V2/vector.i
 	@echo ... 4/My/Callback/V2/vector.s
-	@echo ... 4/My/Inductance_V2/application.obj
-	@echo ... 4/My/Inductance_V2/application.i
-	@echo ... 4/My/Inductance_V2/application.s
-	@echo ... 4/My/Inductance_V2/main.obj
-	@echo ... 4/My/Inductance_V2/main.i
-	@echo ... 4/My/Inductance_V2/main.s
-	@echo ... 4/My/Inductance_V2/test.obj
-	@echo ... 4/My/Inductance_V2/test.i
-	@echo ... 4/My/Inductance_V2/test.s
-	@echo ... 4/My/Inductance_V2/vector.obj
-	@echo ... 4/My/Inductance_V2/vector.i
-	@echo ... 4/My/Inductance_V2/vector.s
+	@echo ... 4/My/Inductance_V3/algo.obj
+	@echo ... 4/My/Inductance_V3/algo.i
+	@echo ... 4/My/Inductance_V3/algo.s
+	@echo ... 4/My/Inductance_V3/application.obj
+	@echo ... 4/My/Inductance_V3/application.i
+	@echo ... 4/My/Inductance_V3/application.s
+	@echo ... 4/My/Inductance_V3/main.obj
+	@echo ... 4/My/Inductance_V3/main.i
+	@echo ... 4/My/Inductance_V3/main.s
+	@echo ... 4/My/Inductance_V3/test.obj
+	@echo ... 4/My/Inductance_V3/test.i
+	@echo ... 4/My/Inductance_V3/test.s
 .PHONY : help
 
 

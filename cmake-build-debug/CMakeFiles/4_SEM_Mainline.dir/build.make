@@ -68,60 +68,60 @@ include CMakeFiles/4_SEM_Mainline.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/4_SEM_Mainline.dir/flags.make
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/flags.make
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj: E:/Git/NNTU_INF/4/My/Inductance_V2/main.cpp
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj -MF CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\main.cpp.obj.d -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\main.cpp.obj -c E:\Git\NNTU_INF\4\My\Inductance_V2\main.cpp
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/flags.make
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj: E:/Git/NNTU_INF/4/My/Inductance_V3/main.cpp
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj -MF CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\main.cpp.obj.d -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\main.cpp.obj -c E:\Git\NNTU_INF\4\My\Inductance_V3\main.cpp
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.i"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Git\NNTU_INF\4\My\Inductance_V2\main.cpp > CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\main.cpp.i
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.i"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Git\NNTU_INF\4\My\Inductance_V3\main.cpp > CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\main.cpp.i
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.s"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Git\NNTU_INF\4\My\Inductance_V2\main.cpp -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\main.cpp.s
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.s"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Git\NNTU_INF\4\My\Inductance_V3\main.cpp -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\main.cpp.s
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/flags.make
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj: E:/Git/NNTU_INF/4/My/Inductance_V2/application.cpp
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj -MF CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\application.cpp.obj.d -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\application.cpp.obj -c E:\Git\NNTU_INF\4\My\Inductance_V2\application.cpp
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/flags.make
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj: E:/Git/NNTU_INF/4/My/Inductance_V3/application.cpp
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj -MF CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\application.cpp.obj.d -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\application.cpp.obj -c E:\Git\NNTU_INF\4\My\Inductance_V3\application.cpp
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.i"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Git\NNTU_INF\4\My\Inductance_V2\application.cpp > CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\application.cpp.i
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.i"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Git\NNTU_INF\4\My\Inductance_V3\application.cpp > CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\application.cpp.i
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.s"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Git\NNTU_INF\4\My\Inductance_V2\application.cpp -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\application.cpp.s
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.s"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Git\NNTU_INF\4\My\Inductance_V3\application.cpp -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\application.cpp.s
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/flags.make
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj: E:/Git/NNTU_INF/4/My/Inductance_V2/vector.cpp
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj -MF CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\vector.cpp.obj.d -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\vector.cpp.obj -c E:\Git\NNTU_INF\4\My\Inductance_V2\vector.cpp
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/flags.make
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj: E:/Git/NNTU_INF/4/My/Inductance_V3/algo.cpp
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj: CMakeFiles/4_SEM_Mainline.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Git\NNTU_INF\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj -MF CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\algo.cpp.obj.d -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\algo.cpp.obj -c E:\Git\NNTU_INF\4\My\Inductance_V3\algo.cpp
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.i"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Git\NNTU_INF\4\My\Inductance_V2\vector.cpp > CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\vector.cpp.i
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.i"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Git\NNTU_INF\4\My\Inductance_V3\algo.cpp > CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\algo.cpp.i
 
-CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.s"
-	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Git\NNTU_INF\4\My\Inductance_V2\vector.cpp -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V2\vector.cpp.s
+CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.s"
+	C:\Users\Anatejl\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\241.15989.121\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Git\NNTU_INF\4\My\Inductance_V3\algo.cpp -o CMakeFiles\4_SEM_Mainline.dir\4\My\Inductance_V3\algo.cpp.s
 
 # Object files for target 4_SEM_Mainline
 4_SEM_Mainline_OBJECTS = \
-"CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj" \
-"CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj" \
-"CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj"
+"CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj" \
+"CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj" \
+"CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj"
 
 # External object files for target 4_SEM_Mainline
 4_SEM_Mainline_EXTERNAL_OBJECTS =
 
-4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj
-4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj
-4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj
+4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj
+4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj
+4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj
 4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/build.make
 4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/linkLibs.rsp
 4_SEM_Mainline.exe: CMakeFiles/4_SEM_Mainline.dir/objects1.rsp

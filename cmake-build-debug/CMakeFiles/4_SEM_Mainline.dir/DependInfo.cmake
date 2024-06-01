@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Git/NNTU_INF/4/My/Inductance_V2/application.cpp" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj" "gcc" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/application.cpp.obj.d"
-  "E:/Git/NNTU_INF/4/My/Inductance_V2/main.cpp" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj" "gcc" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/main.cpp.obj.d"
-  "E:/Git/NNTU_INF/4/My/Inductance_V2/vector.cpp" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj" "gcc" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V2/vector.cpp.obj.d"
+  "E:/Git/NNTU_INF/4/My/Inductance_V3/algo.cpp" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj" "gcc" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/algo.cpp.obj.d"
+  "E:/Git/NNTU_INF/4/My/Inductance_V3/application.cpp" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj" "gcc" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/application.cpp.obj.d"
+  "E:/Git/NNTU_INF/4/My/Inductance_V3/main.cpp" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj" "gcc" "CMakeFiles/4_SEM_Mainline.dir/4/My/Inductance_V3/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
