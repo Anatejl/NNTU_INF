@@ -97,6 +97,12 @@ add_executable(4_SEM_Mainline_Callback_V2
         4/My/Callback/V2/vector.cpp
         4/My/Callback/V2/vector.h)
 
+add_executable(4_SEM_Mainline_Callback_V3
+        4/My/Callback/V3/main.cpp
+        4/My/Callback/V3/application.cpp
+        4/My/Callback/V3/algo.cpp)
+
+
 add_executable(4_SEM_Mainline_Callback_V1_test
         4/My/Callback/V1/application.cpp
         4/My/Callback/V1/vector.cpp

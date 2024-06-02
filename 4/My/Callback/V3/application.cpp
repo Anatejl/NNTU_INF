@@ -7,7 +7,15 @@
 #include "algo.h"
 #include <iostream>
 
-bool appGetConstantD(Application &app) {
+bool operation(Callback callback, void *data) {
+    return (*callback)(data);
+}
+
+
+
+bool appGetConstantD(void *object) {
+
+    Application &app = *((Application*) object);
 
     std::cout << "Input a D constant to compare:" << std::endl;
     std::cin >> app.const_D;
@@ -16,14 +24,18 @@ bool appGetConstantD(Application &app) {
     return true;
 }
 
-bool appInitializeData(Application &app) {
+bool appInitializeData(void *object) {
+
+    Application &app = *((Application*) object);
 
     std::cin >> app.current_element.second;
 
     return true;
 }
 
-bool appProcess(Application &app) {
+bool appProcess(void *object) {
+
+    Application &app = *((Application*) object);
 
     while(true) {
 
@@ -51,7 +63,9 @@ bool appProcess(Application &app) {
     return true;
 }
 
-bool appGetOutputToUser(Application &app) {
+bool appGetOutputToUser(void *object) {
+
+    Application &app = *((Application*) object);
 
     std::cout << app.current_element.first << " - Iteration" << std::endl;
     std::cout << "L - " << app.finalLeft.first << std::endl;
@@ -60,26 +74,28 @@ bool appGetOutputToUser(Application &app) {
     return true;
 }
 
-int appRun(Application &app) {
+int appRun() {
 
-    if (!appGetConstantD(app)) {
+    Application app;
+
+    if (!operation(&appGetConstantD, &app)) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
 
     //Default condition is "true", consider using "!std::con.eof()" for testing purposes.
     while(!std::cin.eof()) {
-        if (!appInitializeData(app)) {
+        if (!operation(&appInitializeData, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
 
-        if (!appProcess(app)) {
+        if (!operation(&appProcess, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl << "No matches applicable." << std::endl;
             return 1;
         }
 
-        if (!appGetOutputToUser(app)) {
+        if (!operation(&appGetOutputToUser, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
