@@ -45,16 +45,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="delete cmake_debug">
-      <change afterPath="$PROJECT_DIR$/4/My/Callback/V3/algo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Callback/V3/algo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Callback/V3/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Callback/V3/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Callback/V3/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Callback/V3/test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Callback/V3/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V3/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V3/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V3/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V3/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V3/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +216,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "structure.view.defaults.are.configured": "true",
     "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
     "vue.rearranger.settings.migration": "true"
@@ -606,7 +600,7 @@
       <workItem from="1717240743097" duration="22421000" />
       <workItem from="1717265107214" duration="790000" />
       <workItem from="1717270910042" duration="654000" />
-      <workItem from="1717313869795" duration="1306000" />
+      <workItem from="1717313869795" duration="8039000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
