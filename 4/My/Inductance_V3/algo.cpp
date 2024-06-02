@@ -1,6 +1,6 @@
 //algo.cpp
 //
-// Created by Anatejl on 20.04.2024.
+// Created by Anatejl on 01.06.2024.
 //
 
 #include "algo.h"

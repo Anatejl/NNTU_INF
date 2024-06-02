@@ -44,11 +44,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="delete cmake_debug">
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="horosch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/4/My/Callback/V3/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V3/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/Inductance_V3/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V3/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V3/algo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V3/algo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V3/algo.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V3/algo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V3/application.cpp" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -599,8 +605,12 @@
       <workItem from="1717240698505" duration="36000" />
       <workItem from="1717240743097" duration="22421000" />
       <workItem from="1717265107214" duration="790000" />
+<<<<<<< Updated upstream
       <workItem from="1717270910042" duration="654000" />
       <workItem from="1717313869795" duration="8039000" />
+=======
+      <workItem from="1717270910042" duration="1204000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -945,7 +955,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -983,7 +993,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="FOR THE VICTORY, FOR THE GLORY OF THE EMPEROR OF MANKIND" />
     <MESSAGE value="FOR THE VICTORY, FOR THE GLORY OF THE EMPEROR OF MANKIND THROUGH THE ETERNITY OF SUFFERING" />
     <MESSAGE value="ZAPULKA" />
     <MESSAGE value="rofl" />
@@ -1008,7 +1017,8 @@
     <MESSAGE value="NICHEGO NE POLYCHAETSYA, DA I POSHLO VSE B PIZDU" />
     <MESSAGE value="BIG RUSSIAN BOSS" />
     <MESSAGE value="delete cmake_debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete cmake_debug" />
+    <MESSAGE value="horosch" />
+    <option name="LAST_COMMIT_MESSAGE" value="horosch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
