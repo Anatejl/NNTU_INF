@@ -11,8 +11,6 @@ bool operation(Callback callback, void *data) {
     return (*callback)(data);
 }
 
-
-
 bool appGetConstantD(void *object) {
 
     Application &app = *((Application*) object);
