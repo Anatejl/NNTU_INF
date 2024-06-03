@@ -4,7 +4,6 @@
 //
 
 #include "application.h"
-#include "algo.h"
 #include <iostream>
 
 bool appGetConstantD(Application &app) {
