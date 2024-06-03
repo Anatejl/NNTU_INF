@@ -45,9 +45,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="delete cmake_debug">
+      <change afterPath="$PROJECT_DIR$/4/My/.~lock.otchot.docx#" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Callback/V3/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V3/testfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V3/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V3/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Callback/V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V3/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/inductive_operation/src/inductive_operation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/inductive_operation/src/inductive_operation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +217,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "structure.view.defaults.are.configured": "true",
     "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
     "vue.rearranger.settings.migration": "true"
@@ -394,12 +395,12 @@
       <item itemvalue="CMake Application.4_SEM_Mainline" />
       <item itemvalue="CMake Application.4_SEM_Mainline_Callback_SEN" />
       <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V1" />
+      <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V2" />
+      <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V3" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
-      <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V2" />
-      <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V3" />
       <item itemvalue="Google Test.4 _SEM_Mainline_Induction_TEST" />
       <item itemvalue="Google Test.4_SEM_Mainline_Callback_V1_test" />
       <item itemvalue="Google Test.4_SEM_Mainline_Callback_V2_test" />
@@ -601,6 +602,8 @@
       <workItem from="1717265107214" duration="790000" />
       <workItem from="1717270910042" duration="654000" />
       <workItem from="1717313869795" duration="8039000" />
+      <workItem from="1717387206334" duration="219000" />
+      <workItem from="1717387471631" duration="14354000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
