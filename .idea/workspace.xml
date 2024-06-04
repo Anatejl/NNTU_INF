@@ -44,14 +44,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="delete cmake_debug">
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="18 and life">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/18/Callback/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Callback/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/18/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/18/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/18/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/testfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/18/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/18/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/vector.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +215,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "structure.view.defaults.are.configured": "true",
     "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
     "vue.rearranger.settings.migration": "true"
@@ -607,7 +602,7 @@
       <workItem from="1717313869795" duration="8039000" />
       <workItem from="1717387206334" duration="219000" />
       <workItem from="1717387471631" duration="14354000" />
-      <workItem from="1717502617520" duration="7096000" />
+      <workItem from="1717502617520" duration="9060000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -952,7 +947,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -990,7 +985,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="FOR THE VICTORY, FOR THE GLORY OF THE EMPEROR OF MANKIND" />
     <MESSAGE value="FOR THE VICTORY, FOR THE GLORY OF THE EMPEROR OF MANKIND THROUGH THE ETERNITY OF SUFFERING" />
     <MESSAGE value="ZAPULKA" />
     <MESSAGE value="rofl" />
@@ -1015,7 +1009,8 @@
     <MESSAGE value="NICHEGO NE POLYCHAETSYA, DA I POSHLO VSE B PIZDU" />
     <MESSAGE value="BIG RUSSIAN BOSS" />
     <MESSAGE value="delete cmake_debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete cmake_debug" />
+    <MESSAGE value="18 and life" />
+    <option name="LAST_COMMIT_MESSAGE" value="18 and life" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

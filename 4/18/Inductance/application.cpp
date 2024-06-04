@@ -71,6 +71,7 @@ bool appProcessData(Application& app) {
         app.temp_data.temp_counter.second = app.temp_data.cin_read_current.second;
         return true;
     }
+
     //check for x_n == x_n-1
     if (app.temp_data.cin_read_current.second == app.temp_data.temp_counter.second){
         ++app.temp_data.temp_counter.first;
