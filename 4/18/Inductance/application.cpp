@@ -25,10 +25,6 @@ int appRun(Application &app) {
             return 1;
         }
 
-        ++app.temp_data.temp_counter;
-    }
-
-    for (auto i: app.plato.row) {
         if (!appGetOutput(app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
@@ -42,6 +38,9 @@ bool appInitializeK(Application& app) {
 
     std::cin >> app.constK;
 
+    //assign controlled value to i counter
+    app.temp_data.cin_read_current.first = INT_MAX;
+
     if (std::cin.fail()) {
         return false;
     }
@@ -51,32 +50,42 @@ bool appInitializeK(Application& app) {
 
 bool appInitializeData(Application& app) {
 
-    app.temp_data.cin_read.value.push_back(vectorDataInitialize());
+    std::cin >> app.temp_data.cin_read_current.second;
 
-    if (!app.temp_data.plato_candidate.value.empty() && app.temp_data.plato_candidate.value.back() != app.
-        temp_data.cin_read.value.back()) {
-        app.temp_data.plato_candidate.value.clear();
+    //assign 0 or ++ to counter, based on i
+    if(app.temp_data.cin_read_current.first == INT_MAX){
+        app.temp_data.cin_read_current.first = 0;
     }
-    app.temp_data.plato_candidate.value.push_back(app.temp_data.cin_read.value.back());
+    else{
+        ++app.temp_data.cin_read_current.first;
+    }
 
     return true;
 }
 
 bool appProcessData(Application& app) {
 
-    std::vector<int> column;
+    //check for first iteration, do special things for it
+    if(app.temp_data.cin_read_current.first==0){
+        ++app.temp_data.temp_counter.first;
+        app.temp_data.temp_counter.second = app.temp_data.cin_read_current.second;
+        return true;
+    }
+    //check for x_n == x_n-1
+    if (app.temp_data.cin_read_current.second == app.temp_data.temp_counter.second){
+        ++app.temp_data.temp_counter.first;
+    }
+    else{
+        app.temp_data.temp_counter.first = 1;
+        app.temp_data.temp_counter.second = app.temp_data.cin_read_current.second;
+        app.last_plato = app.final.first;
+    }
 
-    if (app.temp_data.plato_candidate.value.back() == app.temp_data.cin_read.value.back() && app.temp_data.
-        plato_candidate.value.back() >= app.constK) {
-        if (app.plato.row.empty() || app.plato.row.back().back() != app.temp_data.
-            plato_candidate.value.back()) {
-            app.plato.row.push_back(column);
-        }
-        if (app.plato.row.back().empty()) {
-            app.plato.row.back().push_back(app.temp_data.cin_read.value.back());
-        } else {
-            app.plato.row.back().push_back(app.temp_data.cin_read.value.back());
-        }
+    //check for current plato counter > K,
+    // if so then assign current values to final to display
+    if (app.temp_data.temp_counter.first > app.last_plato && app.temp_data.temp_counter.first > app.constK){
+        app.final.first = app.temp_data.temp_counter.first;
+        app.final.second = app.temp_data.temp_counter.second;
     }
 
     return true;
@@ -84,13 +93,8 @@ bool appProcessData(Application& app) {
 
 bool appGetOutput(Application& app) {
 
-    std::cout << app.temp_data.output_counter + 1 << " plato is: ";
-
-    for (int i: app.plato.row[app.temp_data.output_counter]) {
-        std::cout << i << " ";
-    }
-    std::cout << "- (" << app.plato.row[app.temp_data.output_counter].size() << ")" << std::endl;
-    ++app.temp_data.output_counter;
+    std::cout << app.temp_data.cin_read_current.first << " - Iteration: ";
+    std::cout << app.final.first << " of " << app.final.second << std::endl;
 
     return true;
 }

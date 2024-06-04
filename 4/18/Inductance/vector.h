@@ -8,18 +8,10 @@
 
 #include <vector>
 
-struct initialVector {
-
-    std::vector<int> value;
-
-};
-
 struct platoVector{
 
     std::vector<std::vector<int>> row;
 
 };
-
-int vectorDataInitialize();
 
 #endif //NNTU_VECTOR_H

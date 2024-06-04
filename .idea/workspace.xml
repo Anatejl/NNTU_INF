@@ -12,28 +12,28 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="NNTU" targetName="4_SEM_41_Mainline" />
+      <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V1_test" />
+      <config projectName="NNTU" targetName="4_SEM_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_SEN" />
       <config projectName="NNTU" targetName="4_SEM_1_Mainline_Induction" />
       <config projectName="NNTU" targetName="4_SEM_18_Mainline_Callback" />
-      <config projectName="NNTU" targetName="gtest" />
-      <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V2_test" />
-      <config projectName="NNTU" targetName="4_SEM_41_Callback_Mainline" />
-      <config projectName="NNTU" targetName="4_SEM_1_Mainline_Callback" />
-      <config projectName="NNTU" targetName="4_SEM_13_TEST" />
-      <config projectName="NNTU" targetName="4_SEM_13_Mainline_Induction" />
-      <config projectName="NNTU" targetName="4_SEM_18_Mainline_Inductance" />
-      <config projectName="NNTU" targetName="gmock" />
-      <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V1_test" />
-      <config projectName="NNTU" targetName="4_SEM_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V1" />
+      <config projectName="NNTU" targetName="gtest" />
       <config projectName="NNTU" targetName="gmock_main" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V3" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V2" />
+      <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V2_test" />
       <config projectName="NNTU" targetName="4_SEM_10_Mainline_Inductance" />
+      <config projectName="NNTU" targetName="4_SEM_41_Callback_Mainline" />
+      <config projectName="NNTU" targetName="4_SEM_1_Mainline_Callback" />
       <config projectName="NNTU" targetName="4_SEM_41_2_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_test" />
+      <config projectName="NNTU" targetName="4_SEM_13_TEST" />
+      <config projectName="NNTU" targetName="4_SEM_13_Mainline_Induction" />
       <config projectName="NNTU" targetName="4_SEM_10_Mainline_Callback" />
       <config projectName="NNTU" targetName="4_SEM_13_Mainline_Callback" />
+      <config projectName="NNTU" targetName="4_SEM_18_Mainline_Inductance" />
+      <config projectName="NNTU" targetName="gmock" />
       <config projectName="NNTU" targetName="gtest_main" />
     </generated>
   </component>
@@ -45,11 +45,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="delete cmake_debug">
-      <change afterPath="$PROJECT_DIR$/4/My/.~lock.otchot.docx#" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/Callback/V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Callback/V3/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/inductive_operation/src/inductive_operation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/inductive_operation/src/inductive_operation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/Callback/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Callback/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/vector.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +156,7 @@
     "CMake Application.4_SEM_13_Mainline_Induction.executor": "Run",
     "CMake Application.4_SEM_13_TEST.executor": "Debug",
     "CMake Application.4_SEM_18_Mainline_Callback.executor": "Run",
+    "CMake Application.4_SEM_18_Mainline_Inductance.executor": "Run",
     "CMake Application.4_SEM_1_Mainline.executor": "Run",
     "CMake Application.4_SEM_1_Mainline_Callback.executor": "Run",
     "CMake Application.4_SEM_1_Mainline_Induction.executor": "Run",
@@ -244,12 +247,7 @@
       <recent name="E:\Git\NNTU_INF\4\My" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_Mainline_Callback_V3">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.4_SEM_18_Mainline_Inductance">
     <configuration name="4 _SEM_Mainline_Induction_TEST" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -304,7 +302,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="4_SEM_18_Mainline_Inductance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_18_Mainline_Inductance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_18_Mainline_Inductance">
+    <configuration name="4_SEM_18_Mainline_Inductance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/18/Inductance/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_18_Mainline_Inductance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_18_Mainline_Inductance">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -355,6 +353,11 @@
       </method>
     </configuration>
     <configuration name="4_SEM_Mainline_Callback_V3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/My/Callback/V3/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -604,6 +607,7 @@
       <workItem from="1717313869795" duration="8039000" />
       <workItem from="1717387206334" duration="219000" />
       <workItem from="1717387471631" duration="14354000" />
+      <workItem from="1717502617520" duration="7096000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>

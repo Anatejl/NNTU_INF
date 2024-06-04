@@ -11,10 +11,10 @@
 //Temporary data storage
 struct temp_data {
 
-    initialVector cin_read;
-    initialVector plato_candidate;
-    int temp_counter = 0;
-    int output_counter = 0;
+    // 1-n, 2-value
+    std::pair <int, int> cin_read_current;
+    // 1-streak
+    std::pair <int, int> temp_counter;
 
 };
 
@@ -23,7 +23,10 @@ struct Application {
 
     temp_data temp_data;
     int constK;
-    platoVector plato;
+    int last_plato;
+
+    // 1-streak, 2-value
+    std::pair <int, int> final;
 
 };
 
