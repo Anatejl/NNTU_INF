@@ -1,3 +1,4 @@
+//application.cpp
 //
 // Created by Anatejl on 20.04.2024.
 //
@@ -9,9 +10,14 @@ bool operation(Callback callback, void *data) {
     return (*callback)(data);
 }
 
-bool appInitializeK(void *app) {
-    Application &tempApp = *(Application *) app;
-    std::cin >> tempApp.constK;
+bool appInitializeK(void *p_app) {
+
+    Application &app = *(Application*) p_app;
+
+    std::cin >> app.constK;
+
+    //assign controlled value to i counter
+    app.temp_data.cin_read_current.first = INT_MAX;
 
     if (std::cin.fail()) {
         return false;
@@ -20,54 +26,66 @@ bool appInitializeK(void *app) {
     return true;
 }
 
-bool appInitializeData(void *app) {
-    auto &tempApp = *(Application *) app;
+bool appInitializeData(void *p_app) {
 
-    tempApp.temp_data.cin_read.value.push_back(vectorDataInitialize());
+    Application &app = *(Application*) p_app;
 
-    if (!tempApp.temp_data.plato_candidate.value.empty() && tempApp.temp_data.plato_candidate.value.back() != tempApp.
-        temp_data.cin_read.value.back()) {
-        tempApp.temp_data.plato_candidate.value.clear();
+    std::cin >> app.temp_data.cin_read_current.second;
+
+    //assign 0 or ++ to counter, based on i
+    if(app.temp_data.cin_read_current.first == INT_MAX){
+        app.temp_data.cin_read_current.first = 0;
     }
-    tempApp.temp_data.plato_candidate.value.push_back(tempApp.temp_data.cin_read.value.back());
-
-    return true;
-}
-
-bool appProcessData(void *app) {
-    Application &tempApp = *(Application *) app;
-    std::vector<int> column;
-
-    if (tempApp.temp_data.plato_candidate.value.back() == tempApp.temp_data.cin_read.value.back() && tempApp.temp_data.
-        plato_candidate.value.back() >= tempApp.constK) {
-        if (tempApp.plato.row.empty() || tempApp.plato.row.back().back() != tempApp.temp_data.
-            plato_candidate.value.back()) {
-            tempApp.plato.row.push_back(column);
-        }
-        if (tempApp.plato.row.back().empty()) {
-            tempApp.plato.row.back().push_back(tempApp.temp_data.cin_read.value.back());
-        } else {
-            tempApp.plato.row.back().push_back(tempApp.temp_data.cin_read.value.back());
-        }
+    else{
+        ++app.temp_data.cin_read_current.first;
     }
 
     return true;
 }
 
-bool appGetOutput(void *app) {
-    Application &tempApp = *(Application *) app;
+bool appProcessData(void *p_app) {
 
-    std::cout << tempApp.temp_data.output_counter + 1 << " plato is: ";
+    Application &app = *(Application*) p_app;
 
-    for (int i: tempApp.plato.row[tempApp.temp_data.output_counter]) {
-        std::cout << i << " ";
+    //check for first iteration, do special things for it
+    if(app.temp_data.cin_read_current.first==0){
+        ++app.temp_data.temp_counter.first;
+        app.temp_data.temp_counter.second = app.temp_data.cin_read_current.second;
+        return true;
     }
-    std::cout << "- (" << tempApp.plato.row[tempApp.temp_data.output_counter].size() << ")" << std::endl;
-    ++tempApp.temp_data.output_counter;
+
+    //check for x_n == x_n-1
+    if (app.temp_data.cin_read_current.second == app.temp_data.temp_counter.second){
+        ++app.temp_data.temp_counter.first;
+    }
+    else{
+        app.temp_data.temp_counter.first = 1;
+        app.temp_data.temp_counter.second = app.temp_data.cin_read_current.second;
+        app.last_plato = app.final.first;
+    }
+
+    //check for current plato counter > K,
+    // if so then assign current values to final to display
+    if (app.temp_data.temp_counter.first > app.last_plato && app.temp_data.temp_counter.first > app.constK){
+        app.final.first = app.temp_data.temp_counter.first;
+        app.final.second = app.temp_data.temp_counter.second;
+    }
+
+    return true;
+}
+
+bool appGetOutput(void *p_app) {
+
+    Application &app = *(Application*) p_app;
+
+    std::cout << app.temp_data.cin_read_current.first << " - Iteration: ";
+    std::cout << app.final.first << " of " << app.final.second << std::endl;
+
     return true;
 }
 
 int appRun() {
+
     Application app;
 
     if (!operation(&appInitializeK, &app)) {
@@ -76,6 +94,7 @@ int appRun() {
     }
 
     while (!std::cin.eof()) {
+
         //Get Value from cin
         if (!operation(&appInitializeData, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
@@ -87,14 +106,11 @@ int appRun() {
             return 1;
         }
 
-        ++app.temp_data.temp_counter;
-    }
-
-    for (auto i: app.plato.row) {
         if (!operation(&appGetOutput, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
     }
+
     return 0;
 }
