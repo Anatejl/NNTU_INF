@@ -34,12 +34,9 @@ int appRun(Application &app) {
                 }
             }
             else {
-                appProcessResult(app);
-
-                if (app.temp_eligible) {
+                if (appProcessResult(app)) {
                     appGetOutputToUser(app);
                 }
-
                 app.temp_group.clear();
             }
             ++i;
@@ -47,6 +44,7 @@ int appRun(Application &app) {
         ++app.iteration;
         i = 0;
     }
+    return 0;
 }
 
 bool appGetConstantK(Application &app) {
@@ -57,11 +55,13 @@ bool appGetConstantK(Application &app) {
 }
 
 bool appGetCircleDimensions(Application &app) {
-    std::cout << "Input CENTER 'X Y' coordinate of circle " << std::endl;
+    std::cout << "Input CENTER 'X Y' coordinate of circle: " << std::endl;
     std::cin >> app.circle_center.first >> app.circle_center.second;
+    std::cout << app.circle_center.first <<"/"<< app.circle_center.second << std::endl;
 
-    std::cout << "Input EDGE 'X Y' coordinate of circle " << std::endl;
+    std::cout << "Input EDGE 'X Y' coordinate of circle: " << std::endl;
     std::cin >> app.circle_edge.first >> app.circle_edge.second;
+    std::cout << app.circle_edge.first <<"/"<< app.circle_edge.second << std::endl;
 
     app.circle_r = sqrt(
             pow(app.circle_edge.first - app.circle_center.first, 2) +
@@ -90,26 +90,24 @@ bool appProcessCurrentXYRadius(Application &app) {
 bool appProcessResult(Application &app) {
 
     int counter = 0;
-    std::vector<bool> temp_vector;
 
     for (int j = 0; j < app.temp_group.size(); ++j) {
-        if (app.temp_group[j].second.first > app.circle_r) {
+        if (app.temp_group[j].second.first < app.circle_r) {
             app.temp_group[j].first = true;
             ++counter;
         }
     }
 
     if (counter == app.const_k){
-        app.temp_eligible = true;
+        return true;
     }
 
-    return true;
+    return false;
 }
 
 bool appGetOutputToUser(Application &app) {
 
-    std::cout << app.iteration << " Iteration - group " << app.iteration / app.const_k
-              << " inside the circle, their values are:" << std::endl;
+    std::cout << app.iteration << " Iteration - group is" << "inside the circle, their values are:" << std::endl;
 
     for (int i = 0; i < app.const_k; ++i) {
 

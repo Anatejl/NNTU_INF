@@ -13,7 +13,6 @@ struct Application {
 
     //assume 1 - Computed R of a given set of XY, 2 - initial XY
     std::vector<std::pair <bool, std::pair<double, std::pair<int, int>>>> temp_group;
-    bool temp_eligible = false;
     std::pair <int, int>init_xy;
 
     //CIRCLE
@@ -22,7 +21,7 @@ struct Application {
     std::pair<int,int> circle_edge;
     int circle_r;
     int const_k;
-    int iteration = 0;
+    int iteration = 1;
 };
 
 // To execute application
