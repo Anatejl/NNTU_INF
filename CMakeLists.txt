@@ -173,12 +173,15 @@ add_executable(4_SEM_41_2_Mainline
         4/41/Inductance/V2/vector.cpp)
 add_executable(4_SEM_41_3_Mainline
         4/41/Inductance/V3/main.cpp
-        4/41/Inductance/V3/application.cpp
-        4/41/Inductance/V3/vector.cpp)
+        4/41/Inductance/V3/application.cpp)
 
 add_executable(4_SEM_41_Callback_Mainline
-        4/41/Callback/main.cpp
-        4/41/Callback/application.cpp
-        4/41/Callback/vector.cpp)
+        4/41/Callback/V2/main.cpp
+        4/41/Callback/V2/application.cpp
+        4/41/Callback/V2/vector.cpp)
+
+add_executable(4_SEM_41_Callback_V3_Mainline
+        4/41/Callback/V3/main.cpp
+        4/41/Callback/V3/application.cpp)
 
 add_executable(4_SEM_Mainline_Callback_SEN 4/My/Callback/V1/GUCCI.cpp)

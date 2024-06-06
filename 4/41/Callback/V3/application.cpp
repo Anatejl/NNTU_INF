@@ -6,53 +6,24 @@
 #include <iostream>
 #include <cmath>
 
-int appRun(Application &app) {
-    if (!appGetConstantK(app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
-
-    if (!appGetCircleDimensions(app)) {
-        std::cout << "DATA INPUT FAILURE." << std::endl;
-        return 1;
-    }
-
-    while (!std::cin.eof()) {
-        int i;
-        while (i <= app.const_k) {
-            if (i <= app.const_k - 1) {
-                if (!appInitializeData(app)) {
-                    std::cout << "DATA INPUT FAILURE." << std::endl;
-                    return 1;
-                }
-
-                if (!appProcessCurrentXYRadius(app)) {
-                    std::cout << "DATA INPUT FAILURE." << std::endl;
-                    return 1;
-                }
-            }
-            else {
-                if (appProcessResult(app)) {
-                    appGetOutputToUser(app);
-                }
-                app.temp_group.clear();
-            }
-            ++i;
-        }
-        ++app.iteration;
-        i = 0;
-    }
-    return 0;
+bool operation(Callback callback, void *ADT){
+    return (*callback)(ADT);
 }
 
-bool appGetConstantK(Application &app) {
+bool appGetConstantK(void *object) {
+
+    Application &app = *(Application*) object;
+
     std::cout << "Input a K constant:" << std::endl;
     std::cin >> app.const_k;
     std::cout << app.const_k << std::endl;
     return true;
 }
 
-bool appGetCircleDimensions(Application &app) {
+bool appGetCircleDimensions(void *object) {
+
+    Application &app = *(Application*) object;
+
     std::cout << "Input CENTER 'X Y' coordinate of circle: " << std::endl;
     std::cin >> app.circle_center.first >> app.circle_center.second;
     std::cout << app.circle_center.first <<"/"<< app.circle_center.second << std::endl;
@@ -68,14 +39,18 @@ bool appGetCircleDimensions(Application &app) {
     return true;
 }
 
-bool appInitializeData(Application &app) {
+bool appInitializeData(void *object) {
+
+    Application &app = *(Application*) object;
 
     std::cin >> app.init_xy.first >> app.init_xy.second;
 
     return true;
 }
 
-bool appProcessCurrentXYRadius(Application &app) {
+bool appProcessCurrentXYRadius(void *object) {
+
+    Application &app = *(Application*) object;
 
     app.temp_group.push_back(std::make_pair(false,std::make_pair(sqrt(
                                                     pow(app.init_xy.first - app.circle_center.first, 2) +
@@ -85,7 +60,9 @@ bool appProcessCurrentXYRadius(Application &app) {
     return true;
 }
 
-bool appProcessResult(Application &app) {
+bool appProcessResult(void *object) {
+
+    Application &app = *(Application*) object;
 
     int counter = 0;
 
@@ -103,7 +80,9 @@ bool appProcessResult(Application &app) {
     return false;
 }
 
-bool appGetOutputToUser(Application &app) {
+bool appGetOutputToUser(void *object) {
+
+    Application &app = *(Application*) object;
 
     std::cout << app.iteration << " Iteration - group is" << "inside the circle, their values are:" << std::endl;
 
@@ -114,4 +93,46 @@ bool appGetOutputToUser(Application &app) {
     }
     std::cout << std::endl;
     return true;
+}
+
+int appRun() {
+
+    Application app;
+
+    if (!operation(&appGetConstantK, &app)) {
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
+    }
+
+    if (!operation(&appGetCircleDimensions, &app)) {
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
+    }
+
+    while (!std::cin.eof()) {
+        int i;
+        while (i <= app.const_k) {
+            if (i <= app.const_k - 1) {
+                if (!operation(&appInitializeData, &app)) {
+                    std::cout << "DATA INPUT FAILURE." << std::endl;
+                    return 1;
+                }
+
+                if (!operation(&appProcessCurrentXYRadius, &app)) {
+                    std::cout << "DATA INPUT FAILURE." << std::endl;
+                    return 1;
+                }
+            }
+            else {
+                if (operation(&appProcessResult, &app)) {
+                    operation(&appGetOutputToUser, &app);
+                }
+                app.temp_group.clear();
+            }
+            ++i;
+        }
+        ++app.iteration;
+        i = 0;
+    }
+    return 0;
 }

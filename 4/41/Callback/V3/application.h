@@ -27,14 +27,17 @@ struct Application {
     int iteration = 1;
 };
 
-// To execute application
-int appRun(Application& app);
+typedef bool (*Callback)(void *object);
+bool operation(Callback callback, void *ADT);
 
-bool appGetConstantK(Application &app);
-bool appGetCircleDimensions(Application &app);
-bool appInitializeData(Application &app);
-bool appProcessCurrentXYRadius(Application &app);
-bool appProcessResult(Application &app);
-bool appGetOutputToUser(Application &app);
+// To execute application
+int appRun();
+
+bool appGetConstantK(void *object);
+bool appGetCircleDimensions(void *object);
+bool appInitializeData(void *object);
+bool appProcessCurrentXYRadius(void *object);
+bool appProcessResult(void *object);
+bool appGetOutputToUser(void *object);
 
 #endif //NNTU_APPLICATION_H
