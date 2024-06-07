@@ -13,6 +13,7 @@ struct Application {
 
     int iteration = 1;
     int cin_read;
+    int current_A, current_B;
 
     int va = INT_MAX;
     int a0 = INT_MAX;
@@ -21,13 +22,16 @@ struct Application {
 
 };
 
-// To execute application
-int appRun(Application& app);
+typedef bool (*Callback)(void *abstract);
+bool operation(Callback callback, void *abstract);
 
-bool appGetData(Application &app);
-int appGetA(Application &app);
-int appGetB(Application &app);
-bool appProcess(Application &app);
-bool appDoOutput(Application &app);
+// To execute application
+int appRun( );
+
+bool appGetData(void *abstract);
+bool appGetA(void *abstract);
+bool appGetB(void *abstract);
+bool appProcess(void *abstract);
+bool appDoOutput(void *abstract);
 
 #endif //NNTU_APPLICATION_H
