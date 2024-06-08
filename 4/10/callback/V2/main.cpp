@@ -7,7 +7,8 @@
 
 int main() {
 
-    std::cout << "VAR 13 CODE, DA POMOZHET B.O.G." << std::endl;
+    std::cout << "VAR 10 CODE" << std::endl;
+
     int ret = appRun();
 
     return ret;

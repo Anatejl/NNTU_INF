@@ -73,23 +73,23 @@ set(CMAKE_CXX_STANDARD 17)
 enable_testing()
 add_subdirectory(googletest)
 
-add_executable(4_SEM_Mainline
+add_executable(4_SEM_Mainline_V3
         4/My/Inductance_V3/main.cpp
         4/My/Inductance_V3/application.cpp
         4/My/Inductance_V3/algo.cpp)
 
-add_executable(4_SEM_Mainline_test
+add_executable(4_SEM_Mainline_V3_test
         4/My/Inductance_V3/application.cpp
         4/My/Inductance_V3/algo.cpp
         4/My/Inductance_V3/test.cpp)
-target_link_libraries(4_SEM_Mainline_test gtest_main gmock_main)
+target_link_libraries(4_SEM_Mainline_V3_test gtest_main gmock_main)
 
 
-add_executable(4_SEM_Mainline_Callback_V1
-        4/My/Callback/V1/main.cpp
-        4/My/Callback/V1/application.cpp
-        4/My/Callback/V1/vector.cpp
-        4/My/Callback/V1/vector.h)
+#add_executable(4_SEM_Mainline_Callback_V1
+#        4/My/Callback/V1/main.cpp
+#        4/My/Callback/V1/application.cpp
+#        4/My/Callback/V1/vector.cpp
+#        4/My/Callback/V1/vector.h)
 
 add_executable(4_SEM_Mainline_Callback_V2
         4/My/Callback/V2/main.cpp
@@ -103,12 +103,12 @@ add_executable(4_SEM_Mainline_Callback_V3
         4/My/Callback/V3/algo.cpp)
 
 
-add_executable(4_SEM_Mainline_Callback_V1_test
-        4/My/Callback/V1/application.cpp
-        4/My/Callback/V1/vector.cpp
-        4/My/Callback/V1/vector.h
-        4/My/Callback/V1/test.cpp)
-target_link_libraries(4_SEM_Mainline_Callback_V1_test gtest_main gmock_main)
+##add_executable(4_SEM_Mainline_Callback_V1_test
+##        4/My/Callback/V1/application.cpp
+##        4/My/Callback/V1/vector.cpp
+##        4/My/Callback/V1/vector.h
+##        4/My/Callback/V1/test.cpp)
+##target_link_libraries(4_SEM_Mainline_Callback_V1_test gtest_main gmock_main)
 
 add_executable(4_SEM_Mainline_Callback_V2_test
         4/My/Callback/V2/application.cpp
@@ -118,10 +118,10 @@ target_link_libraries(4_SEM_Mainline_Callback_V2_test gtest_main gmock_main)
 
 
 ####### 1
-add_executable(4_SEM_1_Mainline_Induction
-        4/1/Inductance/main.cpp
-        4/1/Inductance/application.cpp
-        4/1/Inductance/vector.cpp)
+add_executable(4_SEM_1_Mainline_Induction_V2
+        4/1/Inductance/V2/main.cpp
+        4/1/Inductance/V2/application.cpp
+        4/1/Inductance/V2/vector.cpp)
 
 add_executable(4_SEM_1_Mainline_Callback
         4/1/Callback/main.cpp
@@ -129,31 +129,29 @@ add_executable(4_SEM_1_Mainline_Callback
         4/1/Callback/vector.cpp)
 
 ####### 10
-add_executable(4_SEM_10_Mainline_Inductance
-        4/10/Inductance/main.cpp
-        4/10/Inductance/application.cpp
-        4/10/Inductance/vector.cpp)
+add_executable(4_SEM_10_Mainline_Inductance_V2
+        4/10/Inductance/V2/main.cpp
+        4/10/Inductance/V2/application.cpp)
 
-add_executable(4_SEM_10_Mainline_Callback
-        4/10/Callback/main.cpp
-        4/10/Callback/application.cpp
-        4/10/Callback/vector.cpp)
+add_executable(4_SEM_10_Mainline_Callback_V2
+        4/10/callback/V2/main.cpp
+        4/10/callback/V2/application.cpp)
 
 ####### 13
-add_executable(4_SEM_13_TEST 4/13/Inductance/V1/test13.cpp)
-add_executable(4_SEM_13_Mainline_Induction_V1
-        4/13/Inductance/V1/main.cpp
-        4/13/Inductance/V1/application.cpp
-        4/13/Inductance/V1/vector.cpp)
+#add_executable(4_SEM_13_TEST 4/13/Inductance/V1/test13.cpp)
+#add_executable(4_SEM_13_Mainline_Induction_V1
+#        4/13/Inductance/V1/main.cpp
+#        4/13/Inductance/V1/application.cpp
+#        4/13/Inductance/V1/vector.cpp)
 
 add_executable(4_SEM_13_Mainline_Induction_V2
         4/13/Inductance/V2/main.cpp
         4/13/Inductance/V2/application.cpp)
 
-add_executable(4_SEM_13_Mainline_Callback_V1
-        4/13/Callback/V1/main.cpp
-        4/13/Callback/V1/application.cpp
-        4/13/Callback/V1/vector.cpp)
+#add_executable(4_SEM_13_Mainline_Callback_V1
+#        4/13/Callback/V1/main.cpp
+#        4/13/Callback/V1/application.cpp
+#        4/13/Callback/V1/vector.cpp)
 
 add_executable(4_SEM_13_Mainline_Callback_V2
         4/13/Callback/V2/main.cpp
@@ -172,25 +170,25 @@ add_executable(4_SEM_18_Mainline_Inductance
 
 
 ####### 41
-add_executable(4_SEM_41_Mainline
-        4/41/Inductance/V1/main.cpp
-        4/41/Inductance/V1/application.cpp
-        4/41/Inductance/V1/vector.cpp)
-add_executable(4_SEM_41_2_Mainline
-        4/41/Inductance/V2/main.cpp
-        4/41/Inductance/V2/application.cpp
-        4/41/Inductance/V2/vector.cpp)
+#add_executable(4_SEM_41_Mainline
+#        4/41/Inductance/V1/main.cpp
+#        4/41/Inductance/V1/application.cpp
+#        4/41/Inductance/V1/vector.cpp)
+#add_executable(4_SEM_41_2_Mainline
+#        4/41/Inductance/V2/main.cpp
+#        4/41/Inductance/V2/application.cpp
+#        4/41/Inductance/V2/vector.cpp)
 add_executable(4_SEM_41_3_Mainline
         4/41/Inductance/V3/main.cpp
         4/41/Inductance/V3/application.cpp)
 
-add_executable(4_SEM_41_Callback_Mainline
-        4/41/Callback/V2/main.cpp
-        4/41/Callback/V2/application.cpp
-        4/41/Callback/V2/vector.cpp)
+#add_executable(4_SEM_41_Callback_Mainline
+#        4/41/Callback/V2/main.cpp
+#        4/41/Callback/V2/application.cpp
+#        4/41/Callback/V2/vector.cpp)
 
 add_executable(4_SEM_41_Callback_V3_Mainline
         4/41/Callback/V3/main.cpp
         4/41/Callback/V3/application.cpp)
 
-add_executable(4_SEM_Mainline_Callback_SEN 4/My/Callback/V1/GUCCI.cpp)
+#add_executable(4_SEM_Mainline_Callback_SEN 4/My/Callback/V1/GUCCI.cpp)

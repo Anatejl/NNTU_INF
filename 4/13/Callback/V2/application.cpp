@@ -16,7 +16,7 @@ bool appGetA(void *abstract) {
     if (app.va == INT_MAX && app.a0 == INT_MAX) {
         std::cin >> app.va >> app.a0;
     }
-    else{
+    else {
         app.current_A = app.va * app.iteration + app.a0;
     }
     return true;
@@ -29,9 +29,10 @@ bool appGetB(void *abstract) {
     if (app.vb == INT_MAX && app.b0 == INT_MAX) {
         std::cin >> app.vb >> app.b0;
     }
-    else{
+    else {
         app.current_B = app.vb * app.iteration + app.b0;
     }
+
     return true;
 }
 
@@ -52,7 +53,7 @@ bool appProcess(void *abstract) {
 
     Application &app = *(Application*) abstract;
 
-    if(app.cin_read > app.current_A &&  app.cin_read < app.current_B){
+    if(app.cin_read > app.current_A && app.cin_read < app.current_B){
        return true;
     }
 
@@ -64,6 +65,7 @@ bool appDoOutput(void *abstract) {
     Application &app = *(Application*) abstract;
 
     std::cout << app.iteration << " - " << app.cin_read << std::endl;
+
     //DEBUG
     std::cout << app.current_A << " ÷ " << app.current_B << std::endl << std::endl;
 
@@ -86,6 +88,16 @@ int appRun() {
 
     while(!std::cin.eof()) {
         if (!operation(&appGetData, &app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
+
+        if (!operation(&appGetA, &app)) {
+            std::cout << "DATA INPUT FAILURE." << std::endl;
+            return 1;
+        }
+
+        if (!operation(&appGetB, &app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }

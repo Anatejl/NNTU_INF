@@ -10,9 +10,12 @@
 //Data for program to handle
 struct Application {
 
-
     int iteration = 1;
     int cin_read;
+
+    /*Since we can't invoke function to it return its value as int
+    now we store A/B as distinct variables rather than gaining
+    A/B reading by straight invoking its corresponding function*/
     int current_A, current_B;
 
     int va = INT_MAX;
@@ -26,8 +29,8 @@ typedef bool (*Callback)(void *abstract);
 bool operation(Callback callback, void *abstract);
 
 // To execute application
-int appRun( );
 
+int appRun();
 bool appGetData(void *abstract);
 bool appGetA(void *abstract);
 bool appGetB(void *abstract);
