@@ -40,44 +40,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="18 and life">
-      <change afterPath="$PROJECT_DIR$/4/1/Inductance/V2/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/1/Inductance/V2/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/1/Inductance/V2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/1/Inductance/V2/testfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/1/Inductance/V2/vector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/1/Inductance/V2/vector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/V2/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/V2/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/V2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/V2/testfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/callback/V2/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/callback/V2/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/callback/V2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/callback/V2/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/10.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/Inductance/V2/diagram.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/Inductance/V2/diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/callback/V2/diagram.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/callback/V2/diagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/1/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V1/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/1/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V1/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/1/Inductance/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V1/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/1/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V1/testfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/1/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V1/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/1/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V1/vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/Inductance/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V1/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/Inductance/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V1/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/Inductance/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V1/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/Inductance/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V1/testfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/Inductance/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V1/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/Inductance/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V1/vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/callback/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V1/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/callback/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V1/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/callback/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V1/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/callback/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V1/testfile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/callback/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V1/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/callback/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V1/vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Callback/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/V2/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Callback/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/V2/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/Callback/V2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/V2/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/callback/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V2/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +218,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Git/NNTU_INF/4/1/Inductance/V2",
+    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -266,11 +238,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\10" />
       <recent name="E:\Git\NNTU_INF\4\1\Inductance\V2" />
       <recent name="E:\Git\NNTU_INF\4\10\callback\V2" />
       <recent name="E:\Git\NNTU_INF\4\10\Inductance\V2" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Callback\V2" />
-      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Inductance\V2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Git\NNTU_INF\4\1\Inductance\V1" />
@@ -1144,11 +1116,6 @@
           <url>file://$PROJECT_DIR$/4/13/Inductance/V2/application.cpp</url>
           <line>9</line>
           <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/4/13/Callback/V2/application.cpp</url>
-          <line>74</line>
-          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
