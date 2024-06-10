@@ -39,17 +39,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="18 and life">
-      <change afterPath="$PROJECT_DIR$/4/10/10.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/10.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/V2/diagram.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/Inductance/V2/diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/callback/V2/diagram.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/10/callback/V2/diagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="13 and life">
+      <change afterPath="$PROJECT_DIR$/4/41/.~lock.41.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/41/41.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/41/Inductance/V3/diagram.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/10/callback/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V2/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,19 +83,10 @@
     <setting file="file://$PROJECT_DIR$/2/2.1t/array.c" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/2/2.1t/data.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/2/2.1t/main.c" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/1/Inductance/vector.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/10/Inductance/application.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/10/Inductance/application.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/10/Inductance/main.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/10/Inductance/vector.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/10/Inductance/vector.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/13/Inductance/application.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/13/Inductance/application.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/13/Inductance/test13.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/13/Inductance/testfile.txt" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/4/13/Inductance/vector.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/13/Inductance/vector.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/4/41/Callback/vector.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/41/Callback/V3/application.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/41/Callback/V3/application.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/41/Callback/V3/main.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/41/Callback/V3/testfile.txt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/4/41/Inductance/V1/application.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/41/Inductance/V1/application.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/41/Inductance/V1/main.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -109,6 +94,10 @@
     <setting file="file://$PROJECT_DIR$/4/41/Inductance/V1/vector.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/41/Inductance/V1/vector.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/41/Inductance/V2/application.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/4/41/Inductance/V3/application.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/41/Inductance/V3/application.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/41/Inductance/V3/main.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/4/41/Inductance/V3/testfile.txt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/4/My/Callback/V2/application.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/application.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/4/My/Inductance_V2/application.h" root0="FORCE_HIGHLIGHTING" />
@@ -218,14 +207,14 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/10",
+    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "structure.view.defaults.are.configured": "true",
     "two.files.diff.last.used.file": "E:/Git/NNTU_INF/1/1.11/11.c",
     "vue.rearranger.settings.migration": "true"
@@ -238,11 +227,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\41" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\10" />
       <recent name="E:\Git\NNTU_INF\4\1\Inductance\V2" />
       <recent name="E:\Git\NNTU_INF\4\10\callback\V2" />
       <recent name="E:\Git\NNTU_INF\4\10\Inductance\V2" />
-      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Callback\V2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Git\NNTU_INF\4\1\Inductance\V1" />
@@ -252,12 +241,7 @@
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Inductance\V1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_10_Mainline_Callback_V2">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.4_SEM_41_3_Mainline">
     <configuration name="4 _SEM_Mainline_Induction_TEST" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -362,6 +346,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -391,8 +380,8 @@
       <item itemvalue="CMake Application.4_SEM_18_Mainline_Callback" />
       <item itemvalue="CMake Application.4_SEM_18_Mainline_Inductance" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline_Callback" />
-      <item itemvalue="CMake Application.4_SEM_1_Mainline_Induction_V2" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline_Induction" />
+      <item itemvalue="CMake Application.4_SEM_1_Mainline_Induction_V2" />
       <item itemvalue="CMake Application.4_SEM_41_3_Mainline" />
       <item itemvalue="CMake Application.4_SEM_41_Callback_V3_Mainline" />
       <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V2" />
@@ -613,6 +602,7 @@
       <workItem from="1717842777303" duration="616000" />
       <workItem from="1717848553968" duration="78000" />
       <workItem from="1717848642534" duration="13591000" />
+      <workItem from="1717992435135" duration="12541000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
