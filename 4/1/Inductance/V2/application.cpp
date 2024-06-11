@@ -5,54 +5,87 @@
 #include "application.h"
 #include <iostream>
 
-void inputConstantR(Application &app);
-std::string formatResult(Application &app, bool isFirst);
-
-bool operation(Callback callback, void *data) {
-    return (*callback)(data);
-}
-
 int appRun(Application &app) {
 
-    inputConstantR(app);
-
-    while (operation(&inputNextValue, &app)) {
-        if (operation(&processCurrentValue, &app)) {
-            operation(&printCurrentResult, &app);
-        }
+    if (!appGetConstantD(app)) {
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
     }
+
+    if (!appInitializeData(app)) {
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
+    }
+
+    if (!appProcessDataIntoFinalResult(app)) {
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
+    }
+
+    if (!appGetOutputToUser(app)) {
+        std::cout << "DATA INPUT FAILURE." << std::endl;
+        return 1;
+    }
+
     return 0;
 }
 
-void inputConstantR(Application &app) {
+bool appGetConstantD(Application &app) {
     std::cout << "Input a R constant, to compare adjacent values:" << std::endl;
     std::cin >> app.constR;
+    std::cout << app.constR << std::endl;
+
+    return true;
 }
 
-bool inputNextValue(void *rawApp) {
-    Application &app = *((Application *) rawApp);
-    if (std::cin.eof()) {
+bool appInitializeData(Application &app) {
+    app.initialValueArray = vectorValueArrayInitialize(app.initialValueArray);
+    std::cout << "Input array has been successfully processed." << std::endl;
+
+    return true;
+}
+
+bool appProcessDataIntoFinalResult(Application &app) {
+
+    for (int i = 0; i < vectorGetSize(app.initialValueArray); ++i) {
+
+        if ((app.initialValueArray.value[i] - app.initialValueArray.value[i - 1] > app.constR) ||
+            ((i != 0 && app.initialValueArray.value[i] == 0) && (app.initialValueArray.value[i - 1] - app.initialValueArray.value[i] > app.constR))
+                ){
+            app.finalValueArray.value.push_back(
+                    std::make_pair(app.initialValueArray.value[i - 1], app.initialValueArray.value[i]));
+        }
+
+        if (i == vectorGetSize(app.initialValueArray) && vectorGetEmpty(app.initialValueArray)) {
+            return false;
+        }
+
+        if (i == 0 && vectorGetSize(app.initialValueArray) == 1) {
+            std::cout << std::endl << "Can't compare with void." << std::endl;
+            return false;
+        }
+    }
+
+    return true;
+}
+
+bool appGetOutputToUser(Application &app) {
+
+    //Output results
+    if (!vectorGetEmpty_pair(app.finalValueArray)) {
+
+        std::cout << std::endl << "Final values are (Index - Left element / Right element):" << std::endl;
+
+        for (int i = 0; i < vectorGetSize_pair(app.finalValueArray); ++i) {
+            std::cout << "Index: " << i+1 << " - " << app.finalValueArray.value[i].first <<
+                      "/" << app.finalValueArray.value[i].second << std::endl;
+        }
+    }
+
+    else {
+        std::cout << std::endl << "No matches are applicable." << std::endl;
         return false;
     }
-    app.prevValue = app.curValue;
-    std::cin >> app.curValue;
-    ++app.curIndex;
+
     return true;
-}
-
-bool processCurrentValue(void *rawApp) {
-    Application &app = *((Application *) rawApp);
-    return std::abs(static_cast<long>(app.prevValue) - app.curValue) > app.constR;
-}
-
-bool printCurrentResult(void *rawApp) {
-    Application &app = *((Application *) rawApp);
-    std::cout << formatResult(app, app.curIndex == 1) << std::endl;
-    return true;
-}
-
-std::string formatResult(Application &app, bool isFirst) {
-    return "{\n\tindex: " + std::to_string(app.curIndex) +
-           (!isFirst ? ",\n\tprevious value: " + std::to_string(app.prevValue) : "") +
-           ",\n\tcurrent value: " + std::to_string(app.curValue) + "\n}";
 }
