@@ -189,4 +189,7 @@ add_executable(4_SEM_41_Callback_V3_Mainline
         4/41/Callback/V3/main.cpp
         4/41/Callback/V3/application.cpp)
 
-#add_executable(4_SEM_Mainline_Callback_SEN 4/My/Callback/V1/GUCCI.cpp)
+###### 43
+add_executable(4_SEM_43_Inductance_V1
+        4/43/Inductance/V1/main.cpp
+        4/43/Inductance/V1/application.cpp)
