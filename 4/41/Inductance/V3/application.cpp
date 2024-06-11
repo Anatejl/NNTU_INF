@@ -80,7 +80,7 @@ bool appProcessCurrentXYRadius(Application &app) {
     app.temp_group.push_back(std::make_pair(false,std::make_pair(sqrt(
                                                     pow(app.init_xy.first - app.circle_center.first, 2) +
                                                     pow(app.init_xy.second - app.circle_center.second, 2)),
-                                            std::make_pair(app.init_xy.first, app.init_xy.second))));
+                                                   std::make_pair(app.init_xy.first, app.init_xy.second))));
 
     return true;
 }

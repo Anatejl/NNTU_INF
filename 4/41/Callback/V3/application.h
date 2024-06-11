@@ -27,7 +27,7 @@ struct Application {
     int iteration = 1;
 };
 
-typedef bool (*Callback)(void *object);
+typedef bool (*Callback)(void *ADT);
 bool operation(Callback callback, void *ADT);
 
 // To execute application

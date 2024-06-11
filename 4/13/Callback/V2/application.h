@@ -13,8 +13,8 @@ struct Application {
     int iteration = 1;
     int cin_read;
 
-    /*Since we can't invoke function to it return its value as int
-    now we store A/B as distinct variables rather than gaining
+    /*Since we can't invoke function for it return its value as int,
+    now we store A/B as a distinct variables, rather than gaining
     A/B reading by straight invoking its corresponding function*/
     int current_A, current_B;
 
