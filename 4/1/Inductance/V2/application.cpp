@@ -3,11 +3,9 @@
 //
 
 #include "application.h"
-#include "vector.h"
 #include <iostream>
 
 void inputConstantR(Application &app);
-
 std::string formatResult(Application &app, bool isFirst);
 
 bool operation(Callback callback, void *data) {
