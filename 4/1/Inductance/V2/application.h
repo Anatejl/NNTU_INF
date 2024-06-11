@@ -5,22 +5,27 @@
 #ifndef NNTU_APPLICATION_H
 #define NNTU_APPLICATION_H
 
-#include "vector.h"
+#include <climits>
+
+typedef bool (*Callback)(void *object);
+
+bool operation(Callback callback, void *data);
 
 //Data for program to handle.
 struct Application {
-
-    Vector initialValueArray;
-    VectorPair finalValueArray;
-    int constR;
+    int prevValue = INT_MIN;
+    int curValue = INT_MIN;
+    int curIndex = 0;
+    int constR = 0;
 };
 
 // To execute application
-int appRun(Application& app);
+int appRun(Application &app);
 
-bool appInitializeData(Application &app);
-bool appGetConstantD(Application &app);
-bool appProcessDataIntoFinalResult(Application &app);
-bool appGetOutputToUser(Application &app);
+bool inputNextValue(void *rawApp);
+
+bool processCurrentValue(void *rawApp);
+
+bool printCurrentResult(void *rawApp);
 
 #endif //NNTU_APPLICATION_H
