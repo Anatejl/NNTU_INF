@@ -40,8 +40,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="13 and life">
-      <change beforePath="$PROJECT_DIR$/4/41/.~lock.41.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/41.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/41.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/13/13.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +205,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/41",
+    "last_opened_file_path": "E:/Git/NNTU_INF/4/13",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -225,11 +225,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\NNTU_INF\4\13" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\41" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\10" />
       <recent name="E:\Git\NNTU_INF\4\1\Inductance\V2" />
       <recent name="E:\Git\NNTU_INF\4\10\callback\V2" />
-      <recent name="E:\Git\NNTU_INF\4\10\Inductance\V2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Git\NNTU_INF\4\1\Inductance\V1" />
@@ -584,7 +584,7 @@
       <workItem from="1717848553968" duration="78000" />
       <workItem from="1717848642534" duration="13591000" />
       <workItem from="1717992435135" duration="12541000" />
-      <workItem from="1718085154159" duration="10496000" />
+      <workItem from="1718085154159" duration="11383000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
