@@ -8,13 +8,12 @@
 #include <utility>
 
 struct Application{
+
     int cin_read;
-    int cin_read_last;
     std::pair <int, int> max;
-    std::pair <int, int> prev_max;
 
     int threshold;
-    int iteration;
+    int iteration = 1;
 
 };
 

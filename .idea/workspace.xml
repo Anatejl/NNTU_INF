@@ -41,13 +41,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="13 and life">
-      <change afterPath="$PROJECT_DIR$/4/43/Inductance/V1/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/43/Inductance/V1/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/43/Inductance/V1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/43/Inductance/V1/testfile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/41.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/41.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/41.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/41.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/43/Inductance/V1/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/43/Inductance/V1/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/43/Inductance/V1/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/43/Inductance/V1/application.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/googletest/googlemock/test/gmock-pp-string_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/googletest/googlemock/test/gmock-pp-string_test.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +166,7 @@
     "CMake Application.4_SEM_41_Callback_Mainline.executor": "Run",
     "CMake Application.4_SEM_41_Callback_V3_Mainline.executor": "Run",
     "CMake Application.4_SEM_41_Mainline.executor": "Run",
+    "CMake Application.4_SEM_43_Inductance_V1.executor": "Run",
     "CMake Application.4_SEM_Mainline.executor": "Run",
     "CMake Application.4_SEM_Mainline_Callback_SEN.executor": "Debug",
     "CMake Application.4_SEM_Mainline_Callback_V1.executor": "Run",
@@ -338,7 +336,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="4_SEM_43_Inductance_V1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_43_Inductance_V1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_43_Inductance_V1">
+    <configuration name="4_SEM_43_Inductance_V1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/43/Inductance/V1/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_43_Inductance_V1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_43_Inductance_V1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -610,7 +608,7 @@
       <workItem from="1717848642534" duration="13591000" />
       <workItem from="1717992435135" duration="12541000" />
       <workItem from="1718085154159" duration="12500000" />
-      <workItem from="1718106865706" duration="12181000" />
+      <workItem from="1718106865706" duration="14593000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
