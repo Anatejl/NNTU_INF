@@ -40,15 +40,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="13 and life">
-      <change afterPath="$PROJECT_DIR$/4/41/.~lock.41.docx#" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/41/Callback/V3/diagram.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/.~lock.41.docx#" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/4/41/41.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/41.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/Callback/V3/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Callback/V3/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/Inductance/V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/V3/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/Inductance/V3/diagram.json" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/V3/diagram.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/41/Inductance/V3/diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/V3/diagram.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -591,7 +584,7 @@
       <workItem from="1717848553968" duration="78000" />
       <workItem from="1717848642534" duration="13591000" />
       <workItem from="1717992435135" duration="12541000" />
-      <workItem from="1718085154159" duration="10159000" />
+      <workItem from="1718085154159" duration="10496000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
