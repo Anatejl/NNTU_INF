@@ -193,3 +193,7 @@ add_executable(4_SEM_41_Callback_V3_Mainline
 add_executable(4_SEM_43_Inductance_V1
         4/43/Inductance/V1/main.cpp
         4/43/Inductance/V1/application.cpp)
+
+add_executable(4_SEM_43_Callback_V1
+        4/43/Callback/V1/main.cpp
+        4/43/Callback/V1/application.cpp)
