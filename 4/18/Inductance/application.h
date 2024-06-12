@@ -10,27 +10,22 @@
 
 //Temporary data storage
 struct temp_data {
-
-    // 1-n, 2-value
+    // 1-n, 2-x
     std::pair <int, int> cin_read_current;
-    // 1-streak
+    // 1-streak 2-x
     std::pair <int, int> temp_counter;
-
 };
 
 //Data for program to handle
 struct Application {
-
     temp_data temp_data;
+    //k
     int constK;
+    //lp
     int last_plato;
-
-    // 1-streak, 2-value
+    // 1-streak, 2-x
     std::pair <int, int> final;
-
 };
-
-// To execute application
 
 int appRun(Application &app);
 bool appInitializeK(Application &app);
