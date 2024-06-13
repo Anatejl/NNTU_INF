@@ -7,23 +7,16 @@
 
 #include <climits>
 
-//Data for program to handle
 struct Application {
-
-
     int iteration = 1;
     int cin_read;
-
     int va = INT_MAX;
     int a0 = INT_MAX;
     int vb = INT_MAX;
     int b0 = INT_MAX;
-
 };
 
-// To execute application
 int appRun(Application& app);
-
 bool appGetData(Application &app);
 int appGetA(Application &app);
 int appGetB(Application &app);

@@ -42,7 +42,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="13 and life">
+      <change afterPath="$PROJECT_DIR$/4/13/13.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/13/Callback/V2/diagram.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/13/Callback/V2/diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/13/Inductance/V2/diagram.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/13/Inductance/V2/diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/13.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/13.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Callback/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/V2/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Callback/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/V2/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Callback/V2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/V2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Inductance/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/V2/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Inductance/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/V2/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Inductance/V2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/V2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/18.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/18.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/18.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1109,17 +1124,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/13/Inductance/V2/application.cpp</url>
-          <line>52</line>
+          <line>48</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/13/Inductance/V2/application.cpp</url>
-          <line>20</line>
+          <line>18</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/13/Inductance/V2/application.cpp</url>
-          <line>9</line>
+          <line>8</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
