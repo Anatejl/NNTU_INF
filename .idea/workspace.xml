@@ -42,7 +42,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="13 and life">
+      <change afterPath="$PROJECT_DIR$/4/10/.~lock.10.docx#" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V2/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/Inductance/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V2/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/otchot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +256,7 @@
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Callback\V1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_43_Inductance_V1">
+  <component name="RunManager" selected="CMake Application.4_SEM_10_Mainline_Inductance_V2">
     <configuration name="4 _SEM_Mainline_Induction_TEST" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -352,11 +357,6 @@
       </method>
     </configuration>
     <configuration name="4_SEM_Mainline_V3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_V3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_V3">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -617,7 +617,10 @@
       <workItem from="1718106865706" duration="14593000" />
       <workItem from="1718135042618" duration="2393000" />
       <workItem from="1718200300794" duration="7688000" />
-      <workItem from="1718219109722" duration="1000" />
+      <workItem from="1718219109722" duration="1888000" />
+      <workItem from="1718451163590" duration="2055000" />
+      <workItem from="1718461514043" duration="5654000" />
+      <workItem from="1718528676411" duration="3412000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -962,7 +965,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1052,7 +1055,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="FOR THE VICTORY, FOR THE GLORY OF THE EMPEROR OF MANKIND THROUGH THE ETERNITY OF SUFFERING" />
     <MESSAGE value="ZAPULKA" />
     <MESSAGE value="rofl" />
     <MESSAGE value="minus counter" />
@@ -1077,7 +1079,8 @@
     <MESSAGE value="BIG RUSSIAN BOSS" />
     <MESSAGE value="delete cmake_debug" />
     <MESSAGE value="18 and life" />
-    <option name="LAST_COMMIT_MESSAGE" value="18 and life" />
+    <MESSAGE value="13 and life" />
+    <option name="LAST_COMMIT_MESSAGE" value="13 and life" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

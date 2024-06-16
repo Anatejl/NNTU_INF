@@ -12,6 +12,8 @@ struct Application {
     int cin_read;
     int constS;
     int finalSum = 0;
+
+    int tempSum = 0;
 };
 
 // To execute application
