@@ -57,7 +57,7 @@ bool appMakeAnOutput(Application &app) {
     if (app.finalSum > app.constS) {
         std::cout << app.finalSum << std::endl;
         //DEBUG ENTRY
-        std::cout << "DEBUG: " << app.tempSum << std::endl;
+        //std::cout << "DEBUG: " << app.tempSum << std::endl;
     }
     else {
         std::cout << "No valid result, for now..." << std::endl;

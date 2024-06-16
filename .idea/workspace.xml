@@ -42,12 +42,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="13 and life">
-      <change afterPath="$PROJECT_DIR$/4/10/.~lock.10.docx#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/.~lock.10.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/10.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/10.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/10.docx~RF83e12b.TMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/10.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/10/Inductance/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V2/application.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/10/Inductance/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/Inductance/V2/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/otchot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/callback/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V2/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/callback/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/callback/V2/application.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +260,12 @@
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Callback\V1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_10_Mainline_Inductance_V2">
+  <component name="RunManager" selected="CMake Application.4_SEM_10_Mainline_Callback_V2">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="4 _SEM_Mainline_Induction_TEST" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -621,6 +630,7 @@
       <workItem from="1718451163590" duration="2055000" />
       <workItem from="1718461514043" duration="5654000" />
       <workItem from="1718528676411" duration="3412000" />
+      <workItem from="1718554840704" duration="4139000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -1129,6 +1139,11 @@
           <url>file://$PROJECT_DIR$/4/41/Inductance/V3/application.cpp</url>
           <line>34</line>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/4/10/callback/V2/application.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
