@@ -197,3 +197,7 @@ add_executable(4_SEM_43_Inductance_V1
 add_executable(4_SEM_43_Callback_V1
         4/43/Callback/V1/main.cpp
         4/43/Callback/V1/application.cpp)
+add_executable(4_SEM_21_IND 4/21/Induction/application.cpp 4/21/Induction/application.h
+        4/21/Induction/main.cpp
+        4/21/Induction/check_neighbour.cpp
+        4/21/Induction/check_neighbour.h)
