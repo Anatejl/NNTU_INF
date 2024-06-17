@@ -354,7 +354,7 @@ SQLITE_API int sqlite3_close(sqlite3*);
 SQLITE_API int sqlite3_close_v2(sqlite3*);
 
 /*
-** The type for a callback function.
+** The type for a Callback function.
 ** This is legacy and deprecated.  It is included for historical
 ** compatibility and is not documented.
 */
@@ -372,12 +372,12 @@ typedef int (*sqlite3_callback)(void*,int,char**, char**);
 ** ^The sqlite3_exec() interface runs zero or more UTF-8 encoded,
 ** semicolon-separate SQL statements passed into its 2nd argument,
 ** in the context of the [database connection] passed in as its 1st
-** argument.  ^If the callback function of the 3rd argument to
+** argument.  ^If the Callback function of the 3rd argument to
 ** sqlite3_exec() is not NULL, then it is invoked for each result row
 ** coming out of the evaluated SQL statements.  ^The 4th argument to
 ** sqlite3_exec() is relayed through to the 1st argument of each
-** callback invocation.  ^If the callback pointer to sqlite3_exec()
-** is NULL, then no callback is ever invoked and result rows are
+** Callback invocation.  ^If the Callback pointer to sqlite3_exec()
+** is NULL, then no Callback is ever invoked and result rows are
 ** ignored.
 **
 ** ^If an error occurs while evaluating the SQL statements passed into
@@ -392,17 +392,17 @@ typedef int (*sqlite3_callback)(void*,int,char**, char**);
 ** occur, then sqlite3_exec() sets the pointer in its 5th parameter to
 ** NULL before returning.
 **
-** ^If an sqlite3_exec() callback returns non-zero, the sqlite3_exec()
-** routine returns SQLITE_ABORT without invoking the callback again and
+** ^If an sqlite3_exec() Callback returns non-zero, the sqlite3_exec()
+** routine returns SQLITE_ABORT without invoking the Callback again and
 ** without running any subsequent SQL statements.
 **
-** ^The 2nd argument to the sqlite3_exec() callback function is the
+** ^The 2nd argument to the sqlite3_exec() Callback function is the
 ** number of columns in the result.  ^The 3rd argument to the sqlite3_exec()
-** callback is an array of pointers to strings obtained as if from
+** Callback is an array of pointers to strings obtained as if from
 ** [sqlite3_column_text()], one for each column.  ^If an element of a
 ** result row is NULL then the corresponding string pointer for the
-** sqlite3_exec() callback is a NULL pointer.  ^The 4th argument to the
-** sqlite3_exec() callback is an array of pointers to strings where each
+** sqlite3_exec() Callback is a NULL pointer.  ^The 4th argument to the
+** sqlite3_exec() Callback is an array of pointers to strings where each
 ** entry represents the name of corresponding result column as obtained
 ** from [sqlite3_column_name()].
 **
@@ -426,7 +426,7 @@ SQLITE_API int sqlite3_exec(
   sqlite3*,                                  /* An open database */
   const char *sql,                           /* SQL to be evaluated */
   int (*callback)(void*,int,char**,char**),  /* Callback function */
-  void *,                                    /* 1st argument to callback */
+  void *,                                    /* 1st argument to Callback */
   char **errmsg                              /* Error msg written here */
 );
 
@@ -1035,7 +1035,7 @@ struct sqlite3_io_methods {
 ** ^The [SQLITE_FCNTL_BUSYHANDLER]
 ** file-control may be invoked by SQLite on the database file handle
 ** shortly after it is opened in order to provide a custom VFS with access
-** to the connection's busy-handler callback. The argument is of type (void**)
+** to the connection's busy-handler Callback. The argument is of type (void**)
 ** - an array of two (void *) values. The first (void *) actually points
 ** to a function of type (int (*)(void *)). In order to invoke the connection's
 ** busy-handler, this function should be invoked with the second (void *) in
@@ -2028,7 +2028,7 @@ struct sqlite3_mem_methods {
 ** <dd>This option is only available if sqlite is compiled with the
 ** [SQLITE_ENABLE_SQLLOG] pre-processor macro defined. The first argument should
 ** be a pointer to a function of type void(*)(void*,sqlite3*,const char*, int).
-** The second should be of type (void*). The callback is invoked by the library
+** The second should be of type (void*). The Callback is invoked by the library
 ** in three separate circumstances, identified by the value passed as the
 ** fourth parameter. If the fourth parameter is 0, then the database connection
 ** passed as the second argument has just been opened. The third argument
@@ -2565,7 +2565,7 @@ SQLITE_API void sqlite3_set_last_insert_rowid(sqlite3*,sqlite3_int64);
 **
 ** Things are more complicated if the sqlite3_changes() function is
 ** executed while a trigger program is running. This may happen if the
-** program uses the [changes() SQL function], or if some other callback
+** program uses the [changes() SQL function], or if some other Callback
 ** function invokes sqlite3_changes() directly. Essentially:
 **
 ** <ul>
@@ -2723,10 +2723,10 @@ SQLITE_API int sqlite3_complete16(const void *sql);
 
 /*
 ** CAPI3REF: Register A Callback To Handle SQLITE_BUSY Errors
-** KEYWORDS: {busy-handler callback} {busy handler}
+** KEYWORDS: {busy-handler Callback} {busy handler}
 ** METHOD: sqlite3
 **
-** ^The sqlite3_busy_handler(D,X,P) routine sets a callback function X
+** ^The sqlite3_busy_handler(D,X,P) routine sets a Callback function X
 ** that might be invoked with argument P whenever
 ** an attempt is made to access a database table associated with
 ** [database connection] D when another thread
@@ -2734,18 +2734,18 @@ SQLITE_API int sqlite3_complete16(const void *sql);
 ** The sqlite3_busy_handler() interface is used to implement
 ** [sqlite3_busy_timeout()] and [PRAGMA busy_timeout].
 **
-** ^If the busy callback is NULL, then [SQLITE_BUSY]
-** is returned immediately upon encountering the lock.  ^If the busy callback
-** is not NULL, then the callback might be invoked with two arguments.
+** ^If the busy Callback is NULL, then [SQLITE_BUSY]
+** is returned immediately upon encountering the lock.  ^If the busy Callback
+** is not NULL, then the Callback might be invoked with two arguments.
 **
 ** ^The first argument to the busy handler is a copy of the void* pointer which
 ** is the third argument to sqlite3_busy_handler().  ^The second argument to
-** the busy handler callback is the number of times that the busy handler has
+** the busy handler Callback is the number of times that the busy handler has
 ** been invoked previously for the same locking event.  ^If the
-** busy callback returns 0, then no additional attempts are made to
+** busy Callback returns 0, then no additional attempts are made to
 ** access the database and [SQLITE_BUSY] is returned
 ** to the application.
-** ^If the callback returns non-zero, then another attempt
+** ^If the Callback returns non-zero, then another attempt
 ** is made to access the database and the cycle repeats.
 **
 ** The presence of a busy handler does not guarantee that it will be invoked
@@ -2764,7 +2764,7 @@ SQLITE_API int sqlite3_complete16(const void *sql);
 ** will induce the first process to release its read lock and allow
 ** the second process to proceed.
 **
-** ^The default busy callback is NULL.
+** ^The default busy Callback is NULL.
 **
 ** ^(There can only be a single busy handler defined for each
 ** [database connection].  Setting a new busy handler clears any
@@ -2772,7 +2772,7 @@ SQLITE_API int sqlite3_complete16(const void *sql);
 ** or evaluating [PRAGMA busy_timeout=N] will change the
 ** busy handler and thus clear any previously set busy handler.
 **
-** The busy callback should not take any actions which modify the
+** The busy Callback should not take any actions which modify the
 ** database connection that invoked the busy handler.  In other words,
 ** the busy handler is not reentrant.  Any such actions
 ** result in undefined behavior.
@@ -3067,42 +3067,42 @@ SQLITE_API void sqlite3_randomness(int N, void *P);
 /*
 ** CAPI3REF: Compile-Time Authorization Callbacks
 ** METHOD: sqlite3
-** KEYWORDS: {authorizer callback}
+** KEYWORDS: {authorizer Callback}
 **
-** ^This routine registers an authorizer callback with a particular
+** ^This routine registers an authorizer Callback with a particular
 ** [database connection], supplied in the first argument.
-** ^The authorizer callback is invoked as SQL statements are being compiled
+** ^The authorizer Callback is invoked as SQL statements are being compiled
 ** by [sqlite3_prepare()] or its variants [sqlite3_prepare_v2()],
 ** [sqlite3_prepare_v3()], [sqlite3_prepare16()], [sqlite3_prepare16_v2()],
 ** and [sqlite3_prepare16_v3()].  ^At various
 ** points during the compilation process, as logic is being created
-** to perform various actions, the authorizer callback is invoked to
-** see if those actions are allowed.  ^The authorizer callback should
+** to perform various actions, the authorizer Callback is invoked to
+** see if those actions are allowed.  ^The authorizer Callback should
 ** return [SQLITE_OK] to allow the action, [SQLITE_IGNORE] to disallow the
 ** specific action but allow the SQL statement to continue to be
 ** compiled, or [SQLITE_DENY] to cause the entire SQL statement to be
-** rejected with an error.  ^If the authorizer callback returns
+** rejected with an error.  ^If the authorizer Callback returns
 ** any value other than [SQLITE_IGNORE], [SQLITE_OK], or [SQLITE_DENY]
 ** then the [sqlite3_prepare_v2()] or equivalent call that triggered
 ** the authorizer will fail with an error message.
 **
-** When the callback returns [SQLITE_OK], that means the operation
-** requested is ok.  ^When the callback returns [SQLITE_DENY], the
+** When the Callback returns [SQLITE_OK], that means the operation
+** requested is ok.  ^When the Callback returns [SQLITE_DENY], the
 ** [sqlite3_prepare_v2()] or equivalent call that triggered the
 ** authorizer will fail with an error message explaining that
 ** access is denied.
 **
-** ^The first parameter to the authorizer callback is a copy of the third
+** ^The first parameter to the authorizer Callback is a copy of the third
 ** parameter to the sqlite3_set_authorizer() interface. ^The second parameter
-** to the callback is an integer [SQLITE_COPY | action code] that specifies
+** to the Callback is an integer [SQLITE_COPY | action code] that specifies
 ** the particular action to be authorized. ^The third through sixth parameters
-** to the callback are either NULL pointers or zero-terminated strings
+** to the Callback are either NULL pointers or zero-terminated strings
 ** that contain additional details about the action to be authorized.
 ** Applications must always be prepared to encounter a NULL pointer in any
-** of the third through the sixth parameters of the authorization callback.
+** of the third through the sixth parameters of the authorization Callback.
 **
 ** ^If the action code is [SQLITE_READ]
-** and the callback returns [SQLITE_IGNORE] then the
+** and the Callback returns [SQLITE_IGNORE] then the
 ** [prepared statement] statement is constructed to substitute
 ** a NULL value in place of the table column that would have
 ** been read if [SQLITE_OK] had been returned.  The [SQLITE_IGNORE]
@@ -3110,9 +3110,9 @@ SQLITE_API void sqlite3_randomness(int N, void *P);
 ** columns of a table.
 ** ^When a table is referenced by a [SELECT] but no column values are
 ** extracted from that table (for example in a query like
-** "SELECT count(*) FROM tab") then the [SQLITE_READ] authorizer callback
+** "SELECT count(*) FROM tab") then the [SQLITE_READ] authorizer Callback
 ** is invoked once for that table with a column name that is an empty string.
-** ^If the action code is [SQLITE_DELETE] and the callback returns
+** ^If the action code is [SQLITE_DELETE] and the Callback returns
 ** [SQLITE_IGNORE] then the [DELETE] operation proceeds but the
 ** [truncate optimization] is disabled and all rows are deleted individually.
 **
@@ -3134,20 +3134,20 @@ SQLITE_API void sqlite3_randomness(int N, void *P);
 **
 ** ^(Only a single authorizer can be in place on a database connection
 ** at a time.  Each call to sqlite3_set_authorizer overrides the
-** previous call.)^  ^Disable the authorizer by installing a NULL callback.
+** previous call.)^  ^Disable the authorizer by installing a NULL Callback.
 ** The authorizer is disabled by default.
 **
-** The authorizer callback must not do anything that will modify
-** the database connection that invoked the authorizer callback.
+** The authorizer Callback must not do anything that will modify
+** the database connection that invoked the authorizer Callback.
 ** Note that [sqlite3_prepare_v2()] and [sqlite3_step()] both modify their
 ** database connections for the meaning of "modify" in this paragraph.
 **
 ** ^When [sqlite3_prepare_v2()] is used to prepare a statement, the
 ** statement might be re-prepared during [sqlite3_step()] due to a
 ** schema change.  Hence, the application should ensure that the
-** correct authorizer callback remains in place during the [sqlite3_step()].
+** correct authorizer Callback remains in place during the [sqlite3_step()].
 **
-** ^Note that the authorizer callback is invoked only during
+** ^Note that the authorizer Callback is invoked only during
 ** [sqlite3_prepare()] or its variants.  Authorization is not
 ** performed during statement evaluation in [sqlite3_step()], unless
 ** as stated in the previous paragraph, sqlite3_step() invokes
@@ -3162,7 +3162,7 @@ SQLITE_API int sqlite3_set_authorizer(
 /*
 ** CAPI3REF: Authorizer Return Codes
 **
-** The [sqlite3_set_authorizer | authorizer callback function] must
+** The [sqlite3_set_authorizer | authorizer Callback function] must
 ** return either [SQLITE_OK] or one of these two constants in order
 ** to signal SQLite whether or not the action is permitted.  See the
 ** [sqlite3_set_authorizer | authorizer documentation] for additional
@@ -3177,18 +3177,18 @@ SQLITE_API int sqlite3_set_authorizer(
 /*
 ** CAPI3REF: Authorizer Action Codes
 **
-** The [sqlite3_set_authorizer()] interface registers a callback function
+** The [sqlite3_set_authorizer()] interface registers a Callback function
 ** that is invoked to authorize certain SQL statement actions.  The
-** second parameter to the callback is an integer code that specifies
+** second parameter to the Callback is an integer code that specifies
 ** what action is being authorized.  These are the integer action codes that
-** the authorizer callback may be passed.
+** the authorizer Callback may be passed.
 **
 ** These action code values signify what kind of operation is to be
 ** authorized.  The 3rd and 4th parameters to the authorization
-** callback function will be parameters or NULL depending on which of these
+** Callback function will be parameters or NULL depending on which of these
 ** codes is used as the second parameter.  ^(The 5th parameter to the
-** authorizer callback is the name of the database ("main", "temp",
-** etc.) if applicable.)^  ^The 6th parameter to the authorizer callback
+** authorizer Callback is the name of the database ("main", "temp",
+** etc.) if applicable.)^  ^The 6th parameter to the authorizer Callback
 ** is the name of the inner-most trigger or view that is responsible for
 ** the access attempt or NULL if this access attempt is directly from
 ** top-level SQL code.
@@ -3236,12 +3236,12 @@ SQLITE_API int sqlite3_set_authorizer(
 ** These routines are deprecated. Use the [sqlite3_trace_v2()] interface
 ** instead of the routines described here.
 **
-** These routines register callback functions that can be used for
+** These routines register Callback functions that can be used for
 ** tracing and profiling the execution of SQL statements.
 **
-** ^The callback function registered by sqlite3_trace() is invoked at
+** ^The Callback function registered by sqlite3_trace() is invoked at
 ** various times when an SQL statement is being run by [sqlite3_step()].
-** ^The sqlite3_trace() callback is invoked with a UTF-8 rendering of the
+** ^The sqlite3_trace() Callback is invoked with a UTF-8 rendering of the
 ** SQL statement text as the statement first begins executing.
 ** ^(Additional sqlite3_trace() callbacks might occur
 ** as each triggered subprogram is entered.  The callbacks for triggers
@@ -3250,16 +3250,16 @@ SQLITE_API int sqlite3_set_authorizer(
 ** The [SQLITE_TRACE_SIZE_LIMIT] compile-time option can be used to limit
 ** the length of [bound parameter] expansion in the output of sqlite3_trace().
 **
-** ^The callback function registered by sqlite3_profile() is invoked
-** as each SQL statement finishes.  ^The profile callback contains
+** ^The Callback function registered by sqlite3_profile() is invoked
+** as each SQL statement finishes.  ^The profile Callback contains
 ** the original statement text and an estimate of wall-clock time
-** of how long that statement took to run.  ^The profile callback
+** of how long that statement took to run.  ^The profile Callback
 ** time is in units of nanoseconds, however the current implementation
 ** is only capable of millisecond resolution so the six least significant
 ** digits in the time are meaningless.  Future versions of SQLite
-** might provide greater resolution on the profiler callback.  Invoking
+** might provide greater resolution on the profiler Callback.  Invoking
 ** either [sqlite3_trace()] or [sqlite3_trace_v2()] will cancel the
-** profile callback.
+** profile Callback.
 */
 SQLITE_API SQLITE_DEPRECATED void *sqlite3_trace(sqlite3*,
    void(*xTrace)(void*,const char*), void*);
@@ -3273,12 +3273,12 @@ SQLITE_API SQLITE_DEPRECATED void *sqlite3_profile(sqlite3*,
 ** These constants identify classes of events that can be monitored
 ** using the [sqlite3_trace_v2()] tracing logic.  The M argument
 ** to [sqlite3_trace_v2(D,M,X,P)] is an OR-ed combination of one or more of
-** the following constants.  ^The first argument to the trace callback
+** the following constants.  ^The first argument to the trace Callback
 ** is one of the following constants.
 **
 ** New tracing constants may be added in future releases.
 **
-** ^A trace callback has four arguments: xCallback(T,C,P,X).
+** ^A trace Callback has four arguments: xCallback(T,C,P,X).
 ** ^The T argument is one of the integer type codes above.
 ** ^The C argument is a copy of the context pointer passed in as the
 ** fourth argument to [sqlite3_trace_v2()].
@@ -3286,33 +3286,33 @@ SQLITE_API SQLITE_DEPRECATED void *sqlite3_profile(sqlite3*,
 **
 ** <dl>
 ** [[SQLITE_TRACE_STMT]] <dt>SQLITE_TRACE_STMT</dt>
-** <dd>^An SQLITE_TRACE_STMT callback is invoked when a prepared statement
+** <dd>^An SQLITE_TRACE_STMT Callback is invoked when a prepared statement
 ** first begins running and possibly at other times during the
 ** execution of the prepared statement, such as at the start of each
 ** trigger subprogram. ^The P argument is a pointer to the
 ** [prepared statement]. ^The X argument is a pointer to a string which
 ** is the unexpanded SQL text of the prepared statement or an SQL comment
-** that indicates the invocation of a trigger.  ^The callback can compute
+** that indicates the invocation of a trigger.  ^The Callback can compute
 ** the same text that would have been returned by the legacy [sqlite3_trace()]
 ** interface by using the X argument when X begins with "--" and invoking
 ** [sqlite3_expanded_sql(P)] otherwise.
 **
 ** [[SQLITE_TRACE_PROFILE]] <dt>SQLITE_TRACE_PROFILE</dt>
-** <dd>^An SQLITE_TRACE_PROFILE callback provides approximately the same
-** information as is provided by the [sqlite3_profile()] callback.
+** <dd>^An SQLITE_TRACE_PROFILE Callback provides approximately the same
+** information as is provided by the [sqlite3_profile()] Callback.
 ** ^The P argument is a pointer to the [prepared statement] and the
 ** X argument points to a 64-bit integer which is approximately
 ** the number of nanoseconds that the prepared statement took to run.
-** ^The SQLITE_TRACE_PROFILE callback is invoked when the statement finishes.
+** ^The SQLITE_TRACE_PROFILE Callback is invoked when the statement finishes.
 **
 ** [[SQLITE_TRACE_ROW]] <dt>SQLITE_TRACE_ROW</dt>
-** <dd>^An SQLITE_TRACE_ROW callback is invoked whenever a prepared
+** <dd>^An SQLITE_TRACE_ROW Callback is invoked whenever a prepared
 ** statement generates a single row of result.
 ** ^The P argument is a pointer to the [prepared statement] and the
 ** X argument is unused.
 **
 ** [[SQLITE_TRACE_CLOSE]] <dt>SQLITE_TRACE_CLOSE</dt>
-** <dd>^An SQLITE_TRACE_CLOSE callback is invoked when a database
+** <dd>^An SQLITE_TRACE_CLOSE Callback is invoked when a database
 ** connection closes.
 ** ^The P argument is a pointer to the [database connection] object
 ** and the X argument is unused.
@@ -3327,9 +3327,9 @@ SQLITE_API SQLITE_DEPRECATED void *sqlite3_profile(sqlite3*,
 ** CAPI3REF: SQL Trace Hook
 ** METHOD: sqlite3
 **
-** ^The sqlite3_trace_v2(D,M,X,P) interface registers a trace callback
+** ^The sqlite3_trace_v2(D,M,X,P) interface registers a trace Callback
 ** function X against [database connection] D, using property mask M
-** and context pointer P.  ^If the X callback is
+** and context pointer P.  ^If the X Callback is
 ** NULL or if the M mask is zero, then tracing is disabled.  The
 ** M argument should be the bitwise OR-ed combination of
 ** zero or more [SQLITE_TRACE] constants.
@@ -3337,14 +3337,14 @@ SQLITE_API SQLITE_DEPRECATED void *sqlite3_profile(sqlite3*,
 ** ^Each call to either sqlite3_trace() or sqlite3_trace_v2() overrides
 ** (cancels) any prior calls to sqlite3_trace() or sqlite3_trace_v2().
 **
-** ^The X callback is invoked whenever any of the events identified by
-** mask M occur.  ^The integer return value from the callback is currently
+** ^The X Callback is invoked whenever any of the events identified by
+** mask M occur.  ^The integer return value from the Callback is currently
 ** ignored, though this may change in future releases.  Callback
 ** implementations should return zero to ensure future compatibility.
 **
-** ^A trace callback is invoked with four arguments: callback(T,C,P,X).
+** ^A trace Callback is invoked with four arguments: Callback(T,C,P,X).
 ** ^The T argument is one of the [SQLITE_TRACE]
-** constants to indicate why the callback was invoked.
+** constants to indicate why the Callback was invoked.
 ** ^The C argument is a copy of the context pointer.
 ** The P and X arguments are pointers whose meanings depend on T.
 **
@@ -3363,16 +3363,16 @@ SQLITE_API int sqlite3_trace_v2(
 ** CAPI3REF: Query Progress Callbacks
 ** METHOD: sqlite3
 **
-** ^The sqlite3_progress_handler(D,N,X,P) interface causes the callback
+** ^The sqlite3_progress_handler(D,N,X,P) interface causes the Callback
 ** function X to be invoked periodically during long running calls to
 ** [sqlite3_step()] and [sqlite3_prepare()] and similar for
 ** database connection D.  An example use for this
 ** interface is to keep a GUI updated during a large query.
 **
 ** ^The parameter P is passed through as the only parameter to the
-** callback function X.  ^The parameter N is the approximate number of
+** Callback function X.  ^The parameter N is the approximate number of
 ** [virtual machine instructions] that are evaluated between successive
-** invocations of the callback X.  ^If N is less than one then the progress
+** invocations of the Callback X.  ^If N is less than one then the progress
 ** handler is disabled.
 **
 ** ^Only a single progress handler may be defined at one time per
@@ -3381,20 +3381,20 @@ SQLITE_API int sqlite3_trace_v2(
 ** ^The progress handler is also disabled by setting N to a value less
 ** than 1.
 **
-** ^If the progress callback returns non-zero, the operation is
+** ^If the progress Callback returns non-zero, the operation is
 ** interrupted.  This feature can be used to implement a
 ** "Cancel" button on a GUI progress dialog box.
 **
-** The progress handler callback must not do anything that will modify
+** The progress handler Callback must not do anything that will modify
 ** the database connection that invoked the progress handler.
 ** Note that [sqlite3_prepare_v2()] and [sqlite3_step()] both modify their
 ** database connections for the meaning of "modify" in this paragraph.
 **
-** The progress handler callback would originally only be invoked from the
+** The progress handler Callback would originally only be invoked from the
 ** bytecode engine.  It still might be invoked during [sqlite3_prepare()]
 ** and similar because those routines might force a reparse of the schema
 ** which involves running the bytecode engine.  However, beginning with
-** SQLite version 3.41.0, the progress handler callback might also be
+** SQLite version 3.41.0, the progress handler Callback might also be
 ** invoked directly from [sqlite3_prepare()] while analyzing and generating
 ** code for complex queries.
 */
@@ -5230,9 +5230,9 @@ SQLITE_API int sqlite3_reset(sqlite3_stmt *pStmt);
 ** of existing SQL functions or aggregates. The only differences between
 ** the three "sqlite3_create_function*" routines are the text encoding
 ** expected for the second parameter (the name of the function being
-** created) and the presence or absence of a destructor callback for
+** created) and the presence or absence of a destructor Callback for
 ** the application data pointer. Function sqlite3_create_window_function()
-** is similar, but allows the user to supply the extra callback functions
+** is similar, but allows the user to supply the extra Callback functions
 ** needed by [aggregate window functions].
 **
 ** ^The first parameter is the [database connection] to which the SQL
@@ -5298,7 +5298,7 @@ SQLITE_API int sqlite3_reset(sqlite3_stmt *pStmt);
 ** "sqlite3_create_function*" functions, xFunc, xStep and xFinal, are
 ** pointers to C-language functions that implement the SQL function or
 ** aggregate. ^A scalar SQL function requires an implementation of the xFunc
-** callback only; NULL pointers must be passed as the xStep and xFinal
+** Callback only; NULL pointers must be passed as the xStep and xFinal
 ** parameters. ^An aggregate SQL function requires an implementation of xStep
 ** and xFinal and NULL pointer must be passed for xFunc. ^To delete an existing
 ** SQL function or aggregate, pass NULL pointers for all three function
@@ -5319,7 +5319,7 @@ SQLITE_API int sqlite3_reset(sqlite3_stmt *pStmt);
 ** the application data pointer. The destructor is invoked when the function
 ** is deleted, either by being overloaded or when the database connection
 ** closes.)^ ^The destructor is also invoked if the call to
-** sqlite3_create_function_v2() fails.  ^When the destructor callback is
+** sqlite3_create_function_v2() fails.  ^When the destructor Callback is
 ** invoked, it is passed a single argument which is a copy of the application
 ** data pointer which was the fifth parameter to sqlite3_create_function_v2().
 **
@@ -5710,9 +5710,9 @@ SQLITE_API void sqlite3_value_free(sqlite3_value*);
 ** to the new memory. ^On second and subsequent calls to
 ** sqlite3_aggregate_context() for the same aggregate function instance,
 ** the same buffer is returned.  Sqlite3_aggregate_context() is normally
-** called once for each invocation of the xStep callback and then one
-** last time when the xFinal callback is invoked.  ^(When no rows match
-** an aggregate query, the xStep() callback of the aggregate function
+** called once for each invocation of the xStep Callback and then one
+** last time when the xFinal Callback is invoked.  ^(When no rows match
+** an aggregate query, the xStep() Callback of the aggregate function
 ** implementation is never called and xFinal() is called exactly once.
 ** In those cases, sqlite3_aggregate_context() might be called for the
 ** first time from within xFinal().)^
@@ -5725,7 +5725,7 @@ SQLITE_API void sqlite3_value_free(sqlite3_value*);
 ** determined by the N parameter on first successful call.  Changing the
 ** value of N in any subsequent call to sqlite3_aggregate_context() within
 ** the same aggregate function instance will not resize the memory
-** allocation.)^  Within the xFinal callback, it is customary to set
+** allocation.)^  Within the xFinal Callback, it is customary to set
 ** N=0 in calls to sqlite3_aggregate_context(C,N) so that no
 ** pointless memory allocations occur.
 **
@@ -5734,7 +5734,7 @@ SQLITE_API void sqlite3_value_free(sqlite3_value*);
 **
 ** The first parameter must be a copy of the
 ** [sqlite3_context | SQL function context] that is the first parameter
-** to the xStep or xFinal callback routine that implements the aggregate
+** to the xStep or xFinal Callback routine that implements the aggregate
 ** function.
 **
 ** This routine must be called from the same thread in which
@@ -6055,14 +6055,14 @@ SQLITE_API void sqlite3_result_subtype(sqlite3_context*,unsigned int);
 ** <li> [SQLITE_UTF16_ALIGNED].
 ** </ul>)^
 ** ^The eTextRep argument determines the encoding of strings passed
-** to the collating function callback, xCompare.
+** to the collating function Callback, xCompare.
 ** ^The [SQLITE_UTF16] and [SQLITE_UTF16_ALIGNED] values for eTextRep
 ** force strings to be UTF16 with native byte order.
 ** ^The [SQLITE_UTF16_ALIGNED] value for eTextRep forces strings to begin
 ** on an even byte address.
 **
 ** ^The fourth argument, pArg, is an application data pointer that is passed
-** through as the first argument to the collating function callback.
+** through as the first argument to the collating function Callback.
 **
 ** ^The fifth argument, xCompare, is a pointer to the collating function.
 ** ^Multiple collating functions can be registered using the same name but
@@ -6072,10 +6072,10 @@ SQLITE_API void sqlite3_result_subtype(sqlite3_context*,unsigned int);
 ** deleted.  ^When all collating functions having the same name are deleted,
 ** that collation is no longer usable.
 **
-** ^The collating function callback is invoked with a copy of the pArg
+** ^The collating function Callback is invoked with a copy of the pArg
 ** application data pointer and with two strings in the encoding specified
 ** by the eTextRep argument.  The two integer parameters to the collating
-** function callback are the length of the two strings, in bytes. The collating
+** function Callback are the length of the two strings, in bytes. The collating
 ** function must return an integer that is negative, zero, or positive
 ** if the first string is less than, equal to, or greater than the second,
 ** respectively.  A collating function must always return the same answer
@@ -6097,13 +6097,13 @@ SQLITE_API void sqlite3_result_subtype(sqlite3_context*,unsigned int);
 ** is undefined.
 **
 ** ^The sqlite3_create_collation_v2() works like sqlite3_create_collation()
-** with the addition that the xDestroy callback is invoked on pArg when
+** with the addition that the xDestroy Callback is invoked on pArg when
 ** the collating function is deleted.
 ** ^Collating functions are deleted when they are overridden by later
 ** calls to the collation creation functions or when the
 ** [database connection] is closed using [sqlite3_close()].
 **
-** ^The xDestroy callback is <u>not</u> called if the
+** ^The xDestroy Callback is <u>not</u> called if the
 ** sqlite3_create_collation_v2() function fails.  Applications that invoke
 ** sqlite3_create_collation_v2() with a non-NULL xDestroy argument should
 ** check the return code and dispose of the application data pointer
@@ -6142,7 +6142,7 @@ SQLITE_API int sqlite3_create_collation16(
 ** METHOD: sqlite3
 **
 ** ^To avoid having to register all collation sequences before a database
-** can be used, a single callback function may be registered with the
+** can be used, a single Callback function may be registered with the
 ** [database connection] to be invoked whenever an undefined collation
 ** sequence is required.
 **
@@ -6150,9 +6150,9 @@ SQLITE_API int sqlite3_create_collation16(
 ** then it is passed the names of undefined collation sequences as strings
 ** encoded in UTF-8. ^If sqlite3_collation_needed16() is used,
 ** the names are passed as UTF-16 in machine native byte order.
-** ^A call to either function replaces the existing collation-needed callback.
+** ^A call to either function replaces the existing collation-needed Callback.
 **
-** ^(When the callback is invoked, the first argument passed is a copy
+** ^(When the Callback is invoked, the first argument passed is a copy
 ** of the second argument to sqlite3_collation_needed() or
 ** sqlite3_collation_needed16().  The second argument is the database
 ** connection.  The third argument is one of [SQLITE_UTF8], [SQLITE_UTF16BE],
@@ -6160,7 +6160,7 @@ SQLITE_API int sqlite3_create_collation16(
 ** sequence function required.  The fourth parameter is the name of the
 ** required collation sequence.)^
 **
-** The callback function should register the desired collation using
+** The Callback function should register the desired collation using
 ** [sqlite3_create_collation()], [sqlite3_create_collation16()], or
 ** [sqlite3_create_collation_v2()].
 */
@@ -6506,16 +6506,16 @@ SQLITE_API sqlite3_stmt *sqlite3_next_stmt(sqlite3 *pDb, sqlite3_stmt *pStmt);
 ** CAPI3REF: Commit And Rollback Notification Callbacks
 ** METHOD: sqlite3
 **
-** ^The sqlite3_commit_hook() interface registers a callback
+** ^The sqlite3_commit_hook() interface registers a Callback
 ** function to be invoked whenever a transaction is [COMMIT | committed].
-** ^Any callback set by a previous call to sqlite3_commit_hook()
+** ^Any Callback set by a previous call to sqlite3_commit_hook()
 ** for the same database connection is overridden.
-** ^The sqlite3_rollback_hook() interface registers a callback
+** ^The sqlite3_rollback_hook() interface registers a Callback
 ** function to be invoked whenever a transaction is [ROLLBACK | rolled back].
-** ^Any callback set by a previous call to sqlite3_rollback_hook()
+** ^Any Callback set by a previous call to sqlite3_rollback_hook()
 ** for the same database connection is overridden.
-** ^The pArg argument is passed through to the callback.
-** ^If the callback on a commit hook function returns non-zero,
+** ^The pArg argument is passed through to the Callback.
+** ^If the Callback on a commit hook function returns non-zero,
 ** then the commit is converted into a rollback.
 **
 ** ^The sqlite3_commit_hook(D,C,P) and sqlite3_rollback_hook(D,C,P) functions
@@ -6524,8 +6524,8 @@ SQLITE_API sqlite3_stmt *sqlite3_next_stmt(sqlite3 *pDb, sqlite3_stmt *pStmt);
 ** the first call for each function on D.
 **
 ** The commit and rollback hook callbacks are not reentrant.
-** The callback implementation must not do anything that will modify
-** the database connection that invoked the callback.  Any actions
+** The Callback implementation must not do anything that will modify
+** the database connection that invoked the Callback.  Any actions
 ** to modify the database connection must be deferred until after the
 ** completion of the [sqlite3_step()] call that triggered the commit
 ** or rollback hook in the first place.
@@ -6533,9 +6533,9 @@ SQLITE_API sqlite3_stmt *sqlite3_next_stmt(sqlite3 *pDb, sqlite3_stmt *pStmt);
 ** or merely calling [sqlite3_prepare_v2()] and [sqlite3_step()] will modify
 ** the database connections for the meaning of "modify" in this paragraph.
 **
-** ^Registering a NULL function disables the callback.
+** ^Registering a NULL function disables the Callback.
 **
-** ^When the commit hook callback routine returns zero, the [COMMIT]
+** ^When the commit hook Callback routine returns zero, the [COMMIT]
 ** operation is allowed to continue normally.  ^If the commit hook
 ** returns non-zero, then the [COMMIT] is converted into a [ROLLBACK].
 ** ^The rollback hook is invoked on a rollback that results from a commit
@@ -6544,7 +6544,7 @@ SQLITE_API sqlite3_stmt *sqlite3_next_stmt(sqlite3 *pDb, sqlite3_stmt *pStmt);
 ** ^For the purposes of this API, a transaction is said to have been
 ** rolled back if an explicit "ROLLBACK" statement is executed, or
 ** an error or constraint causes an implicit rollback to occur.
-** ^The rollback callback is not invoked if a transaction is
+** ^The rollback Callback is not invoked if a transaction is
 ** automatically rolled back because the database connection is closed.
 **
 ** See also the [sqlite3_update_hook()] interface.
@@ -6556,46 +6556,46 @@ SQLITE_API void *sqlite3_rollback_hook(sqlite3*, void(*)(void *), void*);
 ** CAPI3REF: Autovacuum Compaction Amount Callback
 ** METHOD: sqlite3
 **
-** ^The sqlite3_autovacuum_pages(D,C,P,X) interface registers a callback
+** ^The sqlite3_autovacuum_pages(D,C,P,X) interface registers a Callback
 ** function C that is invoked prior to each autovacuum of the database
-** file.  ^The callback is passed a copy of the generic data pointer (P),
+** file.  ^The Callback is passed a copy of the generic data pointer (P),
 ** the schema-name of the attached database that is being autovacuumed,
 ** the size of the database file in pages, the number of free pages,
-** and the number of bytes per page, respectively.  The callback should
+** and the number of bytes per page, respectively.  The Callback should
 ** return the number of free pages that should be removed by the
-** autovacuum.  ^If the callback returns zero, then no autovacuum happens.
+** autovacuum.  ^If the Callback returns zero, then no autovacuum happens.
 ** ^If the value returned is greater than or equal to the number of
 ** free pages, then a complete autovacuum happens.
 **
 ** <p>^If there are multiple ATTACH-ed database files that are being
 ** modified as part of a transaction commit, then the autovacuum pages
-** callback is invoked separately for each file.
+** Callback is invoked separately for each file.
 **
-** <p><b>The callback is not reentrant.</b> The callback function should
+** <p><b>The Callback is not reentrant.</b> The Callback function should
 ** not attempt to invoke any other SQLite interface.  If it does, bad
 ** things may happen, including segmentation faults and corrupt database
-** files.  The callback function should be a simple function that
+** files.  The Callback function should be a simple function that
 ** does some arithmetic on its input parameters and returns a result.
 **
 ** ^The X parameter to sqlite3_autovacuum_pages(D,C,P,X) is an optional
 ** destructor for the P parameter.  ^If X is not NULL, then X(P) is
-** invoked whenever the database connection closes or when the callback
+** invoked whenever the database connection closes or when the Callback
 ** is overwritten by another invocation of sqlite3_autovacuum_pages().
 **
-** <p>^There is only one autovacuum pages callback per database connection.
+** <p>^There is only one autovacuum pages Callback per database connection.
 ** ^Each call to the sqlite3_autovacuum_pages() interface overrides all
-** previous invocations for that database connection.  ^If the callback
+** previous invocations for that database connection.  ^If the Callback
 ** argument (C) to sqlite3_autovacuum_pages(D,C,P,X) is a NULL pointer,
-** then the autovacuum steps callback is cancelled.  The return value
+** then the autovacuum steps Callback is cancelled.  The return value
 ** from sqlite3_autovacuum_pages() is normally SQLITE_OK, but might
 ** be some other error code if something goes wrong.  The current
 ** implementation will only return SQLITE_OK or SQLITE_MISUSE, but other
 ** return codes might be added in future releases.
 **
-** <p>If no autovacuum pages callback is specified (the usual case) or
-** a NULL pointer is provided for the callback,
+** <p>If no autovacuum pages Callback is specified (the usual case) or
+** a NULL pointer is provided for the Callback,
 ** then the default behavior is to vacuum all free pages.  So, in other
-** words, the default behavior is the same as if the callback function
+** words, the default behavior is the same as if the Callback function
 ** were something like this:
 **
 ** <blockquote><pre>
@@ -6622,23 +6622,23 @@ SQLITE_API int sqlite3_autovacuum_pages(
 ** CAPI3REF: Data Change Notification Callbacks
 ** METHOD: sqlite3
 **
-** ^The sqlite3_update_hook() interface registers a callback function
+** ^The sqlite3_update_hook() interface registers a Callback function
 ** with the [database connection] identified by the first argument
 ** to be invoked whenever a row is updated, inserted or deleted in
 ** a [rowid table].
-** ^Any callback set by a previous call to this function
+** ^Any Callback set by a previous call to this function
 ** for the same database connection is overridden.
 **
 ** ^The second argument is a pointer to the function to invoke when a
 ** row is updated, inserted or deleted in a rowid table.
-** ^The first argument to the callback is a copy of the third argument
+** ^The first argument to the Callback is a copy of the third argument
 ** to sqlite3_update_hook().
-** ^The second callback argument is one of [SQLITE_INSERT], [SQLITE_DELETE],
-** or [SQLITE_UPDATE], depending on the operation that caused the callback
+** ^The second Callback argument is one of [SQLITE_INSERT], [SQLITE_DELETE],
+** or [SQLITE_UPDATE], depending on the operation that caused the Callback
 ** to be invoked.
-** ^The third and fourth arguments to the callback contain pointers to the
+** ^The third and fourth arguments to the Callback contain pointers to the
 ** database and table name containing the affected row.
-** ^The final callback parameter is the [rowid] of the row.
+** ^The final Callback parameter is the [rowid] of the row.
 ** ^In the case of an update, this is the [rowid] after the update takes place.
 **
 ** ^(The update hook is not invoked when internal system tables are
@@ -9095,7 +9095,7 @@ SQLITE_API int sqlite3_backup_pagecount(sqlite3_backup *p);
 ** an [SQLITE_LOCKED] error if the required locks on the shared-cache or
 ** individual tables within the shared-cache cannot be obtained. See
 ** [SQLite Shared-Cache Mode] for a description of shared-cache locking.
-** ^This API may be used to register a callback that SQLite will invoke
+** ^This API may be used to register a Callback that SQLite will invoke
 ** when the connection currently holding the required lock relinquishes it.
 ** ^This API is only available if the library was compiled with the
 ** [SQLITE_ENABLE_UNLOCK_NOTIFY] C-preprocessor symbol defined.
@@ -9111,15 +9111,15 @@ SQLITE_API int sqlite3_backup_pagecount(sqlite3_backup *p);
 ** has locked the required resource is stored internally. ^After an
 ** application receives an SQLITE_LOCKED error, it may call the
 ** sqlite3_unlock_notify() method with the blocked connection handle as
-** the first argument to register for a callback that will be invoked
+** the first argument to register for a Callback that will be invoked
 ** when the blocking connections current transaction is concluded. ^The
-** callback is invoked from within the [sqlite3_step] or [sqlite3_close]
+** Callback is invoked from within the [sqlite3_step] or [sqlite3_close]
 ** call that concludes the blocking connection's transaction.
 **
 ** ^(If sqlite3_unlock_notify() is called in a multi-threaded application,
 ** there is a chance that the blocking connection will have already
 ** concluded its transaction by the time sqlite3_unlock_notify() is invoked.
-** If this happens, then the specified callback is invoked immediately,
+** If this happens, then the specified Callback is invoked immediately,
 ** from within the call to sqlite3_unlock_notify().)^
 **
 ** ^If the blocked connection is attempting to obtain a write-lock on a
@@ -9127,17 +9127,17 @@ SQLITE_API int sqlite3_backup_pagecount(sqlite3_backup *p);
 ** a read-lock on the same table, then SQLite arbitrarily selects one of
 ** the other connections to use as the blocking connection.
 **
-** ^(There may be at most one unlock-notify callback registered by a
+** ^(There may be at most one unlock-notify Callback registered by a
 ** blocked connection. If sqlite3_unlock_notify() is called when the
-** blocked connection already has a registered unlock-notify callback,
-** then the new callback replaces the old.)^ ^If sqlite3_unlock_notify() is
+** blocked connection already has a registered unlock-notify Callback,
+** then the new Callback replaces the old.)^ ^If sqlite3_unlock_notify() is
 ** called with a NULL pointer as its second argument, then any existing
-** unlock-notify callback is canceled. ^The blocked connections
-** unlock-notify callback may also be canceled by closing the blocked
+** unlock-notify Callback is canceled. ^The blocked connections
+** unlock-notify Callback may also be canceled by closing the blocked
 ** connection using [sqlite3_close()].
 **
-** The unlock-notify callback is not reentrant. If an application invokes
-** any sqlite3_xxx API functions from within an unlock-notify callback, a
+** The unlock-notify Callback is not reentrant. If an application invokes
+** any sqlite3_xxx API functions from within an unlock-notify Callback, a
 ** crash or deadlock may be the result.
 **
 ** ^Unless deadlock is detected (see below), sqlite3_unlock_notify() always
@@ -9145,17 +9145,17 @@ SQLITE_API int sqlite3_backup_pagecount(sqlite3_backup *p);
 **
 ** <b>Callback Invocation Details</b>
 **
-** When an unlock-notify callback is registered, the application provides a
-** single void* pointer that is passed to the callback when it is invoked.
-** However, the signature of the callback function allows SQLite to pass
+** When an unlock-notify Callback is registered, the application provides a
+** single void* pointer that is passed to the Callback when it is invoked.
+** However, the signature of the Callback function allows SQLite to pass
 ** it an array of void* context pointers. The first argument passed to
-** an unlock-notify callback is a pointer to an array of void* pointers,
+** an unlock-notify Callback is a pointer to an array of void* pointers,
 ** and the second is the number of entries in the array.
 **
 ** When a blocking connection's transaction is concluded, there may be
 ** more than one blocked connection that has registered for an unlock-notify
-** callback. ^If two or more such blocked connections have specified the
-** same callback function, then instead of invoking the callback function
+** Callback. ^If two or more such blocked connections have specified the
+** same Callback function, then instead of invoking the Callback function
 ** multiple times, it is invoked once with the set of void* context pointers
 ** specified by the blocked connections bundled together into an array.
 ** This gives the application an opportunity to prioritize any actions
@@ -9163,8 +9163,8 @@ SQLITE_API int sqlite3_backup_pagecount(sqlite3_backup *p);
 **
 ** <b>Deadlock Detection</b>
 **
-** Assuming that after registering for an unlock-notify callback a
-** database waits for the callback to be issued before taking any further
+** Assuming that after registering for an unlock-notify Callback a
+** database waits for the Callback to be issued before taking any further
 ** action (a reasonable assumption), then using this API may cause the
 ** application to deadlock. For example, if connection X is waiting for
 ** connection Y's transaction to be concluded, and similarly connection
@@ -9174,13 +9174,13 @@ SQLITE_API int sqlite3_backup_pagecount(sqlite3_backup *p);
 ** To avoid this scenario, the sqlite3_unlock_notify() performs deadlock
 ** detection. ^If a given call to sqlite3_unlock_notify() would put the
 ** system in a deadlocked state, then SQLITE_LOCKED is returned and no
-** unlock-notify callback is registered. The system is said to be in
+** unlock-notify Callback is registered. The system is said to be in
 ** a deadlocked state if connection A has registered for an unlock-notify
-** callback on the conclusion of connection B's transaction, and connection
-** B has itself registered for an unlock-notify callback when connection
+** Callback on the conclusion of connection B's transaction, and connection
+** B has itself registered for an unlock-notify Callback when connection
 ** A's transaction is concluded. ^Indirect deadlock is also detected, so
 ** the system is also considered to be deadlocked if connection B has
-** registered for an unlock-notify callback on the conclusion of connection
+** registered for an unlock-notify Callback on the conclusion of connection
 ** C's transaction, where connection C is waiting on connection A. ^Any
 ** number of levels of indirection are allowed.
 **
@@ -9192,7 +9192,7 @@ SQLITE_API int sqlite3_backup_pagecount(sqlite3_backup *p);
 ** SQLite checks if there are any currently executing SELECT statements
 ** that belong to the same connection. If there are, SQLITE_LOCKED is
 ** returned. In this case there is no "blocking connection", so invoking
-** sqlite3_unlock_notify() results in the unlock-notify callback being
+** sqlite3_unlock_notify() results in the unlock-notify Callback being
 ** invoked immediately. If the application then re-attempts the "DROP TABLE"
 ** or "DROP INDEX" query, an infinite loop might be the result.
 **
@@ -9287,32 +9287,32 @@ SQLITE_API void sqlite3_log(int iErrCode, const char *zFormat, ...);
 ** CAPI3REF: Write-Ahead Log Commit Hook
 ** METHOD: sqlite3
 **
-** ^The [sqlite3_wal_hook()] function is used to register a callback that
+** ^The [sqlite3_wal_hook()] function is used to register a Callback that
 ** is invoked each time data is committed to a database in wal mode.
 **
-** ^(The callback is invoked by SQLite after the commit has taken place and
+** ^(The Callback is invoked by SQLite after the commit has taken place and
 ** the associated write-lock on the database released)^, so the implementation
 ** may read, write or [checkpoint] the database as required.
 **
-** ^The first parameter passed to the callback function when it is invoked
+** ^The first parameter passed to the Callback function when it is invoked
 ** is a copy of the third parameter passed to sqlite3_wal_hook() when
-** registering the callback. ^The second is a copy of the database handle.
+** registering the Callback. ^The second is a copy of the database handle.
 ** ^The third parameter is the name of the database that was written to -
 ** either "main" or the name of an [ATTACH]-ed database. ^The fourth parameter
 ** is the number of pages currently in the write-ahead log file,
 ** including those that were just committed.
 **
-** The callback function should normally return [SQLITE_OK].  ^If an error
+** The Callback function should normally return [SQLITE_OK].  ^If an error
 ** code is returned, that error will propagate back up through the
-** SQLite code base to cause the statement that provoked the callback
+** SQLite code base to cause the statement that provoked the Callback
 ** to report an error, though the commit will have still occurred. If the
-** callback returns [SQLITE_ROW] or [SQLITE_DONE], or if it returns a value
+** Callback returns [SQLITE_ROW] or [SQLITE_DONE], or if it returns a value
 ** that does not correspond to any valid SQLite error code, the results
 ** are undefined.
 **
-** A single database handle may have at most a single write-ahead log callback
+** A single database handle may have at most a single write-ahead log Callback
 ** registered at one time. ^Calling [sqlite3_wal_hook()] replaces any
-** previously registered write-ahead log callback. ^The return value is
+** previously registered write-ahead log Callback. ^The return value is
 ** a copy of the third parameter from the previous call, if any, or 0.
 ** ^Note that the [sqlite3_wal_autocheckpoint()] interface and the
 ** [wal_autocheckpoint pragma] both invoke [sqlite3_wal_hook()] and will
@@ -9336,8 +9336,8 @@ SQLITE_API void *sqlite3_wal_hook(
 ** a negative value as the nFrame parameter disables automatic
 ** checkpoints entirely.
 **
-** ^The callback registered by this function replaces any existing callback
-** registered using [sqlite3_wal_hook()].  ^Likewise, registering a callback
+** ^The Callback registered by this function replaces any existing Callback
+** registered using [sqlite3_wal_hook()].  ^Likewise, registering a Callback
 ** using [sqlite3_wal_hook()] disables the automatic checkpoint mechanism
 ** configured by this function.
 **
@@ -9372,7 +9372,7 @@ SQLITE_API int sqlite3_wal_autocheckpoint(sqlite3 *db, int N);
 ** occur.  But then the newer and more powerful [sqlite3_wal_checkpoint_v2()]
 ** interface was added.  This interface is retained for backwards
 ** compatibility and as a convenience for applications that need to manually
-** start a callback but which do not need the full power (and corresponding
+** start a Callback but which do not need the full power (and corresponding
 ** complication) of [sqlite3_wal_checkpoint_v2()].
 */
 SQLITE_API int sqlite3_wal_checkpoint(sqlite3 *db, const char *zDb);
@@ -9390,14 +9390,14 @@ SQLITE_API int sqlite3_wal_checkpoint(sqlite3 *db, const char *zDb);
 ** <dt>SQLITE_CHECKPOINT_PASSIVE<dd>
 **   ^Checkpoint as many frames as possible without waiting for any database
 **   readers or writers to finish, then sync the database file if all frames
-**   in the log were checkpointed. ^The [busy-handler callback]
+**   in the log were checkpointed. ^The [busy-handler Callback]
 **   is never invoked in the SQLITE_CHECKPOINT_PASSIVE mode.
 **   ^On the other hand, passive mode might leave the checkpoint unfinished
 **   if there are concurrent readers or writers.
 **
 ** <dt>SQLITE_CHECKPOINT_FULL<dd>
 **   ^This mode blocks (it invokes the
-**   [sqlite3_busy_handler|busy-handler callback]) until there is no
+**   [sqlite3_busy_handler|busy-handler Callback]) until there is no
 **   database writer and all readers are reading from the most recent database
 **   snapshot. ^It then checkpoints all frames in the log file and syncs the
 **   database file. ^This mode blocks new database writers while it is pending,
@@ -9406,7 +9406,7 @@ SQLITE_API int sqlite3_wal_checkpoint(sqlite3 *db, const char *zDb);
 ** <dt>SQLITE_CHECKPOINT_RESTART<dd>
 **   ^This mode works the same way as SQLITE_CHECKPOINT_FULL with the addition
 **   that after checkpointing the log file it blocks (calls the
-**   [busy-handler callback])
+**   [busy-handler Callback])
 **   until all readers are reading from the database file only. ^This ensures
 **   that the next writer will restart the log file from the beginning.
 **   ^Like SQLITE_CHECKPOINT_FULL, this mode blocks new
@@ -9547,7 +9547,7 @@ SQLITE_API int sqlite3_vtab_config(sqlite3*, int op, ...);
 ** must do so within the [xUpdate] method. If a call to the
 ** [sqlite3_vtab_on_conflict()] function indicates that the current ON
 ** CONFLICT policy is REPLACE, the virtual table implementation should
-** silently replace the appropriate rows within the xUpdate callback and
+** silently replace the appropriate rows within the xUpdate Callback and
 ** return SQLITE_OK. Or, if this is not possible, it may return
 ** SQLITE_CONSTRAINT, in which case SQLite falls back to OR ABORT
 ** constraint handling.
@@ -9895,11 +9895,11 @@ SQLITE_API int sqlite3_vtab_rhs_value(sqlite3_index_info*, int, sqlite3_value **
 ** is for the SQL statement being evaluated.
 **
 ** Note that the [SQLITE_IGNORE] constant is also used as a potential
-** return value from the [sqlite3_set_authorizer()] callback and that
+** return value from the [sqlite3_set_authorizer()] Callback and that
 ** [SQLITE_ABORT] is also a [result code].
 */
 #define SQLITE_ROLLBACK 1
-/* #define SQLITE_IGNORE 2 // Also used by sqlite3_authorizer() callback */
+/* #define SQLITE_IGNORE 2 // Also used by sqlite3_authorizer() Callback */
 #define SQLITE_FAIL     3
 /* #define SQLITE_ABORT 4  // Also an error code */
 #define SQLITE_REPLACE  5
@@ -10059,7 +10059,7 @@ SQLITE_API void sqlite3_stmt_scanstatus_reset(sqlite3_stmt*);
 **
 ** ^If this function needs to obtain extra database locks before dirty pages
 ** can be flushed to disk, it does so. ^If those locks cannot be obtained
-** immediately and there is a busy-handler callback configured, it is invoked
+** immediately and there is a busy-handler Callback configured, it is invoked
 ** in the usual manner. ^If the required lock still cannot be obtained, then
 ** the database is skipped and an attempt made to flush any dirty pages
 ** belonging to the next (if any) database. ^If any databases are skipped
@@ -10084,7 +10084,7 @@ SQLITE_API int sqlite3_db_cacheflush(sqlite3*);
 ** ^These interfaces are only available if SQLite is compiled using the
 ** [SQLITE_ENABLE_PREUPDATE_HOOK] compile-time option.
 **
-** ^The [sqlite3_preupdate_hook()] interface registers a callback function
+** ^The [sqlite3_preupdate_hook()] interface registers a Callback function
 ** that is invoked prior to each [INSERT], [UPDATE], and [DELETE] operation
 ** on a database table.
 ** ^At most one preupdate hook may be registered at a time on a single
@@ -10099,26 +10099,26 @@ SQLITE_API int sqlite3_db_cacheflush(sqlite3*);
 ** preupdate hook is not invoked for changes to [virtual tables] or to
 ** system tables like sqlite_sequence or sqlite_stat1.
 **
-** ^The second parameter to the preupdate callback is a pointer to
+** ^The second parameter to the preupdate Callback is a pointer to
 ** the [database connection] that registered the preupdate hook.
-** ^The third parameter to the preupdate callback is one of the constants
+** ^The third parameter to the preupdate Callback is one of the constants
 ** [SQLITE_INSERT], [SQLITE_DELETE], or [SQLITE_UPDATE] to identify the
 ** kind of update operation that is about to occur.
-** ^(The fourth parameter to the preupdate callback is the name of the
+** ^(The fourth parameter to the preupdate Callback is the name of the
 ** database within the database connection that is being modified.  This
 ** will be "main" for the main database or "temp" for TEMP tables or
 ** the name given after the AS keyword in the [ATTACH] statement for attached
 ** databases.)^
-** ^The fifth parameter to the preupdate callback is the name of the
+** ^The fifth parameter to the preupdate Callback is the name of the
 ** table that is being modified.
 **
 ** For an UPDATE or DELETE operation on a [rowid table], the sixth
-** parameter passed to the preupdate callback is the initial [rowid] of the
+** parameter passed to the preupdate Callback is the initial [rowid] of the
 ** row being modified or deleted. For an INSERT operation on a rowid table,
 ** or any operation on a WITHOUT ROWID table, the value of the sixth
 ** parameter is undefined. For an INSERT or UPDATE on a rowid table the
 ** seventh parameter is the final rowid value of the row being inserted
-** or updated. The value of the seventh parameter passed to the callback
+** or updated. The value of the seventh parameter passed to the Callback
 ** function is not defined for operations on WITHOUT ROWID tables, or for
 ** DELETE operations on rowid tables.
 **
@@ -10129,10 +10129,10 @@ SQLITE_API int sqlite3_db_cacheflush(sqlite3*);
 ** The [sqlite3_preupdate_old()], [sqlite3_preupdate_new()],
 ** [sqlite3_preupdate_count()], and [sqlite3_preupdate_depth()] interfaces
 ** provide additional information about a preupdate event. These routines
-** may only be called from within a preupdate callback.  Invoking any of
-** these routines from outside of a preupdate callback or with a
+** may only be called from within a preupdate Callback.  Invoking any of
+** these routines from outside of a preupdate Callback or with a
 ** [database connection] pointer that is different from the one supplied
-** to the preupdate callback results in undefined and probably undesirable
+** to the preupdate Callback results in undefined and probably undesirable
 ** behavior.
 **
 ** ^The [sqlite3_preupdate_count(D)] interface returns the number of columns
@@ -10143,21 +10143,21 @@ SQLITE_API int sqlite3_db_cacheflush(sqlite3*);
 ** the table row before it is updated.  The N parameter must be between 0
 ** and one less than the number of columns or the behavior will be
 ** undefined. This must only be used within SQLITE_UPDATE and SQLITE_DELETE
-** preupdate callbacks; if it is used by an SQLITE_INSERT callback then the
+** preupdate callbacks; if it is used by an SQLITE_INSERT Callback then the
 ** behavior is undefined.  The [sqlite3_value] that P points to
-** will be destroyed when the preupdate callback returns.
+** will be destroyed when the preupdate Callback returns.
 **
 ** ^The [sqlite3_preupdate_new(D,N,P)] interface writes into P a pointer to
 ** a [protected sqlite3_value] that contains the value of the Nth column of
 ** the table row after it is updated.  The N parameter must be between 0
 ** and one less than the number of columns or the behavior will be
 ** undefined. This must only be used within SQLITE_INSERT and SQLITE_UPDATE
-** preupdate callbacks; if it is used by an SQLITE_DELETE callback then the
+** preupdate callbacks; if it is used by an SQLITE_DELETE Callback then the
 ** behavior is undefined.  The [sqlite3_value] that P points to
-** will be destroyed when the preupdate callback returns.
+** will be destroyed when the preupdate Callback returns.
 **
 ** ^The [sqlite3_preupdate_depth(D)] interface returns 0 if the preupdate
-** callback was invoked as a result of a direct insert, update, or delete
+** Callback was invoked as a result of a direct insert, update, or delete
 ** operation; or 1 for inserts, updates, or deletes invoked by top-level
 ** triggers; or 2 for changes resulting from triggers called by top-level
 ** triggers; and so forth.
@@ -10165,7 +10165,7 @@ SQLITE_API int sqlite3_db_cacheflush(sqlite3*);
 ** When the [sqlite3_blob_write()] API is used to update a blob column,
 ** the pre-update hook is invoked with SQLITE_DELETE. This is because the
 ** in this case the new values are not available. In this case, when a
-** callback made with op==SQLITE_DELETE is actuall a write using the
+** Callback made with op==SQLITE_DELETE is actuall a write using the
 ** sqlite3_blob_write() API, the [sqlite3_preupdate_blobwrite()] returns
 ** the index of the column being written. In other cases, where the
 ** pre-update hook is being invoked for some other reason, including a
@@ -10584,7 +10584,7 @@ typedef struct sqlite3_rtree_query_info sqlite3_rtree_query_info;
 #endif
 
 /*
-** Register a geometry callback named zGeom that can be used as part of an
+** Register a geometry Callback named zGeom that can be used as part of an
 ** R-Tree geometry query as follows:
 **
 **   SELECT ... FROM <rtree> WHERE <rtree col> MATCH $zGeom(... params ...)
@@ -10610,7 +10610,7 @@ struct sqlite3_rtree_geometry {
 };
 
 /*
-** Register a 2nd-generation geometry callback named zScore that can be
+** Register a 2nd-generation geometry Callback named zScore that can be
 ** used as part of an R-Tree geometry query as follows:
 **
 **   SELECT ... FROM <rtree> WHERE <rtree col> MATCH $zQueryFunc(... params ...)
@@ -10626,7 +10626,7 @@ SQLITE_API int sqlite3_rtree_query_callback(
 
 /*
 ** A pointer to a structure of the following type is passed as the
-** argument to scored geometry callback registered using
+** argument to scored geometry Callback registered using
 ** sqlite3_rtree_query_callback().
 **
 ** Note that the first 5 fields of this structure are identical to
@@ -10637,7 +10637,7 @@ struct sqlite3_rtree_query_info {
   void *pContext;                   /* pContext from when function registered */
   int nParam;                       /* Number of function parameters */
   sqlite3_rtree_dbl *aParam;        /* value of function parameters */
-  void *pUser;                      /* callback can use this, if desired */
+  void *pUser;                      /* Callback can use this, if desired */
   void (*xDelUser)(void*);          /* function to free pUser */
   sqlite3_rtree_dbl *aCoord;        /* Coordinates of node or entry to check */
   unsigned int *anQueue;            /* Number of pending entries in the queue */
@@ -10882,7 +10882,7 @@ SQLITE_API int sqlite3session_indirect(sqlite3_session *pSession, int bIndirect)
 ** table. However, if the application calls sqlite3changeset_new(),
 ** sqlite3changeset_old() or sqlite3changeset_conflict on a changeset
 ** iterator directly (including on a changeset iterator passed to a
-** conflict-handler callback) then the X'' value is returned. The application
+** conflict-handler Callback) then the X'' value is returned. The application
 ** must translate X'' to NULL itself if required.
 **
 ** Legacy (older than 3.22.0) versions of the sessions module cannot capture
@@ -10899,7 +10899,7 @@ SQLITE_API int sqlite3session_attach(
 ** CAPI3REF: Set a table filter on a Session Object.
 ** METHOD: sqlite3_session
 **
-** The second argument (xFilter) is the "filter callback". For changes to rows
+** The second argument (xFilter) is the "filter Callback". For changes to rows
 ** in tables that are not attached to the Session object, the filter is called
 ** to determine whether changes to the table's rows should be tracked or not.
 ** If xFilter returns 0, changes are not tracked. Note that once a table is
@@ -11239,7 +11239,7 @@ SQLITE_API int sqlite3changeset_start_v2(
 **
 ** This function may only be used with iterators created by the function
 ** [sqlite3changeset_start()]. If it is called on an iterator passed to
-** a conflict-handler callback by [sqlite3changeset_apply()], SQLITE_MISUSE
+** a conflict-handler Callback by [sqlite3changeset_apply()], SQLITE_MISUSE
 ** is returned and the call has no effect.
 **
 ** Immediately after an iterator is created by sqlite3changeset_start(), it
@@ -11400,7 +11400,7 @@ SQLITE_API int sqlite3changeset_new(
 ** METHOD: sqlite3_changeset_iter
 **
 ** This function should only be used with iterator objects passed to a
-** conflict-handler callback by [sqlite3changeset_apply()] with either
+** conflict-handler Callback by [sqlite3changeset_apply()] with either
 ** [SQLITE_CHANGESET_DATA] or [SQLITE_CHANGESET_CONFLICT]. If this function
 ** is called on any other iterator, [SQLITE_MISUSE] is returned and *ppValue
 ** is set to NULL.
@@ -11411,7 +11411,7 @@ SQLITE_API int sqlite3changeset_new(
 **
 ** If successful, this function sets *ppValue to point to a protected
 ** sqlite3_value object containing the iVal'th value from the
-** "conflicting row" associated with the current conflict-handler callback
+** "conflicting row" associated with the current conflict-handler Callback
 ** and returns SQLITE_OK.
 **
 ** If some other error occurs (e.g. an OOM condition), an SQLite error code
@@ -11428,7 +11428,7 @@ SQLITE_API int sqlite3changeset_conflict(
 ** METHOD: sqlite3_changeset_iter
 **
 ** This function may only be called with an iterator passed to an
-** SQLITE_CHANGESET_FOREIGN_KEY conflict handler callback. In this case
+** SQLITE_CHANGESET_FOREIGN_KEY conflict handler Callback. In this case
 ** it sets the output variable to the total number of known foreign key
 ** violations in the destination database and returns SQLITE_OK.
 **
@@ -11710,15 +11710,15 @@ SQLITE_API void sqlite3changegroup_delete(sqlite3_changegroup*);
 ** the changeset passed via the second and third arguments.
 **
 ** The fourth argument (xFilter) passed to these functions is the "filter
-** callback". If it is not NULL, then for each table affected by at least one
-** change in the changeset, the filter callback is invoked with
+** Callback". If it is not NULL, then for each table affected by at least one
+** change in the changeset, the filter Callback is invoked with
 ** the table name as the second argument, and a copy of the context pointer
-** passed as the sixth argument as the first. If the "filter callback"
+** passed as the sixth argument as the first. If the "filter Callback"
 ** returns zero, then no attempt is made to apply any changes to the table.
 ** Otherwise, if the return value is non-zero or the xFilter argument to
 ** is NULL, all changes related to the table are attempted.
 **
-** For each table that is not excluded by the filter callback, this function
+** For each table that is not excluded by the filter Callback, this function
 ** tests that the target database contains a compatible table. A table is
 ** considered compatible if all of the following are true:
 **
@@ -11818,7 +11818,7 @@ SQLITE_API void sqlite3changegroup_delete(sqlite3_changegroup*);
 **   is invoked with [SQLITE_CHANGESET_DATA] as the second argument. Since
 **   UPDATE changes only contain values for non-primary key fields that are
 **   to be modified, only those fields need to match the original values to
-**   avoid the SQLITE_CHANGESET_DATA conflict-handler callback.
+**   avoid the SQLITE_CHANGESET_DATA conflict-handler Callback.
 **
 **   If no row with matching primary key values is found in the database,
 **   the conflict-handler function is invoked with [SQLITE_CHANGESET_NOTFOUND]
@@ -11833,7 +11833,7 @@ SQLITE_API void sqlite3changegroup_delete(sqlite3_changegroup*);
 ** </dl>
 **
 ** It is safe to execute SQL statements, including those that write to the
-** table that the callback related to, from within the xConflict callback.
+** table that the Callback related to, from within the xConflict Callback.
 ** This can be used to further customize the application's conflict
 ** resolution strategy.
 **
@@ -11981,7 +11981,7 @@ SQLITE_API int sqlite3changeset_apply_v2(
 /*
 ** CAPI3REF: Constants Returned By The Conflict Handler
 **
-** A conflict handler callback must return one of the following three values.
+** A conflict handler Callback must return one of the following three values.
 **
 ** <dl>
 ** <dt>SQLITE_CHANGESET_OMIT<dd>
@@ -12194,7 +12194,7 @@ SQLITE_API void sqlite3rebaser_delete(sqlite3_rebaser *p);
 ** large contiguous memory allocations required can become onerous.
 **
 ** In order to avoid this problem, instead of a single large buffer, input
-** is passed to a streaming API functions by way of a callback function that
+** is passed to a streaming API functions by way of a Callback function that
 ** the sessions module invokes to incrementally request input data as it is
 ** required. In all cases, a pair of API function parameters such as
 **
@@ -12210,25 +12210,25 @@ SQLITE_API void sqlite3rebaser_delete(sqlite3_rebaser *p);
 **  &nbsp;     void *pIn,
 **  </pre>
 **
-** Each time the xInput callback is invoked by the sessions module, the first
+** Each time the xInput Callback is invoked by the sessions module, the first
 ** argument passed is a copy of the supplied pIn context pointer. The second
 ** argument, pData, points to a buffer (*pnData) bytes in size. Assuming no
 ** error occurs the xInput method should copy up to (*pnData) bytes of data
 ** into the buffer and set (*pnData) to the actual number of bytes copied
 ** before returning SQLITE_OK. If the input is completely exhausted, (*pnData)
 ** should be set to zero to indicate this. Or, if an error occurs, an SQLite
-** error code should be returned. In all cases, if an xInput callback returns
+** error code should be returned. In all cases, if an xInput Callback returns
 ** an error, all processing is abandoned and the streaming API function
 ** returns a copy of the error code to the caller.
 **
-** In the case of sqlite3changeset_start_strm(), the xInput callback may be
+** In the case of sqlite3changeset_start_strm(), the xInput Callback may be
 ** invoked by the sessions module at any point during the lifetime of the
-** iterator. If such an xInput callback returns an error, the iterator enters
+** iterator. If such an xInput Callback returns an error, the iterator enters
 ** an error state, whereby all subsequent calls to iterator functions
 ** immediately fail with the same error code as returned by xInput.
 **
 ** Similarly, streaming API functions that return changesets (or patchsets)
-** return them in chunks by way of a callback function instead of via a
+** return them in chunks by way of a Callback function instead of via a
 ** pointer to a single large buffer. In this case, a pair of parameters such
 ** as:
 **
@@ -12244,17 +12244,17 @@ SQLITE_API void sqlite3rebaser_delete(sqlite3_rebaser *p);
 **  &nbsp;     void *pOut
 **  </pre>
 **
-** The xOutput callback is invoked zero or more times to return data to
+** The xOutput Callback is invoked zero or more times to return data to
 ** the application. The first parameter passed to each call is a copy of the
 ** pOut pointer supplied by the application. The second parameter, pData,
 ** points to a buffer nData bytes in size containing the chunk of output
-** data being returned. If the xOutput callback successfully processes the
+** data being returned. If the xOutput Callback successfully processes the
 ** supplied data, it should return SQLITE_OK to indicate success. Otherwise,
 ** it should return some other SQLite error code. In this case processing
 ** is immediately abandoned and the streaming API function returns a copy
 ** of the xOutput error code to the application.
 **
-** The sessions module never invokes an xOutput callback with the third
+** The sessions module never invokes an xOutput Callback with the third
 ** parameter set to a value less than or equal to zero. Other than this,
 ** no guarantees are made as to the size of the chunks of data returned.
 */
@@ -12534,20 +12534,20 @@ struct Fts5PhraseIter {
 **   with $p set to a phrase equivalent to the phrase iPhrase of the
 **   current query is executed. Any column filter that applies to
 **   phrase iPhrase of the current query is included in $p. For each
-**   row visited, the callback function passed as the fourth argument
-**   is invoked. The context and API objects passed to the callback
+**   row visited, the Callback function passed as the fourth argument
+**   is invoked. The context and API objects passed to the Callback
 **   function may be used to access the properties of each matched row.
 **   Invoking Api.xUserData() returns a copy of the pointer passed as
 **   the third argument to pUserData.
 **
-**   If the callback function returns any value other than SQLITE_OK, the
+**   If the Callback function returns any value other than SQLITE_OK, the
 **   query is abandoned and the xQueryPhrase function returns immediately.
 **   If the returned value is SQLITE_DONE, xQueryPhrase returns SQLITE_OK.
 **   Otherwise, the error code is propagated upwards.
 **
 **   If the query runs to completion without incident, SQLITE_OK is returned.
 **   Or, if some error occurs before the query completes or is aborted by
-**   the callback, an SQLite error code is returned.
+**   the Callback, an SQLite error code is returned.
 **
 **
 ** xSetAuxdata(pFts5, pAux, xDelete)
@@ -12563,11 +12563,11 @@ struct Fts5PhraseIter {
 **   single auxiliary data context.
 **
 **   If there is already an auxiliary data pointer when this function is
-**   invoked, then it is replaced by the new pointer. If an xDelete callback
+**   invoked, then it is replaced by the new pointer. If an xDelete Callback
 **   was specified along with the original pointer, it is invoked at this
 **   point.
 **
-**   The xDelete callback, if one is specified, is also invoked on the
+**   The xDelete Callback, if one is specified, is also invoked on the
 **   auxiliary data pointer after the FTS5 query has finished.
 **
 **   If an error (e.g. an OOM condition) occurs within this function,
@@ -12759,7 +12759,7 @@ struct Fts5ExtensionApi {
 **            on a columnsize=0 database.
 **   </ul>
 **
-**   For each token in the input string, the supplied callback xToken() must
+**   For each token in the input string, the supplied Callback xToken() must
 **   be invoked. The first argument to it should be a copy of the pointer
 **   passed as the second argument to xTokenize(). The third and fourth
 **   arguments are a pointer to a buffer containing the token text, and the
@@ -12767,14 +12767,14 @@ struct Fts5ExtensionApi {
 **   of the first byte of and first byte immediately following the text from
 **   which the token is derived within the input.
 **
-**   The second argument passed to the xToken() callback ("tflags") should
+**   The second argument passed to the xToken() Callback ("tflags") should
 **   normally be set to 0. The exception is if the tokenizer supports
 **   synonyms. In this case see the discussion below for details.
 **
-**   FTS5 assumes the xToken() callback is invoked for each token in the
+**   FTS5 assumes the xToken() Callback is invoked for each token in the
 **   order that they occur within the input text.
 **
-**   If an xToken() callback returns any value other than SQLITE_OK, then
+**   If an xToken() Callback returns any value other than SQLITE_OK, then
 **   the tokenization should be abandoned and the xTokenize() method should
 **   immediately return a copy of the xToken() return value. Or, if the
 **   input buffer is exhausted, xTokenize() should return SQLITE_OK. Finally,
@@ -12916,7 +12916,7 @@ struct fts5_tokenizer {
 #define FTS5_TOKENIZE_AUX       0x0008
 
 /* Flags that may be passed by the tokenizer implementation back to FTS5
-** as the third argument to the supplied xToken callback. */
+** as the third argument to the supplied xToken Callback. */
 #define FTS5_TOKEN_COLOCATED    0x0001      /* Same position as prev. token */
 
 /*

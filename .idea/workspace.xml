@@ -29,6 +29,7 @@
       <config projectName="NNTU" targetName="4_SEM_10_Mainline_Callback_V2" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_V3" />
       <config projectName="NNTU" targetName="4_SEM_10_Mainline_Inductance_V2" />
+      <config projectName="NNTU" targetName="4_SEM_21_CB" />
       <config projectName="NNTU" targetName="4_SEM_43_Callback_V1" />
       <config projectName="NNTU" targetName="4_SEM_18_Mainline_Inductance" />
       <config projectName="NNTU" targetName="gmock" />
@@ -43,7 +44,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="21">
-      <change beforePath="$PROJECT_DIR$/4/21/Induction/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/21/Induction/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/21/Callback/application.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/21/Callback/application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/21/Callback/check_neighbour.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/21/Callback/check_neighbour.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/21/Callback/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/21/Callback/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/!lib/sqlite3/shell.c" beforeDir="false" afterPath="$PROJECT_DIR$/!lib/sqlite3/shell.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/!lib/sqlite3/sqlite3.h" beforeDir="false" afterPath="$PROJECT_DIR$/!lib/sqlite3/sqlite3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/21/Induction/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/21/Induction/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googletest/docs/gmock_cook_book.md" beforeDir="false" afterPath="$PROJECT_DIR$/googletest/docs/gmock_cook_book.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googletest/googlemock/include/gmock/gmock-matchers.h" beforeDir="false" afterPath="$PROJECT_DIR$/googletest/googlemock/include/gmock/gmock-matchers.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googletest/googlemock/include/gmock/gmock-more-actions.h" beforeDir="false" afterPath="$PROJECT_DIR$/googletest/googlemock/include/gmock/gmock-more-actions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googletest/googlemock/include/gmock/gmock-spec-builders.h" beforeDir="false" afterPath="$PROJECT_DIR$/googletest/googlemock/include/gmock/gmock-spec-builders.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googletest/googlemock/test/gmock_link_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/googletest/googlemock/test/gmock_link_test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googletest/googletest/test/googletest-failfast-unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/googletest/googletest/test/googletest-failfast-unittest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +182,7 @@
     "CMake Application.4_SEM_1_Mainline_Inductance_V3.executor": "Run",
     "CMake Application.4_SEM_1_Mainline_Induction.executor": "Run",
     "CMake Application.4_SEM_1_Mainline_Induction_V2.executor": "Run",
+    "CMake Application.4_SEM_21_CB.executor": "Run",
     "CMake Application.4_SEM_21_IND.executor": "Run",
     "CMake Application.4_SEM_41_2_Mainline.executor": "Run",
     "CMake Application.4_SEM_41_3_Mainline.executor": "Debug",
@@ -222,7 +240,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/4/1/Callback/V3",
+    "last_opened_file_path": "E:/Git/NNTU_INF/4/21/callback",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -242,21 +260,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\NNTU_INF\4\21\callback" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\1\Callback\V3" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\1\Callback\V2" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\1\Inductance\V3" />
       <recent name="E:\Git\NNTU_INF\4\13" />
-      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\41" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\NNTU_INF\4\21" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\1\Callback\V1" />
       <recent name="E:\Git\NNTU_INF\4\1\Inductance\V1" />
       <recent name="E:\Git\NNTU_INF\4\10\callback\V1" />
       <recent name="E:\Git\NNTU_INF\4\10\Inductance\V1" />
-      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\13\Callback\V1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_21_IND">
+  <component name="RunManager" selected="CMake Application.4_SEM_21_CB">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -331,6 +349,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="4_SEM_21_CB" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/21/Callback/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_21_CB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_21_CB">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="4_SEM_21_IND" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/4/21/Induction/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_21_IND" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_21_IND">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -400,6 +423,7 @@
       <item itemvalue="CMake Application.4_SEM_18_Mainline_Inductance" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline_Callback_V3" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline_Inductance_V3" />
+      <item itemvalue="CMake Application.4_SEM_21_CB" />
       <item itemvalue="CMake Application.4_SEM_21_IND" />
       <item itemvalue="CMake Application.4_SEM_41_3_Mainline" />
       <item itemvalue="CMake Application.4_SEM_41_Callback_V3_Mainline" />
@@ -634,7 +658,7 @@
       <workItem from="1718528676411" duration="3412000" />
       <workItem from="1718554840704" duration="9723000" />
       <workItem from="1718611347268" duration="600000" />
-      <workItem from="1718625898455" duration="10829000" />
+      <workItem from="1718625898455" duration="11412000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -979,7 +1003,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

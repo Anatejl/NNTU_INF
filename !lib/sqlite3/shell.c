@@ -6292,7 +6292,7 @@ static int fsdirEof(sqlite3_vtab_cursor *cur){
 }
 
 /*
-** xFilter callback.
+** xFilter Callback.
 **
 ** idxNum==1   PATH parameter only
 ** idxNum==2   Both PATH and DIR supplied
@@ -8919,7 +8919,7 @@ static int zipfileLoadDirectory(ZipfileTab *pTab, const u8 *aBlob, int nBlob){
 }
 
 /*
-** xFilter callback.
+** xFilter Callback.
 */
 static int zipfileFilter(
   sqlite3_vtab_cursor *cur, 
@@ -8986,7 +8986,7 @@ static int zipfileFilter(
 }
 
 /*
-** xBestIndex callback.
+** xBestIndex Callback.
 */
 static int zipfileBestIndex(
   sqlite3_vtab *tab,
@@ -9621,7 +9621,7 @@ static int zipfileBufferGrow(ZipfileBuffer *pBuf, int nByte){
 }
 
 /*
-** xStep() callback for the zipfile() aggregate. This can be called in
+** xStep() Callback for the zipfile() aggregate. This can be called in
 ** any of the following ways:
 **
 **   SELECT zipfile(name,data) ...
@@ -9801,7 +9801,7 @@ static void zipfileStep(sqlite3_context *pCtx, int nVal, sqlite3_value **apVal){
 }
 
 /*
-** xFinalize() callback for zipfile aggregate function.
+** xFinalize() Callback for zipfile aggregate function.
 */
 static void zipfileFinal(sqlite3_context *pCtx){
   ZipfileCtx *p;
@@ -10509,7 +10509,7 @@ static IdxConstraint *idxNewConstraint(int *pRc, const char *zColl){
 
 /*
 ** An error associated with database handle db has just occurred. Pass
-** the error message to callback function xOut.
+** the error message to Callback function xOut.
 */
 static void idxDatabaseError(
   sqlite3 *db,                    /* Database handle */
@@ -12065,7 +12065,7 @@ sqlite3expert *sqlite3_expert_new(sqlite3 *db, char **pzErrmsg){
     rc = idxCreateVtabSchema(pNew, pzErrmsg);
   }
 
-  /* Register the auth callback with dbv */
+  /* Register the auth Callback with dbv */
   if( rc==SQLITE_OK ){
     sqlite3_set_authorizer(pNew->dbv, idxAuthCallback, (void*)pNew);
   }
@@ -12302,7 +12302,7 @@ void sqlite3_expert_destroy(sqlite3expert *p){
 ** before it is finished by passing the sqlite3_recover handle to
 ** sqlite3_recover_finish(). This is not an error, but the final state
 ** of the output database, or the results of running the partial script
-** delivered to the SQL callback, are undefined.
+** delivered to the SQL Callback, are undefined.
 */
 
 #ifndef _SQLITE_RECOVER_H
@@ -12354,11 +12354,11 @@ typedef struct sqlite3_recover sqlite3_recover;
 ** be returned to the user as a series of SQL statements. Executing these
 ** SQL statements results in the same database as would have been created
 ** had sqlite3_recover_init() been used. For each SQL statement in the
-** output, the callback function passed as the third argument (xSql) is 
+** output, the Callback function passed as the third argument (xSql) is
 ** invoked once. The first parameter is a passed a copy of the fourth argument
 ** to this function (pCtx) as its first parameter, and a pointer to a
 ** nul-terminated buffer containing the SQL statement formated as UTF-8 as 
-** the second. If the xSql callback returns any value other than SQLITE_OK,
+** the second. If the xSql Callback returns any value other than SQLITE_OK,
 ** then processing is immediately abandoned and the value returned used as
 ** the recover handle error code (see below).
 **
@@ -13659,8 +13659,8 @@ struct sqlite3_recover {
   sqlite3 *dbIn;                  /* Input database */
   char *zDb;                      /* Name of input db ("main" etc.) */
   char *zUri;                     /* URI for output database */
-  void *pSqlCtx;                  /* SQL callback context */
-  int (*xSql)(void*,const char*); /* Pointer to SQL callback function */
+  void *pSqlCtx;                  /* SQL Callback context */
+  int (*xSql)(void*,const char*); /* Pointer to SQL Callback function */
 
   /* Values configured by sqlite3_recover_config() */
   char *zStateDb;                 /* State database to use (or NULL) */
@@ -14331,19 +14331,19 @@ static int recoverCacheSchema(sqlite3_recover *p){
 }
 
 /*
-** If this recover handle is not in SQL callback mode (i.e. was not created 
+** If this recover handle is not in SQL Callback mode (i.e. was not created
 ** using sqlite3_recover_init_sql()) of if an error has already occurred, 
-** this function is a no-op. Otherwise, issue a callback with SQL statement
+** this function is a no-op. Otherwise, issue a Callback with SQL statement
 ** zSql as the parameter. 
 **
-** If the callback returns non-zero, set the recover handle error code to
+** If the Callback returns non-zero, set the recover handle error code to
 ** the value returned (so that the caller will abandon processing).
 */
 static void recoverSqlCallback(sqlite3_recover *p, const char *zSql){
   if( p->errCode==SQLITE_OK && p->xSql ){
     int res = p->xSql(p->pSqlCtx, zSql);
     if( res ){
-      recoverError(p, SQLITE_ERROR, "callback returned an error - %d", res);
+      recoverError(p, SQLITE_ERROR, "Callback returned an error - %d", res);
     }
   }
 }
@@ -14605,7 +14605,7 @@ static void recoverAddTable(
 ** Additionally, records are added to the sqlite_schema table of the
 ** output database for any VIRTUAL tables. The CREATE VIRTUAL TABLE
 ** records are written directly to sqlite_schema, not actually executed.
-** If the handle is in SQL callback mode, then callbacks are invoked 
+** If the handle is in SQL Callback mode, then callbacks are invoked
 ** with equivalent SQL statements.
 */
 static int recoverWriteSchema1(sqlite3_recover *p){
@@ -14680,7 +14680,7 @@ static int recoverWriteSchema1(sqlite3_recover *p){
 **     * triggers,
 **     * non-UNIQUE indexes.
 **
-** If the recover handle is in SQL callback mode, then equivalent callbacks
+** If the recover handle is in SQL Callback mode, then equivalent callbacks
 ** are issued to create the schema elements.
 */
 static int recoverWriteSchema2(sqlite3_recover *p){
@@ -14733,7 +14733,7 @@ static int recoverWriteSchema2(sqlite3_recover *p){
 ** only 3 are written to the output, as the generated STORED column 
 ** cannot be written.
 **
-** If the recover handle is in SQL callback mode, then the SQL statement
+** If the recover handle is in SQL Callback mode, then the SQL statement
 ** prepared is such that evaluating it returns a single row containing
 ** a single text value - itself an SQL statement similar to the above,
 ** except with SQL literals in place of the variables. For example:
@@ -16156,7 +16156,7 @@ sqlite3_recover *recoverInit(
   sqlite3* db, 
   const char *zDb, 
   const char *zUri,               /* Output URI for _recover_init() */
-  int (*xSql)(void*, const char*),/* SQL callback for _recover_init_sql() */
+  int (*xSql)(void*, const char*),/* SQL Callback for _recover_init_sql() */
   void *pSqlCtx                   /* Context arg for _recover_init_sql() */
 ){
   sqlite3_recover *pRet = 0;
@@ -16200,7 +16200,7 @@ sqlite3_recover *sqlite3_recover_init(
 
 /*
 ** Initialize a recovery handle that returns recovered data in the
-** form of SQL statements via a callback.
+** form of SQL statements via a Callback.
 */
 sqlite3_recover *sqlite3_recover_init_sql(
   sqlite3* db, 
@@ -16425,7 +16425,7 @@ struct ShellState {
   int nCheck;            /* Number of ".check" commands run */
   unsigned nProgress;    /* Number of progress callbacks encountered */
   unsigned mxProgress;   /* Maximum progress callbacks before failing */
-  unsigned flgProgress;  /* Flags for the progress callback */
+  unsigned flgProgress;  /* Flags for the progress Callback */
   unsigned shellFlgs;    /* Various flags */
   unsigned priorShFlgs;  /* Saved copy of flags */
   sqlite3_int64 szMax;   /* --maxsize argument to .open */
@@ -16498,9 +16498,9 @@ static ShellState shellState;
 #define SHELL_TRACE_NORMALIZED 2      /* Show normalized SQL text */
 
 /* Bits in the ShellState.flgProgress variable */
-#define SHELL_PROGRESS_QUIET 0x01  /* Omit announcing every progress callback */
+#define SHELL_PROGRESS_QUIET 0x01  /* Omit announcing every progress Callback */
 #define SHELL_PROGRESS_RESET 0x02  /* Reset the count when the progres
-                                   ** callback limit is reached, and for each
+                                   ** Callback limit is reached, and for each
                                    ** top-level SQL statement */
 #define SHELL_PROGRESS_ONCE  0x04  /* Cancel the --limit after firing once */
 
@@ -16590,7 +16590,7 @@ static const char *modeDescr[] = {
 #define MAX_INPUT_NESTING 25
 
 /*
-** A callback for the sqlite3_log() interface.
+** A Callback for the sqlite3_log() interface.
 */
 static void shellLog(void *pArg, int iErrCode, const char *zMsg){
   ShellState *p = (ShellState*)pArg;
@@ -17172,7 +17172,7 @@ static int safeModeAuth(
 }
 
 /*
-** When the ".auth ON" is set, the following authorizer callback is
+** When the ".auth ON" is set, the following authorizer Callback is
 ** invoked.  It always returns SQLITE_OK.
 */
 static int shellAuth(
@@ -17371,7 +17371,7 @@ static void eqp_render(ShellState *p, i64 nCycle){
 
 #ifndef SQLITE_OMIT_PROGRESS_CALLBACK
 /*
-** Progress handler callback.
+** Progress handler Callback.
 */
 static int progress_handler(void *pClientData) {
   ShellState *p = (ShellState*)pClientData;
@@ -17424,7 +17424,7 @@ static void print_row_separator(
 }
 
 /*
-** This is the callback routine that the shell
+** This is the Callback routine that the shell
 ** invokes for each row of a query result.
 */
 static int shell_callback(
@@ -17802,7 +17802,7 @@ static int shell_callback(
 }
 
 /*
-** This is the callback routine that the SQLite library
+** This is the Callback routine that the SQLite library
 ** invokes for each row of a query result.
 */
 static int callback(void *pArg, int nArg, char **azArg, char **azCol){
@@ -17811,7 +17811,7 @@ static int callback(void *pArg, int nArg, char **azArg, char **azCol){
 }
 
 /*
-** This is the callback routine from sqlite3_exec() that appends all
+** This is the Callback routine from sqlite3_exec() that appends all
 ** output onto the end of a ShellText object.
 */
 static int captureOutputCallback(void *pArg, int nArg, char **azArg, char **az){
@@ -19047,7 +19047,7 @@ static void exec_prepared_stmt(
 
         /* if data and types extracted successfully... */
         if( SQLITE_ROW == rc ){
-          /* call the supplied callback with the result row data */
+          /* call the supplied Callback with the result row data */
           if( shell_callback(pArg, nCol, azVals, azCols, aiTypes) ){
             rc = SQLITE_ABORT;
           }else{
@@ -19204,11 +19204,11 @@ static int expertDotCommand(
 /*
 ** Execute a statement or set of statements.  Print
 ** any result rows/columns depending on the current mode
-** set via the supplied callback.
+** set via the supplied Callback.
 **
 ** This is very similar to SQLite's built-in sqlite3_exec()
-** function except it takes a slightly different callback
-** and callback data argument.
+** function except it takes a slightly different Callback
+** and Callback data argument.
 */
 static int shell_exec(
   ShellState *pArg,                         /* Pointer to ShellState */
@@ -19495,8 +19495,8 @@ static void toggleSelectOrder(sqlite3 *db){
 }
 
 /*
-** This is a different callback routine used for dumping the database.
-** Each row received by this callback consists of a table name,
+** This is a different Callback routine used for dumping the database.
+** Each row received by this Callback consists of a table name,
 ** the table type ("index" or "table") and SQL to create the table.
 ** This routine should print text sufficient to recreate the table.
 */
@@ -19615,7 +19615,7 @@ static int dump_callback(void *pArg, int nArg, char **azArg, char **azNotUsed){
 }
 
 /*
-** Run zQuery.  Use dump_callback() as the callback routine so that
+** Run zQuery.  Use dump_callback() as the Callback routine so that
 ** the contents of the query are output as SQL statements.
 **
 ** If we get a SQLITE_CORRUPT error, rerun the query after appending
@@ -20616,7 +20616,7 @@ static char **readline_completion(const char *zText, int iStart, int iEnd){
 
 #elif HAVE_LINENOISE
 /*
-** Linenoise completion callback
+** Linenoise completion Callback
 */
 static void linenoise_completion(const char *zLine, linenoiseCompletions *lc){
   i64 nLine = strlen(zLine);
@@ -22672,7 +22672,7 @@ end_ar_command:
 #if SQLITE_SHELL_HAVE_RECOVER
 
 /*
-** This function is used as a callback by the recover extension. Simply
+** This function is used as a Callback by the recover extension. Simply
 ** print the supplied SQL statement to stdout.
 */
 static int recoverSqlCb(void *pCtx, const char *zSql){
@@ -27614,11 +27614,11 @@ void fiddle_reset_db(void){
 
 /*
 ** Uses the current database's VFS xRead to stream the db file's
-** contents out to the given callback. The callback gets a single
+** contents out to the given Callback. The Callback gets a single
 ** chunk of size n (its 2nd argument) on each call and must return 0
 ** on success, non-0 on error. This function returns 0 on success,
 ** SQLITE_NOTFOUND if no db is open, or propagates any other non-0
-** code from the callback. Note that this is not thread-friendly: it
+** code from the Callback. Note that this is not thread-friendly: it
 ** expects that it will be the only thread reading the db file and
 ** takes no measures to ensure that is the case.
 */
