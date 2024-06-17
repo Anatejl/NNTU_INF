@@ -8,7 +8,6 @@
 #include <utility>
 
 typedef bool (*Callback)(void *object);
-
 bool operation(Callback callback, void *data);
 
 struct Application {
@@ -19,13 +18,9 @@ struct Application {
 };
 
 int app_run(Application &app);
-
 bool app_get_threshold(void *raw_app);
-
 bool app_get_another(void *raw_app);
-
 bool app_evaluate(void *raw_app);
-
 bool app_give_output(void *raw_app);
 
 #endif //NNTU_APPLICATION_H

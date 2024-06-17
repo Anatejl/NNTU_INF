@@ -6,12 +6,8 @@
 #include <iostream>
 
 int main() {
-
     std::cout << "VAR 1 CODE" << std::endl;
-
     Application app;
-
     int ret = appRun(app);
-
     return ret;
 }

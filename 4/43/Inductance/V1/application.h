@@ -15,13 +15,9 @@ struct Application {
 };
 
 int app_run(Application &app);
-
 bool app_get_threshold(Application &app);
-
 bool app_get_another(Application &app);
-
 bool app_evaluate(Application &app);
-
 bool app_give_output(Application &app);
 
 #endif //NNTU_APPLICATION_H

@@ -53,14 +53,14 @@ bool app_evaluate(void *raw_app) {
     if (app.iteration == 0) {
         app.max.first = 1;
         app.max.second = app.cin_read;
-    } else {
-        if (app.cin_read == app.max.second) {
-            ++app.max.first;
-            return true;
-        } else if (app.cin_read > app.max.second && app.cin_read < app.threshold) {
-            app.max.first = 1;
-            app.max.second = app.cin_read;
-        }
+        return true;
+    }
+    if (app.cin_read == app.max.second) {
+        ++app.max.first;
+        return true;
+    } else if (app.cin_read > app.max.second && app.cin_read < app.threshold) {
+        app.max.first = 1;
+        app.max.second = app.cin_read;
     }
     return true;
 }
