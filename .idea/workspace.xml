@@ -42,19 +42,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="10 edit">
-      <change afterPath="$PROJECT_DIR$/4/21/Induction/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/21/Induction/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/21/Induction/check_neighbour.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/21/Induction/check_neighbour.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/21/Induction/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/21/Induction/testfile.txt" afterDir="false" />
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/.~lock.13.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/13.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/13.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/13/13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/13.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/18/Inductance/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/Inductance/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/21/Induction/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/21/Induction/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/21/Induction/check_neighbour.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/21/Induction/check_neighbour.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/21/Induction/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/21/Induction/testfile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -645,7 +637,7 @@
       <workItem from="1718528676411" duration="3412000" />
       <workItem from="1718554840704" duration="9723000" />
       <workItem from="1718611347268" duration="600000" />
-      <workItem from="1718625898455" duration="10288000" />
+      <workItem from="1718625898455" duration="10782000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -990,7 +982,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1080,7 +1072,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="rofl" />
     <MESSAGE value="minus counter" />
     <MESSAGE value="zxcvzx" />
     <MESSAGE value="[][][][][[[" />
@@ -1105,7 +1096,8 @@
     <MESSAGE value="18 and life" />
     <MESSAGE value="13 and life" />
     <MESSAGE value="10 edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 edit" />
+    <MESSAGE value="21" />
+    <option name="LAST_COMMIT_MESSAGE" value="21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1167,7 +1159,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/21/Induction/application.cpp</url>
-          <line>25</line>
+          <line>27</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>

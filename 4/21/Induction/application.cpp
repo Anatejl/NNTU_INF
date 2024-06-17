@@ -4,6 +4,7 @@
 
 #include "application.h"
 #include <iostream>
+
 int appRun(Application &app){
     app_get_D(app);
     while(!std::cin.eof()) {
@@ -23,6 +24,7 @@ bool app_get_D(Application &app){
     return true;
 }
 
+//Read another set of values
 bool app_read_cin(Application &app){
     for (int &i : app.group_index){
         std::cin >> i;
@@ -31,6 +33,7 @@ bool app_read_cin(Application &app){
 }
 
 bool app_process (Application &app){
+    //check values over D
     if(!check_neighbour(app.group_index, app.const_D)){
         return false;
     }
@@ -38,6 +41,7 @@ bool app_process (Application &app){
     return true;
 }
 
+//display results if applicable
 bool app_spit_result(Application &app){
     std::cout << app.iteration << " - Iter. ~ "<< app.case_counter << " CASE " << "grp. applicable: { ";
     for (int &i : app.group_index){
