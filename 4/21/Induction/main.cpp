@@ -5,10 +5,7 @@
 #include "application.h"
 
 int main(){
-
     Application app;
-
     int ret = appRun(app);
-
     return ret;
 }
