@@ -5,17 +5,15 @@
 #include "handler.h"
 #include <stdlib.h>
 
-void* application_init_array(void* data){
+//void* application_init_array(void* data){
+//
+//    return *;
+//
+//}
 
-    array =
+void* application_malloc(int size){
 
-    return *array;
-
-}
-
-void* application_malloc(int n){
-
-    return malloc(sizeof(int)*n);
+    return malloc(sizeof(array_template)*size);
 
 }
 

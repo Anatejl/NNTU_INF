@@ -2,7 +2,6 @@
 // Created by Anatejl on 19.06.2024.
 //
 
-#include <stdio.h>
 #include "application.h"
 
 /*Вывести на экран информацию о маршруте, номер которого

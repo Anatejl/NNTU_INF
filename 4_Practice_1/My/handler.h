@@ -5,9 +5,13 @@
 #ifndef NNTU_HANDLER_H
 #define NNTU_HANDLER_H
 
+#define NAME_MAX 25
+
 typedef struct array_template{
 
-    strcpy
+    char starting_point[NAME_MAX];
+    char ending_point[NAME_MAX];
+    int code;
 
 }array_template;
 
