@@ -45,22 +45,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="PRAC?">
-      <change afterPath="$PROJECT_DIR$/4/43/.~lock.43.docx#" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/43/43.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Practice_1/My/LAB.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Practice_1/My/array_end_locations.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Practice_1/My/array_start_locations.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Practice_1/My/testfile.txt" afterDir="false" />
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="PRAC IN">
+      <change afterPath="$PROJECT_DIR$/4/43/Callback/V1/diagram.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/43/Callback/V1/diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/43/Inductance/V1/diagram.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/43/Inductance/V1/diagram.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/otchot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/43/.~lock.43.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/43/43.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/43/43.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -677,7 +669,7 @@
       <workItem from="1718794826721" duration="2393000" />
       <workItem from="1718797238737" duration="5760000" />
       <workItem from="1718804300281" duration="1071000" />
-      <workItem from="1718819624375" duration="10537000" />
+      <workItem from="1718819624375" duration="12110000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -1022,7 +1014,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1112,7 +1104,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="YROVEN A1" />
     <MESSAGE value="TO DORABOTAT" />
     <MESSAGE value="VSE GUCCI, NO ETO NE TOCHNO" />
     <MESSAGE value="VSE GUCCI, TOCHNO" />
@@ -1137,7 +1128,8 @@
     <MESSAGE value="21 cb" />
     <MESSAGE value="1 NNNNNN" />
     <MESSAGE value="PRAC?" />
-    <option name="LAST_COMMIT_MESSAGE" value="PRAC?" />
+    <MESSAGE value="PRAC IN" />
+    <option name="LAST_COMMIT_MESSAGE" value="PRAC IN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
