@@ -133,7 +133,8 @@ add_executable(4_SEM_10_Mainline_Inductance_V2
 
 add_executable(4_SEM_10_Mainline_Callback_V2
         4/10/callback/V2/main.cpp
-        4/10/callback/V2/application.cpp)
+        4/10/callback/V2/application.cpp
+        4_Practice_1/My/main.c)
 
 ####### 13
 #add_executable(4_SEM_13_TEST 4/13/Inductance/V1/test13.cpp)
@@ -210,3 +211,10 @@ add_executable(4_SEM_21_CB
         4/21/Callback/main.cpp
         4/21/Callback/check_neighbour.cpp
         4/21/Callback/check_neighbour.h)
+
+add_executable(4_SEM_PRAC_1_MY
+        4_Practice_1/My/main.c
+        4_Practice_1/My/application.c
+        4_Practice_1/My/application.h
+        4_Practice_1/My/handler.c
+        4_Practice_1/My/handler.h)
