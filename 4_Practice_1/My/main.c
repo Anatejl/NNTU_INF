@@ -13,9 +13,7 @@
 int main(int argc, char *argv[]){
 
     Application app;
-    Application *p_app = &app;
-
-    int ret = app_run(p_app);
+    int ret = app_run(&app);
 
     return ret;
 }

@@ -9,10 +9,14 @@ int app_run(void* raw_app){
     Application app = *(Application*) raw_app;
 
     //get int for array building
-    app_get_size_of_an_array(&app);
+    app.length_of_an_array = app_get_length_of_an_array();
 
     //p to allocated memory
-    int* p_array = application_malloc(app.size_of_an_array);
+    //int* p_array = application_malloc(app.length_of_an_array);
+
+
+    int *p_array = application_init_array(app.length_of_an_array);
+
 
     //DESTRUCTOR SECTION
     //destroy p to array;
@@ -21,12 +25,12 @@ int app_run(void* raw_app){
     return 0;
 }
 
-bool app_get_size_of_an_array(void* raw_app){
+int app_get_length_of_an_array(){
 
-    Application &app = *(Application*) raw_app;
+    int read;
 
     printf("Enter a number to build array upon: \n");
-    scanf_s("%d", app.size_of_an_array);
+    scanf_s("%d", &read);
 
-    return true;
+    return read;
 }

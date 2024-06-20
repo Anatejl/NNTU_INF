@@ -12,11 +12,11 @@
 
 typedef struct Application{
 
-    int size_of_an_array;
+    int length_of_an_array;
 
 }Application;
 
 int app_run(void* raw_app);
-bool app_get_size_of_an_array(void* raw_app);
+int app_get_length_of_an_array();
 
 #endif //NNTU_APPLICATION_H

@@ -15,9 +15,7 @@ typedef struct array_template{
 
 }array_template;
 
-void* application_init_array(void* data);
-
-void* application_malloc(int to_allocate);
+void* application_init_array(int to_create);
 
 void application_destroy(void* to_free);
 

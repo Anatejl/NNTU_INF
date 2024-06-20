@@ -45,14 +45,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="PRAC IN">
-      <change afterPath="$PROJECT_DIR$/4/43/Callback/V1/diagram.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/43/Callback/V1/diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/43/Inductance/V1/diagram.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/43/Inductance/V1/diagram.png" afterDir="false" />
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="43 in doby svoboden">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/43/.~lock.43.docx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/43/43.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/43/43.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +186,7 @@
     "CMake Application.4_SEM_Mainline_Callback_V1.executor": "Run",
     "CMake Application.4_SEM_Mainline_Callback_V2.executor": "Run",
     "CMake Application.4_SEM_Mainline_Callback_V3.executor": "Run",
-    "CMake Application.4_SEM_PRAC_1_MY.executor": "Debug",
+    "CMake Application.4_SEM_PRAC_1_MY.executor": "Run",
     "CMake Application.PIDOR.executor": "Run",
     "CMake Application.TEST.executor": "Run",
     "CMake Application.gor.executor": "Run",
@@ -233,7 +232,7 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Git/NNTU_INF/4/43",
+    "last_opened_file_path": "E:/Git/NNTU_INF/cmake-build-debug",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -253,11 +252,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\NNTU_INF\cmake-build-debug" />
       <recent name="E:\Git\NNTU_INF\4\43" />
       <recent name="E:\Git\NNTU_INF\4\1" />
       <recent name="E:\Git\NNTU_INF\4\21\callback" />
       <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\1\Callback\V3" />
-      <recent name="C:\Users\l3t\Documents\GitHub\NNTU_INF\4\1\Callback\V2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Git\NNTU_INF\4\21" />
@@ -267,12 +266,7 @@
       <recent name="E:\Git\NNTU_INF\4\10\Inductance\V1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_43_Inductance_V1">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake Application.4_SEM_PRAC_1_MY">
     <configuration name="4 _SEM_Mainline_Induction_TEST" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -435,12 +429,12 @@
       <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V2" />
       <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V3" />
       <item itemvalue="CMake Application.4_SEM_Mainline_V3" />
+      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY" />
+      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY_LAB" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
-      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY" />
-      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY_LAB" />
       <item itemvalue="Google Test.4 _SEM_Mainline_Induction_TEST" />
       <item itemvalue="Google Test.4_SEM_Mainline_Callback_V2_test" />
       <item itemvalue="Google Test.4_SEM_Mainline_V3_test" />
@@ -669,7 +663,10 @@
       <workItem from="1718794826721" duration="2393000" />
       <workItem from="1718797238737" duration="5760000" />
       <workItem from="1718804300281" duration="1071000" />
-      <workItem from="1718819624375" duration="12110000" />
+      <workItem from="1718819624375" duration="13668000" />
+      <workItem from="1718876888871" duration="1213000" />
+      <workItem from="1718883125802" duration="14000" />
+      <workItem from="1718886253553" duration="9428000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -1014,7 +1011,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1104,7 +1101,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="TO DORABOTAT" />
     <MESSAGE value="VSE GUCCI, NO ETO NE TOCHNO" />
     <MESSAGE value="VSE GUCCI, TOCHNO" />
     <MESSAGE value="NOVAYA VOLNA" />
@@ -1129,7 +1125,8 @@
     <MESSAGE value="1 NNNNNN" />
     <MESSAGE value="PRAC?" />
     <MESSAGE value="PRAC IN" />
-    <option name="LAST_COMMIT_MESSAGE" value="PRAC IN" />
+    <MESSAGE value="43 in doby svoboden" />
+    <option name="LAST_COMMIT_MESSAGE" value="43 in doby svoboden" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1195,14 +1192,14 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/4_Practice_1/My/application.c</url>
-          <line>28</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/43/Inductance/V1/application.cpp</url>
           <line>19</line>
           <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/4_Practice_1/My/handler.c</url>
+          <line>26</line>
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
