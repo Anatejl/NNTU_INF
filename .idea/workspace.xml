@@ -45,13 +45,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="43 in doby svoboden">
+    <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="PRAC IN">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/LAB.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/LAB.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -666,7 +664,10 @@
       <workItem from="1718819624375" duration="13668000" />
       <workItem from="1718876888871" duration="1213000" />
       <workItem from="1718883125802" duration="14000" />
-      <workItem from="1718886253553" duration="9428000" />
+      <workItem from="1718886253553" duration="9721000" />
+      <workItem from="1718925025055" duration="1071000" />
+      <workItem from="1719003629170" duration="614000" />
+      <workItem from="1719131767857" duration="11883000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -1011,7 +1012,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684505487136</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1124,9 +1125,9 @@
     <MESSAGE value="21 cb" />
     <MESSAGE value="1 NNNNNN" />
     <MESSAGE value="PRAC?" />
-    <MESSAGE value="PRAC IN" />
     <MESSAGE value="43 in doby svoboden" />
-    <option name="LAST_COMMIT_MESSAGE" value="43 in doby svoboden" />
+    <MESSAGE value="PRAC IN" />
+    <option name="LAST_COMMIT_MESSAGE" value="PRAC IN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,14 +1193,9 @@
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/4/43/Inductance/V1/application.cpp</url>
-          <line>19</line>
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4_Practice_1/My/handler.c</url>
-          <line>26</line>
-          <option name="timeStamp" value="115" />
+          <line>56</line>
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

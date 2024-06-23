@@ -17,6 +17,8 @@ typedef struct array_template{
 
 void* application_init_array(int to_create);
 
+void application_clear_array(int limit, char* array);
+
 void application_destroy(void* to_free);
 
 
