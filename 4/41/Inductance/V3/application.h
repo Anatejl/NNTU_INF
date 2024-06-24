@@ -25,6 +25,7 @@ struct Application {
     int circle_r;
     int const_k;
     int iteration = 1;
+    bool isInBounds = false;
 };
 
 // To execute application

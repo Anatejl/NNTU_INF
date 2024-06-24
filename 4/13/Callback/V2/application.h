@@ -11,6 +11,7 @@
 struct Application {
     int iteration = 1;
     int cin_read;
+    bool in_bounds = false;
 
     /*Since we can't invoke function for it return its value as int,
     now we store A/B as a distinct variables, rather than gaining

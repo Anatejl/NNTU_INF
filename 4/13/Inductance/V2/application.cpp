@@ -14,16 +14,14 @@ int appRun(Application &app) {
         std::cout << "DATA INPUT FAILURE." << std::endl;
         return 1;
     }
-    //use !std::cin.eof for testing
+    //use !std::cin.eof() for testing
     while(true) {
         if (!appGetData(app)) {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
-
-        if (appProcess(app)) {
-            appDoOutput(app);
-        }
+        appProcess(app);
+        appDoOutput(app);
         ++app.iteration;
     }
     return 0;
@@ -61,14 +59,20 @@ bool appGetData(Application &app) {
 
 bool appProcess(Application &app) {
     if(app.cin_read > appGetA( app) &&  app.cin_read < appGetB(app)){
-       return true;
+       app.in_bounds = true;
     }
     return false;
 }
 
 bool appDoOutput(Application &app) {
-    std::cout << app.iteration << " - " << app.cin_read << std::endl;
-    //DEBUG
-    std::cout << appGetA(app) << " ÷ " << appGetB(app) << std::endl << std::endl;
+    if(app.in_bounds){
+        std::cout << app.iteration << " - " << app.cin_read << std::endl;
+        //DEBUG
+        std::cout <<"["<< appGetA(app) << " ÷ " << appGetB(app) <<"]"<< std::endl << std::endl;
+    }
+    else{
+        std::cout << app.iteration << " - provided value is out of bounds. " << std::endl;
+    }
+    app.in_bounds = false;
     return true;
 }

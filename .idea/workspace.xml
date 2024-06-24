@@ -46,14 +46,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="43 in doby svoboden">
-      <change afterPath="$PROJECT_DIR$/googletest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/1/.~lock.1.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/1/1.docx~RF9b6ee4.TMP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/10/.~lock.10.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/13/.~lock.13.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/18/.~lock.18.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/41/.~lock.41.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/43/.~lock.43.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/.~lock.otchot.docx#" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/1/1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/1/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/1/Inductance/V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V3/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/1/Inductance/V3/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V3/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/43/Inductance/V1/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/43/Inductance/V1/testfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/10.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/10.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/10/10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/10/10.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/13.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/13.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/13.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Callback/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/V2/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Callback/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Callback/V2/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Inductance/V2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/V2/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/13/Inductance/V2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/13/Inductance/V2/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/18.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/18.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/18/18.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/18/18.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/41.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/41.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/41.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/41.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/Callback/V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Callback/V3/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/Callback/V3/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Callback/V3/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/Inductance/V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/V3/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/41/Inductance/V3/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/41/Inductance/V3/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/43/43.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/43/43.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/43/43.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/43/43.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/otchot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/googletest" beforeDir="false" afterPath="$PROJECT_DIR$/googletest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +194,7 @@
     "CMake Application.4_SEM_13_Mainline_Induction_V2.executor": "Run",
     "CMake Application.4_SEM_13_TEST.executor": "Debug",
     "CMake Application.4_SEM_18_Mainline_Callback.executor": "Run",
-    "CMake Application.4_SEM_18_Mainline_Inductance.executor": "Debug",
+    "CMake Application.4_SEM_18_Mainline_Inductance.executor": "Run",
     "CMake Application.4_SEM_1_Mainline.executor": "Run",
     "CMake Application.4_SEM_1_Mainline_Callback.executor": "Run",
     "CMake Application.4_SEM_1_Mainline_Callback_V3.executor": "Run",
@@ -178,11 +204,11 @@
     "CMake Application.4_SEM_21_CB.executor": "Run",
     "CMake Application.4_SEM_21_IND.executor": "Run",
     "CMake Application.4_SEM_41_2_Mainline.executor": "Run",
-    "CMake Application.4_SEM_41_3_Mainline.executor": "Debug",
+    "CMake Application.4_SEM_41_3_Mainline.executor": "Run",
     "CMake Application.4_SEM_41_Callback_Mainline.executor": "Run",
     "CMake Application.4_SEM_41_Callback_V3_Mainline.executor": "Run",
     "CMake Application.4_SEM_41_Mainline.executor": "Run",
-    "CMake Application.4_SEM_43_Inductance_V1.executor": "Debug",
+    "CMake Application.4_SEM_43_Inductance_V1.executor": "Run",
     "CMake Application.4_SEM_Mainline.executor": "Run",
     "CMake Application.4_SEM_Mainline_Callback_SEN.executor": "Debug",
     "CMake Application.4_SEM_Mainline_Callback_V1.executor": "Run",
@@ -269,7 +295,7 @@
       <recent name="E:\Git\NNTU_INF\4\10\Inductance\V1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.4_SEM_Mainline_V3">
+  <component name="RunManager" selected="CMake Application.4_SEM_43_Inductance_V1">
     <configuration name="4 _SEM_Mainline_Induction_TEST" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -673,6 +699,7 @@
       <workItem from="1718925025055" duration="1071000" />
       <workItem from="1719003629170" duration="614000" />
       <workItem from="1719131767857" duration="11883000" />
+      <workItem from="1719236722943" duration="18785000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>
@@ -1164,7 +1191,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4/13/Inductance/V2/application.cpp</url>
-          <line>52</line>
+          <line>50</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -1201,6 +1228,11 @@
           <url>file://$PROJECT_DIR$/4_Practice_1/My/handler.c</url>
           <line>56</line>
           <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/4/13/Callback/V2/application.cpp</url>
+          <line>81</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

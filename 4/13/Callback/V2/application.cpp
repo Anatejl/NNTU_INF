@@ -43,16 +43,23 @@ bool appGetData(void *abstract) {
 bool appProcess(void *abstract) {
     Application &app = *(Application*) abstract;
     if(app.cin_read > app.current_A && app.cin_read < app.current_B){
-       return true;
+      app.in_bounds = true;
     }
     return false;
 }
 
 bool appDoOutput(void *abstract) {
     Application &app = *(Application*) abstract;
-    std::cout << app.iteration << " - " << app.cin_read << std::endl;
-    //DEBUG
-    std::cout << app.current_A << " ÷ " << app.current_B << std::endl << std::endl;
+    if(app.in_bounds){
+        std::cout << app.iteration << " - " << app.cin_read << std::endl;
+        //DEBUG
+        std::cout <<"["<< app.current_A << " ÷ "
+                  << app.current_B <<"]"<< std::endl << std::endl;
+    }
+    else{
+        std::cout << app.iteration << " - provided value is out of bounds. " << std::endl;
+    }
+    app.in_bounds = false;
     return true;
 }
 
@@ -80,9 +87,8 @@ int appRun() {
             std::cout << "DATA INPUT FAILURE." << std::endl;
             return 1;
         }
-        if (operation(&appProcess, &app)) {
-            operation(&appDoOutput, &app);
-        }
+        operation(&appProcess, &app);
+        operation(&appDoOutput, &app);
         ++app.iteration;
     }
     return 0;

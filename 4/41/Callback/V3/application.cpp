@@ -74,7 +74,10 @@ bool appProcessResult(void *object) {
     }
 
     if (counter == app.const_k){
-        return true;
+        app.isInBounds = true;
+    }
+    else{
+        app.isInBounds = false;
     }
 
     return false;
@@ -84,14 +87,28 @@ bool appGetOutputToUser(void *object) {
 
     Application &app = *(Application*) object;
 
-    std::cout << app.iteration << " Iteration - group is" << "inside the circle, their values are:" << std::endl;
+    if(app.isInBounds) {
+        std::cout << app.iteration << " Iteration - group is" << " inside the circle, their values are:" << std::endl;
 
-    for (int i = 0; i < app.const_k; ++i) {
+        for (int i = 0; i < app.const_k; ++i) {
 
-        std::cout << "(" << app.temp_group[i].second.second.first << "/" << app.temp_group[i].second.second.second << ") ";
+            std::cout << "(" << app.temp_group[i].second.second.first << "/" << app.temp_group[i].second.second.second
+                      << ") ";
 
+        }
+        std::cout << std::endl;
     }
-    std::cout << std::endl;
+    else{
+        std::cout << app.iteration << " Iteration - group is OUT OF BOUNDS,"<< "their values are:" << std::endl;
+        for (int i = 0; i < app.const_k; ++i) {
+
+            std::cout << "(" << app.temp_group[i].second.second.first << "/" << app.temp_group[i].second.second.second
+                      << ") ";
+
+        }
+        std::cout << std::endl;
+    }
+    app.isInBounds = false;
     return true;
 }
 
@@ -124,9 +141,8 @@ int appRun() {
                 }
             }
             else {
-                if (operation(&appProcessResult, &app)) {
-                    operation(&appGetOutputToUser, &app);
-                }
+                operation(&appProcessResult, &app);
+                operation(&appGetOutputToUser, &app);
                 app.temp_group.clear();
             }
             ++i;

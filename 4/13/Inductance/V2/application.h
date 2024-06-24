@@ -10,6 +10,7 @@
 struct Application {
     int iteration = 1;
     int cin_read;
+    bool in_bounds = false;
     int va = INT_MAX;
     int a0 = INT_MAX;
     int vb = INT_MAX;
