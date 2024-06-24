@@ -8,9 +8,6 @@
 #include <climits>
 #include <iostream>
 
-typedef bool (*Callback)(void *object);
-bool operation(Callback callback, void *data);
-
 //Data for program to handle.
 struct Application {
     int prevValue = INT_MIN;

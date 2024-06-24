@@ -4,10 +4,6 @@
 
 #include "application.h"
 
-bool operation(Callback callback, void *data) {
-    return (*callback)(data);
-}
-
 int appRun(Application &app) {
 
     inputConstantR(app);
@@ -51,7 +47,9 @@ bool processCurrentValue(Application &app) {
 }
 
 bool printCurrentResult(Application &app) {
-    std::cout << formatResult(app, app.curIndex == 1) << std::endl;
+    if(app.curIndex != 1) {
+        std::cout << formatResult(app, app.curIndex == 1) << std::endl;
+    }
     return true;
 }
 
