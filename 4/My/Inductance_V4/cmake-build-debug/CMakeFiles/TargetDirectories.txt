@@ -1,0 +1,5 @@
+E:/Git/NNTU_INF/4/My/Inductance_V4/cmake-build-debug/CMakeFiles/V4.dir
+E:/Git/NNTU_INF/4/My/Inductance_V4/cmake-build-debug/CMakeFiles/TEST.dir
+E:/Git/NNTU_INF/4/My/Inductance_V4/cmake-build-debug/CMakeFiles/KAL.dir
+E:/Git/NNTU_INF/4/My/Inductance_V4/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Git/NNTU_INF/4/My/Inductance_V4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
