@@ -221,11 +221,11 @@ add_executable(4_SEM_PRAC_1_MY
 add_executable(4_SEM_PRAC_1_MY_LAB 4_Practice_1/My/LAB.c)
 
 add_executable(KAL
-        4/MY/Inductance_V4/SIDOR_GNIDDA/main.cpp
-        4/MY/Inductance_V4/SIDOR_GNIDDA/application.cpp
-        4/MY/Inductance_V4/SIDOR_GNIDDA/application.h)
+        4/My/Inductance_V4/GODBLESS/main.cpp
+        4/My/Inductance_V4/GODBLESS/application.cpp
+        4/My/Inductance_V4/GODBLESS/application.h)
 
 add_executable(KAL_KALBACK
-        4/MY/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/main.cpp
-        4/MY/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/application.cpp
-        4/MY/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/application.h)
+        4/My/Inductance_V4/GODBLESS/AMEN/main.cpp
+        4/My/Inductance_V4/GODBLESS/AMEN/application.cpp
+        4/My/Inductance_V4/GODBLESS/AMEN/application.h)

@@ -48,28 +48,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7be185c-64b5-4742-b456-0433b652bfec" name="Changes" comment="43 in doby svoboden">
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/TEST_NEW.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/cmake-build-debug/.cmake/api/v1/reply/target-TEST-Debug-9d2734f1af5e200c8475.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/cmake-build-debug/CMakeFiles/TEST.dir/TEST_NEW.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/cmake-build-debug/TEST.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/predicator.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/predicator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4/My/Inductance_V4/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/My/otchot_2pdf.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/1/Inductance/V3/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/1/Inductance/V3/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/.~lock.otchot.docx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V4/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V4/GODBLESS/AMEN/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V4/GODBLESS/AMEN/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/EBAL_TEBYA_V_ROT/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V4/GODBLESS/AMEN/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V4/GODBLESS/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V4/GODBLESS/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V4/GODBLESS/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4/My/Inductance_V4/SIDOR_GNIDDA/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/Inductance_V4/GODBLESS/test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4/My/otchot.docx" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/My/otchot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/4/My/otchot.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +279,7 @@
       <recent name="E:\Git\NNTU_INF\4\10\Inductance\V1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.KAL_KALBACK">
+  <component name="RunManager" selected="CMake Application.KAL">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -713,7 +704,7 @@
       <workItem from="1719316398577" duration="15000" />
       <workItem from="1719316470918" duration="17000" />
       <workItem from="1719331732823" duration="1393000" />
-      <workItem from="1719338961200" duration="5152000" />
+      <workItem from="1719338961200" duration="8236000" />
     </task>
     <task id="LOCAL-00028" summary="until 10s">
       <created>1671048389473</created>

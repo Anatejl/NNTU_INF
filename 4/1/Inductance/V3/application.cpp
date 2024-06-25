@@ -47,9 +47,7 @@ bool processCurrentValue(Application &app) {
 }
 
 bool printCurrentResult(Application &app) {
-    //if(app.curIndex != 1) {
         std::cout << formatResult(app, app.curIndex == 1) << std::endl;
-    //}
     return true;
 }
 
