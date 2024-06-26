@@ -212,6 +212,22 @@ add_executable(4_SEM_21_CB
         4/21/Callback/check_neighbour.cpp
         4/21/Callback/check_neighbour.h)
 
+
+
+add_executable(KAL
+        4/My/Inductance_V4/SIDOR_GNIDA/main.cpp
+        4/My/Inductance_V4/SIDOR_GNIDA/application.cpp
+        4/My/Inductance_V4/SIDOR_GNIDA/application.h)
+
+add_executable(KAL_KALBACK
+        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/main.cpp
+        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/application.cpp
+        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/application.h)
+
+#################################################################################################################
+
+#PRACTICE 1 - SEM 2
+
 add_executable(4_SEM_PRAC_1_MY
         4_Practice_1/My/main.c
         4_Practice_1/My/application.c
@@ -219,13 +235,3 @@ add_executable(4_SEM_PRAC_1_MY
         4_Practice_1/My/handler.c
         4_Practice_1/My/handler.h)
 add_executable(4_SEM_PRAC_1_MY_LAB 4_Practice_1/My/LAB.c)
-
-add_executable(KAL
-        4/My/Inductance_V4/GODBLESS/main.cpp
-        4/My/Inductance_V4/GODBLESS/application.cpp
-        4/My/Inductance_V4/GODBLESS/application.h)
-
-add_executable(KAL_KALBACK
-        4/My/Inductance_V4/GODBLESS/AMEN/main.cpp
-        4/My/Inductance_V4/GODBLESS/AMEN/application.cpp
-        4/My/Inductance_V4/GODBLESS/AMEN/application.h)

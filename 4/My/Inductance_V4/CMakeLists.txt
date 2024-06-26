@@ -9,6 +9,6 @@ main.cpp
 application.cpp
         predicator.cpp)
 add_executable(TEST TEST_NEW.cpp)
-add_executable(KAL GODBLESS/main.cpp
-        GODBLESS/application.cpp
-        GODBLESS/application.h)
+add_executable(KAL SIDOR_GNIDA/main.cpp
+        SIDOR_GNIDA/application.cpp
+        SIDOR_GNIDA/application.h)
