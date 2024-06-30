@@ -15,11 +15,12 @@ typedef struct array_template{
 
 }array_template;
 
-void* application_init_array(int to_create);
+void* handler_init_array(int to_create);
 
-void application_clear_array(int limit, char* array);
+char** handler_init_start_list (void* file);
+void handler_clear_array(int limit, char* array);
 
-void application_destroy(void* to_free);
+void handler_destroy(void* to_free);
 
 
 #endif //NNTU_HANDLER_H

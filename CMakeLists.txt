@@ -235,3 +235,4 @@ add_executable(4_SEM_PRAC_1_MY
         4_Practice_1/My/handler.c
         4_Practice_1/My/handler.h)
 add_executable(4_SEM_PRAC_1_MY_LAB 4_Practice_1/My/LAB.c)
+add_executable(4_SEM_PRAC_1_MY_LAB2 4_Practice_1/My/LAB2.c)
