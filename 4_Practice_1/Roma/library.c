@@ -4,14 +4,15 @@
 
 #include "library.h"
 
-bool fill_library(Library_template* p_library, int count){
+
+bool library_fill(Library_template* p_library){
 
     //Since we are cheburashkas, we hardcode library.
 
     //1
     p_library[0].code = 0;
     p_library[0].UDK = 6182;
-    strcpy(p_library[0].author, "Gabriel García Márquez");
+    strcpy(p_library[0].author, "Gabriel Marquez");
     strcpy(p_library[0].book_name, "Love in the Time of Cholera");
     p_library[0].year = 1985;
     p_library[0].inplace = true;
