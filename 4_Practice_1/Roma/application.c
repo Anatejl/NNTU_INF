@@ -3,6 +3,7 @@
 //
 
 #include "application.h"
+
 bool app_get_input(void* p_app){
     App* app = (App*) p_app;
     memset(app->search_string,0,strlen(app->search_string));

@@ -48,14 +48,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/4_Practice_1/Roma/application.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Practice_1/Roma/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/Roma/library.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/Roma/library.c" afterDir="false" />
+    <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="VOT I STRELOCHKA">
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/Roma/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/Roma/application.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/Roma/library.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/Roma/library.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/Roma/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/Roma/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,8 +282,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719852220332</updated>
-      <workItem from="1719852222497" duration="8013000" />
+      <workItem from="1719852222497" duration="8070000" />
     </task>
+    <task id="LOCAL-00001" summary="VOT I STRELOCHKA">
+      <option name="closed" value="true" />
+      <created>1719861082169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719861082169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,12 +303,16 @@
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="VOT I STRELOCHKA" />
+    <option name="LAST_COMMIT_MESSAGE" value="VOT I STRELOCHKA" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4_Practice_1/Roma/application.c</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

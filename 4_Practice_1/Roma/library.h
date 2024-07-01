@@ -22,4 +22,5 @@ typedef struct Library_template{
 }Library_template;
 
 bool library_fill(Library_template* p_library);
+
 #endif //NNTU_LIBRARY_H
