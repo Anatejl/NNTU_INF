@@ -15,7 +15,6 @@ typedef struct App{
     char search_string[MAX_NAME_SIZE];
     int count;
     int found_index;
-    int test;
 }App;
 
 bool app_get_input(void* p_app);

@@ -7,7 +7,7 @@
 
 bool library_fill(Library_template* p_library){
 
-    //Since we are cheburashkas, we hardcode library.
+    //Since we are cheburashkas, we hardcode the library.
 
     //1
     p_library[0].code = 0;
