@@ -17,9 +17,10 @@ void handler_clear_array(int limit, char* array){
 
 }
 
-char** handler_init_start_list (void* file_name){
+char** handler_init_file (void* file_name){
     //total lines in file counter
     int line_count = 0;
+
     //malloc buffer
     char *buffer = malloc(HOLDER_MAX*sizeof(char));
 
@@ -30,9 +31,10 @@ char** handler_init_start_list (void* file_name){
     char** resulting_array = malloc(sizeof (char*)*line_count);
 
     //we open file
-    FILE *f_start = fopen(file_name,"r");
+    FILE *f_start = fopen(file_name, "r");
 
     if(f_start != NULL){
+        //Count lines in file
         char* tempStr = malloc(HOLDER_MAX * sizeof (char));
         do{
             tempStr = fgets(buffer,HOLDER_MAX, f_start);
@@ -42,8 +44,10 @@ char** handler_init_start_list (void* file_name){
         } while (tempStr != NULL);
         free(tempStr);
 
+        //Seek to start
         fseek(f_start, 0, SEEK_SET);
 
+        //Read all lines into array
         for(int i = 0; i < line_count; ++i){
             resulting_array[i] = malloc(HOLDER_MAX*sizeof (char));
             retrieved_line = fgets(resulting_array[i], HOLDER_MAX, f_start);
@@ -55,20 +59,24 @@ char** handler_init_start_list (void* file_name){
         fclose(f_start);
     }
     else{
-        printf("ER:011 - Error while opening starting locations text file.\n");
+        printf("ER:011 - Error while opening text file.\n");
     }
     free(buffer);
     return resulting_array;
 }
+
 void* handler_init_array(int to_create){
 
     char *start_end_files[] = { NULL,
                                 "array_start_locations.txt",
                                 "array_end_locations.txt"};
 
+    char** starting_locations = handler_init_file(start_end_files[1]);
+    char** ending_locations = handler_init_file(start_end_files[2]);
 
-
-    char** starting_locations = handler_init_start_list(start_end_files[1]);
+    for (int i = 0; i < sizeof (starting_locations)/sizeof (char); ++i) {
+        printf("1- %s\n", starting_locations[i]);
+    }
     //handler_clear_array((int) HOLDER_MAX, buffer);
 
 //    //read start file
@@ -104,9 +112,7 @@ void* handler_init_array(int to_create){
         //printf("%d\n", p_array[i].code);
     }
 
-
     return p_array;
-
 }
 
 void handler_destroy(void* to_free){

@@ -17,7 +17,8 @@ typedef struct array_template{
 
 void* handler_init_array(int to_create);
 
-char** handler_init_start_list (void* file);
+char** handler_init_file (void* file);
+
 void handler_clear_array(int limit, char* array);
 
 void handler_destroy(void* to_free);

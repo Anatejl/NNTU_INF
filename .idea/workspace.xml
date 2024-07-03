@@ -71,6 +71,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2ieXs6aXyF2yLU3fV62S6KOLfOK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -260,8 +263,8 @@
       <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V3" />
       <item itemvalue="CMake Application.4_SEM_Mainline_V3" />
       <item itemvalue="CMake Application.4_SEM_PRAC_1_MY" />
-      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY_LAB2" />
       <item itemvalue="CMake Application.4_SEM_PRAC_1_MY_LAB" />
+      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY_LAB2" />
       <item itemvalue="CMake Application.KAL" />
       <item itemvalue="CMake Application.KAL_KALBACK" />
       <item itemvalue="CMake Application.gmock" />
