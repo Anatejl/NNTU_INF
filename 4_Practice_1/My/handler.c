@@ -76,7 +76,7 @@ void* handler_init_array(int to_create){
     char** ending_locations = handler_init_file(start_end_files[2]);
 
     //init array
-    array_template main_array[to_create];
+    array_template* main_array = malloc(sizeof (array_template)*to_create);
     srand(time(0));
 
     int start_lines = handler_get_size_of_an_array(start_end_files[1]);
@@ -89,14 +89,16 @@ void* handler_init_array(int to_create){
         strcpy(main_array[i].ending_point, ending_locations[rand()% end_lines]);
         main_array[i].code = rand()%100;
 
-        printf("\n%d is:\n",i);
-        printf("%s\n%s\n%d\n\n",main_array[i].starting_point, main_array[i].ending_point, main_array[i].code);
+        printf("%d ", main_array[i].code);
+        //printf("\n%d is:\n",i);
+        //printf("%s\n%s\n%d\n\n",main_array[i].starting_point, main_array[i].ending_point, main_array[i].code);
 
     }
 
+    printf("\n\n");
     free(starting_locations);
     free(ending_locations);
 
-    return &main_array;
+    return main_array;
 }
 
