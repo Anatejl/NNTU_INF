@@ -49,10 +49,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="ATOP OF">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +297,7 @@
       <workItem from="1719867038844" duration="203000" />
       <workItem from="1719904385603" duration="2042000" />
       <workItem from="1720087194370" duration="5480000" />
-      <workItem from="1720093027182" duration="2488000" />
+      <workItem from="1720093027182" duration="3286000" />
     </task>
     <task id="LOCAL-00001" summary="VOT I STRELOCHKA">
       <option name="closed" value="true" />
@@ -352,13 +349,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4_Practice_1/My/application.c</url>
-          <line>25</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/4_Practice_1/My/handler.c</url>
-          <line>31</line>
-          <option name="timeStamp" value="140" />
+          <line>12</line>
+          <option name="timeStamp" value="141" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

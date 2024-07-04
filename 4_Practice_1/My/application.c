@@ -24,18 +24,18 @@ int app_run(void* raw_app){
 
 void app_do_output(void* raw_app, void* raw_array){
     Application* app = (Application*) raw_app;
-    array_template** array = (char**) raw_array;
+    array_template* array = (array_template *) raw_array;
 
-    int to_find;
+    int to_find = 5;
     fflush(stdin);
 
     printf("Which route you would like to know about?\n");
-    scanf_s("%d", &to_find);
+    //scanf_s("%d", &to_find);
     fflush(stdin);
 
     for(int i = 0; i < app->length_of_an_array; ++i){
-        if(array[i]->code == to_find){
-            printf("Route was found!\n# - %d\nStarting - %s\nEnding - %s\n", array[i]->code, array[i]->starting_point, array[i]->ending_point);
+        if(array[i].code == to_find){
+            printf("Route was found!\n# - %d\nStarting - %s\nEnding - %s\n", array[i].code, array[i].starting_point, array[i].ending_point);
         }
         if(i-1 == app->length_of_an_array){
             printf("No appropriate route was found...");
