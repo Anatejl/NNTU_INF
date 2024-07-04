@@ -4,7 +4,7 @@
 #include <time.h>
 
 int main(int argc, char* argv[]) {
-    FILE *fd = fopen("test.txt", "r");
+    FILE *fd = fopen("array_start_locations.txt", "r");
     int str_count = 0;
     if (fd != NULL) {
         char *tmpStr = malloc(32 * sizeof (char));

@@ -11,14 +11,11 @@
 #define HOLDER_MAX 32
 
 char** handler_init_file (void* file_name){
-    //total lines in file counter
-    int line_count = 0;
-
-    //malloc for complete array
-    char** resulting_array = malloc(sizeof (char*)*line_count);
-
     //we open file
     FILE *f_start = fopen(file_name, "r");
+
+    //total lines in file counter
+    int line_count = 0;
 
     if(f_start != NULL){
         //Count lines in file
@@ -36,7 +33,7 @@ char** handler_init_file (void* file_name){
         fseek(f_start, 0, SEEK_SET);
 
         //Read all lines into array
-
+        char** resulting_array = malloc(sizeof (char*)*line_count);
         for(int i = 0; i < line_count; ++i){
             resulting_array[i] = malloc(HOLDER_MAX*sizeof (char));
             retrieved_line = fgets(resulting_array[i], HOLDER_MAX, f_start);
@@ -44,6 +41,7 @@ char** handler_init_file (void* file_name){
                 printf("DA? %s\n", resulting_array[i]);
             }
         }
+
         fclose(f_start);
 
         for (int i = 0; i < line_count; ++i) {
@@ -52,12 +50,12 @@ char** handler_init_file (void* file_name){
                 resulting_array[i][strlen(resulting_array[i])- 1] = '\000';
             }
         }
-
+        return resulting_array;
     }
     else{
         printf("ER:011 - Error while opening text file.\n");
     }
-    return resulting_array;
+    return NULL;
 }
 
 void* handler_init_array(int to_create){
@@ -67,8 +65,9 @@ void* handler_init_array(int to_create){
                                 "array_end_locations.txt"};
 
     char** starting_locations = handler_init_file(start_end_files[1]);
-    //char** ending_locations = handler_init_file(start_end_files[2]);
+    char** ending_locations = handler_init_file(start_end_files[2]);
 
+    printf("\n\nYA TYT %s",starting_locations[4]);
     //for (int i = 0; i < sizeof (starting_locations)/sizeof (char); ++i) {
     //    printf("1- %s\n", starting_locations[i]);
     //}
