@@ -51,9 +51,6 @@
     <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="ATOP OF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/array_end_locations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/array_end_locations.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/array_start_locations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/array_start_locations.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.h" afterDir="false" />
     </list>
@@ -69,9 +66,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2ieXs6aXyF2yLU3fV62S6KOLfOK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -83,14 +80,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "CMake Application.4_PRAC_ROMA.executor": "Debug",
-    "CMake Application.4_SEM_PRAC_1_MY.executor": "Debug",
+    "CMake Application.4_SEM_PRAC_1_MY.executor": "Run",
     "CMake Application.4_SEM_PRAC_1_MY_LAB2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "com.jetbrains.cidr.cpp.cmake.workspace.CMakeCacheInvalidator.marker": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug",
     "node.js.detected.package.eslint": "true",
@@ -107,6 +103,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.4_SEM_PRAC_1_MY">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="4_SEM_Mainline_Callback_V2_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V2_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V2_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -234,11 +235,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -304,6 +300,7 @@
       <workItem from="1719867038844" duration="203000" />
       <workItem from="1719904385603" duration="2042000" />
       <workItem from="1720087194370" duration="5480000" />
+      <workItem from="1720093027182" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="VOT I STRELOCHKA">
       <option name="closed" value="true" />
@@ -355,8 +352,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4_Practice_1/My/application.c</url>
-          <line>30</line>
-          <option name="timeStamp" value="137" />
+          <line>25</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/4_Practice_1/My/handler.c</url>
+          <line>31</line>
+          <option name="timeStamp" value="140" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

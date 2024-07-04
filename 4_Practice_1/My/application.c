@@ -5,7 +5,6 @@
 
 int app_run(void* raw_app){
 
-    //cast raw to an app
     Application* app = (Application*) raw_app;
 
     //get int for array building
@@ -18,29 +17,30 @@ int app_run(void* raw_app){
 
     }while(app_rerun());
 
-    handler_destroy(p_array);
+    free(p_array);
 
     return 0;
 }
 
 void app_do_output(void* raw_app, void* raw_array){
     Application* app = (Application*) raw_app;
-    array_template* array = (char**) raw_array;
+    array_template** array = (char**) raw_array;
 
     int to_find;
-    printf("Which router you would like to know about?\n");
+    fflush(stdin);
+
+    printf("Which route you would like to know about?\n");
     scanf_s("%d", &to_find);
+    fflush(stdin);
 
     for(int i = 0; i < app->length_of_an_array; ++i){
-        if(array[i].code == to_find){
-            printf("Route was found!\n# - %d\nStarting - %s\nEnding - %s\n", array[i].code, array[i].starting_point, array[i].ending_point);
+        if(array[i]->code == to_find){
+            printf("Route was found!\n# - %d\nStarting - %s\nEnding - %s\n", array[i]->code, array[i]->starting_point, array[i]->ending_point);
         }
         if(i-1 == app->length_of_an_array){
             printf("No appropriate route was found...");
         }
     }
-
-
 }
 
 int app_get_length_of_an_array(void* raw_app){
@@ -48,6 +48,7 @@ int app_get_length_of_an_array(void* raw_app){
 
     printf("Enter total number of routes:\n");
     scanf_s("%d", app->length_of_an_array);
+    fflush(stdin);
 
     return 0;
 }
