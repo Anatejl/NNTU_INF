@@ -11,9 +11,6 @@ int app_run(void* raw_app){
     //get int for array building
     app.length_of_an_array = app_get_length_of_an_array();
 
-    //p to allocated memory
-    //int* p_array = application_malloc(app.length_of_an_array);
-
     int *p_array = handler_init_array(app.length_of_an_array);
 
     //DESTRUCTOR SECTION

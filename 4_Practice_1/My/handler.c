@@ -9,23 +9,10 @@
 #include <stdio.h>
 
 #define HOLDER_MAX 32
-void handler_clear_array(int limit, char* array){
-
-    for(int i = 0; i < limit; ++i){
-        array[i] = 0;
-    }
-
-}
 
 char** handler_init_file (void* file_name){
     //total lines in file counter
     int line_count = 0;
-
-    //malloc buffer
-    char *buffer = malloc(HOLDER_MAX*sizeof(char));
-
-    //var for readded line
-    char *retrieved_line;
 
     //malloc for complete array
     char** resulting_array = malloc(sizeof (char*)*line_count);
@@ -36,32 +23,40 @@ char** handler_init_file (void* file_name){
     if(f_start != NULL){
         //Count lines in file
         char* tempStr = malloc(HOLDER_MAX * sizeof (char));
+        char* retrieved_line;
         do{
-            tempStr = fgets(buffer,HOLDER_MAX, f_start);
-            if(tempStr != NULL){
+            retrieved_line = fgets(tempStr,HOLDER_MAX, f_start);
+            if(retrieved_line != NULL){
                 ++line_count;
             }
-        } while (tempStr != NULL);
+        } while (retrieved_line != NULL);
         free(tempStr);
 
         //Seek to start
         fseek(f_start, 0, SEEK_SET);
 
         //Read all lines into array
+
         for(int i = 0; i < line_count; ++i){
             resulting_array[i] = malloc(HOLDER_MAX*sizeof (char));
             retrieved_line = fgets(resulting_array[i], HOLDER_MAX, f_start);
             if(retrieved_line != NULL){
-                printf("%s\n", resulting_array[i]);
+                printf("DA? %s\n", resulting_array[i]);
             }
         }
-        free(retrieved_line);
         fclose(f_start);
+
+        for (int i = 0; i < line_count; ++i) {
+            size_t size = strlen(resulting_array[i]);
+            if (size > 0 && resulting_array[i][strlen(resulting_array[i])- 1]  == '\n') {
+                resulting_array[i][strlen(resulting_array[i])- 1] = '\000';
+            }
+        }
+
     }
     else{
         printf("ER:011 - Error while opening text file.\n");
     }
-    free(buffer);
     return resulting_array;
 }
 
@@ -72,33 +67,11 @@ void* handler_init_array(int to_create){
                                 "array_end_locations.txt"};
 
     char** starting_locations = handler_init_file(start_end_files[1]);
-    char** ending_locations = handler_init_file(start_end_files[2]);
+    //char** ending_locations = handler_init_file(start_end_files[2]);
 
-    for (int i = 0; i < sizeof (starting_locations)/sizeof (char); ++i) {
-        printf("1- %s\n", starting_locations[i]);
-    }
-    //handler_clear_array((int) HOLDER_MAX, buffer);
-
-//    //read start file
-//    FILE *f_start, *f_end;
-//    f_start = fopen(start_end_files[1], "r");
-//    //char *p_start = malloc(sizeof(f_start)/sizeof (char));
-//    //free(p_start);
-//    while(fgets(buffer, HOLDER_MAX, f_start)){
-//        //printf("%s", buffer);
-//        //handler_clear_array((int)HOLDER_MAX, buffer);
-//        ++lines_start;
-//    }
-//    printf("%d", lines_start);
-//    fclose(f_start);
-//
-//    char* p_store_start_lines = malloc(lines_start * sizeof(buffer));
-//    f_start = fopen("array_start_locations.txt", "r");
-//
-//    //char store_start_lines[lines_start] = *(char*)p_store_start_lines;
-//    char (*store_start_lines)[lines_start] = NULL;
-//
-//    char ** my_string_array = malloc(sizeof(char*)*10);
+    //for (int i = 0; i < sizeof (starting_locations)/sizeof (char); ++i) {
+    //    printf("1- %s\n", starting_locations[i]);
+    //}
 
     //init array
     array_template* p_array = (array_template*) malloc(to_create * sizeof(array_template));
