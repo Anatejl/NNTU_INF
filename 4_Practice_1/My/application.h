@@ -16,7 +16,9 @@ typedef struct Application{
 
 }Application;
 
+void app_do_output(void* raw_app, void* raw_array);
 int app_run(void* raw_app);
-int app_get_length_of_an_array();
+int app_get_length_of_an_array(void* raw_app);
+bool app_rerun();
 
 #endif //NNTU_APPLICATION_H

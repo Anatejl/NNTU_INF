@@ -50,8 +50,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="ATOP OF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/LAB2.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/LAB2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/array_end_locations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/array_end_locations.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/array_start_locations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/array_start_locations.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +83,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "CMake Application.4_PRAC_ROMA.executor": "Debug",
-    "CMake Application.4_SEM_PRAC_1_MY.executor": "Run",
+    "CMake Application.4_SEM_PRAC_1_MY.executor": "Debug",
     "CMake Application.4_SEM_PRAC_1_MY_LAB2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "com.jetbrains.cidr.cpp.cmake.workspace.CMakeCacheInvalidator.marker": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/l3t/Documents/GitHub/NNTU_INF/cmake-build-debug",
     "node.js.detected.package.eslint": "true",
@@ -298,7 +303,7 @@
       <workItem from="1719866548196" duration="363000" />
       <workItem from="1719867038844" duration="203000" />
       <workItem from="1719904385603" duration="2042000" />
-      <workItem from="1720087194370" duration="653000" />
+      <workItem from="1720087194370" duration="5480000" />
     </task>
     <task id="LOCAL-00001" summary="VOT I STRELOCHKA">
       <option name="closed" value="true" />
@@ -349,9 +354,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/4_Practice_1/My/handler.c</url>
-          <line>36</line>
-          <option name="timeStamp" value="128" />
+          <url>file://$PROJECT_DIR$/4_Practice_1/My/application.c</url>
+          <line>30</line>
+          <option name="timeStamp" value="137" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
