@@ -4,15 +4,12 @@
 
 #include "application.h"
 
-/*Вывести на экран информацию о маршруте, номер которого
-введен с клавиатуры. Если таких маршрутов нет, вывести на
-экран соответствующее сообщение. Элементы структуры:
-название начального пункта маршрута, название конечного
-пункта маршрута, номер маршрута.*/
-
 int main(int argc, char *argv[]){
 
+    //declare a variable of type Application and name in to app
     Application app;
+
+    //call main run function and pass address of that app variable to it
     int ret = app_run(&app);
 
     return ret;

@@ -15,8 +15,9 @@ typedef struct array_template{
 
 }array_template;
 
-void* handler_init_array(int to_create);
 int handler_get_size_of_an_array(void* file_name);
-char** handler_init_file (void* file);
+char** handler_init_file (void* file_name);
+void* handler_init_array(int to_create);
+
 
 #endif //NNTU_HANDLER_H

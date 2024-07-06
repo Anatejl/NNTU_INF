@@ -16,34 +16,41 @@ int handler_get_size_of_an_array(void* file_name){
     //open a file of given with an argument, hence "file_name"
     FILE *file = fopen(file_name, "r");
 
-    //Counter for lines in file
-    int final_line_count = 0;
+    if(file != NULL) {
+        //Counter for lines in file
+        int final_line_count = 0;
 
-    //fully retrieved line
-    char* retrieved_line;
+        //fully retrieved line
+        char *retrieved_line;
 
-    //temporary variable to act as a buffer for fgets()
-    char* tempStr = malloc(HOLDER_MAX * sizeof (char));
+        //temporary variable to act as a buffer for fgets()
+        char *tempStr = malloc(HOLDER_MAX * sizeof(char));
 
-    //cycle until all lines in provided file are read
-    do{
-        //get a line
-        retrieved_line = fgets(tempStr,HOLDER_MAX, file);
+        //cycle until all lines in provided file are read
+        do {
+            //get a line
+            retrieved_line = fgets(tempStr, HOLDER_MAX, file);
 
-        //if a line isn't NULL -> add 1 to line counter
-        if(retrieved_line != NULL){
-            ++final_line_count;
-        }
-    } while (retrieved_line != NULL);
+            //if a line isn't NULL -> add 1 to line counter
+            if (retrieved_line != NULL) {
+                ++final_line_count;
+            }
+        } while (retrieved_line != NULL);
 
-    //deallocate our "buffer" variable
-    free(tempStr);
+        //deallocate our "buffer" variable
+        free(tempStr);
 
-    //close the file which was read through
-    fclose(file);
+        //close the file which was read through
+        fclose(file);
 
-    //return number of lines in a file
-    return final_line_count;
+        //return number of lines in a file
+        return final_line_count;
+    }
+    else{
+        // if any error occurs with file, print an error and return NULL
+        printf("ER:011 - Error while opening text file.\n");
+        return 0;
+    }
 }
 
 char** handler_init_file (void* file_name){
@@ -74,8 +81,8 @@ char** handler_init_file (void* file_name){
 
         //for each line
         for (int i = 0; i < line_count; ++i) {
-            //knowing the length of a string
 
+            //knowing the length of a string
             size_t size = strlen(resulting_array[i]);
 
             //if last character of a string contains newline escape
@@ -142,6 +149,7 @@ void* handler_init_array(int to_create){
 
     }
 
+    //print two newline escapes into terminal
     printf("\n\n");
 
     //deallocate both distinct arrays of starting and ending locations
@@ -150,4 +158,3 @@ void* handler_init_array(int to_create){
 
     return main_array;
 }
-
