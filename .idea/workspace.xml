@@ -50,6 +50,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="ATOP OF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/.~lock.Форма отчета 22-Рз.doc#" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/.~lock.Форма отчета 22-Рз.doc#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,6 +299,8 @@
       <workItem from="1720093027182" duration="3286000" />
       <workItem from="1720102226442" duration="2893000" />
       <workItem from="1720105592107" duration="1494000" />
+      <workItem from="1720184532607" duration="2829000" />
+      <workItem from="1720262047807" duration="2162000" />
     </task>
     <task id="LOCAL-00001" summary="VOT I STRELOCHKA">
       <option name="closed" value="true" />
@@ -355,8 +360,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4_Practice_1/My/application.c</url>
-          <line>38</line>
+          <line>39</line>
           <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/4_Practice_1/My/handler.c</url>
+          <line>26</line>
+          <option name="timeStamp" value="152" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

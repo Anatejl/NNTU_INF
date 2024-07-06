@@ -34,7 +34,8 @@ void app_do_output(void* raw_app, void* raw_array){
 
     for(int i = 0; i < app->length_of_an_array; ++i){
         if(array[i].code == to_find){
-            printf("Route was found!\n# - %d\nStarting - %s\nEnding - %s\n", array[i].code, array[i].starting_point, array[i].ending_point);
+            printf("\nRoute was found!\n# - %d\nStarting at - %s\nEnding at - %s\n\n", array[i].code, array[i].starting_point, array[i].ending_point);
+            break;
         }
         if(i == (app->length_of_an_array)-1){
             printf("No appropriate route was found.\n");

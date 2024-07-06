@@ -87,12 +87,17 @@ void* handler_init_array(int to_create){
 
         strcpy(main_array[i].starting_point, starting_locations[rand()% start_lines]);
         strcpy(main_array[i].ending_point, ending_locations[rand()% end_lines]);
+
+        //arbitrarily limit routes to 100,
+        // it's common sense that routes of public transport is usually in 1-100
         main_array[i].code = rand()%100;
 
         if(i == 0){
             printf("Available routes: ");
         }
         printf("%d ", main_array[i].code);
+
+        //Debug entry to display routes being generated
         //printf("\n%d is:\n",i);
         //printf("%s\n%s\n%d\n\n",main_array[i].starting_point, main_array[i].ending_point, main_array[i].code);
 
