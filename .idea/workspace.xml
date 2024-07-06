@@ -51,8 +51,8 @@
     <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="ATOP OF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/.~lock.Форма отчета 22-Рз.doc#" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/.~lock.Форма отчета 22-Рз.doc#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/Форма отчета 22-Рз.doc" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/Форма отчета 22-Рз.doc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +300,7 @@
       <workItem from="1720102226442" duration="2893000" />
       <workItem from="1720105592107" duration="1494000" />
       <workItem from="1720184532607" duration="2829000" />
-      <workItem from="1720262047807" duration="2162000" />
+      <workItem from="1720262047807" duration="5251000" />
     </task>
     <task id="LOCAL-00001" summary="VOT I STRELOCHKA">
       <option name="closed" value="true" />
@@ -334,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720105051476</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ATOP OF">
+      <option name="closed" value="true" />
+      <created>1720270002440</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720270002440</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +373,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/4_Practice_1/My/handler.c</url>
-          <line>26</line>
+          <line>36</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
       </breakpoints>
