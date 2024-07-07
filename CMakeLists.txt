@@ -237,7 +237,7 @@ add_executable(4_SEM_PRAC_1_MY
 add_executable(4_SEM_PRAC_1_MY_LAB 4_Practice_1/My/LAB.c)
 add_executable(4_SEM_PRAC_1_MY_LAB2 4_Practice_1/My/LAB2.c)
 
-add_executable(4_PRAC_ROMA 4_Practice_1/Roma/main.c
+add_executable(library_practica 4_Practice_1/Roma/main.c
         4_Practice_1/Roma/library.c
         4_Practice_1/Roma/application.c
         4_Practice_1/Roma/application.h)

@@ -1,7 +1,3 @@
-//
-// Created by Anatejl on 01.07.2024.
-//
-
 #pragma once
 #ifndef NNTU_LIBRARY_H
 #define NNTU_LIBRARY_H

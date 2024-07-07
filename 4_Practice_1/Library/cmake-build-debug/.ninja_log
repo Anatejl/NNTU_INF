@@ -1,0 +1,21 @@
+# ninja log v6
+6	81	7420523984812440	CMakeFiles/Library_practica.dir/main.c.obj	21564e65a88c8578
+10	87	7420523984862471	CMakeFiles/Library_practica.dir/application.c.obj	4077b446986afa63
+12	87	7420523984882452	CMakeFiles/Library_practica.dir/library.c.obj	7b8b988e13e3df2b
+87	173	7420523985632453	Library_practica.exe	70992a0833e0b735
+7	97	7420530635159475	Library_practica.exe	70992a0833e0b735
+7	100	7420558073535797	CMakeFiles/Library_practica.dir/main.c.obj	21564e65a88c8578
+12	104	7420558073575535	CMakeFiles/Library_practica.dir/application.c.obj	4077b446986afa63
+104	204	7420558074505500	Library_practica.exe	70992a0833e0b735
+42	199	7420750327321204	CMakeFiles/Library_practica.dir/application.c.obj	4077b446986afa63
+45	200	7420750327351217	CMakeFiles/Library_practica.dir/library.c.obj	7b8b988e13e3df2b
+38	209	7420750327281198	CMakeFiles/Library_practica.dir/main.c.obj	21564e65a88c8578
+209	410	7420750328991205	Library_practica.exe	70992a0833e0b735
+7	84	7420751655811206	CMakeFiles/Library_practica.dir/application.c.obj	4077b446986afa63
+84	204	7420751656581209	Library_practica.exe	70992a0833e0b735
+7	76	7420759018763715	CMakeFiles/Library_practica.dir/application.c.obj	4077b446986afa63
+76	175	7420759019465277	Library_practica.exe	70992a0833e0b735
+9	100	7420759899696283	CMakeFiles/Library_practica.dir/application.c.obj	4077b446986afa63
+101	204	7420759900616284	Library_practica.exe	70992a0833e0b735
+6	79	7420760130936576	CMakeFiles/Library_practica.dir/application.c.obj	4077b446986afa63
+79	166	7420760131666284	Library_practica.exe	70992a0833e0b735

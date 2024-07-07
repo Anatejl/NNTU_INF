@@ -1,7 +1,3 @@
-//
-// Created by Anatejl on 01.07.2024.
-//
-
 #include "library.h"
 
 
