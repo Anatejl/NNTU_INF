@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/Git/NNTU_INF/4_Practice_1/Library/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak7mma"
-      binary: "E:/Git/NNTU_INF/4_Practice_1/Library/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak7mma"
+      source: "E:/Git/NNTU_INF/4_Practice_1/Roma/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak7mma"
+      binary: "E:/Git/NNTU_INF/4_Practice_1/Roma/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak7mma"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -287,8 +287,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/Git/NNTU_INF/4_Practice_1/Library/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uu9d7c"
-      binary: "E:/Git/NNTU_INF/4_Practice_1/Library/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uu9d7c"
+      source: "E:/Git/NNTU_INF/4_Practice_1/Roma/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uu9d7c"
+      binary: "E:/Git/NNTU_INF/4_Practice_1/Roma/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uu9d7c"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"

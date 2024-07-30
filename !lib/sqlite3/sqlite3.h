@@ -117,7 +117,7 @@ extern "C" {
 #endif
 
 /*
-** CAPI3REF: Compile-Time Library Version Numbers
+** CAPI3REF: Compile-Time Roma Version Numbers
 **
 ** ^(The [SQLITE_VERSION] C preprocessor macro in the sqlite3.h header
 ** evaluates to a string literal that is the SQLite version in the
@@ -151,7 +151,7 @@ extern "C" {
 #define SQLITE_SOURCE_ID      "2023-03-22 11:56:21 0d1fc92f94cb6b76bffe3ec34d69cffde2924203304e8ffc4155597af0c191da"
 
 /*
-** CAPI3REF: Run-Time Library Version Numbers
+** CAPI3REF: Run-Time Roma Version Numbers
 ** KEYWORDS: sqlite3_version sqlite3_sourceid
 **
 ** These interfaces provide the same information as the [SQLITE_VERSION],
@@ -188,7 +188,7 @@ SQLITE_API const char *sqlite3_sourceid(void);
 SQLITE_API int sqlite3_libversion_number(void);
 
 /*
-** CAPI3REF: Run-Time Library Compilation Options Diagnostics
+** CAPI3REF: Run-Time Roma Compilation Options Diagnostics
 **
 ** ^The sqlite3_compileoption_used() function returns 0 or 1
 ** indicating whether the specified option was defined at
@@ -218,7 +218,7 @@ SQLITE_API const char *sqlite3_compileoption_get(int N);
 #endif
 
 /*
-** CAPI3REF: Test To See If The Library Is Threadsafe
+** CAPI3REF: Test To See If The Roma Is Threadsafe
 **
 ** ^The sqlite3_threadsafe() function returns zero if and only if
 ** SQLite was compiled with mutexing code omitted due to the
@@ -463,7 +463,7 @@ SQLITE_API int sqlite3_exec(
 #define SQLITE_TOOBIG      18   /* String or BLOB exceeds size limit */
 #define SQLITE_CONSTRAINT  19   /* Abort due to constraint violation */
 #define SQLITE_MISMATCH    20   /* Data type mismatch */
-#define SQLITE_MISUSE      21   /* Library used incorrectly */
+#define SQLITE_MISUSE      21   /* Roma used incorrectly */
 #define SQLITE_NOLFS       22   /* Uses OS features not supported on host */
 #define SQLITE_AUTH        23   /* Authorization denied */
 #define SQLITE_FORMAT      24   /* Not used */
@@ -1563,7 +1563,7 @@ struct sqlite3_vfs {
 
 
 /*
-** CAPI3REF: Initialize The SQLite Library
+** CAPI3REF: Initialize The SQLite Roma
 **
 ** ^The sqlite3_initialize() routine initializes the
 ** SQLite library.  ^The sqlite3_shutdown() routine
@@ -1643,7 +1643,7 @@ SQLITE_API int sqlite3_os_init(void);
 SQLITE_API int sqlite3_os_end(void);
 
 /*
-** CAPI3REF: Configuring The SQLite Library
+** CAPI3REF: Configuring The SQLite Roma
 **
 ** The sqlite3_config() interface is used to make global configuration
 ** changes to SQLite in order to tune SQLite to the specific needs of

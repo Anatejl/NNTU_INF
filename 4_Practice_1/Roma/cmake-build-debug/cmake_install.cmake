@@ -1,4 +1,4 @@
-# Install script for directory: E:/Git/NNTU_INF/4_Practice_1/Library
+# Install script for directory: E:/Git/NNTU_INF/4_Practice_1/Roma
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
