@@ -5,22 +5,22 @@
 
 #include "vector.h"
 
-void vectorResize(initialVector& v, unsigned size) {
+void vectorResize(Vector& v, unsigned size) {
 
     v.coordX.resize(size);
     v.coordY.resize(size);
 
 }
 
-unsigned vectorGetSizeOfFinal(initialVector& v){
+unsigned vectorGetSizeOfFinal(Vector& v){
 
     return v.coordX.size();
 
 }
 
-initialVector vectorProcess(const initialVector& initial, const initialVector& final, unsigned R, unsigned n)
+Vector vectorProcess(const Vector& initial, const Vector& final, unsigned R, unsigned n)
 {
-    initialVector temporaryVector;
+    Vector temporaryVector;
     temporaryVector.counter = 0;
 
     for (int i = 0; i < n; ++i) {

@@ -46,7 +46,7 @@ void app_do_output(void* raw_app, void* raw_array){
     printf("Which route you would like to know about?\n");
 
     //retrieve that number from input
-    scanf_s("%d", &to_find);
+    scanf("%d", &to_find);
 
     //clear input buffer
     fflush(stdin);
@@ -72,7 +72,7 @@ int app_get_length_of_an_array(void* raw_app){
 
     //ask user of total number of routes to build array upon
     printf("Enter total number of routes:\n");
-    scanf_s("%d", &(app->length_of_an_array));
+    scanf("%d", &(app->length_of_an_array));
     fflush(stdin);
 
     return 0;
@@ -84,7 +84,7 @@ bool app_rerun(){
     // then search again, if else, effectively end the program
     int temp_read;
     printf("Repeat? (1 = yes, else = no)\n");
-    scanf_s("%d", &temp_read);
+    scanf("%d", &temp_read);
     fflush(stdin);
     if(temp_read == 1){
         return true;

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.23)
 project(NNTU)
 
 set(CMAKE_C_STANDARD 99)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 # 1 course / 1 semester
 
@@ -47,23 +47,39 @@ set(CMAKE_CXX_STANDARD 17)
 
 # 2 course / 1 semester
 
-#add_executable(3_my_1 "3/3_my/v0.1/3_my_v0.1.cpp")
-#add_executable(3_my_2 "3/3_my/v0.2/3_my_v0.2.cpp" 3/3_my/v0.2/application.h)
-#add_executable(attempt "3/3_my/att/main.cpp" 3/3_my/att/header.h)
-##add_executable(solve "3/3_my/solve/main.cpp"
-##        3/3_my/solve/processing.cpp
-##        3/3_my/solve/application.cpp)
-##add_executable(ROMYCH "3/ROMYCH/replacement.cpp")
-#add_executable(3_SEM_Mainline
-#        "3/3.14DOR/main.cpp"
-#        3/3.14DOR/application.cpp
-#        3/3.14DOR/vector.cpp)
+#add_executable(3_my_1 "3/3_my-31/v0.1/3_my_v0.1.cpp")
+#add_executable(3_my_2 "3/3_my-31/v0.2/3_my_v0.2.cpp" 3/3_my-31/v0.2/application.h)
+#add_executable(attempt "3/3_my-31/att/main.cpp" 3/3_my-31/att/header.h)
+add_executable(3_SEM_MY_31_FINAL 3/3_my-31/FINAL/main.cpp
+        3/3_my-31/FINAL/vector.cpp
+        3/3_my-31/FINAL/application.cpp)
+##add_executable(ROMYCH-37 "3/ROMYCH-37/replacement.cpp")
 #add_executable(TESTfile "2/Lab1/test.c")
 
-##add_executable(gor 3/gor/sorting.cpp
-##        3/gor/vector.cpp
-##        3/gor/application.cpp)
+##add_executable(gor-7 3/gor-7/sorting.cpp
+##        3/gor-7/vector.cpp
+##        3/gor-7/application.cpp)
 ##add_executable(TEST 3/test.cpp)
+
+############ GOING ALL OUT
+
+## 1
+
+add_executable(3_1
+        3/1/main.cpp
+        3/1/application.cpp
+)
+
+add_executable(3_2
+        3/2/main.cpp
+        3/2/application.cpp
+        3/2/application.cpp
+        3/2/application.h
+        3/2/handler.cpp
+        3/2/handler.h
+)
+
+
 
 #############################################
 
