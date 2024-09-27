@@ -11,36 +11,23 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="NNTU" targetName="4_SEM_18_Mainline_Callback" />
-      <config projectName="NNTU" targetName="4_SEM_41_Callback_V3_Mainline" />
-      <config projectName="NNTU" targetName="gtest" />
-      <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V2_test" />
-      <config projectName="NNTU" targetName="4_SEM_21_IND" />
-      <config projectName="NNTU" targetName="4_SEM_43_Inductance_V1" />
-      <config projectName="NNTU" targetName="4_SEM_10_Mainline_Callback_V2" />
-      <config projectName="NNTU" targetName="4_SEM_PRAC_1_MY" />
-      <config projectName="NNTU" targetName="4_SEM_Mainline_V3" />
-      <config projectName="NNTU" targetName="KAL_KALBACK" />
-      <config projectName="NNTU" targetName="3_SEM_MY_31_FINAL" />
-      <config projectName="NNTU" targetName="4_SEM_10_Mainline_Inductance_V2" />
-      <config projectName="NNTU" targetName="4_SEM_21_CB" />
-      <config projectName="NNTU" targetName="4_SEM_43_Callback_V1" />
-      <config projectName="NNTU" targetName="4_SEM_PRAC_1_MY_LAB" />
-      <config projectName="NNTU" targetName="4_SEM_18_Mainline_Inductance" />
-      <config projectName="NNTU" targetName="gmock" />
       <config projectName="NNTU" targetName="4_SEM_13_Mainline_Callback_V2" />
-      <config projectName="NNTU" targetName="KAL" />
+      <config projectName="NNTU" targetName="gtest" />
       <config projectName="NNTU" targetName="gmock_main" />
       <config projectName="NNTU" targetName="4_SEM_1_Mainline_Inductance_V3" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V3" />
-      <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V2" />
+      <config projectName="NNTU" targetName="4_SEM_Mainline_Callback_V2_test" />
       <config projectName="NNTU" targetName="4_SEM_1_Mainline_Callback_V3" />
-      <config projectName="NNTU" targetName="4_SEM_41_3_Mainline" />
       <config projectName="NNTU" targetName="4_SEM_13_Mainline_Induction_V2" />
+      <config projectName="NNTU" targetName="4_SEM_10_Mainline_Callback_V2" />
       <config projectName="NNTU" targetName="4_SEM_Mainline_V3_test" />
-      <config projectName="NNTU" targetName="4_SEM_PRAC_1_MY_LAB2" />
+      <config projectName="NNTU" targetName="4_SEM_Mainline_V3" />
+      <config projectName="NNTU" targetName="3_SEM_MY_31_FINAL" />
+      <config projectName="NNTU" targetName="4_SEM_10_Mainline_Inductance_V2" />
       <config projectName="NNTU" targetName="3_1" />
       <config projectName="NNTU" targetName="3_2" />
+      <config projectName="NNTU" targetName="3_6" />
+      <config projectName="NNTU" targetName="gmock" />
       <config projectName="NNTU" targetName="gtest_main" />
     </generated>
   </component>
@@ -51,52 +38,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="ATOP OF">
-      <change afterPath="$PROJECT_DIR$/3/1/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/1/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/1/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/1/tetstfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/2/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/2/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/2/handler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/2/handler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/2/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/6/application.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/6/application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/6/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.14DOR/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/FINAL/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.14DOR/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/FINAL/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.14DOR/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/FINAL/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.14DOR/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/FINAL/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3.14DOR/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/FINAL/vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/att/header.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/att/header.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/att/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/att/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/att/processing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/att/processing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/IrNumber.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/IrNumber.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/MYCOP EDITION/header.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/MYCOP EDITION/header.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/MYCOP EDITION/initVector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/MYCOP EDITION/initVector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/MYCOP EDITION/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/MYCOP EDITION/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/MYCOP EDITION/main.cpp.bak" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/MYCOP EDITION/main.cpp.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/MYCOP EDITION/processing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/MYCOP EDITION/processing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/solve/processing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/solve/processing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/v0.1/3_my_v0.1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/v0.1/3_my_v0.1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/v0.2/3_my_v0.2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/v0.2/3_my_v0.2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/v0.2/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/v0.2/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/v0.2/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/v0.2/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/3_my/var31.png" beforeDir="false" afterPath="$PROJECT_DIR$/3/3_my-31/var31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/ROMYCH/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/ROMYCH-37/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/ROMYCH/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/ROMYCH-37/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/ROMYCH/counting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/ROMYCH-37/counting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/ROMYCH/counting.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/ROMYCH-37/counting.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/ROMYCH/replacement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/ROMYCH-37/replacement.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/gor/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/gor-7/application.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/gor/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/gor-7/application.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/gor/sorting.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/gor-7/sorting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/gor/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/gor-7/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/gor/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/gor-7/vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/application.c" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/application.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/googletest" beforeDir="false" afterPath="$PROJECT_DIR$/googletest" afterDir="false" />
     </list>
@@ -143,6 +89,7 @@
   "keyToString": {
     "CMake Application.3_1.executor": "Run",
     "CMake Application.3_2.executor": "Run",
+    "CMake Application.3_6.executor": "Debug",
     "CMake Application.3_SEM_MY_31_FINAL.executor": "Run",
     "CMake Application.4_PRAC_ROMA.executor": "Debug",
     "CMake Application.4_SEM_PRAC_1_MY.executor": "Run",
@@ -155,7 +102,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/anatejl/GitHub/NNTU_INF/cmake-build-debug",
+    "last_opened_file_path": "E:/Git/NNTU_INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -180,7 +127,12 @@
       <command value="fullscreen" />
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.3_2">
+  <component name="RunManager" selected="CMake Application.3_6">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="4_SEM_Mainline_Callback_V2_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V2_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V2_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -199,6 +151,11 @@
       </method>
     </configuration>
     <configuration name="3_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/3/2/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="3_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="3_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3_6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="3_6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="3_6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -228,16 +185,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="4_SEM_18_Mainline_Callback" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_18_Mainline_Callback" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_18_Mainline_Callback">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_18_Mainline_Inductance" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_18_Mainline_Inductance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_18_Mainline_Inductance">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="4_SEM_1_Mainline_Callback_V3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_1_Mainline_Callback_V3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_1_Mainline_Callback_V3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -248,77 +195,12 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="4_SEM_21_CB" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_21_CB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_21_CB">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_21_IND" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_21_IND" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_21_IND">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_41_3_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_41_3_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_41_3_Mainline">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_41_Callback_V3_Mainline" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_41_Callback_V3_Mainline" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_41_Callback_V3_Mainline">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_43_Callback_V1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_43_Callback_V1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_43_Callback_V1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_43_Inductance_V1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_43_Inductance_V1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_43_Inductance_V1">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_Mainline_Callback_V2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="4_SEM_Mainline_Callback_V3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_Callback_V3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_Callback_V3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="4_SEM_Mainline_V3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_Mainline_V3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_Mainline_V3">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_PRAC_1_MY" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_PRAC_1_MY" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_PRAC_1_MY">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_PRAC_1_MY_LAB" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_PRAC_1_MY_LAB" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_PRAC_1_MY_LAB">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="4_SEM_PRAC_1_MY_LAB2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="4_SEM_PRAC_1_MY_LAB2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="4_SEM_PRAC_1_MY_LAB2">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KAL" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="KAL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="KAL">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KAL_KALBACK" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="KAL_KALBACK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="KAL_KALBACK">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -351,29 +233,16 @@
     <list>
       <item itemvalue="CMake Application.3_1" />
       <item itemvalue="CMake Application.3_2" />
+      <item itemvalue="CMake Application.3_6" />
       <item itemvalue="CMake Application.3_SEM_MY_31_FINAL" />
       <item itemvalue="CMake Application.4_SEM_10_Mainline_Callback_V2" />
       <item itemvalue="CMake Application.4_SEM_10_Mainline_Inductance_V2" />
       <item itemvalue="CMake Application.4_SEM_13_Mainline_Callback_V2" />
       <item itemvalue="CMake Application.4_SEM_13_Mainline_Induction_V2" />
-      <item itemvalue="CMake Application.4_SEM_18_Mainline_Callback" />
-      <item itemvalue="CMake Application.4_SEM_18_Mainline_Inductance" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline_Callback_V3" />
       <item itemvalue="CMake Application.4_SEM_1_Mainline_Inductance_V3" />
-      <item itemvalue="CMake Application.4_SEM_21_CB" />
-      <item itemvalue="CMake Application.4_SEM_21_IND" />
-      <item itemvalue="CMake Application.4_SEM_41_3_Mainline" />
-      <item itemvalue="CMake Application.4_SEM_41_Callback_V3_Mainline" />
-      <item itemvalue="CMake Application.4_SEM_43_Callback_V1" />
-      <item itemvalue="CMake Application.4_SEM_43_Inductance_V1" />
-      <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V2" />
       <item itemvalue="CMake Application.4_SEM_Mainline_Callback_V3" />
       <item itemvalue="CMake Application.4_SEM_Mainline_V3" />
-      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY" />
-      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY_LAB2" />
-      <item itemvalue="CMake Application.4_SEM_PRAC_1_MY_LAB" />
-      <item itemvalue="CMake Application.KAL" />
-      <item itemvalue="CMake Application.KAL_KALBACK" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
@@ -415,6 +284,9 @@
       <workItem from="1724220124181" duration="4876000" />
       <workItem from="1724228043855" duration="805000" />
       <workItem from="1724261564859" duration="5520000" />
+      <workItem from="1725734850919" duration="630000" />
+      <workItem from="1726926187139" duration="1000" />
+      <workItem from="1727448563473" duration="6105000" />
     </task>
     <task id="LOCAL-00001" summary="VOT I STRELOCHKA">
       <option name="closed" value="true" />
@@ -502,6 +374,11 @@
           <url>file://$PROJECT_DIR$/3/2/application.cpp</url>
           <line>30</line>
           <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/3/6/application.cpp</url>
+          <line>31</line>
+          <option name="timeStamp" value="157" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

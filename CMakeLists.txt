@@ -79,6 +79,9 @@ add_executable(3_2
         3/2/handler.h
 )
 
+add_executable(3_6 3/6/main.cpp
+        3/6/application.cpp
+        3/6/application.h)
 
 
 #############################################
@@ -107,11 +110,11 @@ target_link_libraries(4_SEM_Mainline_V3_test gtest_main gmock_main)
 #        4/My/Callback/V1/vector.cpp
 #        4/My/Callback/V1/vector.h)
 
-add_executable(4_SEM_Mainline_Callback_V2
-        4/My/Callback/V2/main.cpp
-        4/My/Callback/V2/application.cpp
-        4/My/Callback/V2/vector.cpp
-        4/My/Callback/V2/vector.h)
+#add_executable(4_SEM_Mainline_Callback_V2
+#        4/My/Callback/V2/main.cpp
+#        4/My/Callback/V2/application.cpp
+#        4/My/Callback/V2/vector.cpp
+#        4/My/Callback/V2/vector.h)
 
 add_executable(4_SEM_Mainline_Callback_V3
         4/My/Callback/V3/main.cpp
@@ -175,13 +178,13 @@ add_executable(4_SEM_13_Mainline_Callback_V2
 
 ####### 18
 
-add_executable(4_SEM_18_Mainline_Callback
-        4/18/Callback/main.cpp
-        4/18/Callback/application.cpp)
-
-add_executable(4_SEM_18_Mainline_Inductance
-        4/18/Inductance/main.cpp
-        4/18/Inductance/application.cpp)
+#add_executable(4_SEM_18_Mainline_Callback
+#        4/18/Callback/main.cpp
+#        4/18/Callback/application.cpp)
+#
+#add_executable(4_SEM_18_Mainline_Inductance
+#        4/18/Inductance/main.cpp
+#        4/18/Inductance/application.cpp)
 
 
 ####### 41
@@ -193,67 +196,65 @@ add_executable(4_SEM_18_Mainline_Inductance
 #        4/41/Inductance/V3/main.cpp
 #        4/41/Inductance/V3/application.cpp
 #        4/41/Inductance/V3/vector.cpp)
-add_executable(4_SEM_41_3_Mainline
-        4/41/Inductance/V3/main.cpp
-        4/41/Inductance/V3/application.cpp)
+#add_executable(4_SEM_41_3_Mainline
+#        4/41/Inductance/V3/main.cpp
+#        4/41/Inductance/V3/application.cpp)
 
 #add_executable(4_SEM_41_Callback_Mainline
 #        4/41/Callback/V3/main.cpp
 #        4/41/Callback/V3/application.cpp
 #        4/41/Callback/V3/vector.cpp)
 
-add_executable(4_SEM_41_Callback_V3_Mainline
-        4/41/Callback/V3/main.cpp
-        4/41/Callback/V3/application.cpp)
+#add_executable(4_SEM_41_Callback_V3_Mainline
+#        4/41/Callback/V3/main.cpp
+#        4/41/Callback/V3/application.cpp)
 
 ###### 43
-add_executable(4_SEM_43_Inductance_V1
-        4/43/Inductance/V1/main.cpp
-        4/43/Inductance/V1/application.cpp)
-
-add_executable(4_SEM_43_Callback_V1
-        4/43/Callback/V1/main.cpp
-        4/43/Callback/V1/application.cpp)
-
-add_executable(4_SEM_21_IND
-        4/21/Induction/application.cpp
-        4/21/Induction/application.h
-        4/21/Induction/main.cpp
-        4/21/Induction/check_neighbour.cpp
-        4/21/Induction/check_neighbour.h)
-add_executable(4_SEM_21_CB
-        4/21/Callback/application.cpp
-        4/21/Callback/application.h
-        4/21/Callback/main.cpp
-        4/21/Callback/check_neighbour.cpp
-        4/21/Callback/check_neighbour.h)
-
-
-
-add_executable(KAL
-        4/My/Inductance_V4/SIDOR_GNIDA/main.cpp
-        4/My/Inductance_V4/SIDOR_GNIDA/application.cpp
-        4/My/Inductance_V4/SIDOR_GNIDA/application.h)
-
-add_executable(KAL_KALBACK
-        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/main.cpp
-        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/application.cpp
-        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/application.h)
-
+#add_executable(4_SEM_43_Inductance_V1
+#        4/43/Inductance/V1/main.cpp
+#        4/43/Inductance/V1/application.cpp)
+#
+#add_executable(4_SEM_43_Callback_V1
+#        4/43/Callback/V1/main.cpp
+#        4/43/Callback/V1/application.cpp)
+#
+#add_executable(4_SEM_21_IND
+#        4/21/Induction/application.cpp
+#        4/21/Induction/application.h
+#        4/21/Induction/main.cpp
+#        4/21/Induction/check_neighbour.cpp
+#        4/21/Induction/check_neighbour.h)
+#add_executable(4_SEM_21_CB
+#        4/21/Callback/application.cpp
+#        4/21/Callback/application.h
+#        4/21/Callback/main.cpp
+#        4/21/Callback/check_neighbour.cpp
+#        4/21/Callback/check_neighbour.h)
+#
+#add_executable(KAL
+#        4/My/Inductance_V4/SIDOR_GNIDA/main.cpp
+#        4/My/Inductance_V4/SIDOR_GNIDA/application.cpp
+#        4/My/Inductance_V4/SIDOR_GNIDA/application.h)
+#
+#add_executable(KAL_KALBACK
+#        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/main.cpp
+#        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/application.cpp
+#        4/My/Inductance_V4/SIDOR_GNIDA/EBAL_EGO_MERTVUJU_MAMAWU/application.h)
+#
 #################################################################################################################
 
 #PRACTICE 1 - SEM 2
 
-add_executable(4_SEM_PRAC_1_MY
-        4_Practice_1/My/main.c
-        4_Practice_1/My/application.c
-        4_Practice_1/My/application.h
-        4_Practice_1/My/handler.c
-        4_Practice_1/My/handler.h)
-add_executable(4_SEM_PRAC_1_MY_LAB 4_Practice_1/My/LAB.c)
-add_executable(4_SEM_PRAC_1_MY_LAB2 4_Practice_1/My/LAB2.c)
-
-add_executable(library_practica 4_Practice_1/Roma/main.c
-        4_Practice_1/Roma/library.c
-        4_Practice_1/Roma/application.c
-        4_Practice_1/Roma/application.h)
+#add_executable(4_SEM_PRAC_1_MY
+#        4_Practice_1/My/main.c
+#        4_Practice_1/My/application.c
+#        4_Practice_1/My/application.h
+#        4_Practice_1/My/handler.c
+#        4_Practice_1/My/handler.h)
+#add_executable(4_SEM_PRAC_1_MY_LAB 4_Practice_1/My/LAB.c)
+#add_executable(4_SEM_PRAC_1_MY_LAB2 4_Practice_1/My/LAB2.c)
+#
+#add_executable(library_practica 4_Practice_1/Roma/main.c
+#        4_Practice_1/Roma/library.c
+#        4_Practice_1/Roma/application.c
+#        4_Practice_1/Roma/application.h)
