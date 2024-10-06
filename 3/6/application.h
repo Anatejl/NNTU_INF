@@ -15,9 +15,9 @@ typedef struct Application{
 
 }Application;
 
-int app_run(const Application& app);
-bool app_begin(Application &app);
-bool app_process(Application &app);
-bool app_end(Application &app);
+int app_run(Application& app);
+bool app_begin(Application& app);
+bool app_process(Application& app);
+bool app_end(Application& app);
 
 #endif //NNTU_APPLICATION_H

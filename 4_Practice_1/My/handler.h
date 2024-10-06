@@ -2,7 +2,7 @@
 // Created by Anatejl on 19.06.2024.
 //
 
-#ifndef NNTU_HANDLER_H
+#ifndef NNTU_VECTOR_H
 #define NNTU_HANDLER_H
 
 #define NAME_MAX 25
@@ -20,4 +20,4 @@ char** handler_init_file (void* file_name);
 void* handler_init_array(int to_create);
 
 
-#endif //NNTU_HANDLER_H
+#endif //NNTU_VECTOR_H

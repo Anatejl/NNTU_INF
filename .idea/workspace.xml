@@ -38,13 +38,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2adb6fb3-6727-41fa-a0ab-ff27126f0da7" name="Changes" comment="ATOP OF">
-      <change afterPath="$PROJECT_DIR$/3/6/application.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/6/application.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/6/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/6/testfile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/6/vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/6/vector.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/6/application.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/3/6/application.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/6/application.h" beforeDir="false" afterPath="$PROJECT_DIR$/3/6/application.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_Practice_1/My/handler.h" beforeDir="false" afterPath="$PROJECT_DIR$/4_Practice_1/My/handler.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/googletest" beforeDir="false" afterPath="$PROJECT_DIR$/googletest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
   "keyToString": {
     "CMake Application.3_1.executor": "Run",
     "CMake Application.3_2.executor": "Run",
-    "CMake Application.3_6.executor": "Debug",
+    "CMake Application.3_6.executor": "Run",
     "CMake Application.3_SEM_MY_31_FINAL.executor": "Run",
     "CMake Application.4_PRAC_ROMA.executor": "Debug",
     "CMake Application.4_SEM_PRAC_1_MY.executor": "Run",
@@ -155,7 +156,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="3_6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="3_6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="3_6">
+    <configuration name="3_6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="true" REDIRECT_INPUT_PATH="$PROJECT_DIR$/3/6/testfile.txt" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NNTU" TARGET_NAME="3_6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NNTU" RUN_TARGET_NAME="3_6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -286,7 +287,9 @@
       <workItem from="1724261564859" duration="5520000" />
       <workItem from="1725734850919" duration="630000" />
       <workItem from="1726926187139" duration="1000" />
-      <workItem from="1727448563473" duration="6105000" />
+      <workItem from="1727448563473" duration="7733000" />
+      <workItem from="1728123749657" duration="1272000" />
+      <workItem from="1728238918502" duration="6935000" />
     </task>
     <task id="LOCAL-00001" summary="VOT I STRELOCHKA">
       <option name="closed" value="true" />
@@ -374,11 +377,6 @@
           <url>file://$PROJECT_DIR$/3/2/application.cpp</url>
           <line>30</line>
           <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/3/6/application.cpp</url>
-          <line>31</line>
-          <option name="timeStamp" value="157" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

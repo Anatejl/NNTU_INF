@@ -3,20 +3,22 @@
 //
 
 #include "application.h"
+#include "vector.h"
 
-int app_run(const Application& app){
+int app_run(Application& app){
 
-    app_begin((Application &) app);
-    app_process((Application&) app);
-    app_end((Application&) app);
+    app_begin(app);
+    app_process(app);
+    app_end(app);
 
     return 0;
 }
 
-bool app_begin(Application &app){
+bool app_begin(Application& app){
 
     std::cout << "What's n?" << std::endl;
     std::cin >> app.n;
+    std::cout << app.n << std::endl;
 
     for (int i = 0; i < app.n; ++i){
 
@@ -24,12 +26,30 @@ bool app_begin(Application &app){
 
     }
 
+    std::cout << "Initial vector is: ";
+
+    vector_display(app.array);
+
     return true;
 }
 
-bool app_process(Application &app){
+bool app_process(Application& app){
 
-    std::cout << "CUM";
+    for (int i = 1; i < app.array.size(); ++i){
+
+        app.array.erase(app.array.begin()+i);
+
+    }
+
+    std::cout << "Processed vector is: ";
+    vector_display(app.array);
+
+    return true;
+}
+
+bool app_end(Application& app){
+
+    vector_check(app.array);
 
     return true;
 }
