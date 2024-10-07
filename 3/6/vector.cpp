@@ -25,6 +25,7 @@ bool vector_check(std::vector<int>& vector){
 
         if (!i%2){
             flag = false;
+            break;
         }
 
     }
