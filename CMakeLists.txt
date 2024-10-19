@@ -85,6 +85,10 @@ add_executable(3_6 3/6/main.cpp
         3/6/vector.cpp
         3/6/vector.h)
 
+add_executable(3_27 3/27/main.cpp
+        3/27/application.cpp
+        3/27/application.h)
+
 
 #############################################
 

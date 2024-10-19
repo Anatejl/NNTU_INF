@@ -18,7 +18,7 @@ bool app_begin(Application& app){
 
     std::cout << "What's n?" << std::endl;
     std::cin >> app.n;
-    std::cout << app.n << std::endl;
+    std::cout << "DEBUG:" << app.n << std::endl;
 
     for (int i = 0; i < app.n; ++i){
 
