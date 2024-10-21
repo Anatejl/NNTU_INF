@@ -10,6 +10,10 @@ typedef struct Application{
     std::vector<std::pair<int, int>> array;
     int n;
     std::pair<std::pair<int,int>, std::pair<int,int>> distanced;
+    //distanced.first - dot 1
+    //distanced.second - dot 2 
+    //distanced.first.first/second - x/y of a 1nd dot
+    //distanced.second.first/second - x/y of a 2nd dot
 
 }Application;
 
