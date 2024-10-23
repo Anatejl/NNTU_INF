@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 project(NNTU)
 
+#set(CMAKE_C_COMPILER "/bin/c99-gcc")
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 20)
 
@@ -24,6 +25,9 @@ set(CMAKE_CXX_STANDARD 20)
 #add_executable(1.15 "1/1.15/15.c")
 #add_executable(1.Tin2.1 "1/Tinakov/2.1/2.1.c")
 #add_executable(1.Tin2.2 "1/Tinakov/2.2/2.2.c")
+
+add_executable(1.1-Egorov 1/Egorov/1.c)
+
 #############################################
 
 # 1 course / 2 semester
