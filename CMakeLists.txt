@@ -26,7 +26,8 @@ set(CMAKE_CXX_STANDARD 20)
 #add_executable(1.Tin2.1 "1/Tinakov/2.1/2.1.c")
 #add_executable(1.Tin2.2 "1/Tinakov/2.2/2.2.c")
 
-add_executable(1.1-Egorov 1/Egorov/1.c)
+add_executable(1.1-Egorov 1/Egorov/1/1.c)
+add_executable(1.1EZ-Egorov 1/Egorov/1EZ/1EZ.c)
 
 #############################################
 
