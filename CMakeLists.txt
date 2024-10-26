@@ -4,6 +4,9 @@ project(NNTU)
 #set(CMAKE_C_COMPILER "/bin/c99-gcc")
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 20)
+enable_testing()
+include_directories(${CMAKE_SOURCE_DIR})
+include_directories("/build")
 
 # 1 course / 1 semester
 
@@ -30,12 +33,24 @@ add_executable(1.1-Egorov 1/Egorov/1/1.c)
 add_executable(1.1EZ-Egorov 1/Egorov/1EZ/1EZ.c)
 add_executable(1.2.1-Egorov 1/Egorov/2.1/2.1.c)
 add_executable(1.2.2-Egorov 1/Egorov/2.2/2.2.c)
+
 add_executable(1.3-Egorov 1/Egorov/3/3.c)
 target_link_libraries(1.3-Egorov m)
+
 add_executable(1.4-Egorov 1/Egorov/4/4-main.c
        1/Egorov/4/4-input.c
        1/Egorov/4/4-process.c
        1/Egorov/4/4-output.c)
+
+add_executable(1.4-TEST-Egorov 1/Egorov/4/4-test.c
+        1/Egorov/4/4-process.c)
+
+add_test(NAME REVERSE_TEST COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/1.4-TEST-Egorov)
+
+add_executable(1.5-array-Egorov 1/Egorov/5/array/5-array-main.c
+        1/Egorov/5/array/5-array-input.c
+        1/Egorov/5/array/5-array-process.c
+        1/Egorov/5/array/5-array-output.c)
 
 #############################################
 
