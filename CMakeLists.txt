@@ -32,6 +32,10 @@ add_executable(1.2.1-Egorov 1/Egorov/2.1/2.1.c)
 add_executable(1.2.2-Egorov 1/Egorov/2.2/2.2.c)
 add_executable(1.3-Egorov 1/Egorov/3/3.c)
 target_link_libraries(1.3-Egorov m)
+add_executable(1.4-Egorov 1/Egorov/4/4-main.c
+       1/Egorov/4/4-input.c
+       1/Egorov/4/4-process.c
+       1/Egorov/4/4-output.c)
 
 #############################################
 
