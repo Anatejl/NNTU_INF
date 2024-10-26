@@ -7,7 +7,8 @@
 	"settings": {
 		"files.associations": {
 			"stdio.h": "c",
-			"stdbool.h": "c"
+			"stdbool.h": "c",
+			"1.h": "c"
 		}
 	}
 }

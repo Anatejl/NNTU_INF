@@ -28,6 +28,10 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(1.1-Egorov 1/Egorov/1/1.c)
 add_executable(1.1EZ-Egorov 1/Egorov/1EZ/1EZ.c)
+add_executable(1.2.1-Egorov 1/Egorov/2.1/2.1.c)
+add_executable(1.2.2-Egorov 1/Egorov/2.2/2.2.c)
+add_executable(1.3-Egorov 1/Egorov/3/3.c)
+target_link_libraries(1.3-Egorov m)
 
 #############################################
 
