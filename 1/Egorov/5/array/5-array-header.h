@@ -3,7 +3,8 @@
 
 #include <stdio.h>
 
-#define NAME_MAX_SIZE 500
+#define NAME_MAX_SIZE 50
+#define HR_COUNT 1
 
 typedef struct Personnel{
 
@@ -13,5 +14,9 @@ typedef struct Personnel{
     int department;
 
 }Personnel;
+
+Personnel get_input(Personnel personnel);
+void do_process(Personnel personnel);
+void do_output(Personnel personnel);
 
 #endif //HEADER_H

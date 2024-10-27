@@ -2,9 +2,10 @@
 
 int main(){
 
-    Personnel personnel;
+    Personnel personnel[HR_COUNT];
 
-    
+    personnel = get_input(personnel);
+    //printf("\n%s\n", personnel[0].name);
 
     return 0;
 }
