@@ -9,7 +9,8 @@
 			"stdio.h": "c",
 			"stdbool.h": "c",
 			"1.h": "c",
-			"4-functions.h": "c"
+			"4-functions.h": "c",
+			"5-array-header.h": "c"
 		}
 	}
 }
