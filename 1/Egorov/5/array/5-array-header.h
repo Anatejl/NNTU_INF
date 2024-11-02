@@ -17,6 +17,7 @@ typedef struct Personnel{
 }Personnel;
 
 Personnel get_input();
-void count_employees_by_department(Personnel employees[], int employee_count);
+void do_process(Personnel employees[], int known_departments[], int departments_count[]);
+void do_output(int known_departments[], int departments_count[]);
 
 #endif //HEADER_H

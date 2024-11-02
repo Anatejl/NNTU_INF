@@ -52,6 +52,12 @@ add_executable(1.5-array-Egorov 1/Egorov/5/array/5-array-main.c
         1/Egorov/5/array/5-array-process.c
         1/Egorov/5/array/5-array-output.c)
 
+add_executable(1.5-pointer-Egorov 1/Egorov/5/pointer/5-pointer-main.c
+        1/Egorov/5/pointer/5-pointer-run.c
+        1/Egorov/5/pointer/5-pointer-input.c
+        1/Egorov/5/pointer/5-pointer-process.c
+        1/Egorov/5/pointer/5-pointer-output.c)
+
 #############################################
 
 # 1 course / 2 semester
