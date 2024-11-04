@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 #define NAME_MAX_SIZE 50
-#define HR_COUNT 2
+#define HR_COUNT 5
 #define DEPT_COUNT 4
 
 typedef struct Personnel{
@@ -16,17 +16,19 @@ typedef struct Personnel{
 
 }Personnel;
 
-typedef struct Aux{
+typedef struct Company{
 
+    Personnel personnel[HR_COUNT];
     int known_departments[DEPT_COUNT];
     int department_counts[DEPT_COUNT];
 
-}Aux;
+}Company;
 
-int do_run(Personnel* employees, Aux* aux);
-void do_input(Personnel* employees, Aux* aux);
-void do_process(Personnel* employees, Aux* aux);
-void do_output(Personnel* employees, Aux* aux);
+
+int do_run(Company* company);
+void do_input(Company* company);
+void do_process(Company* company);
+void do_output(Company* company);
 
 
 #endif //HEADER_H

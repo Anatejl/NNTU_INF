@@ -2,10 +2,9 @@
 
 int main(){
 
-    Personnel employees[HR_COUNT];
-    Aux aux;
+    Company company;
 
-    int ret = do_run(&employees, &aux);
+    int ret = do_run(&company);
 
     return ret;
 }
