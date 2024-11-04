@@ -123,6 +123,12 @@ add_executable(3_27 3/27/main.cpp
         3/27/application.cpp
         3/27/application.h)
 
+add_executable(3_41_Kornilov 3/41-23-Kornilov/main.cpp
+        3/41-23-Kornilov/application.cpp
+        3/41-23-Kornilov/application.h
+        3/41-23-Kornilov/vector_handle.h
+        3/41-23-Kornilov/vector_handle.cpp)
+
 
 #############################################
 
