@@ -29,39 +29,39 @@ include_directories("/build")
 #add_executable(1.Tin2.1 "1/Tinakov/2.1/2.1.c")
 #add_executable(1.Tin2.2 "1/Tinakov/2.2/2.2.c")
 
-add_executable(1.1-Egorov 1/Egorov/1/1.c)
-add_executable(1.1EZ-Egorov 1/Egorov/1EZ/1EZ.c)
-add_executable(1.2.1-Egorov 1/Egorov/2.1/2.1.c)
-add_executable(1.2.2-Egorov 1/Egorov/2.2/2.2.c)
+# add_executable(1.1-Egorov 1/Egorov/1/1.c)
+# add_executable(1.1EZ-Egorov 1/Egorov/1EZ/1EZ.c)
+# add_executable(1.2.1-Egorov 1/Egorov/2.1/2.1.c)
+# add_executable(1.2.2-Egorov 1/Egorov/2.2/2.2.c)
 
-add_executable(1.3-Egorov 1/Egorov/3/3.c)
-target_link_libraries(1.3-Egorov m)
+# add_executable(1.3-Egorov 1/Egorov/3/3.c)
+# target_link_libraries(1.3-Egorov m)
 
-add_executable(1.4-pointer-Egorov 1/Egorov/4/pointer/4-pointer-main.c
-       1/Egorov/4/pointer/4-pointer-input.c
-       1/Egorov/4/pointer/4-pointer-process.c
-       1/Egorov/4/pointer/4-pointer-output.c)
+# add_executable(1.4-pointer-Egorov 1/Egorov/4/pointer/4-pointer-main.c
+#        1/Egorov/4/pointer/4-pointer-input.c
+#        1/Egorov/4/pointer/4-pointer-process.c
+#        1/Egorov/4/pointer/4-pointer-output.c)
 
-add_executable(1.4-array-Egorov 1/Egorov/4/array/4-array-main.c
-       1/Egorov/4/array/4-array-input.c
-       1/Egorov/4/array/4-array-process.c
-       1/Egorov/4/array/4-array-output.c)
+# add_executable(1.4-array-Egorov 1/Egorov/4/array/4-array-main.c
+#        1/Egorov/4/array/4-array-input.c
+#        1/Egorov/4/array/4-array-process.c
+#        1/Egorov/4/array/4-array-output.c)
 
-add_executable(1.4-TEST-Egorov 1/Egorov/4/pointer/4-pointer-test.c
-        1/Egorov/4/pointer/4-pointer-process.c)
+# add_executable(1.4-TEST-Egorov 1/Egorov/4/pointer/4-pointer-test.c
+#         1/Egorov/4/pointer/4-pointer-process.c)
 
-add_test(NAME REVERSE_TEST COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/1.4-TEST-Egorov)
+# add_test(NAME REVERSE_TEST COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/1.4-TEST-Egorov)
 
-add_executable(1.5-array-Egorov 1/Egorov/5/array/5-array-main.c
-        1/Egorov/5/array/5-array-input.c
-        1/Egorov/5/array/5-array-process.c
-        1/Egorov/5/array/5-array-output.c)
+# add_executable(1.5-array-Egorov 1/Egorov/5/array/5-array-main.c
+#         1/Egorov/5/array/5-array-input.c
+#         1/Egorov/5/array/5-array-process.c
+#         1/Egorov/5/array/5-array-output.c)
 
-add_executable(1.5-pointer-Egorov 1/Egorov/5/pointer/5-pointer-main.c
-        1/Egorov/5/pointer/5-pointer-run.c
-        1/Egorov/5/pointer/5-pointer-input.c
-        1/Egorov/5/pointer/5-pointer-process.c
-        1/Egorov/5/pointer/5-pointer-output.c)
+# add_executable(1.5-pointer-Egorov 1/Egorov/5/pointer/5-pointer-main.c
+#         1/Egorov/5/pointer/5-pointer-run.c
+#         1/Egorov/5/pointer/5-pointer-input.c
+#         1/Egorov/5/pointer/5-pointer-process.c
+#         1/Egorov/5/pointer/5-pointer-output.c)
 
 #############################################
 
