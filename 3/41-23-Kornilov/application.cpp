@@ -11,17 +11,11 @@ int app_launch(Application &app){
 
 bool app_input(Application& app){
 
-    // std::cout << "Input n: " << std::endl;
-    // std::cin >> app.n;
+    std::cout << "Input n: " << std::endl;
+    std::cin >> app.n;
 
-    //REMOVE ME
-    app.n = 100;
-
-    // std::cout << "Input a0: " << std::endl;
-    // std::cin >> app.a0;
-
-    //REMOVE ME
-    app.a0 = 1;
+    std::cout << "Input a0: " << std::endl;
+    std::cin >> app.a0;
 
     return true;
 }
@@ -29,22 +23,20 @@ bool app_input(Application& app){
 bool app_process(Application& app){
 
     app.array = vector_generate(app.a0, app.n);
-
-
-
+    vector_show(app.array);
+    
+    app.odd = vector_count_odd(app.array);
+    app.even = vector_count_even(app.array);
+    app.zero = vector_count_zeroes(app.array);
 
     return true;
 }
 
 bool app_output(Application& app){
 
-    //DEBUG
-    for(int i : app.array){
-
-        std::cout << i << " ";
-
-    }
-
+    std::cout << "ODD: " << app.odd << std::endl;
+    std::cout << "EVEN: " << app.even << std::endl;
+    std::cout << "ZERO: " << app.zero << std::endl;
 
     return true;
 }
