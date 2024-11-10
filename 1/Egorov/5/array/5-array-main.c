@@ -7,7 +7,6 @@ int main(){
     int known_departments[DEPT_COUNT] = {101, 102, 103, 104};
     int department_counts[DEPT_COUNT] = {0}; 
 
-    // Fill the array with user input by calling get_input() for each employee
     for (int i = 0; i < HR_COUNT; ++i) {
 
         printf("\n--- Enter details for employee %d ---\n", i + 1);

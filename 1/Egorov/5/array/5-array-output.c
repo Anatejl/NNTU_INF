@@ -2,7 +2,6 @@
 
 void do_output(int known_departments[], int department_counts[]){
 
-    // Print the results
     printf("\nNumber of employees per department:\n");
 
     for (int i = 0; i < DEPT_COUNT; ++i) {
