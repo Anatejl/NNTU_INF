@@ -37,13 +37,18 @@ add_executable(1.2.2-Egorov 1/Egorov/2.2/2.2.c)
 add_executable(1.3-Egorov 1/Egorov/3/3.c)
 target_link_libraries(1.3-Egorov m)
 
-add_executable(1.4-Egorov 1/Egorov/4/4-main.c
-       1/Egorov/4/4-input.c
-       1/Egorov/4/4-process.c
-       1/Egorov/4/4-output.c)
+add_executable(1.4-pointer-Egorov 1/Egorov/4/pointer/4-pointer-main.c
+       1/Egorov/4/pointer/4-pointer-input.c
+       1/Egorov/4/pointer/4-pointer-process.c
+       1/Egorov/4/pointer/4-pointer-output.c)
 
-add_executable(1.4-TEST-Egorov 1/Egorov/4/4-test.c
-        1/Egorov/4/4-process.c)
+add_executable(1.4-array-Egorov 1/Egorov/4/array/4-array-main.c
+       1/Egorov/4/array/4-array-input.c
+       1/Egorov/4/array/4-array-process.c
+       1/Egorov/4/array/4-array-output.c)
+
+add_executable(1.4-TEST-Egorov 1/Egorov/4/pointer/4-pointer-test.c
+        1/Egorov/4/pointer/4-pointer-process.c)
 
 add_test(NAME REVERSE_TEST COMMAND ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/1.4-TEST-Egorov)
 
