@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdbool.h>
 #include "1.h"
 
 void get_input(Variables *p_var){

@@ -1,6 +1,8 @@
 #ifndef NNTU_1
 #define NNTU_1
 
+#include <stdio.h>
+
 typedef struct Variables{
 
     double n, d, a1;

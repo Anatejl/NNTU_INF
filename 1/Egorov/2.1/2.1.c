@@ -3,9 +3,7 @@
 int main(){
 
     double a, b, c;
-    double min = 99999;
-    double max = -99999;
-    double summ;
+    double min, max, summ;
 
     printf("Input a:\n");
     scanf("%lf", &a);
@@ -16,24 +14,20 @@ int main(){
     printf("Input c:\n");
     scanf("%lf", &c);
 
-    if(c < min){
-        min = c;        
-    }
+    min = max = a;
+
     if(b < min){
         min = b;        
     }
-    if(a < min){
-        min = a;        
+    if(c < min){
+        min = c;        
     }
 
-    if(c > max){
-        max = c;        
-    }
     if(b > max){
         max = b;        
     }
-    if(a > max){
-        max = a;        
+    if(c > max){
+        max = c;        
     }
 
     summ = min + max;
