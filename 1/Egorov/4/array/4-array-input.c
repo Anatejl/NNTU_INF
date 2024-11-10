@@ -1,9 +1,8 @@
 #include "4-array-functions.h"
 
-void get_input(char *str, int length) {
-
-    printf("Enter a string (up to %d characters): ", length - 1);
-    fgets(str, length, stdin);
+void get_input(char str[81]) {
+    printf("Enter a string (up to 80 characters): ");
+    fgets(str, 81, stdin);
     
-    str[strcspn(str, "\n")] = 0;
+    str[strcspn(str, "\n")] = '\0';
 }
