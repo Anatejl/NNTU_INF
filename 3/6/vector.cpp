@@ -5,29 +5,20 @@
 #include "vector.h"
 
 bool vector_display(std::vector<int>& vector){
-
     for (int i : vector) {
-
         std::cout << i << " ";
-
     }
-
     std::cout << std::endl;
-
     return true;
 }
 
 bool vector_check(std::vector<int>& vector){
-
     bool flag = true;
-
     for (int i : vector){
-
         if (!i%2){
             flag = false;
             break;
         }
-
     }
 
     std::cout << "VERDICT: ";

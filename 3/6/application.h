@@ -9,10 +9,8 @@
 #include <iostream>
 
 typedef struct Application{
-
     int n;
     std::vector<int> array;
-
 }Application;
 
 int app_run(Application& app);

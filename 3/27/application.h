@@ -2,13 +2,12 @@
 #define NNTU_APPLICATION_H
 
 #include <iostream>
-#include <vector>
-#include <utility>
+#include "cartesian.h"
 
 typedef struct Application{
 
-    std::vector<std::pair<int, int>> array;
     int n;
+    std::vector<std::pair<int, int>> array;
     std::pair<std::pair<int,int>, std::pair<int,int>> distanced;
     //distanced.first - dot 1
     //distanced.second - dot 2 
