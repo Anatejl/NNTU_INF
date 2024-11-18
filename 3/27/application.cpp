@@ -40,6 +40,8 @@ bool app_process(Application& app){
 
     std::cout << "PROCESSING" << std::endl;
 
+    cartesian_find(app.array, app.distanced);
+
     return true;
 }
 
