@@ -14,15 +14,15 @@ bool app_input(Application& app){
     std::cout << "Input n: " << std::endl;
     std::cin >> app.n;
 
-    std::cout << "Input a0: " << std::endl;
-    std::cin >> app.a0;
+    // std::cout << "Input a0: " << std::endl;
+    // std::cin >> app.a0;
 
     return true;
 }
 
 bool app_process(Application& app){
 
-    app.array = vector_generate(app.a0, app.n);
+    app.array = vector_fill(app.n);
     vector_show(app.array);
     
     app.odd = vector_count_odd(app.array);

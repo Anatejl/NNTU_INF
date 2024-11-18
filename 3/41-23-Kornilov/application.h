@@ -7,7 +7,7 @@
 
 typedef struct Application
 {
-    int n, a0;
+    int n;
     std::vector<int>array;
     int odd, even, zero;
 
