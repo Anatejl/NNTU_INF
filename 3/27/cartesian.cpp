@@ -9,22 +9,18 @@ bool cartesian_add(int n, int x, int y, std::vector<std::pair<int, int>> &array)
     return true;
 }
 
-bool cartesian_find(std::vector<std::pair<int, int>> &array, std::pair<std::pair<int,int>, std::pair<int,int>> &distanced){
+bool cartesian_find(std::vector<std::pair<int, int>>& array, std::pair<std::pair<int,int>, std::pair<int,int>>& distanced){
+
+    double distance_max = 0;
 
     for (int i = 0; i < array.size(); ++i){
-
-        for (int j = 0; j < array.size(); ++j){
-
-            if (array[i].first > array[j].first){
-
-                
-
+        for (int j = i+1; j < array.size(); ++j){
+            double distance = cartesian_find_distance(array[i], array[j]);    
+            if (distance > distance_max){
+                distance_max = distance;
+                distanced = {array[i], array[j]};
             }
-
         }
-
     }
-
-
     return true;
 }

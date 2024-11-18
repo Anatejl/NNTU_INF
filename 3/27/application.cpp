@@ -48,6 +48,20 @@ bool app_process(Application& app){
 bool app_end(Application& app){
 
     std::cout << "ENDING" << std::endl;
+
+    std::cout << "The farthest pair of points are: (" 
+         << app.distanced.first.first << ", " << app.distanced.first.second << ") and ("
+         << app.distanced.second.first << ", " << app.distanced.second.second << ")" << std::endl;
+
+    for (int i = 0; i < app.array.size(); ++i) {
+        if (app.array[i] == app.distanced.first) {
+            std::cout << "First point index in the sequence: " << i << std::endl;
+        }
+        if (app.array[i] == app.distanced.second) {
+            std::cout << "Second point index in the sequence: " << i << std::endl;
+        }
+    }
+    
     
     return true;
 }
