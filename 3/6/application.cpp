@@ -15,9 +15,12 @@ int app_run(Application& app){
 bool app_begin(Application& app){
     std::cout << "What's n?" << std::endl;
     std::cin >> app.n;
-    std::cout << "DEBUG:" << app.n << std::endl;
+    int temp_read_value;
     for (int i = 0; i < app.n; ++i){
-        app.array.push_back(i+1);
+        std::cout << "<" << i+1 << " of " << app.n << ">" << " item assigning:" << std::endl;
+        std::cout << "Input a value:" << std::endl;
+        std::cin >> temp_read_value;
+        vector_push(app.array, temp_read_value);
     }
     std::cout << "Initial vector is: ";
     vector_display(app.array);
@@ -25,7 +28,7 @@ bool app_begin(Application& app){
 }
 
 bool app_process(Application& app){
-    for (int i = 1; i < app.array.size(); ++i){
+    for (int i = 1; i < vector_size(app.array); ++i){
         vector_erase(app.array, i);
     }
     return true;
@@ -34,6 +37,5 @@ bool app_process(Application& app){
 bool app_end(Application& app){
     std::cout << "Processed vector is: ";
     vector_display(app.array);
-    //vector_check(app.array);
     return true;
 }

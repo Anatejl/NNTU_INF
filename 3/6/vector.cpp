@@ -4,6 +4,15 @@
 
 #include "vector.h"
 
+int vector_size(std::vector<int>& vector){
+    return vector.size();
+}
+
+bool vector_push(std::vector<int>& vector, int value){
+    vector.push_back(value);
+    return true;
+}
+
 bool vector_erase(std::vector<int>& vector, int index){
     vector.erase(vector.begin()+index);
     return true;
@@ -15,24 +24,4 @@ bool vector_display(std::vector<int>& vector){
     }
     std::cout << std::endl;
     return true;
-}
-
-bool vector_check(std::vector<int>& vector){
-    bool flag = true;
-    for (int i : vector){
-        if (!i%2){
-            flag = false;
-            break;
-        }
-    }
-
-    std::cout << "VERDICT: ";
-    if (flag){
-        std::cout << "SUCCESS" << std::endl;
-        return true;
-    }
-    else{
-        std::cout << "FAILURE" << std::endl;
-        return false;
-    }
 }
