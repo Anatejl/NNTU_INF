@@ -1,10 +1,15 @@
 #include "application.h"
 
-bool app_run(Application& app){
+int app_run(Application& app){
     app_start(app);
-    app_process(app);
-    app_end(app);
-    return true;
+    if (app_process(app)){
+        app_end(app);
+        return 0;
+    }
+    else{
+        std::cout << "An error has occured." << std::endl;
+        return 1;
+    }
 }
 
 bool app_start(Application& app){
@@ -18,15 +23,19 @@ bool app_start(Application& app){
         std::cin >> temp_x;
         std::cout << "Input an y:" << std::endl;
         std::cin >> temp_y;
-        cartesian_add(app.n, temp_x, temp_y, app.array);
+        cartesian_add(temp_x, temp_y, app.array);
     }
     return true;
 }
 
 bool app_process(Application& app){
     std::cout << "PROCESSING" << std::endl;
-    cartesian_find(app.array, app.distanced);
-    return true;
+    if (app.array.size() > 1){
+        cartesian_find(app.array, app.distanced);
+        return true;
+    }
+    std::cout << "Insufficient data. ABORTING..." << std::endl;   
+    return false;
 }
 
 bool app_end(Application& app){

@@ -16,7 +16,7 @@ typedef struct Application{
 
 }Application;
 
-bool app_run(Application& app);
+int app_run(Application& app);
 bool app_start(Application& app);
 bool app_process(Application &app);
 bool app_end(Application& app);
