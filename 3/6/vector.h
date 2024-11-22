@@ -1,12 +1,8 @@
-//
-// Created by Anatejl on 06.10.2024.
-//
-
 #ifndef NNTU_VECTOR_H
 #define NNTU_VECTOR_H
 
-#include <vector>
 #include <iostream>
+#include <vector>
 
 bool vector_push(std::vector<int>& vector, int value);
 bool vector_erase(std::vector<int>& vector, int index);

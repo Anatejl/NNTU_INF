@@ -1,9 +1,4 @@
-//
-// Created by Anatejl on 27.09.2024.
-//
-
 #include "application.h"
-#include "vector.h"
 
 int app_run(Application& app){
     app_begin(app);

@@ -5,8 +5,7 @@
 #include <vector>
 #include "vector_handle.h"
 
-typedef struct Application
-{
+typedef struct Application{
     int n;
     std::vector<int>array;
     int odd, even, zero;
