@@ -1,7 +1,3 @@
-//
-// Created by Anatejl on 06.10.2024.
-//
-
 #include "vector.h"
 
 int vector_size(std::vector<int>& vector){
