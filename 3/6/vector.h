@@ -8,6 +8,7 @@
 #include <vector>
 #include <iostream>
 
+bool vector_erase(std::vector<int>& vector, int index);
 bool vector_display(std::vector<int>& vector);
 bool vector_check(std::vector<int>& vector);
 

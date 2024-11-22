@@ -26,7 +26,7 @@ bool app_begin(Application& app){
 
 bool app_process(Application& app){
     for (int i = 1; i < app.array.size(); ++i){
-        app.array.erase(app.array.begin()+i);
+        vector_erase(app.array, i);
     }
     return true;
 }

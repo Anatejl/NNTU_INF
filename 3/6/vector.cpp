@@ -4,6 +4,11 @@
 
 #include "vector.h"
 
+bool vector_erase(std::vector<int>& vector, int index){
+    vector.erase(vector.begin()+index);
+    return true;
+}
+
 bool vector_display(std::vector<int>& vector){
     for (int i : vector) {
         std::cout << i << " ";

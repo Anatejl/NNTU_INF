@@ -12,7 +12,7 @@ bool app_start(Application& app){
     std::cout << "START START" << std::endl;
     std::cout << "Input a n number:" << std::endl;
     std::cin >> app.n;
-        for (int i = 0; i < app.n; ++i){
+    for (int i = 0; i < app.n; ++i){
         std::cout << "[" << i+1 << "/" << app.n << "]" << " set is being assigned:" << std::endl;
         std::cout << "Input a x:" << std::endl;
         std::cin >> temp_x;
