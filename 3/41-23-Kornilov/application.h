@@ -1,14 +1,13 @@
 #ifndef HEADER_H
-#define HEADE_H
+#define HEADER_H
 
 #include <iostream>
-#include <vector>
 #include "vector_handle.h"
 
 typedef struct Application{
     int n;
     std::vector<int>array;
-    int odd, even, zero;
+    int odd = 0, even = 0, zero = 0;
 
 }Application;
 

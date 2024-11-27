@@ -42,10 +42,10 @@ int vector_count_zeroes(std::vector<int>to_compute){
     return counter;
 }
 
-void vector_show(std::vector<int>to_comppute){
+void vector_show(std::vector<int>to_compute){
     //DEBUG
     std::cout << "Vector is: " << std::endl;
-    for (int i : to_comppute){
+    for (int i : to_compute){
         std::cout << i << " "; 
     }
     std::cout << std::endl;
