@@ -18,13 +18,13 @@ bool app_process(Application& app){
     vector_show(app.array);
     app.counter_positive = vector_count_positive(app.array);
     app.counter_negative = vector_count_negative(app.array);
-    app.zero = vector_count_zeroes(app.array);
+    app.counter_zero = vector_count_zeroes(app.array);
     return true;
 }
 
 bool app_output(Application& app){
     std::cout << "Positive: " << app.counter_positive << std::endl;
     std::cout << "Negative: " << app.counter_negative << std::endl;
-    std::cout << "Zero: " << app.zero << std::endl;
+    std::cout << "Zero: " << app.counter_zero << std::endl;
     return true;
 }

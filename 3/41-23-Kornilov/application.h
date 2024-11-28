@@ -7,7 +7,7 @@
 typedef struct Application{
     int n;
     std::vector<int>array;
-    int counter_positive = 0, counter_negative = 0, zero = 0;
+    int counter_positive = 0, counter_negative = 0, counter_zero = 0;
 
 }Application;
 
