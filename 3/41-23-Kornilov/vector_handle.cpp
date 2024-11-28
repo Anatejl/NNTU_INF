@@ -12,20 +12,20 @@ std::vector<int> vector_fill(int n){
     return to_return;
 }
 
-int vector_count_odd(std::vector<int>to_compute){
+int vector_count_positive(std::vector<int>to_compute){
     int counter = 0;
     for(int i : to_compute){
-        if ( i % 2 && i != 0){
+        if (i > 0){
             ++counter;
         }
     }
     return counter;
 }
 
-int vector_count_even(std::vector<int>to_compute){
+int vector_count_negative(std::vector<int>to_compute){
     int counter = 0;
     for(int i : to_compute){
-        if ( !(i % 2) && i != 0){
+        if (i < 0){
             ++counter;
         }
     }
