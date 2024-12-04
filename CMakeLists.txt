@@ -63,6 +63,9 @@ include_directories("/build")
 #         1/Egorov/5/pointer/5-pointer-process.c
 #         1/Egorov/5/pointer/5-pointer-output.c)
 
+add_executable(1.1-Sedyx 1/Sedyx/1/1.c)
+
+
 #############################################
 
 # 1 course / 2 semester
