@@ -81,6 +81,18 @@ add_executable(1.4p-Sedyx 1/Sedyx/4p/4p-main.c
         1/Sedyx/4p/4p-process.c
         1/Sedyx/4p/4p-output.c)
 
+add_executable(1.5a-Sedyx 1/Sedyx/5a/5a-main.c
+        1/Sedyx/5a/5a-header.h
+        1/Sedyx/5a/5a-input.c
+        1/Sedyx/5a/5a-process.c
+        1/Sedyx/5a/5a-output.c)
+
+add_executable(1.5p-Sedyx 1/Sedyx/5p/5p-main.c
+        1/Sedyx/5p/5p-header.h
+        1/Sedyx/5p/5p-input.c
+        1/Sedyx/5p/5p-process.c
+        1/Sedyx/5p/5p-output.c)
+
 #############################################
 
 # 1 course / 2 semester

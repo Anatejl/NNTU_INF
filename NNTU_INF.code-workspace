@@ -79,7 +79,8 @@
 			"cinttypes": "cpp",
 			"typeinfo": "cpp",
 			"variant": "cpp",
-			"4a-header.h": "c"
+			"4a-header.h": "c",
+			"5p-header.h": "c"
 		}
 	}
 }
