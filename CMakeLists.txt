@@ -64,7 +64,22 @@ include_directories("/build")
 #         1/Egorov/5/pointer/5-pointer-output.c)
 
 add_executable(1.1-Sedyx 1/Sedyx/1/1.c)
+add_executable(1.2.1-Sedyx 1/Sedyx/2-1/2-1.c)
+add_executable(1.2.2-Sedyx 1/Sedyx/2-2/2-2.c)
+target_link_libraries(1.2.2-Sedyx m)
+add_executable(1.3-Sedyx 1/Sedyx/3/3.c)
+target_link_libraries(1.3-Sedyx m)
+add_executable(1.4a-Sedyx 1/Sedyx/4a/4a-main.c
+        1/Sedyx/4a/4a-header.h
+        1/Sedyx/4a/4a-input.c
+        1/Sedyx/4a/4a-process.c
+        1/Sedyx/4a/4a-output.c)
 
+add_executable(1.4p-Sedyx 1/Sedyx/4p/4p-main.c
+        1/Sedyx/4p/4p-header.h
+        1/Sedyx/4p/4p-input.c
+        1/Sedyx/4p/4p-process.c
+        1/Sedyx/4p/4p-output.c)
 
 #############################################
 
