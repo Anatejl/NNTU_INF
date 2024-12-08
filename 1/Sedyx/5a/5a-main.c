@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "5a-header.h"
 
 int main() {

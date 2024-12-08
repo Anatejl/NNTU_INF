@@ -36,7 +36,7 @@ int main() {
     double sum_x = sum_xi(n, x);
 
     double r = (sum_sq - sum_x) / sqrt((n - 2) * sum_x);
-
+    
     printf("r = %.2f\n", r);
 
     return 0;

@@ -14,7 +14,6 @@ void do_process(Student students[], int totalStudents, int students_with_debts[]
                 break;
             }
         }
-
         if (hasDebt) {
             students_with_debts[*debtCount] = i;
             (*debtCount)++;
