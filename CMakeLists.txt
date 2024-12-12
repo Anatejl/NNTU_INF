@@ -63,35 +63,41 @@ include_directories("/build")
 #         1/Egorov/5/pointer/5-pointer-process.c
 #         1/Egorov/5/pointer/5-pointer-output.c)
 
-add_executable(1.1-Sedyx 1/Sedyx/1/1.c)
-add_executable(1.2.1-Sedyx 1/Sedyx/2-1/2-1.c)
-add_executable(1.2.2-Sedyx 1/Sedyx/2-2/2-2.c)
-target_link_libraries(1.2.2-Sedyx m)
-add_executable(1.3-Sedyx 1/Sedyx/3/3.c)
-target_link_libraries(1.3-Sedyx m)
-add_executable(1.4a-Sedyx 1/Sedyx/4a/4a-main.c
-        1/Sedyx/4a/4a-header.h
-        1/Sedyx/4a/4a-input.c
-        1/Sedyx/4a/4a-process.c
-        1/Sedyx/4a/4a-output.c)
+# add_executable(1.1-Sedyx 1/Sedyx/1/1.c)
+# add_executable(1.2.1-Sedyx 1/Sedyx/2-1/2-1.c)
+# add_executable(1.2.2-Sedyx 1/Sedyx/2-2/2-2.c)
+# target_link_libraries(1.2.2-Sedyx m)
+# add_executable(1.3-Sedyx 1/Sedyx/3/3.c)
+# target_link_libraries(1.3-Sedyx m)
+# add_executable(1.4a-Sedyx 1/Sedyx/4a/4a-main.c
+#         1/Sedyx/4a/4a-header.h
+#         1/Sedyx/4a/4a-input.c
+#         1/Sedyx/4a/4a-process.c
+#         1/Sedyx/4a/4a-output.c)
+# add_executable(1.4p-Sedyx 1/Sedyx/4p/4p-main.c
+#         1/Sedyx/4p/4p-header.h
+#         1/Sedyx/4p/4p-input.c
+#         1/Sedyx/4p/4p-process.c
+#         1/Sedyx/4p/4p-output.c)
+# add_executable(1.5a-Sedyx 1/Sedyx/5a/5a-main.c
+#         1/Sedyx/5a/5a-header.h
+#         1/Sedyx/5a/5a-input.c
+#         1/Sedyx/5a/5a-process.c
+#         1/Sedyx/5a/5a-output.c)
+# add_executable(1.5p-Sedyx 1/Sedyx/5p/5p-main.c
+#         1/Sedyx/5p/5p-header.h
+#         1/Sedyx/5p/5p-input.c
+#         1/Sedyx/5p/5p-process.c
+#         1/Sedyx/5p/5p-output.c)
 
-add_executable(1.4p-Sedyx 1/Sedyx/4p/4p-main.c
-        1/Sedyx/4p/4p-header.h
-        1/Sedyx/4p/4p-input.c
-        1/Sedyx/4p/4p-process.c
-        1/Sedyx/4p/4p-output.c)
+add_executable(1.1-Vor 1/Vor/1/1.c)
+target_link_libraries(1.1-Vor m)
+add_executable(1.2.1-Vor 1/Vor/2-1/2-1.c)
+add_executable(1.2.2-Vor 1/Vor/2-2/2-2.c)
+target_link_libraries(1.2.2-Vor m)
+add_executable(1.3-Vor 1/Vor/3/3.c)
+target_link_libraries(1.3-Vor m)
 
-add_executable(1.5a-Sedyx 1/Sedyx/5a/5a-main.c
-        1/Sedyx/5a/5a-header.h
-        1/Sedyx/5a/5a-input.c
-        1/Sedyx/5a/5a-process.c
-        1/Sedyx/5a/5a-output.c)
-
-add_executable(1.5p-Sedyx 1/Sedyx/5p/5p-main.c
-        1/Sedyx/5p/5p-header.h
-        1/Sedyx/5p/5p-input.c
-        1/Sedyx/5p/5p-process.c
-        1/Sedyx/5p/5p-output.c)
 
 #############################################
 
@@ -119,9 +125,9 @@ add_executable(1.5p-Sedyx 1/Sedyx/5p/5p-main.c
 #add_executable(3_my_1 "3/3_my-31/v0.1/3_my_v0.1.cpp")
 #add_executable(3_my_2 "3/3_my-31/v0.2/3_my_v0.2.cpp" 3/3_my-31/v0.2/application.h)
 #add_executable(attempt "3/3_my-31/att/main.cpp" 3/3_my-31/att/header.h)
-add_executable(3_SEM_MY_31_FINAL 3/3_my-31/FINAL/main.cpp
-        3/3_my-31/FINAL/vector.cpp
-        3/3_my-31/FINAL/application.cpp)
+# add_executable(3_SEM_MY_31_FINAL 3/3_my-31/FINAL/main.cpp
+#         3/3_my-31/FINAL/vector.cpp
+#         3/3_my-31/FINAL/application.cpp)
 ##add_executable(ROMYCH-37 "3/ROMYCH-37/replacement.cpp")
 #add_executable(TESTfile "2/Lab1/test.c")
 
@@ -175,16 +181,16 @@ add_executable(3_41_Kornilov 3/41-23-Kornilov/main.cpp
 enable_testing()
 add_subdirectory(googletest)
 
-add_executable(4_SEM_Mainline_V3
-        4/My/Inductance_V3/main.cpp
-        4/My/Inductance_V3/application.cpp
-        4/My/Inductance_V3/algo.cpp)
+# add_executable(4_SEM_Mainline_V3
+#         4/My/Inductance_V3/main.cpp
+#         4/My/Inductance_V3/application.cpp
+#         4/My/Inductance_V3/algo.cpp)
 
-add_executable(4_SEM_Mainline_V3_test
-        4/My/Inductance_V3/application.cpp
-        4/My/Inductance_V3/algo.cpp
-        4/My/Inductance_V3/test.cpp)
-target_link_libraries(4_SEM_Mainline_V3_test gtest_main gmock_main)
+# add_executable(4_SEM_Mainline_V3_test
+#         4/My/Inductance_V3/application.cpp
+#         4/My/Inductance_V3/algo.cpp
+#         4/My/Inductance_V3/test.cpp)
+# target_link_libraries(4_SEM_Mainline_V3_test gtest_main gmock_main)
 
 
 #add_executable(4_SEM_Mainline_Callback_V1
@@ -199,10 +205,10 @@ target_link_libraries(4_SEM_Mainline_V3_test gtest_main gmock_main)
 #        4/My/Callback/V2/vector.cpp
 #        4/My/Callback/V2/vector.h)
 
-add_executable(4_SEM_Mainline_Callback_V3
-        4/My/Callback/V3/main.cpp
-        4/My/Callback/V3/application.cpp
-        4/My/Callback/V3/algo.cpp)
+# add_executable(4_SEM_Mainline_Callback_V3
+#         4/My/Callback/V3/main.cpp
+#         4/My/Callback/V3/application.cpp
+#         4/My/Callback/V3/algo.cpp)
 
 
 ##add_executable(4_SEM_Mainline_Callback_V1_test
@@ -212,31 +218,31 @@ add_executable(4_SEM_Mainline_Callback_V3
 ##        4/My/Callback/V1/test.cpp)
 ##target_link_libraries(4_SEM_Mainline_Callback_V1_test gtest_main gmock_main)
 
-add_executable(4_SEM_Mainline_Callback_V2_test
-        4/My/Callback/V2/application.cpp
-        4/My/Callback/V2/vector.cpp
-        4/My/Callback/V2/test.cpp)
-target_link_libraries(4_SEM_Mainline_Callback_V2_test gtest_main gmock_main)
+# add_executable(4_SEM_Mainline_Callback_V2_test
+#         4/My/Callback/V2/application.cpp
+#         4/My/Callback/V2/vector.cpp
+#         4/My/Callback/V2/test.cpp)
+# target_link_libraries(4_SEM_Mainline_Callback_V2_test gtest_main gmock_main)
 
 
 ####### 1
-add_executable(4_SEM_1_Mainline_Inductance_V3
-        4/1/Inductance/V3/main.cpp
-        4/1/Inductance/V3/application.cpp)
+# add_executable(4_SEM_1_Mainline_Inductance_V3
+#         4/1/Inductance/V3/main.cpp
+#         4/1/Inductance/V3/application.cpp)
 
-add_executable(4_SEM_1_Mainline_Callback_V3
-        4/1/Callback/V3/main.cpp
-        4/1/Callback/V3/application.cpp)
+# add_executable(4_SEM_1_Mainline_Callback_V3
+#         4/1/Callback/V3/main.cpp
+#         4/1/Callback/V3/application.cpp)
 
 ####### 10
-add_executable(4_SEM_10_Mainline_Inductance_V2
-        4/10/Inductance/V2/main.cpp
-        4/10/Inductance/V2/application.cpp)
+# add_executable(4_SEM_10_Mainline_Inductance_V2
+#         4/10/Inductance/V2/main.cpp
+#         4/10/Inductance/V2/application.cpp)
 
-add_executable(4_SEM_10_Mainline_Callback_V2
-        4/10/callback/V2/main.cpp
-        4/10/callback/V2/application.cpp
-        4_Practice_1/My/main.c)
+# add_executable(4_SEM_10_Mainline_Callback_V2
+#         4/10/callback/V2/main.cpp
+#         4/10/callback/V2/application.cpp
+#         4_Practice_1/My/main.c)
 
 ####### 13
 #add_executable(4_SEM_13_TEST 4/13/Inductance/V1/test13.cpp)
@@ -245,19 +251,19 @@ add_executable(4_SEM_10_Mainline_Callback_V2
 #        4/13/Inductance/V1/application.cpp
 #        4/13/Inductance/V1/vector.cpp)
 
-add_executable(4_SEM_13_Mainline_Induction_V2
-        4/13/Inductance/V2/main.cpp
-        4/13/Inductance/V2/application.cpp)
+# add_executable(4_SEM_13_Mainline_Induction_V2
+#         4/13/Inductance/V2/main.cpp
+#         4/13/Inductance/V2/application.cpp)
 
 #add_executable(4_SEM_13_Mainline_Callback_V1
 #        4/13/Callback/V1/main.cpp
 #        4/13/Callback/V1/application.cpp
 #        4/13/Callback/V1/vector.cpp)
 
-add_executable(4_SEM_13_Mainline_Callback_V2
-        4/13/Callback/V2/main.cpp
-        4/13/Callback/V2/application.cpp
-)
+# add_executable(4_SEM_13_Mainline_Callback_V2
+#         4/13/Callback/V2/main.cpp
+#         4/13/Callback/V2/application.cpp
+# )
 
 ####### 18
 
