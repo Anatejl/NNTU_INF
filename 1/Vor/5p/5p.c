@@ -1,10 +1,9 @@
 // VAR 14
-#include "5a.h"
+#include "5p.h"
 
-void func_input(book_t catalog[], int size) {
-
+void func_input(book_t *catalog, int size) {
+    
     for (int i = 0; i < size; i++) {
-
         printf("\nBook %d:\n", i + 1);
         printf("Enter book code: ");
         scanf("%s", catalog[i].book_code);
@@ -26,30 +25,32 @@ void func_input(book_t catalog[], int size) {
 
 }
 
-int func_process(book_t catalog[], int size, char search_code[]) {
+void func_process(book_t *catalog, int size, char *search_code, book_t **result) {
+
+    *result = NULL;
 
     for (int i = 0; i < size; i++) {
 
         if (strcmp(catalog[i].book_code, search_code) == 0) {
 
-            return i;
+            *result = &catalog[i];
+            break;
 
         }
 
     }
 
-    return -1;
 }
 
-void func_output(book_t book) {
+void func_output(book_t *book) {
 
-    printf("Book Code: %s\n", book.book_code);
-    printf("UDK: %s\n", book.udk);
-    printf("Author: %s\n", book.author_name);
-    printf("Title: %s\n", book.book_title);
-    printf("Year: %d\n", book.publication_year);
-    
-    if (book.is_available == 1) {
+    printf("Book Code: %s\n", book->book_code);
+    printf("UDK: %s\n", book->udk);
+    printf("Author: %s\n", book->author_name);
+    printf("Title: %s\n", book->book_title);
+    printf("Year: %d\n", book->publication_year);
+
+    if (book->is_available == 1) {
 
         printf("Availability: Available\n");
 
@@ -59,14 +60,13 @@ void func_output(book_t book) {
         printf("Availability: Not Available\n");
 
     }
-
+    
 }
 
 int main() {
-    
     book_t catalog[SIZE];
     char search_code[10];
-    int found_index;
+    book_t *found_book = NULL;
 
     printf("Input book details for %d books:\n", SIZE);
     func_input(catalog, SIZE);
@@ -74,18 +74,18 @@ int main() {
     printf("\nEnter the book code to search: ");
     scanf("%s", search_code);
 
-    found_index = func_process(catalog, SIZE, search_code);
+    func_process(catalog, SIZE, search_code, &found_book);
 
-    if (found_index != -1) {
+    if (found_book != NULL) {
 
         printf("\nBook found!\n");
-        func_output(catalog[found_index]);
-
+        func_output(found_book);
+        
     } 
     else {
 
         printf("\nBook with code \"%s\" not found in the catalog.\n", search_code);
-
+    
     }
 
     return 0;

@@ -99,7 +99,14 @@ add_executable(1.3-Vor 1/Vor/3/3.c)
 target_link_libraries(1.3-Vor m)
 add_executable(1.4p-Vor 1/Vor/4p/4p.c
         1/Vor/4p/4p.h)
+add_executable(1.4a-Vor 1/Vor/4a/4a.c
+        1/Vor/4a/4a.h)
+add_executable(1.5a-Vor 1/Vor/5a/5a.c
+        1/Vor/5a/5a.h)
+add_executable(1.5p-Vor 1/Vor/5p/5p.c
+        1/Vor/5p/5p.h)
 
+        
 #############################################
 
 # 1 course / 2 semester

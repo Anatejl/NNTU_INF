@@ -18,8 +18,8 @@ typedef struct {
 
 } book_t;
 
-void func_input(book_t catalog[], int size);
-int func_process(book_t catalog[], int size, char search_code[]);
-void func_output(book_t book);
+void func_input(book_t *catalog, int size);
+void func_process(book_t *catalog, int size, char *search_code, book_t **result);
+void func_output(book_t *book);
 
 #endif
