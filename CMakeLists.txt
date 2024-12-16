@@ -97,7 +97,8 @@ add_executable(1.2.2-Vor 1/Vor/2-2/2-2.c)
 target_link_libraries(1.2.2-Vor m)
 add_executable(1.3-Vor 1/Vor/3/3.c)
 target_link_libraries(1.3-Vor m)
-
+add_executable(1.4p-Vor 1/Vor/4p/4p.c
+        1/Vor/4p/4p.h)
 
 #############################################
 
