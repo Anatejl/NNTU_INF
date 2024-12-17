@@ -1,3 +1,4 @@
+//VAR 9
 #ifndef WORD_COUNT_H
 #define WORD_COUNT_H
 

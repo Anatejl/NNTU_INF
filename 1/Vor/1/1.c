@@ -13,7 +13,7 @@ int main(){
     printf("Input R: ");
     scanf("%d", &R);
     
-    S = (1/2*n*R^2)*(sin(2*M_PI/n));
+    S = (0.5*n*R*R)*(sin(2*M_PI/n));
 
     printf("Result is: %Lf\n", S);
 

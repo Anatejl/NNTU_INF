@@ -22,7 +22,7 @@ int main(){
         }
     } 
     else {
-        printf("Dot (%.lf, %.lf) is outside the ssquare.\n", x, y);
+        printf("Dot (%.lf, %.lf) is outside the square.\n", x, y);
     }
 
     return 0;

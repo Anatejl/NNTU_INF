@@ -1,4 +1,4 @@
-// VAR 20
+// VAR 6
 #include <stdio.h>
 #include <math.h>
 

@@ -1,3 +1,4 @@
+//VAR 9
 #include "4p.h"
 
 void func_input(char *str) {
