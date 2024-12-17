@@ -1,7 +1,8 @@
+// VAR 24
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main(){
 
     double x, y, R;
 
@@ -10,17 +11,11 @@ int main() {
     printf("Enter the radius R: ");
     scanf("%lf", &R);
 
-    if (x * x + y * y <= R * R) {
-
-        if ((y > fabs(x)) || (y < -fabs(x))) {
-            printf("Dot (%.2lf, %.2lf) is inside the region.\n", x, y);
-        } 
-        else {
-            printf("Dot (%.2lf, %.2lf) is outside the region.\n", x, y);
-        }
+    if ((x * x + y * y <= R * R) && (fabs(x) + fabs(y) > R / sqrt(2))) {
+        printf("The point (%.2lf, %.2lf) is ok.\n", x, y);
     } 
     else {
-        printf("Dot (%.2lf, %.2lf) is outside the region.\n", x, y);
+        printf("The point (%.2lf, %.2lf) is outside the region.\n", x, y);
     }
 
     return 0;

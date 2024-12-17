@@ -12,17 +12,11 @@ int main(){
     printf("Enter raduis - R: ");
     scanf("%lf", &R);
 
-    if (x * x + y * y <= R * R) {
-
-        if ((y < fabs(x)) || (y > -fabs(x))) {
-            printf("Dot (%.lf, %.lf) is inside the square.\n", x, y);
-        } 
-        else {
-            printf("Dot (%.lf, %.lf) is outside the square.\n", x, y);
-        }
+    if ((x * x + y * y <= R * R) && (fabs(x) + fabs(y) <= R)) {
+        printf("The point (%.2lf, %.2lf) is inside region.\n", x, y);
     } 
     else {
-        printf("Dot (%.lf, %.lf) is outside the square.\n", x, y);
+        printf("The point (%.2lf, %.2lf) is outside region.\n", x, y);
     }
 
     return 0;
