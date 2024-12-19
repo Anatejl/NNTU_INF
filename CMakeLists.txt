@@ -64,9 +64,9 @@ include_directories("/build")
 #         1/Egorov/5/pointer/5-pointer-output.c)
 
 # add_executable(1.1-Sedyx 1/Sedyx/1/1.c)
-# add_executable(1.2.1-Sedyx 1/Sedyx/2-1/2-1.c)
-# add_executable(1.2.2-Sedyx 1/Sedyx/2-2/2-2.c)
-# target_link_libraries(1.2.2-Sedyx m)
+add_executable(1.2.1-Sedyx 1/Sedyx/2-1/2-1.c)
+add_executable(1.2.2-Sedyx 1/Sedyx/2-2/2-2.c)
+target_link_libraries(1.2.2-Sedyx m)
 # add_executable(1.3-Sedyx 1/Sedyx/3/3.c)
 # target_link_libraries(1.3-Sedyx m)
 # add_executable(1.4a-Sedyx 1/Sedyx/4a/4a-main.c
@@ -90,21 +90,21 @@ include_directories("/build")
 #         1/Sedyx/5p/5p-process.c
 #         1/Sedyx/5p/5p-output.c)
 
-add_executable(1.1-Vor 1/Vor/1/1.c)
-target_link_libraries(1.1-Vor m)
-add_executable(1.2.1-Vor 1/Vor/2-1/2-1.c)
-add_executable(1.2.2-Vor 1/Vor/2-2/2-2.c)
-target_link_libraries(1.2.2-Vor m)
-add_executable(1.3-Vor 1/Vor/3/3.c)
-target_link_libraries(1.3-Vor m)
-add_executable(1.4p-Vor 1/Vor/4p/4p.c
-        1/Vor/4p/4p.h)
-add_executable(1.4a-Vor 1/Vor/4a/4a.c
-        1/Vor/4a/4a.h)
-add_executable(1.5a-Vor 1/Vor/5a/5a.c
-        1/Vor/5a/5a.h)
-add_executable(1.5p-Vor 1/Vor/5p/5p.c
-        1/Vor/5p/5p.h)
+# add_executable(1.1-Vor 1/Vor/1/1.c)
+# target_link_libraries(1.1-Vor m)
+# add_executable(1.2.1-Vor 1/Vor/2-1/2-1.c)
+# add_executable(1.2.2-Vor 1/Vor/2-2/2-2.c)
+# target_link_libraries(1.2.2-Vor m)
+# add_executable(1.3-Vor 1/Vor/3/3.c)
+# target_link_libraries(1.3-Vor m)
+# add_executable(1.4p-Vor 1/Vor/4p/4p.c
+#         1/Vor/4p/4p.h)
+# add_executable(1.4a-Vor 1/Vor/4a/4a.c
+#         1/Vor/4a/4a.h)
+# add_executable(1.5a-Vor 1/Vor/5a/5a.c
+#         1/Vor/5a/5a.h)
+# add_executable(1.5p-Vor 1/Vor/5p/5p.c
+#         1/Vor/5p/5p.h)
 
         
 #############################################
