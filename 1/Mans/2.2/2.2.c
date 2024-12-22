@@ -6,7 +6,7 @@ int main(){
 
     double x = 0.5;
     int n_limit = 7;
-    double L[8];
+    double L[n_limit];
 
     L[0] = 1;
     printf("L1(%.1lf) = %lf\n", x, L[0]);

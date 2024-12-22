@@ -1,6 +1,7 @@
 // VAR 11
 #include <stdio.h>
 #include <stdlib.h>
+
 #define NUMBER_OF_POINTS 3
 
 
@@ -21,7 +22,6 @@ int main(){
     for(int i = 0; i < NUMBER_OF_POINTS; ++i){
 
         if (abs(x[i]) < abs(closest_value)){
-
             closest_value = x[i];
             closest_index = i+1;
         }
