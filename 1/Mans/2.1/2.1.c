@@ -13,7 +13,7 @@ int main(){
 
     for (int i = 0; i < NUMBER_OF_POINTS; ++i){
 
-        printf("Input dot (integer) %d\n", i+1);
+        printf("Input a dot (integer) %d\n", i+1);
         scanf("%d", &x[i]);
 
     }

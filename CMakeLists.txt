@@ -107,6 +107,10 @@ include_directories("/build")
 #         1/Vor/5p/5p.h)
 
 add_executable(1.2.1-Mans 1/Mans/2.1/2.1.c)
+add_executable(1.2.2-Mans 1/Mans/2.2/2.2.c)
+add_executable(1.3-Mans 1/Mans/3/3.c)
+target_link_libraries(1.3-Mans m)
+add_executable(1.4a-Mans 1/Mans/4a/4a.c)
         
 #############################################
 
