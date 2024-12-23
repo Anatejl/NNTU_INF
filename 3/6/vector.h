@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 
+// Прототипы функций
 bool vector_push(std::vector<int>& vector, int value);
 bool vector_erase(std::vector<int>& vector, int index);
 bool vector_display(std::vector<int>& vector);

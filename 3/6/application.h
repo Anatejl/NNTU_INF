@@ -3,11 +3,12 @@
 
 #include "vector.h"
 
+// Структура АТД
 typedef struct Application{
-    int n;
     std::vector<int> array;
 }Application;
 
+// Прототипы функций
 int app_run(Application& app);
 bool app_begin(Application& app);
 bool app_process(Application& app);
