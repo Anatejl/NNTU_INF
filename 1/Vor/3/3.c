@@ -2,34 +2,50 @@
 #include <stdio.h>
 #include <math.h>
 
-double calculate_xi(int i, double a, double b) {
-    return b * (log10(7.2 + i) / 2 + sqrt(i + a + b));
+#define A 1.5
+#define B 2
+#define C 3
+#define a 1
+
+double calculate_y_k(int k) {
+    return (a * (k * k + B * k)) / (A * k * k + C * k + B);
 }
 
-double calculate_sum(int start, int end, double a, double b) {
+double calculate_sum1() {
     double sum = 0;
-    for (int i = start; i <= end; i++) {
-        sum += calculate_xi(i, a, b);
+    for (int k = 1; k <= 5; k++) {
+        sum += 0.2 * calculate_y_k(k);
     }
     return sum;
 }
 
+double calculate_sum2() {
+    double sum = 0;
+    for (int k = 3; k <= 15; k++) {
+        sum += calculate_y_k(k);
+    }
+    return sum;
+}
+
+double calculate_sum3() {
+    double sum = 0;
+    for (int k = 4; k <= 10; k++) {
+        sum += calculate_y_k(k);
+    }
+    return sum;
+}
+
+double calculate_z() {
+    double sum1 = calculate_sum1();
+    double sum2 = calculate_sum2();
+    double sum3 = calculate_sum3();
+
+    double z = A * log(sum1) + B * sum2 + C / (15 * sum3);
+    return z;
+}
+
 int main() {
-    int n = 8;
-    double a = 4.0, b = 2.0;
-
-    double sum_1_to_n = calculate_sum(1, n, a, b);
-    double numerator = pow(sum_1_to_n, 2) / n;
-
-    double sum_3_to_n = calculate_sum(3, n, a, b);
-    double second_term = sum_3_to_n / n;
-
-    double sum_4_to_n = calculate_sum(4, n, a, b);
-    double denominator = sqrt((n - 2) * sum_4_to_n);
-
-    double r = (numerator - second_term) / denominator;
-
-    printf("Result (r) = %lf\n", r);
-
+    double z = calculate_z();
+    printf("Z is: %.6f\n", z);
     return 0;
 }

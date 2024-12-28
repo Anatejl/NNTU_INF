@@ -18,9 +18,10 @@ int main(){
 
             a_new = (a+b)/2;
             b_new = (sqrt(a*b));
-            a = a_new, b = b_new;
 
             printf("a = %.2lf, b = %.2lf\n", a_new, b_new);
+            
+            a = a_new, b = b_new;
 
         }
 
