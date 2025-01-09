@@ -6,7 +6,6 @@
 
 typedef struct Application{
 
-    int n;
     std::vector<std::pair<int, int>> array;
     std::pair<std::pair<int,int>, std::pair<int,int>> distanced;
     //distanced.first - dot 1

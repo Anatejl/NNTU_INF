@@ -13,12 +13,12 @@ int app_run(Application& app){
 }
 
 bool app_start(Application& app){
-    int temp_x = 0, temp_y = 0;
+    int temp_x = 0, temp_y = 0, temp_n = 0;
     std::cout << "START START" << std::endl;
     std::cout << "Input a n number:" << std::endl;
-    std::cin >> app.n;
-    for (int i = 0; i < app.n; ++i){
-        std::cout << "[" << i+1 << "/" << app.n << "]" << " set is being assigned:" << std::endl;
+    std::cin >> temp_n;
+    for (int i = 0; i < temp_n; ++i){
+        std::cout << "[" << i+1 << "/" << temp_n << "]" << " set is being assigned:" << std::endl;
         std::cout << "Input a x:" << std::endl;
         std::cin >> temp_x;
         std::cout << "Input an y:" << std::endl;

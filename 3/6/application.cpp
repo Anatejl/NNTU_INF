@@ -24,7 +24,7 @@ bool app_begin(Application& app){
 
 bool app_process(Application& app){
     for (int i = 1; i < vector_size(app.array); ++i){ // Цикл поиска четных элементов вектора
-        vector_erase(app.array, i); // Вызов функции удаления, для четного элемента
+        app.array.erase(app.array.begin()+i); // Удаление четного элемента последовательности
     }
     return true;
 }

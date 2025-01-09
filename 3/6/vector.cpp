@@ -11,12 +11,6 @@ bool vector_push(std::vector<int>& vector, int value){
     return true;
 }
 
-// Функция удаления четного элемента
-bool vector_erase(std::vector<int>& vector, int index){
-    vector.erase(vector.begin()+index);
-    return true;
-}
-
 // Функция отображения вектора
 bool vector_display(std::vector<int>& vector){
     for (int i : vector) {
