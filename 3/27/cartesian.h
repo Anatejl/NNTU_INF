@@ -5,8 +5,8 @@
 #include <utility>
 #include <math.h>
 
-bool cartesian_add(int x, int y, std::vector<std::pair<int, int>> &array);
-bool cartesian_find(std::vector<std::pair<int, int>>& array, std::pair<std::pair<int,int>, std::pair<int,int>>& distanced);
-double cartesian_find_distance(std::pair<int, int>& pair_one, std::pair<int, int>& pair_two);
+bool cartesian_add(double x, double y, std::vector<std::pair<double, double>> &array);
+bool cartesian_find(std::vector<std::pair<double, double>>& array, std::pair<std::pair<double,double>, std::pair<double, double>>& distanced);
+double cartesian_find_distance(std::pair<double, double>& pair_one, std::pair<double, double>& pair_two);
 
 #endif //CARTESIAN_H

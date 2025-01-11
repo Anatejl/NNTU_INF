@@ -13,7 +13,8 @@ int app_run(Application& app){
 }
 
 bool app_start(Application& app){
-    int temp_x = 0, temp_y = 0, temp_n = 0;
+    double temp_x = 0, temp_y = 0;
+    int temp_n = 0;
     std::cout << "START START" << std::endl;
     std::cout << "Input a n number:" << std::endl;
     std::cin >> temp_n;
@@ -39,17 +40,16 @@ bool app_process(Application& app){
 }
 
 bool app_end(Application& app){
+
     std::cout << "ENDING" << std::endl;
-    std::cout << "The farthest pair of points are: (" 
-         << app.distanced.first.first << ", " << app.distanced.first.second << ") and ("
-         << app.distanced.second.first << ", " << app.distanced.second.second << ")" << std::endl;
+    std::cout << "The farthest pair of points are:\n";
 
     for (int i = 0; i < app.array.size(); ++i) {
         if (app.array[i] == app.distanced.first) {
-            std::cout << "First point index in the sequence: " << i+1 << std::endl;
-        }
+            std::cout << "First point: is " << i+1 << " - ["<< app.distanced.first.first << ", " << app.distanced.first.second << "]" <<  std::endl;
+        } 
         if (app.array[i] == app.distanced.second) {
-            std::cout << "Second point index in the sequence: " << i+1 << std::endl;
+            std::cout << "Second point is: " << i+1 << " - ["<< app.distanced.second.first << ", " << app.distanced.second.second << "]" <<  std::endl;;
         }
     }
     return true;

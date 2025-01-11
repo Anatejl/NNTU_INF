@@ -6,8 +6,8 @@
 
 typedef struct Application{
 
-    std::vector<std::pair<int, int>> array;
-    std::pair<std::pair<int,int>, std::pair<int,int>> distanced;
+    std::vector<std::pair<double, double>> array;
+    std::pair<std::pair<double, double>, std::pair<double, double>> distanced;
     //distanced.first - dot 1
     //distanced.second - dot 2 
     //distanced.first.first/second - x/y of a 1nd dot
