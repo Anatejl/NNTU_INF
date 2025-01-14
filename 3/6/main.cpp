@@ -1,10 +1,9 @@
 #include "application.h"
 
-int main(){
-
-    std::cout << "Array shortener program!" << std::endl;
-    Application app; // Ввод переменной по типу АТД
-    int ret = app_run(app); // Запуск приложения
-    
-    return ret;
+// Основная функция программы
+int main() {
+    std::cout << "Array shortener program!" << std::endl; // Вывод сообщения о начале программы
+    Application app; // Создание экземпляра структуры Application
+    int ret = app_run(app); // Запуск основного цикла программы
+    return ret; // Возврат результата работы программы
 }

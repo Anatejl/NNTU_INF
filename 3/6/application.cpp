@@ -1,36 +1,40 @@
 #include "application.h"
 
-int app_run(Application& app){
-    app_begin(app); // Функция получения данных от пользотвателя, и сборки вектора
-    app_process(app); // Функция сжатия вектора
-    app_end(app); // Функция вывода сжатого вектора
-    return 0;
+// Основной цикл работы приложения
+int app_run(Application& app) {
+    app_begin(app); // Инициализация приложения
+    app_process(app); // Обработка данных
+    app_end(app); // Завершение работы приложения
+    return 0; // Возврат успешного завершения
 }
 
-bool app_begin(Application& app){
-    int n, temp_read_value;
-    std::cout << "What's n?" << std::endl; //Запрос числа n
-    std::cin >> n;
-    for (int i = 0; i < n; ++i){ // Сборка вектора, путам запроса значений у пользователя
-        std::cout << "<" << i+1 << " of " << n << ">" << " item assigning:" << std::endl;
-        std::cout << "Input a value:" << std::endl;
-        std::cin >> temp_read_value;
-        vector_push(app.array, temp_read_value);
+// Функция инициализации приложения
+bool app_begin(Application& app) {
+    int n, temp_read_value; // Переменные для ввода количества элементов и временного значения
+    std::cout << "What's n?" << std::endl; // Запрос размера массива
+    std::cin >> n; // Ввод размера массива
+    for (int i = 0; i < n; ++i) { // Цикл по количеству элементов
+        std::cout << "<" << i + 1 << " of " << n << "> item assigning:" << std::endl; // Сообщение о текущем элементе
+        std::cout << "Input a value:" << std::endl; // Запрос ввода значения
+        std::cin >> temp_read_value; // Сохранение введенного значения
+        vector_push(app.array, temp_read_value); // Добавление значения в вектор
     }
     std::cout << "Initial vector is: ";
-    vector_display(app.array); // Вывод получившегося вектора на стандартное устройство вывода
-    return true;
+    vector_display(app.array); // Отображение начального вектора
+    return true; // Успешное завершение инициализации
 }
 
-bool app_process(Application& app){
-    for (int i = 1; i < vector_size(app.array); ++i){ // Цикл поиска четных элементов вектора
-        app.array.erase(app.array.begin()+i); // Удаление четного элемента последовательности
+// Функция обработки данных
+bool app_process(Application& app) {
+    for (int i = 1; i < vector_size(app.array); ++i) { // Удаление каждого второго элемента
+        app.array.erase(app.array.begin() + i); // Удаление элемента
     }
-    return true;
+    return true; // Успешное завершение обработки
 }
 
-bool app_end(Application& app){
+// Функция завершения работы приложения
+bool app_end(Application& app) {
     std::cout << "Processed vector is: ";
-    vector_display(app.array); // Вывод сжатого вектора
-    return true;
+    vector_display(app.array); // Отображение обработанного вектора
+    return true; // Успешное завершение
 }
