@@ -184,6 +184,12 @@ add_executable(3_27 3/27/main.cpp
         3/27/cartesian.cpp
         3/27/cartesian.h)
 
+add_executable(3_27_COMMENTS 3/27/COMMENTS/main.cpp
+        3/27/COMMENTS/application.cpp
+        3/27/COMMENTS/application.h
+        3/27/COMMENTS/cartesian.cpp
+        3/27/COMMENTS/cartesian.h)
+
 add_executable(3_41_Kornilov 3/41-23-Kornilov/main.cpp
         3/41-23-Kornilov/application.cpp
         3/41-23-Kornilov/application.h
