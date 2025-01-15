@@ -42,6 +42,10 @@ bool app_process(Application& app){
 bool app_end(Application& app){
 
     std::cout << "ENDING" << std::endl;
+
+    std::cout << "Entire sequence is:\n" << std::endl;
+    cartesian_show(app.array);
+
     std::cout << "The farthest pair of points are:\n";
 
     for (int i = 0; i < app.array.size(); ++i) {

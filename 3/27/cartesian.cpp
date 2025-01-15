@@ -23,3 +23,11 @@ bool cartesian_find(std::vector<std::pair<double, double>>& array, std::pair<std
 double cartesian_find_distance(std::pair<double, double>& pair_one, std::pair<double, double>& pair_two){
     return pow(pair_two.first - pair_one.first, 2) + pow(pair_two.second - pair_one.second, 2);
 }
+
+void cartesian_show(std::vector<std::pair<double, double>>& array){
+
+    for (int i = 0; i < array.size(); ++i) {
+        std::cout << i+1 << " - [" << array[i].first << ", " << array[i].second << "]" << std::endl;
+    }
+    std::cout << std::endl;
+}

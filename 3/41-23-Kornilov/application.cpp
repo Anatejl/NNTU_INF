@@ -1,24 +1,27 @@
 #include "application.h"
 
-int app_launch(Application &app){
-    app_input(app);
-    app_process(app);
+int app_launch(Application &app, Source_data& source){
+    app_input(app, source);
+    app_process(app, source);
     app_output(app);
     return 0;
 }
 
-bool app_input(Application& app){
+bool app_input(Application& app, Source_data& source){
+
+    int temp_n = 0;
+
     std::cout << "Input n: " << std::endl;
-    std::cin >> app.n;
-    app.array = vector_fill(app.n);
+    std::cin >> temp_n;
+    source.array = vector_fill(temp_n);
     return true;
 }
 
-bool app_process(Application& app){
-    vector_show(app.array);
-    app.counter_positive = vector_count_positive(app.array);
-    app.counter_negative = vector_count_negative(app.array);
-    app.counter_zero = vector_count_zeroes(app.array);
+bool app_process(Application& app, Source_data& source){
+    vector_show(source.array);
+    app.counter_positive = vector_count_positive(source.array);
+    app.counter_negative = vector_count_negative(source.array);
+    app.counter_zero = vector_count_zeroes(source.array);
     return true;
 }
 

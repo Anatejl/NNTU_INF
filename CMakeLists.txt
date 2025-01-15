@@ -172,8 +172,12 @@ add_executable(3_2
         3/2/handler.h
 )
 
-add_executable(3_6 3/6/main.cpp
+add_executable(3_6 
+        3/6/main.cpp
         3/6/application.cpp
+        3/6/app_begin.cpp
+        3/6/app_process.cpp
+        3/6/app_end.cpp
         3/6/application.h
         3/6/vector.cpp
         3/6/vector.h)
