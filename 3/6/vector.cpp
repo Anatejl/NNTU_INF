@@ -4,6 +4,15 @@ int vector_size(std::vector<int>& vector) {
     return vector.size(); 
 }
 
+bool vector_compress(std::vector<int>& vector){
+
+    for (int i = 1; i < vector_size(vector); ++i) { 
+        vector.erase(vector.begin() + i); 
+    }
+
+    return true;
+}
+
 bool vector_push(std::vector<int>& vector, int value) {
     vector.push_back(value); 
     return true; 
