@@ -1,22 +1,15 @@
 #include "task_header.h"    
 
 int app_count_string_length(char* string){
-
     int count = 0;
-
     while (string[count] != '\0') {
-
         ++count;
-        
     }
-
     return count;
 }
 
 void app_convert_to_lowercase(char* string, int length){
-
     for (int i = 0; i < length; ++i){
-
         if (string[i] >= 'A' && string[i] <= 'Z') {
             string[i] = string[i] + 32;
         }
@@ -42,9 +35,7 @@ int main (int argc, char* argv[]){
         free (app);
     }
     else{
-
         printf("No string to convert... \nExiting...\n");
-
     }
 
     return 0;

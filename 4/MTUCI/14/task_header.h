@@ -3,10 +3,8 @@
 #include <stdlib.h>
 
 typedef struct app_backbone{
-
     int input_string_length;
     char string[];
-
 }app_backbone;
 
 int app_count_string_length(char* string);
