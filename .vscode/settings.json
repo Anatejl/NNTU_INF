@@ -1,4 +1,11 @@
 {
+
+    // "cmake.debugConfig": {
+    //     "args": [
+    //         "DAVID"
+    //     ]
+    // },
+
     "files.associations": {
         "any": "cpp",
         "array": "cpp",

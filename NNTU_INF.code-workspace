@@ -81,7 +81,8 @@
 			"variant": "cpp",
 			"4a-header.h": "c",
 			"5p-header.h": "c",
-			"math.h": "c"
+			"math.h": "c",
+			"task_header.h": "c"
 		}
 	}
 }

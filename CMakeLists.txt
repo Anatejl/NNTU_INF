@@ -375,3 +375,11 @@ add_subdirectory(googletest)
 #        4_Practice_1/Roma/library.c
 #        4_Practice_1/Roma/application.c
 #        4_Practice_1/Roma/application.h)
+
+
+####################
+
+###MTUCI
+
+add_executable(4_MTUCI_TERMINAL_TEST 4/MTUCI/14/terminal_test.c)
+add_executable(4_MTUCI_TASK 4/MTUCI/14/task.c)
