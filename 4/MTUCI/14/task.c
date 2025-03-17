@@ -7,7 +7,7 @@ int app_count_string_length(char* string){
     while (string[count] != '\0') {
 
         ++count;
-
+        
     }
 
     return count;
@@ -20,9 +20,7 @@ void app_convert_to_lowercase(char* string, int length){
         if (string[i] >= 'A' && string[i] <= 'Z') {
             string[i] = string[i] + 32;
         }
-    
     }
-
 }
 
 int main (int argc, char* argv[]){
