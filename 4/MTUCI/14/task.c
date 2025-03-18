@@ -32,7 +32,7 @@ int main (int argc, char* argv[]){
         printf("Original string: %s\n", argv[1]);
         printf("Converted lowercase string: %s\n", app->string);
 
-        free (app);
+        free(app);
     }
     else{
         printf("No string to convert... \nExiting...\n");
