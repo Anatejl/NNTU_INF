@@ -1,10 +1,10 @@
 {
 
-    "cmake.debugConfig": {
-        "args": [
-            "DaViD"
-        ]
-    },
+    // "cmake.debugConfig": {
+    //     "args": [
+    //         "DaViD"
+    //     ]
+    // },
 
     "files.associations": {
         "any": "cpp",

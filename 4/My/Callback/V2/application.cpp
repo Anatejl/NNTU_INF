@@ -61,9 +61,8 @@ bool appProcessData(void *app) {
         //    return false;
         //}
         //}
-
+    }
         return true;
-           }
 }
 
     bool appGetOutputToUser(void *app) {

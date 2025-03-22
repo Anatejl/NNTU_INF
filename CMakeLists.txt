@@ -95,8 +95,8 @@ include_directories("/build")
 # add_executable(1.2.1-Vor 1/Vor/2-1/2-1.c)
 # add_executable(1.2.2-Vor 1/Vor/2-2/2-2.c)
 # target_link_libraries(1.2.2-Vor m)
-add_executable(1.3-Vor 1/Vor/3/3.c)
-target_link_libraries(1.3-Vor m)
+# add_executable(1.3-Vor 1/Vor/3/3.c)
+# target_link_libraries(1.3-Vor m)
 # add_executable(1.4p-Vor 1/Vor/4p/4p.c
 #         1/Vor/4p/4p.h)
 # add_executable(1.4a-Vor 1/Vor/4a/4a.c
@@ -106,16 +106,16 @@ target_link_libraries(1.3-Vor m)
 # add_executable(1.5p-Vor 1/Vor/5p/5p.c
 #         1/Vor/5p/5p.h)
 
-add_executable(1.2.1-Mans 1/Mans/2.1/2.1.c)
-add_executable(1.2.2-Mans 1/Mans/2.2/2.2.c)
-add_executable(1.3-Mans 1/Mans/3/3.c)
-target_link_libraries(1.3-Mans m)
-add_executable(1.4a-Mans 1/Mans/4a/4a.c)
-add_executable(1.4p-Mans 1/Mans/4p/4p.c)
-add_executable(1.5a-Mans 1/Mans/5a/5a.c)
-target_link_libraries(1.5a-Mans m)
-add_executable(1.5p-Mans 1/Mans/5p/5p.c)
-target_link_libraries(1.5p-Mans m)
+# add_executable(1.2.1-Mans 1/Mans/2.1/2.1.c)
+# add_executable(1.2.2-Mans 1/Mans/2.2/2.2.c)
+# add_executable(1.3-Mans 1/Mans/3/3.c)
+# target_link_libraries(1.3-Mans m)
+# add_executable(1.4a-Mans 1/Mans/4a/4a.c)
+# add_executable(1.4p-Mans 1/Mans/4p/4p.c)
+# add_executable(1.5a-Mans 1/Mans/5a/5a.c)
+# target_link_libraries(1.5a-Mans m)
+# add_executable(1.5p-Mans 1/Mans/5p/5p.c)
+# target_link_libraries(1.5p-Mans m)
 
 #############################################
 
@@ -158,47 +158,47 @@ target_link_libraries(1.5p-Mans m)
 
 ## 1
 
-add_executable(3_1
-        3/1/main.cpp
-        3/1/application.cpp
-)
+# add_executable(3_1
+#         3/1/main.cpp
+#         3/1/application.cpp
+# )
 
-add_executable(3_2
-        3/2/main.cpp
-        3/2/application.cpp
-        3/2/application.cpp
-        3/2/application.h
-        3/2/handler.cpp
-        3/2/handler.h
-)
+# add_executable(3_2
+#         3/2/main.cpp
+#         3/2/application.cpp
+#         3/2/application.cpp
+#         3/2/application.h
+#         3/2/handler.cpp
+#         3/2/handler.h
+# )
 
-add_executable(3_6 
-        3/6/main.cpp
-        3/6/application.cpp
-        3/6/app_begin.cpp
-        3/6/app_process.cpp
-        3/6/app_end.cpp
-        3/6/application.h
-        3/6/vector.cpp
-        3/6/vector.h)
+# add_executable(3_6 
+#         3/6/main.cpp
+#         3/6/application.cpp
+#         3/6/app_begin.cpp
+#         3/6/app_process.cpp
+#         3/6/app_end.cpp
+#         3/6/application.h
+#         3/6/vector.cpp
+#         3/6/vector.h)
 
-add_executable(3_27 3/27/main.cpp
-        3/27/application.cpp
-        3/27/application.h
-        3/27/cartesian.cpp
-        3/27/cartesian.h)
+# add_executable(3_27 3/27/main.cpp
+#         3/27/application.cpp
+#         3/27/application.h
+#         3/27/cartesian.cpp
+#         3/27/cartesian.h)
 
-add_executable(3_27_COMMENTS 3/27/COMMENTS/main.cpp
-        3/27/COMMENTS/application.cpp
-        3/27/COMMENTS/application.h
-        3/27/COMMENTS/cartesian.cpp
-        3/27/COMMENTS/cartesian.h)
+# add_executable(3_27_COMMENTS 3/27/COMMENTS/main.cpp
+#         3/27/COMMENTS/application.cpp
+#         3/27/COMMENTS/application.h
+#         3/27/COMMENTS/cartesian.cpp
+#         3/27/COMMENTS/cartesian.h)
 
-add_executable(3_41_Kornilov 3/41-23-Kornilov/main.cpp
-        3/41-23-Kornilov/application.cpp
-        3/41-23-Kornilov/application.h
-        3/41-23-Kornilov/vector_handle.h
-        3/41-23-Kornilov/vector_handle.cpp)
+# add_executable(3_41_Kornilov 3/41-23-Kornilov/main.cpp
+#         3/41-23-Kornilov/application.cpp
+#         3/41-23-Kornilov/application.h
+#         3/41-23-Kornilov/vector_handle.h
+#         3/41-23-Kornilov/vector_handle.cpp)
 
 
 #############################################
@@ -220,6 +220,13 @@ add_subdirectory(googletest)
 #         4/My/Inductance_V3/test.cpp)
 # target_link_libraries(4_SEM_Mainline_V3_test gtest_main gmock_main)
 
+
+# THIS BELOW WORKS!
+# add_executable(4_SEM_Mainline_V2_test
+#         4/My/Inductance_V2/application.cpp
+#         4/My/Inductance_V2/vector.cpp
+#         4/My/Inductance_V2/test.cpp)
+# target_link_libraries(4_SEM_Mainline_V2_test gtest_main gmock_main)
 
 #add_executable(4_SEM_Mainline_Callback_V1
 #        4/My/Callback/V1/main.cpp
