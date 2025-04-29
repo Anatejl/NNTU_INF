@@ -7,8 +7,8 @@
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [
 
-                "testOne",
-                "testTwo"
+                "<",
+                "2/9/testfile.txt"
 
             ],
             "stopAtEntry": false,
@@ -16,7 +16,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "C/C++: clang build active file"
+            "preLaunchTask": "C/C++: clang build active file",
         }
     ],
     "version": "2.0.0"
