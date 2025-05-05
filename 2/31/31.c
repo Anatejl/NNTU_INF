@@ -13,9 +13,9 @@ typedef struct {
 } circle_t;
 
 // Function to check if a point is outside the circle
-int is_outside_circle(point_t p, circle_t c) {
-    double distance_squared = (p.x - c.x) * (p.x - c.x) + (p.y - c.y) * (p.y - c.y);
-    return distance_squared > c.radius * c.radius;
+int is_outside_circle(point_t point, circle_t circle) {
+    double distance_squared = (point.x - circle.x) * (point.x - circle.x) + (point.y - circle.y) * (point.y - circle.y);
+    return distance_squared > circle.radius * circle.radius;
 }
 
 int main() {
