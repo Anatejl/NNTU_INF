@@ -137,7 +137,6 @@ include_directories("/build")
 #add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
 #add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
 
-add_executable(2_9 "2/9/main.c")
 add_executable(2_9_ch "2/9/ch.c")
 add_executable(2_31 "2/31/31.c")
 
