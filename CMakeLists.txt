@@ -138,7 +138,13 @@ include_directories("/build")
 #add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
 
 add_executable(2_9_ch "2/9/ch.c")
-add_executable(2_31 "2/31/31.c")
+
+add_executable(2_31 "2/31/circle.c")
+# Ensure TEST_BUILD is defined for the test target
+add_executable(2_31_test "2/31/circle_test.c" "2/31/circle.c")
+target_compile_definitions(2_31_test PRIVATE TEST_BUILD=1)
+target_link_libraries(2_31_test m)
+add_test(NAME 2_31_test COMMAND 2_31_test)
 
 #############################################
 
