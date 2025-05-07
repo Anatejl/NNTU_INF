@@ -25,7 +25,6 @@ int main() {
         scanf("%lf %lf", &points[i].x, &points[i].y);
     }
 
-    // Form the new set of points outside the circle
     printf("Points outside the circle:\n");
     for (int i = 0; i < num_points; i++) {
         if (is_outside_circle(points[i], circle)) {
