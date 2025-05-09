@@ -9,6 +9,7 @@ bool is_outside_circle(point_t point, circle_t circle) {
     }
 }
 
+#ifndef TEST_BUILD
 int main() {
     
     circle_t circle;
@@ -48,3 +49,4 @@ int main() {
 
     return 0;
 }
+#endif
