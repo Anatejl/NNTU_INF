@@ -98,7 +98,9 @@
 			"locale": "cpp",
 			"print": "cpp",
 			"queue": "cpp",
-			"stack": "cpp"
+			"stack": "cpp",
+			"assert.h": "c",
+			"coin.h": "c"
 		}
 	}
 }

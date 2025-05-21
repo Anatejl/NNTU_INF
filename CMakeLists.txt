@@ -137,6 +137,11 @@ include_directories("/build")
 #add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
 #add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
 
+add_executable(2_5 "2/5/coin.c")
+add_executable(2_5_test "2/5/coin_test.c" "2/5/coin.c")
+target_compile_definitions(2_5_test PRIVATE TEST_BUILD=1)
+add_test(NAME 2_5_test COMMAND 2_5_test)
+
 add_executable(2_9_ch "2/9/main.c")
 
 add_executable(2_31 "2/31/circle.c")
