@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.20)
 project(NNTU)
 
+# Set CMAKE_OSX_SYSROOT to empty or to a valid SDK path to avoid warnings
+set(CMAKE_OSX_SYSROOT "" CACHE STRING "SDK path" FORCE)
+
 #set(CMAKE_C_COMPILER "/bin/c99-gcc")
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 20)
