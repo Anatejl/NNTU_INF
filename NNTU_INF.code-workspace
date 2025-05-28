@@ -100,7 +100,9 @@
 			"queue": "cpp",
 			"stack": "cpp",
 			"assert.h": "c",
-			"coin.h": "c"
+			"coin.h": "c",
+			"string.h": "c",
+			"_string.h": "c"
 		}
 	}
 }
