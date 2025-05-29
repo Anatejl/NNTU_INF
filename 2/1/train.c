@@ -26,7 +26,7 @@ void print_trains(Train trains_selected[], int selected_num) {
         printf("No trains are applicable.\n");
         return;
     }
-    printf("\nApplicable train(s):\n");
+    printf("\nMost suitable train:\n");
     for (int i = 0; i < selected_num; ++i) {
 
         const char* type_str;
