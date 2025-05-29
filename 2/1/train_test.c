@@ -1,7 +1,10 @@
 #include "train.h"
 
 int main() {
-    Train trains[10] = {
+    int train_count = 10;
+    printf("Enter number of trains: %d\n", train_count);
+
+    Train trains_depot[10] = {
         {1, false, "North",  480, "Daily",         540},  // 08:00 - 09:00
         {2, true,  "South",  600, "OddDays",       780},  // 10:00 - 13:00
         {3, false, "East",   720, "EvenDays",      780},  // 12:00 - 13:00
@@ -14,33 +17,24 @@ int main() {
         {10,true,  "South", 1380, "Daily",         60}    // 23:00 - 01:00
     };
 
-    printf("All trains:\n");
-    printf("Idx | Type         | Direction      | Dep  | Mode            | Arr\n");
-    printf("----+--------------+---------------+------+-----------------+------\n");
-    for (int i = 0; i < 10; ++i) {
-        const char* type_str;
-        if (trains[i].is_long_distance)
-            type_str = "LongDistance";
-        else
-            type_str = "Suburban";
-        printf("%-3d | %-12s | %-13s | %02d:%02d | %-15s | %02d:%02d\n",
-            trains[i].index,
-            type_str,
-            trains[i].direction,
-            trains[i].departure_time / 60, trains[i].departure_time % 60,
-            trains[i].departure_mode,
-            trains[i].arrival_time / 60, trains[i].arrival_time % 60
-        );
+    for (int i = 0; i < train_count; ++i) {
+        printf("Enter type for train %d (0 - Suburban, 1 - LongDistance): %d\n", i + 1, trains_depot[i].is_long_distance ? 1 : 0);
+        printf("Enter direction for train %d: %s\n", i + 1, trains_depot[i].direction);
+        printf("Enter departure time for train %d (HH MM): %02d %02d\n", i + 1, trains_depot[i].departure_time / 60, trains_depot[i].departure_time % 60);
+        printf("Enter departure mode for train %d: %s\n", i + 1, trains_depot[i].departure_mode);
+        printf("Enter arrival time for train %d (HH MM): %02d %02d\n", i + 1, trains_depot[i].arrival_time / 60, trains_depot[i].arrival_time % 60);
     }
 
-    printf("\nTest: Most appropriate suburban train for 16:30 (990 min):\n");
-    Train selected[1];
-    int found = select_trains(trains, selected, 10, false, 990); // 16:30
-    print_trains(selected, found);
+    int type_input = 0; // Suburban
+    int h = 16, m = 30;
+    printf("Enter train type to search (0 - Suburban, 1 - LongDistance): %d\n", type_input);
+    printf("Enter desired departure time (HH MM): %02d %02d\n", h, m);
+    bool search_is_long_distance = (type_input == 1);
+    int desired_time = h * 60 + m;
 
-    printf("\nTest: Most appropriate long-distance train for 16:30 (990 min):\n");
-    found = select_trains(trains, selected, 10, true, 990); // 16:30
-    print_trains(selected, found);
+    Train trains_selected[10];
+    int selected_num = select_trains(trains_depot, trains_selected, train_count, search_is_long_distance, desired_time);
+    print_trains(trains_selected, selected_num);
 
     return 0;
 }
