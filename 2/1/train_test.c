@@ -32,7 +32,7 @@ int main() {
     bool search_is_long_distance = (type_input == 1);
     int desired_time = h * 60 + m;
 
-    Train trains_selected[10];
+    Train trains_selected[1];
     int selected_num = select_trains(trains_depot, trains_selected, train_count, search_is_long_distance, desired_time);
     print_trains(trains_selected, selected_num);
 

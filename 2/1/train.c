@@ -2,7 +2,7 @@
 
 int select_trains(Train trains_depot[], Train trains_selected[], int train_count, bool is_long_distance, int desired_time) {
     int min_diff = 1441; // More than a day in minutes
-    int min_idx = -1;   
+    int found = 0;
     for (int i = 0; i < train_count; ++i) {
         if (trains_depot[i].is_long_distance == is_long_distance) {
             int dep_time = trains_depot[i].departure_time;
@@ -10,15 +10,12 @@ int select_trains(Train trains_depot[], Train trains_selected[], int train_count
             if (diff < 0) diff += 1440;  // Wrap around midnight
             if (diff < min_diff) {
                 min_diff = diff;
-                min_idx = i;
+                trains_selected[0] = trains_depot[i]; // Always overwrite with better candidate
+                found = 1;
             }
         }
     }
-    if (min_idx != -1) {
-        trains_selected[0] = trains_depot[min_idx];
-        return 1;
-    }
-    return 0;
+    return found;
 }
 
 void print_trains(Train trains_selected[], int selected_num) {
@@ -27,26 +24,20 @@ void print_trains(Train trains_selected[], int selected_num) {
         return;
     }
     printf("\nMost suitable train:\n");
-    for (int i = 0; i < selected_num; ++i) {
-
-        const char* type_str;
-
-        if (trains_selected[i].is_long_distance){
-            type_str = "LongDistance";
-        }
-        else {
-            type_str = "Suburban";
-        }
-
-        printf("%d. %s %s Dep: %02d:%02d Mode: %s Arr: %02d:%02d\n",
-            trains_selected[i].index,
-            type_str,
-            trains_selected[i].direction,
-            trains_selected[i].departure_time / 60, trains_selected[i].departure_time % 60,
-            trains_selected[i].departure_mode,
-            trains_selected[i].arrival_time / 60, trains_selected[i].arrival_time % 60
-        );
+    const char* type_str;
+    if (trains_selected[0].is_long_distance) {
+        type_str = "LongDistance";
+    } else {
+        type_str = "Suburban";
     }
+    printf("%d. %s %s Dep: %02d:%02d Mode: %s Arr: %02d:%02d\n",
+        trains_selected[0].index,
+        type_str,
+        trains_selected[0].direction,
+        trains_selected[0].departure_time / 60, trains_selected[0].departure_time % 60,
+        trains_selected[0].departure_mode,
+        trains_selected[0].arrival_time / 60, trains_selected[0].arrival_time % 60
+    );
 }
 
 #ifndef TEST_BUILD
@@ -88,18 +79,12 @@ int main() {
     scanf("%d %d", &h, &m);
     int desired_time = h * 60 + m;
 
-    Train *trains_selected = malloc(sizeof(Train) * train_count);
-    if (!trains_selected) {
-        printf("Memory allocation failed.\n");
-        free(trains_depot);
-        return 1;
-    }
+    Train trains_selected[1]; // static allocation
 
     int selected_num = select_trains(trains_depot, trains_selected, train_count, search_is_long_distance, desired_time);
     print_trains(trains_selected, selected_num);
 
     free(trains_depot);
-    free(trains_selected);
 
     return 0;
 }
