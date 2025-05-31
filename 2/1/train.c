@@ -10,7 +10,7 @@ int select_trains(Train trains_depot[], Train trains_selected[], int train_count
             if (diff < 0) diff += 1440;  // Wrap around midnight
             if (diff < min_diff) {
                 min_diff = diff;
-                trains_selected[0] = trains_depot[i]; // Always overwrite with better candidate
+                trains_selected[0] = trains_depot[i];
                 found = 1;
             }
         }
@@ -40,7 +40,6 @@ void print_trains(Train trains_selected[], int selected_num) {
     );
 }
 
-#ifndef TEST_BUILD
 int main() {
     int train_count;
     printf("Enter number of trains: ");
@@ -79,8 +78,7 @@ int main() {
     scanf("%d %d", &h, &m);
     int desired_time = h * 60 + m;
 
-    Train trains_selected[1]; // static allocation
-
+    Train trains_selected[1];
     int selected_num = select_trains(trains_depot, trains_selected, train_count, search_is_long_distance, desired_time);
     print_trains(trains_selected, selected_num);
 
@@ -88,4 +86,3 @@ int main() {
 
     return 0;
 }
-#endif // TEST_BUILD
