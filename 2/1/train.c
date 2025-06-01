@@ -24,15 +24,9 @@ void print_trains(Train trains_selected[], int selected_num) {
         return;
     }
     printf("\nMost suitable train:\n");
-    const char* type_str;
-    if (trains_selected[0].is_long_distance) {
-        type_str = "LongDistance";
-    } else {
-        type_str = "Suburban";
-    }
     printf("%d. %s %s Dep: %02d:%02d Mode: %s Arr: %02d:%02d\n",
         trains_selected[0].index,
-        type_str,
+        trains_selected[0].is_long_distance ? "LongDistance" : "Suburban",
         trains_selected[0].direction,
         trains_selected[0].departure_time / 60, trains_selected[0].departure_time % 60,
         trains_selected[0].departure_mode,
