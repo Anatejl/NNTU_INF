@@ -2,11 +2,13 @@ cmake_minimum_required(VERSION 3.20)
 project(NNTU)
 
 # Set CMAKE_OSX_SYSROOT to empty or to a valid SDK path to avoid warnings
-set(CMAKE_OSX_SYSROOT "" CACHE STRING "SDK path" FORCE)
+#set(CMAKE_OSX_SYSROOT "" CACHE STRING "SDK path" FORCE)
 
-#set(CMAKE_C_COMPILER "/bin/c99-gcc")
+#set(CMAKE_C_COMPILER "/bin/gcc")
 set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 enable_testing()
 include_directories(${CMAKE_SOURCE_DIR})
 include_directories("/build")
@@ -119,6 +121,9 @@ include_directories("/build")
 # target_link_libraries(1.5a-Mans m)
 # add_executable(1.5p-Mans 1/Mans/5p/5p.c)
 # target_link_libraries(1.5p-Mans m)
+
+
+add_executable(36 "1/2025/36/main.cpp" 1/2025/36/header.h)
 
 #############################################
 
