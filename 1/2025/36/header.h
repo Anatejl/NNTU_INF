@@ -7,16 +7,15 @@
 typedef struct Sensor {
 
     int serial;
-    float value;
+    int value;
 
 }Sensor;
 
-std::vector<Sensor> vectorS1;
-std::vector<Sensor> vectorS2;
-std::vector<Sensor> vectorS3;
+std::vector<std::vector<Sensor>> TotalSensors;
+Sensor dataToPush;
 
-int currentWorkingSensor;
-int vecorAdd();
-//int repeat();
+int currentWorkingSensor = 1;
+int totalSensors;
+
 
 #endif //VAR_36
