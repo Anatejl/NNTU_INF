@@ -67,6 +67,17 @@ int main(){
 
         ++currentWorkingSensor;
     }
+ 
+    //DEBUG
+    for (int i = 0; i < TotalSensors.size(); ++i){
+
+        std::cout << "\n--- Sensor " << i << " ---" << std::endl;
+
+        for (int j = 0; j < TotalSensors[i].size(); ++j){
+
+            std::cout << "[" << i << "] - " << "Serial: " << TotalSensors[i][j].serial << " Value: " << TotalSensors[i][j].value << std::endl;
+        }
+    }
 
     return 0;
 }

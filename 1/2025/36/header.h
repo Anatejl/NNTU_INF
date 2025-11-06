@@ -17,5 +17,4 @@ Sensor dataToPush;
 int currentWorkingSensor = 1;
 int totalSensors;
 
-
 #endif //VAR_36
