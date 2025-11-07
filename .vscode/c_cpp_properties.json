@@ -1,12 +1,12 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/bin/gcc",
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "c99",
             "cppStandard": "gnu++20",
             "intelliSenseMode": "linux-gcc-x64",

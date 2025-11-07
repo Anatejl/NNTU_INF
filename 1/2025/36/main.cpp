@@ -2,7 +2,7 @@
 
 int repeat(){
 
-    fflush;
+    fflush(stdout);
     char answer;
     std::cout << "\nAdd another (y/n)?" << std::endl;
     std::cin >> answer;
