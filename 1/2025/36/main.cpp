@@ -35,8 +35,8 @@ int addSensor(int currentWorkingSensor){
 
         //debug
         std::cout << "Current vector:\n";
-        for (int i = 0; i < vectorToPush.size(); ++i)
-        {
+        for (int i = 0; i < vectorToPush.size(); ++i){
+
             std::cout << "[" << i << "] - " << "Serial: " << vectorToPush[i].serial << " Value: " << vectorToPush[i].value << std::endl;
         }
 
@@ -51,6 +51,65 @@ int addSensor(int currentWorkingSensor){
     TotalSensors.push_back(vectorToPush);
     
     return 0;
+}
+
+// Search through all sensor vectors and compute min/max per sensor
+int findMinMaxAll(){
+
+	MinMaxResults.clear();
+
+	for (int i = 0; i < (int)TotalSensors.size(); ++i){
+		MinMaxResult result;
+		result.hasValues = false;
+
+		const std::vector<Sensor> &sensorReadings = TotalSensors[i];
+		
+        //check whether it is necessary
+        if (sensorReadings.empty()){
+			MinMaxResults.push_back(result);
+			continue;
+		}
+
+		result.hasValues = true;
+		result.minValue = sensorReadings[0].value;
+		result.maxValue = sensorReadings[0].value;
+		result.sensorSerial = sensorReadings[0].serial;
+
+		for (int j = 1; j < (int)sensorReadings.size(); ++j){
+			if (sensorReadings[j].value < result.minValue){
+				result.minValue = sensorReadings[j].value;
+			}
+			if (sensorReadings[j].value > result.maxValue){
+				result.maxValue = sensorReadings[j].value;
+			}
+		}
+
+		MinMaxResults.push_back(result);
+	}
+
+	return 0;
+}
+
+// Print the results computed by findMinMaxAll()
+void printMinMaxResults(){
+
+    if (MinMaxResults.empty()){
+        std::cout << "No min/max results available. Run findMinMaxAll() first." << std::endl;
+        return;
+    }
+
+    std::cout << "\nMin/Max results per sensor:" << std::endl;
+    for (int i = 0; i < (int)MinMaxResults.size(); ++i){
+        const MinMaxResult &result = MinMaxResults[i];
+        std::cout << "Sensor " << i << ": ";
+        if (!result.hasValues){
+            std::cout << "(no readings)" << std::endl;
+            continue;
+        }
+        // serial is static for the sensor vector; only values are compared
+        std::cout << "min: " << result.minValue << " max: " << result.maxValue;
+        std::cout << " (serial: " << result.sensorSerial << ")" << std::endl;
+    }
 }
 
 int main(){
@@ -78,6 +137,10 @@ int main(){
             std::cout << "[" << i << "] - " << "Serial: " << TotalSensors[i][j].serial << " Value: " << TotalSensors[i][j].value << std::endl;
         }
     }
+
+    // Compute and print min/max per sensor
+    findMinMaxAll();
+    printMinMaxResults();
 
     return 0;
 }
