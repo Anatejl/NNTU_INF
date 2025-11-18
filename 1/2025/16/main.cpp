@@ -4,10 +4,35 @@
 #include <iomanip>
 #include <limits>
 
-// Simple, junior-friendly program.
-// Read N points (R alpha in degrees) and update min/max on the fly.
+rect compute_bounding_rect(const std::vector<std::pair<double,double>> &points){
+    const double deg2rad = M_PI / 180.0;
+
+    rect r;
+    r.min_x = std::numeric_limits<double>::infinity();
+    r.max_x = -std::numeric_limits<double>::infinity();
+    r.min_y = std::numeric_limits<double>::infinity();
+    r.max_y = -std::numeric_limits<double>::infinity();
+
+    for (const std::pair<double,double> &p : points){
+        double R = p.first;
+        double alpha = p.second;
+        // alpha is always provided in degrees in this program
+        alpha *= deg2rad;
+
+        double x = R * std::cos(alpha);
+        double y = R * std::sin(alpha);
+
+        if (x < r.min_x) r.min_x = x;
+        if (x > r.max_x) r.max_x = x;
+        if (y < r.min_y) r.min_y = y;
+        if (y > r.max_y) r.max_y = y;
+    }
+
+    return r;
+}
 
 int main() {
+
     int n;
     // Ask the user how many polar points will be entered
     std::cout << "Enter number of points: " << std::endl;
@@ -36,8 +61,8 @@ int main() {
     }
 
     // Compute the bounding rectangle from the list of polar points
-    // `degrees=true` indicates the alpha values are in degrees
-    rect result = compute_bounding_rect(points, /*degrees=*/true);
+    // alpha values are expected in degrees
+    rect result = compute_bounding_rect(points);
 
     // If rectangle seems invalid, report and exit (guard against empty input)
     if (!result.valid()){
@@ -59,31 +84,4 @@ int main() {
     std::cout << "Area   = " << ((result.max_x - result.min_x) * (result.max_y - result.min_y)) << std::endl;
 
     return 0;
-}
-
-// Implementation of compute_bounding_rect (kept in .cpp to avoid header complexity)
-rect compute_bounding_rect(const std::vector<std::pair<double,double>> &points, bool degrees){
-    const double deg2rad = M_PI / 180.0;
-
-    rect r;
-    r.min_x = std::numeric_limits<double>::infinity();
-    r.max_x = -std::numeric_limits<double>::infinity();
-    r.min_y = std::numeric_limits<double>::infinity();
-    r.max_y = -std::numeric_limits<double>::infinity();
-
-    for (const std::pair<double,double> &p : points){
-        double R = p.first;
-        double alpha = p.second;
-        if (degrees) alpha *= deg2rad;
-
-        double x = R * std::cos(alpha);
-        double y = R * std::sin(alpha);
-
-        if (x < r.min_x) r.min_x = x;
-        if (x > r.max_x) r.max_x = x;
-        if (y < r.min_y) r.min_y = y;
-        if (y > r.max_y) r.max_y = y;
-    }
-
-    return r;
 }

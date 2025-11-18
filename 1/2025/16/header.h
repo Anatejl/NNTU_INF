@@ -16,8 +16,8 @@ typedef struct rect {
 	bool valid() const { return min_x <= max_x; }
 } rect;
 
-// Compute bounding rectangle from polar points (R, alpha).
+// Compute bounding rectangle from polar points (R, alpha in degrees).
 // Implemented in `main.cpp` to keep header simple.
-rect compute_bounding_rect(const std::vector<std::pair<double,double>> &points, bool degrees = true);
+rect compute_bounding_rect(const std::vector<std::pair<double,double>> &points);
 
 #endif //VAR_16
