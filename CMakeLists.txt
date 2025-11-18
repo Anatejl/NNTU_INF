@@ -2,6 +2,12 @@
 #       or install CMake and ensure it's on PATH (run `which cmake` / `cmake --version`).
 
 cmake_minimum_required(VERSION 3.20)
+
+# Ensure CMake uses the C++ compiler driver (clang++) for C++ sources on macOS
+# This avoids cases where a plain `clang` driver is used for linking C++ objects
+# and the C++ standard library isn't linked correctly.
+set(CMAKE_CXX_COMPILER "/usr/bin/clang++" CACHE FILEPATH "C++ compiler" FORCE)
+
 project(NNTU)
 
 # Set CMAKE_OSX_SYSROOT to empty or to a valid SDK path to avoid warnings
