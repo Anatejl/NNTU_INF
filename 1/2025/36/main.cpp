@@ -17,7 +17,6 @@ int addSensor(int currentWorkingSensor){
     std::cout << "Input serial number for [Sensor " << currentWorkingSensor <<"]:" << std::endl;
     std::cin >> dataToPush.serial;
 
-
     std::cout << "Input values for [Sensor " << currentWorkingSensor << "]:" << std::endl;
     
     //debug
@@ -53,7 +52,6 @@ int addSensor(int currentWorkingSensor){
     return 0;
 }
 
-// Search through all sensor vectors and compute min/max per sensor
 int findMinMaxAll(){
 
 	MinMaxResults.clear();
@@ -64,7 +62,6 @@ int findMinMaxAll(){
 
 		const std::vector<Sensor> &sensorReadings = TotalSensors[i];
 		
-        //check whether it is necessary
         if (sensorReadings.empty()){
 			MinMaxResults.push_back(result);
 			continue;
@@ -90,7 +87,6 @@ int findMinMaxAll(){
 	return 0;
 }
 
-// Print the results computed by findMinMaxAll()
 void printMinMaxResults(){
 
     if (MinMaxResults.empty()){
@@ -100,15 +96,18 @@ void printMinMaxResults(){
 
     std::cout << "\nMin/Max results per sensor:" << std::endl;
     for (int i = 0; i < (int)MinMaxResults.size(); ++i){
+
         const MinMaxResult &result = MinMaxResults[i];
-        std::cout << "Sensor " << i << ": ";
+        std::cout << "Sensor " << i+1 << ": ";
+
         if (!result.hasValues){
             std::cout << "(no readings)" << std::endl;
             continue;
         }
-        // serial is static for the sensor vector; only values are compared
+
         std::cout << "min: " << result.minValue << " max: " << result.maxValue;
         std::cout << " (serial: " << result.sensorSerial << ")" << std::endl;
+
     }
 }
 
@@ -116,7 +115,7 @@ int main(){
 
     std::cout << "Sensor min/max program!" << std::endl;
 
-    std::cout << "How much Sensors do we have?" << std::endl;
+    std::cout << "How many Sensors do we have?" << std::endl;
     std::cin >> totalSensors;
 
     //FILL SENSORS
@@ -130,15 +129,15 @@ int main(){
     //DEBUG
     for (int i = 0; i < TotalSensors.size(); ++i){
 
-        std::cout << "\n--- Sensor " << i << " ---" << std::endl;
+        std::cout << "\n--- Sensor " << i+1 << " ---" << std::endl;
 
         for (int j = 0; j < TotalSensors[i].size(); ++j){
 
-            std::cout << "[" << i << "] - " << "Serial: " << TotalSensors[i][j].serial << " Value: " << TotalSensors[i][j].value << std::endl;
+            std::cout << "[" << i+1 << "] - " << "Serial: " << TotalSensors[i][j].serial << " Value: " << TotalSensors[i][j].value << std::endl;
+        
         }
     }
 
-    // Compute and print min/max per sensor
     findMinMaxAll();
     printMinMaxResults();
 
