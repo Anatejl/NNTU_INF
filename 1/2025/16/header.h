@@ -1,23 +1,25 @@
-#ifndef VAR_16
-#define VAR_16
+#ifndef EX16_RECT_H
+#define EX16_RECT_H
 
 #include <vector>
 #include <utility>
-
-// Minimal header for exercise 16.
-// Expose a small `rect` type and a compute function prototype.
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+#include <limits>
 
 typedef struct rect {
 	double min_x;
 	double max_x;
 	double min_y;
 	double max_y;
-	// Simplified validity: check only x-range is valid (sufficient for this exercise)
 	bool valid() const { return min_x <= max_x; }
 } rect;
 
-// Compute bounding rectangle from polar points (R, alpha in degrees).
-// Implemented in `main.cpp` to keep header simple.
-rect compute_bounding_rect(const std::vector<std::pair<double,double>> &points);
+rect process_compute_rect(const std::vector<std::pair<double,double>> &points);
 
-#endif //VAR_16
+bool input(std::vector<std::pair<double,double>> &points);
+
+bool output(const rect &result);
+
+#endif // EX16_RECT_H

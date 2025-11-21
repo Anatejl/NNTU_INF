@@ -1,0 +1,2 @@
+Enter number of points: 
+Invalid number of points

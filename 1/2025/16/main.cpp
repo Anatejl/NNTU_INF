@@ -1,10 +1,7 @@
 #include "header.h"
-#include <iostream>
-#include <cmath>
-#include <iomanip>
-#include <limits>
 
-rect compute_bounding_rect(const std::vector<std::pair<double,double>> &points){
+rect process_compute_rect(const std::vector<std::pair<double,double>> &points){
+    
     const double deg2rad = M_PI / 180.0;
 
     rect r;
@@ -16,7 +13,7 @@ rect compute_bounding_rect(const std::vector<std::pair<double,double>> &points){
     for (const std::pair<double,double> &p : points){
         double R = p.first;
         double alpha = p.second;
-        // alpha is always provided in degrees in this program
+
         alpha *= deg2rad;
 
         double x = R * std::cos(alpha);
@@ -31,57 +28,65 @@ rect compute_bounding_rect(const std::vector<std::pair<double,double>> &points){
     return r;
 }
 
-int main() {
-
+bool input(std::vector<std::pair<double,double>> &points){
+    
     int n;
-    // Ask the user how many polar points will be entered
     std::cout << "Enter number of points: " << std::endl;
-    // Read N and validate it is positive
+    
     if (!(std::cin >> n) || n <= 0) {
         std::cerr << "Invalid number of points" << std::endl;
-        return 1;
+        return false;
     }
 
-    // Read points into a vector (junior-friendly but using STL)
-    std::vector<std::pair<double,double>> points;
+    points.clear();
     points.reserve(n);
-
-    // Prompt user to enter each polar point as `R alpha_deg` (degrees)
     std::cout << "Enter points (R alpha_deg), one per line:" << std::endl;
+    
     for (int i = 0; i < n; ++i) {
         double r, alpha_deg;
         std::cout << "Point " << (i+1) << ": " << std::endl;
-        // Read R and alpha (in degrees) for this point
         if (!(std::cin >> r >> alpha_deg)) {
-            std::cerr << "Invalid input at point " << i << std::endl;
-            return 1;
+            std::cerr << "Invalid input at point " << (i + 1) << std::endl;
+            return false;
         }
-        // Store the raw polar pair; conversion happens in the compute function
         points.emplace_back(r, alpha_deg);
     }
+    
+    return true;
+}
 
-    // Compute the bounding rectangle from the list of polar points
-    // alpha values are expected in degrees
-    rect result = compute_bounding_rect(points);
+bool output(const rect &result){
 
-    // If rectangle seems invalid, report and exit (guard against empty input)
     if (!result.valid()){
         std::cout << "No points or invalid rectangle." << std::endl;
-        return 0;
+        return false;
     }
 
     std::cout << std::fixed << std::setprecision(6);
-
-    // Print rectangle edges and derived quantities
     std::cout << "Bounding rectangle (axis-aligned):" << std::endl;
     std::cout << "  left  = " << result.min_x << std::endl;
     std::cout << "  right = " << result.max_x << std::endl;
     std::cout << "  bottom= " << result.min_y << std::endl;
     std::cout << "  top   = " << result.max_y << std::endl;
-
-    // Width, height and area computed from edges
     std::cout << "Width  = " << (result.max_x - result.min_x) << "  Height = " << (result.max_y - result.min_y) << std::endl;
     std::cout << "Area   = " << ((result.max_x - result.min_x) * (result.max_y - result.min_y)) << std::endl;
+    
+    return true;
+}
+
+int main() {
+    
+    std::vector<std::pair<double,double>> points;
+
+    if (!input(points)){
+        return 1;
+    }
+
+    rect result = process_compute_rect(points);
+    
+    if (!output(result)){
+        return 0;
+    }
 
     return 0;
 }

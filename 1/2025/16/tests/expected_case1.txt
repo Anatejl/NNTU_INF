@@ -1,0 +1,13 @@
+Enter number of points: 
+Enter points (R alpha_deg), one per line:
+Point 1: 
+Point 2: 
+Point 3: 
+Point 4: 
+Bounding rectangle (axis-aligned):
+  left  = -1.000000
+  right = 1.000000
+  bottom= -1.000000
+  top   = 1.000000
+Width  = 2.000000  Height = 2.000000
+Area   = 4.000000

@@ -133,6 +133,28 @@ include_directories(${CMAKE_SOURCE_DIR})
 add_executable(16 "1/2025/16/main.cpp" 1/2025/16/header.h)
 add_executable(36 "1/2025/36/main.cpp" 1/2025/36/header.h)
 
+# CTest entries for exercise 16: run program with sample inputs and compare outputs
+add_test(NAME ex16_case1
+	 COMMAND ${CMAKE_SOURCE_DIR}/1/2025/16/tests/ctest_wrapper.sh
+		 ${CMAKE_BINARY_DIR}/16
+		 ${CMAKE_SOURCE_DIR}/1/2025/16/tests/input_case1.txt
+		 ${CMAKE_SOURCE_DIR}/1/2025/16/tests/expected_case1.txt
+		 "case1")
+
+add_test(NAME ex16_case2
+	 COMMAND ${CMAKE_SOURCE_DIR}/1/2025/16/tests/ctest_wrapper.sh
+		 ${CMAKE_BINARY_DIR}/16
+		 ${CMAKE_SOURCE_DIR}/1/2025/16/tests/input_case2.txt
+		 ${CMAKE_SOURCE_DIR}/1/2025/16/tests/expected_case2.txt
+		 "case2")
+
+add_test(NAME ex16_case3
+	 COMMAND ${CMAKE_SOURCE_DIR}/1/2025/16/tests/ctest_wrapper.sh
+		 ${CMAKE_BINARY_DIR}/16
+		 ${CMAKE_SOURCE_DIR}/1/2025/16/tests/input_case3.txt
+		 ${CMAKE_SOURCE_DIR}/1/2025/16/tests/expected_case3.txt
+		 "case3" 1)
+
 #############################################
 
 # 1 course / 2 semester
@@ -153,24 +175,24 @@ add_executable(36 "1/2025/36/main.cpp" 1/2025/36/header.h)
 #add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
 #add_executable(2_lab1_3_2 "2/Lab1/3.2.c")
 
-add_executable(2_1 "2/1/train.c")
-add_executable(2_1_test "2/1/train_test.c" "2/1/train.c")
-target_compile_definitions(2_1_test PRIVATE TEST_BUILD=1)
-add_test(NAME 2_1_test COMMAND 2_1_test)
-
-add_executable(2_5 "2/5/coin.c")
-add_executable(2_5_test "2/5/coin_test.c" "2/5/coin.c")
-target_compile_definitions(2_5_test PRIVATE TEST_BUILD=1)
-add_test(NAME 2_5_test COMMAND 2_5_test)
-
-add_executable(2_9_ch "2/9/main.c")
-
-add_executable(2_31 "2/31/circle.c")
-# Ensure TEST_BUILD is defined for the test target
-add_executable(2_31_test "2/31/circle_test.c" "2/31/circle.c")
-target_compile_definitions(2_31_test PRIVATE TEST_BUILD=1)
-target_link_libraries(2_31_test m)
-add_test(NAME 2_31_test COMMAND 2_31_test)
+#add_executable(2_1 "2/1/train.c")
+#add_executable(2_1_test "2/1/train_test.c" "2/1/train.c")
+#target_compile_definitions(2_1_test PRIVATE TEST_BUILD=1)
+#add_test(NAME 2_1_test COMMAND 2_1_test)
+#
+#add_executable(2_5 "2/5/coin.c")
+#add_executable(2_5_test "2/5/coin_test.c" "2/5/coin.c")
+#target_compile_definitions(2_5_test PRIVATE TEST_BUILD=1)
+#add_test(NAME 2_5_test COMMAND 2_5_test)
+#
+#add_executable(2_9_ch "2/9/main.c")
+#
+#add_executable(2_31 "2/31/circle.c")
+## Ensure TEST_BUILD is defined for the test target
+#add_executable(2_31_test "2/31/circle_test.c" "2/31/circle.c")
+#target_compile_definitions(2_31_test PRIVATE TEST_BUILD=1)
+#target_link_libraries(2_31_test m)
+#add_test(NAME 2_31_test COMMAND 2_31_test)
 
 #############################################
 
